@@ -1,0 +1,4 @@
+var class_adventure_core_1_1_visual_scripting_1_1_damage_sender_unit =
+[
+    [ "UnitDamageSender", "class_adventure_core_1_1_visual_scripting_1_1_damage_sender_unit_1_1_unit_damage_sender.html", "class_adventure_core_1_1_visual_scripting_1_1_damage_sender_unit_1_1_unit_damage_sender" ]
+];
