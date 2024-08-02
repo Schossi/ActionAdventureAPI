@@ -116,21 +116,25 @@ Inheritance diagram for AdventureSouls.SoulsLadderAction:</div>
  <div class="center">
   <img src="class_adventure_souls_1_1_souls_ladder_action.png" usemap="#AdventureSouls.SoulsLadderAction_map" alt=""/>
   <map id="AdventureSouls.SoulsLadderAction_map" name="AdventureSouls.SoulsLadderAction_map">
+<area href="class_adventure_core_1_1_controller_action_base.html" title="base class for actions that can use their own animator controllers which overrides the characters  by..." alt="AdventureCore.ControllerActionBase" shape="rect" coords="234,112,458,136"/>
 <area href="class_adventure_core_1_1_character_action_base.html" title="character actions are, very loosely, defined as anything a character does in the game  they typicall ..." alt="AdventureCore.CharacterActionBase" shape="rect" coords="117,56,341,80"/>
+<area href="interface_adventure_core_1_1_i_play_animation.html" alt="AdventureCore.IPlayAnimation" shape="rect" coords="351,56,575,80"/>
 <area href="interface_adventure_core_1_1_i_character_associator.html" title="implemented by any behaviour that is owned or otherwise directly associated with a character  allows ..." alt="AdventureCore.ICharacterAssociator" shape="rect" coords="234,0,458,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abe2aa81e01b3f1b3147ba257a2d98d58" id="r_abe2aa81e01b3f1b3147ba257a2d98d58"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe2aa81e01b3f1b3147ba257a2d98d58">CanStart</a> (<a class="el" href="class_adventure_core_1_1_character_actor_base.html">CharacterActorBase</a> actor)</td></tr>
-<tr class="separator:abe2aa81e01b3f1b3147ba257a2d98d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a638169269c057bb55204b3a91918fd51" id="r_a638169269c057bb55204b3a91918fd51"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a638169269c057bb55204b3a91918fd51">GetName</a> ()</td></tr>
+<tr class="separator:a638169269c057bb55204b3a91918fd51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4bdde80f03a92764940ddde95b543f8" id="r_ae4bdde80f03a92764940ddde95b543f8"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4bdde80f03a92764940ddde95b543f8">OnStart</a> (<a class="el" href="class_adventure_core_1_1_character_actor_base.html">CharacterActorBase</a> actor, bool jumpStart=false)</td></tr>
 <tr class="separator:ae4bdde80f03a92764940ddde95b543f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f4b0c868df52684c662d299458b9cf5" id="r_a6f4b0c868df52684c662d299458b9cf5"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f4b0c868df52684c662d299458b9cf5">OnEnd</a> (<a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a> next)</td></tr>
 <tr class="separator:a6f4b0c868df52684c662d299458b9cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4df8f1b281323c2d7b0cda1bbe10ecb5" id="r_a4df8f1b281323c2d7b0cda1bbe10ecb5"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4df8f1b281323c2d7b0cda1bbe10ecb5">OnMessage</a> (string parameter)</td></tr>
 <tr class="separator:a4df8f1b281323c2d7b0cda1bbe10ecb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67e9563d6f471dfff49eb469d56a07e2" id="r_a67e9563d6f471dfff49eb469d56a07e2"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67e9563d6f471dfff49eb469d56a07e2">OnInput</a> (bool parameter)</td></tr>
+<tr class="separator:a67e9563d6f471dfff49eb469d56a07e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30531bb93ce95f6ee4e7ae49b4595399" id="r_a30531bb93ce95f6ee4e7ae49b4595399"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30531bb93ce95f6ee4e7ae49b4595399">OnInput</a> (Vector2 value)</td></tr>
 <tr class="separator:a30531bb93ce95f6ee4e7ae49b4595399"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_adventure_core_1_1_character_action_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_adventure_core_1_1_character_action_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_adventure_core_1_1_character_action_base.html">AdventureCore.CharacterActionBase</a></td></tr>
@@ -155,6 +159,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>InputDown</b>
 <tr class="memitem:a09c0b206dfafd239d5833c715d7cdef6 inherit pub_methods_class_adventure_core_1_1_character_action_base" id="r_a09c0b206dfafd239d5833c715d7cdef6"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>InputUp</b> (<a class="el" href="class_adventure_core_1_1_character_actor_base.html">CharacterActorBase</a> actor)</td></tr>
 <tr class="separator:a09c0b206dfafd239d5833c715d7cdef6 inherit pub_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bcfec605c847adfd1b4a07f6af545f6 inherit pub_methods_class_adventure_core_1_1_character_action_base" id="r_a6bcfec605c847adfd1b4a07f6af545f6"><td class="memItemLeft" align="right" valign="top">
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanStart</b> (<a class="el" href="class_adventure_core_1_1_character_actor_base.html">CharacterActorBase</a> actor)</td></tr>
+<tr class="separator:a6bcfec605c847adfd1b4a07f6af545f6 inherit pub_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ae7021a9d1c8e862e6a74a1be3b9022 inherit pub_methods_class_adventure_core_1_1_character_action_base" id="r_a6ae7021a9d1c8e862e6a74a1be3b9022"><td class="memItemLeft" align="right" valign="top">
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanEnd</b> (<a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a> next)</td></tr>
 <tr class="separator:a6ae7021a9d1c8e862e6a74a1be3b9022 inherit pub_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,27 +189,28 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SendCharacter
 <tr class="memitem:aa979ae22cb4f2791cc486f08296621ec inherit pub_methods_class_adventure_core_1_1_character_action_base" id="r_aa979ae22cb4f2791cc486f08296621ec"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>MoveCharacter</b> (Transform transform)</td></tr>
 <tr class="separator:aa979ae22cb4f2791cc486f08296621ec inherit pub_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae80cc8eec787bc0a32d2d60307b2b866 inherit pub_methods_class_adventure_core_1_1_character_action_base" id="r_ae80cc8eec787bc0a32d2d60307b2b866"><td class="memItemLeft" align="right" valign="top">
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnInput</b> (bool parameter)</td></tr>
-<tr class="separator:ae80cc8eec787bc0a32d2d60307b2b866 inherit pub_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43732d27f441c850c70be82a9f0a744c inherit pub_methods_class_adventure_core_1_1_character_action_base" id="r_a43732d27f441c850c70be82a9f0a744c"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnInput</b> (int parameter)</td></tr>
 <tr class="separator:a43732d27f441c850c70be82a9f0a744c inherit pub_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac08f7653a5a41313e2e9841cf1416135 inherit pub_methods_class_adventure_core_1_1_character_action_base" id="r_ac08f7653a5a41313e2e9841cf1416135"><td class="memItemLeft" align="right" valign="top">
-virtual string&#160;</td><td class="memItemRight" valign="bottom"><b>GetName</b> ()</td></tr>
-<tr class="separator:ac08f7653a5a41313e2e9841cf1416135 inherit pub_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a48632e05381dd35286a9695e4146c500" id="r_a48632e05381dd35286a9695e4146c500"><td class="memItemLeft" align="right" valign="top"><a id="a48632e05381dd35286a9695e4146c500" name="a48632e05381dd35286a9695e4146c500"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>SegmentCount</b></td></tr>
 <tr class="separator:a48632e05381dd35286a9695e4146c500"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee897d3feb78e95e03c230ceeb33f21d" id="r_aee897d3feb78e95e03c230ceeb33f21d"><td class="memItemLeft" align="right" valign="top"><a id="aee897d3feb78e95e03c230ceeb33f21d" name="aee897d3feb78e95e03c230ceeb33f21d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>LayerIndex</b> = -1</td></tr>
+<tr class="separator:aee897d3feb78e95e03c230ceeb33f21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2b3820e4fb2280bcf21cd5915de7678" id="r_ac2b3820e4fb2280bcf21cd5915de7678"><td class="memItemLeft" align="right" valign="top"><a id="ac2b3820e4fb2280bcf21cd5915de7678" name="ac2b3820e4fb2280bcf21cd5915de7678"></a>
 UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>EndingTop</b></td></tr>
 <tr class="separator:ac2b3820e4fb2280bcf21cd5915de7678"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acddc7adec97f56e67cf853ab38613027" id="r_acddc7adec97f56e67cf853ab38613027"><td class="memItemLeft" align="right" valign="top"><a id="acddc7adec97f56e67cf853ab38613027" name="acddc7adec97f56e67cf853ab38613027"></a>
 UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>EndingBottom</b></td></tr>
 <tr class="separator:acddc7adec97f56e67cf853ab38613027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_adventure_core_1_1_controller_action_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_adventure_core_1_1_controller_action_base')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_adventure_core_1_1_controller_action_base.html">AdventureCore.ControllerActionBase</a></td></tr>
+<tr class="memitem:a88917c19835d8602d2b70734f6e0f524 inherit pub_attribs_class_adventure_core_1_1_controller_action_base" id="r_a88917c19835d8602d2b70734f6e0f524"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="class_adventure_core_1_1_playable_animation_parameters.html">PlayableAnimationParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Controller</b></td></tr>
+<tr class="separator:a88917c19835d8602d2b70734f6e0f524 inherit pub_attribs_class_adventure_core_1_1_controller_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_adventure_core_1_1_character_action_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_adventure_core_1_1_character_action_base')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_adventure_core_1_1_character_action_base.html">AdventureCore.CharacterActionBase</a></td></tr>
 <tr class="memitem:a09fb0dc3468988efd76489afe9dd497f inherit pub_attribs_class_adventure_core_1_1_character_action_base" id="r_a09fb0dc3468988efd76489afe9dd497f"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="class_adventure_core_1_1_character_instruction_base.html">CharacterInstructionBase</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>Instructions</b></td></tr>
@@ -237,6 +245,9 @@ Transform&#160;</td><td class="memItemRight" valign="bottom"><b>CharacterTarget<
 <tr class="memitem:a0967e73b21c0475262a15d2ee7db0ae9" id="r_a0967e73b21c0475262a15d2ee7db0ae9"><td class="memItemLeft" align="right" valign="top"><a id="a0967e73b21c0475262a15d2ee7db0ae9" name="a0967e73b21c0475262a15d2ee7db0ae9"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsStart</b><code> [get, set]</code></td></tr>
 <tr class="separator:a0967e73b21c0475262a15d2ee7db0ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_adventure_core_1_1_controller_action_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_adventure_core_1_1_controller_action_base')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_adventure_core_1_1_controller_action_base.html">AdventureCore.ControllerActionBase</a></td></tr>
+<tr class="memitem:a5ca2d4346f4733ef872433d265f78785 inherit properties_class_adventure_core_1_1_controller_action_base" id="r_a5ca2d4346f4733ef872433d265f78785"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_adventure_core_1_1_playable_animation.html">PlayableAnimation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_controller_action_base.html#a5ca2d4346f4733ef872433d265f78785">Animation</a><code> [get]</code></td></tr>
+<tr class="separator:a5ca2d4346f4733ef872433d265f78785 inherit properties_class_adventure_core_1_1_controller_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_adventure_core_1_1_character_action_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_adventure_core_1_1_character_action_base')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_adventure_core_1_1_character_action_base.html">AdventureCore.CharacterActionBase</a></td></tr>
 <tr class="memitem:a75a1b0737902a0a9dde3bd55648c49dd inherit properties_class_adventure_core_1_1_character_action_base" id="r_a75a1b0737902a0a9dde3bd55648c49dd"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="class_adventure_core_1_1_character_actor_base.html">CharacterActorBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Actor</b><code> [get]</code></td></tr>
@@ -256,6 +267,7 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsHappening</
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsHappeningWithNext</b><code> [get]</code></td></tr>
 <tr class="separator:a19d2a52c69bd89b584a7f49c171a3132 inherit properties_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_adventure_core_1_1_i_character_associator"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_adventure_core_1_1_i_character_associator')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_adventure_core_1_1_i_character_associator.html">AdventureCore.ICharacterAssociator</a></td></tr>
+<tr class="inherit_header properties_interface_adventure_core_1_1_i_play_animation"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_adventure_core_1_1_i_play_animation')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_adventure_core_1_1_i_play_animation.html">AdventureCore.IPlayAnimation</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -266,31 +278,38 @@ Additional Inherited Members</h2></td></tr>
 , <a class="el" href="class_adventure_core_1_1_character_action_base.html#ab53c4407229dd3d6e8501c9c5b04f126a57adb5e3dfd23b37cc58536f7ce139db">StartCancel</a> = 11
  }</td></tr>
 <tr class="separator:ab53c4407229dd3d6e8501c9c5b04f126 inherit pub_types_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_adventure_core_1_1_controller_action_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_adventure_core_1_1_controller_action_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_adventure_core_1_1_controller_action_base.html">AdventureCore.ControllerActionBase</a></td></tr>
+<tr class="memitem:a6815ce0e61a3d25929dcb8840d6a42ce inherit pro_methods_class_adventure_core_1_1_controller_action_base" id="r_a6815ce0e61a3d25929dcb8840d6a42ce"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_controller_action_base.html#a6815ce0e61a3d25929dcb8840d6a42ce">OnDestroy</a> ()</td></tr>
+<tr class="separator:a6815ce0e61a3d25929dcb8840d6a42ce inherit pro_methods_class_adventure_core_1_1_controller_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e8d27696d200b0abc98b41a65e489e6 inherit pro_methods_class_adventure_core_1_1_controller_action_base" id="r_a3e8d27696d200b0abc98b41a65e489e6"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>createAnimation</b> ()</td></tr>
+<tr class="separator:a3e8d27696d200b0abc98b41a65e489e6 inherit pro_methods_class_adventure_core_1_1_controller_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae62ce8c6688cc996faf9436f423d361b inherit pro_methods_class_adventure_core_1_1_controller_action_base" id="r_ae62ce8c6688cc996faf9436f423d361b"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>cancelAnimation</b> ()</td></tr>
+<tr class="separator:ae62ce8c6688cc996faf9436f423d361b inherit pro_methods_class_adventure_core_1_1_controller_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67b894e48b68311ca392d42bf067bc6b inherit pro_methods_class_adventure_core_1_1_controller_action_base" id="r_a67b894e48b68311ca392d42bf067bc6b"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>endAnimation</b> (<a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a> _)</td></tr>
+<tr class="separator:a67b894e48b68311ca392d42bf067bc6b inherit pro_methods_class_adventure_core_1_1_controller_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a544a12a616b2a2854f134f2c1a5207eb inherit pro_methods_class_adventure_core_1_1_controller_action_base" id="r_a544a12a616b2a2854f134f2c1a5207eb"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onAnimationFinished</b> (<a class="el" href="class_adventure_core_1_1_playable_animation.html">PlayableAnimation</a> a)</td></tr>
+<tr class="separator:a544a12a616b2a2854f134f2c1a5207eb inherit pro_methods_class_adventure_core_1_1_controller_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ed8ba70b86525adce36803fee2fa496 inherit pro_methods_class_adventure_core_1_1_controller_action_base" id="r_a7ed8ba70b86525adce36803fee2fa496"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_controller_action_base.html#a7ed8ba70b86525adce36803fee2fa496">setTrigger</a> (int id)</td></tr>
+<tr class="separator:a7ed8ba70b86525adce36803fee2fa496 inherit pro_methods_class_adventure_core_1_1_controller_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd7a78274cafae2e44f2c95d8ba1c09 inherit pro_methods_class_adventure_core_1_1_controller_action_base" id="r_aadd7a78274cafae2e44f2c95d8ba1c09"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_controller_action_base.html#aadd7a78274cafae2e44f2c95d8ba1c09">setBool</a> (int id, bool value)</td></tr>
+<tr class="separator:aadd7a78274cafae2e44f2c95d8ba1c09 inherit pro_methods_class_adventure_core_1_1_controller_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b6b61ba0ba6905bede9c38bca0f87c inherit pro_methods_class_adventure_core_1_1_controller_action_base" id="r_a65b6b61ba0ba6905bede9c38bca0f87c"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_controller_action_base.html#a65b6b61ba0ba6905bede9c38bca0f87c">setInt</a> (int id, int value)</td></tr>
+<tr class="separator:a65b6b61ba0ba6905bede9c38bca0f87c inherit pro_methods_class_adventure_core_1_1_controller_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2b369c95b628ab22ead86ef2da3f149 inherit pro_methods_class_adventure_core_1_1_controller_action_base" id="r_af2b369c95b628ab22ead86ef2da3f149"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_controller_action_base.html#af2b369c95b628ab22ead86ef2da3f149">setFloat</a> (int id, float value)</td></tr>
+<tr class="separator:af2b369c95b628ab22ead86ef2da3f149 inherit pro_methods_class_adventure_core_1_1_controller_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95f4c91e706cb6ef8d67e57bcafd66d2 inherit pro_methods_class_adventure_core_1_1_controller_action_base" id="r_a95f4c91e706cb6ef8d67e57bcafd66d2"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_controller_action_base.html#a95f4c91e706cb6ef8d67e57bcafd66d2">setState</a> (int id)</td></tr>
+<tr class="separator:a95f4c91e706cb6ef8d67e57bcafd66d2 inherit pro_methods_class_adventure_core_1_1_controller_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_adventure_core_1_1_character_action_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_adventure_core_1_1_character_action_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_adventure_core_1_1_character_action_base.html">AdventureCore.CharacterActionBase</a></td></tr>
-<tr class="memitem:af5fe72d5f95ec987459c2e12769118df inherit pro_methods_class_adventure_core_1_1_character_action_base" id="r_af5fe72d5f95ec987459c2e12769118df"><td class="memItemLeft" align="right" valign="top">
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
-<tr class="separator:af5fe72d5f95ec987459c2e12769118df inherit pro_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00c4e71cdff92a190116d43009132ea8 inherit pro_methods_class_adventure_core_1_1_character_action_base" id="r_a00c4e71cdff92a190116d43009132ea8"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td></tr>
 <tr class="separator:a00c4e71cdff92a190116d43009132ea8 inherit pro_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac95cb820ff6875dd4bceb750e292018c inherit pro_methods_class_adventure_core_1_1_character_action_base" id="r_ac95cb820ff6875dd4bceb750e292018c"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDisable</b> ()</td></tr>
 <tr class="separator:ac95cb820ff6875dd4bceb750e292018c inherit pro_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7db41e9a5e98ee895a60298abe01679e inherit pro_methods_class_adventure_core_1_1_character_action_base" id="r_a7db41e9a5e98ee895a60298abe01679e"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setTrigger</b> (int id)</td></tr>
-<tr class="separator:a7db41e9a5e98ee895a60298abe01679e inherit pro_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad14dbea0dbac98d1d39c1a389ea4bdc4 inherit pro_methods_class_adventure_core_1_1_character_action_base" id="r_ad14dbea0dbac98d1d39c1a389ea4bdc4"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setBool</b> (int id, bool value)</td></tr>
-<tr class="separator:ad14dbea0dbac98d1d39c1a389ea4bdc4 inherit pro_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02acd80b7a86b067217c0b23e578b89b inherit pro_methods_class_adventure_core_1_1_character_action_base" id="r_a02acd80b7a86b067217c0b23e578b89b"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setInt</b> (int id, int value)</td></tr>
-<tr class="separator:a02acd80b7a86b067217c0b23e578b89b inherit pro_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac57d59fb5e4dc5456774df89aa1b6dfc inherit pro_methods_class_adventure_core_1_1_character_action_base" id="r_ac57d59fb5e4dc5456774df89aa1b6dfc"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setFloat</b> (int id, float value)</td></tr>
-<tr class="separator:ac57d59fb5e4dc5456774df89aa1b6dfc inherit pro_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45df743afe93226e7f0a6f6a68d39c74 inherit pro_methods_class_adventure_core_1_1_character_action_base" id="r_a45df743afe93226e7f0a6f6a68d39c74"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setState</b> (int id)</td></tr>
-<tr class="separator:a45df743afe93226e7f0a6f6a68d39c74 inherit pro_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7e7a9b04bd243be9d414d6fe937ff04 inherit pro_methods_class_adventure_core_1_1_character_action_base" id="r_ab7e7a9b04bd243be9d414d6fe937ff04"><td class="memItemLeft" align="right" valign="top">
 void&#160;</td><td class="memItemRight" valign="bottom"><b>onCanStartChanged</b> ()</td></tr>
 <tr class="separator:ab7e7a9b04bd243be9d414d6fe937ff04 inherit pro_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -309,6 +328,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addInstruction</b> (<
 <tr class="memitem:a82e4ae865b1f5be40ab63fbbf9db598f inherit pro_methods_class_adventure_core_1_1_character_action_base" id="r_a82e4ae865b1f5be40ab63fbbf9db598f"><td class="memItemLeft" align="right" valign="top">
 void&#160;</td><td class="memItemRight" valign="bottom"><b>removeInstruction</b> (<a class="el" href="class_adventure_core_1_1_character_instruction_base.html">CharacterInstructionBase</a> instruction)</td></tr>
 <tr class="separator:a82e4ae865b1f5be40ab63fbbf9db598f inherit pro_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_adventure_core_1_1_controller_action_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_adventure_core_1_1_controller_action_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_adventure_core_1_1_controller_action_base.html">AdventureCore.ControllerActionBase</a></td></tr>
+<tr class="memitem:a82af3ac59e690f7554485780a8457b58 inherit pro_attribs_class_adventure_core_1_1_controller_action_base" id="r_a82af3ac59e690f7554485780a8457b58"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="class_adventure_core_1_1_playable_animation.html">PlayableAnimation</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_animation</b></td></tr>
+<tr class="separator:a82af3ac59e690f7554485780a8457b58 inherit pro_attribs_class_adventure_core_1_1_controller_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_adventure_core_1_1_character_action_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_adventure_core_1_1_character_action_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_adventure_core_1_1_character_action_base.html">AdventureCore.CharacterActionBase</a></td></tr>
 <tr class="memitem:ae61282c5512b66d40d2606223a80171d inherit pro_attribs_class_adventure_core_1_1_character_action_base" id="r_ae61282c5512b66d40d2606223a80171d"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isDestroyed</b> = false</td></tr>
@@ -333,8 +356,8 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_character_action_base.ht
 <tr class="separator:af2f5d37dc2941830118135edbfab92f7 inherit events_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="abe2aa81e01b3f1b3147ba257a2d98d58" name="abe2aa81e01b3f1b3147ba257a2d98d58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe2aa81e01b3f1b3147ba257a2d98d58">&#9670;&#160;</a></span>CanStart()</h2>
+<a id="a638169269c057bb55204b3a91918fd51" name="a638169269c057bb55204b3a91918fd51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a638169269c057bb55204b3a91918fd51">&#9670;&#160;</a></span>GetName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -343,15 +366,15 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_character_action_base.ht
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override bool AdventureSouls.SoulsLadderAction.CanStart </td>
+          <td class="memname">override string AdventureSouls.SoulsLadderAction.GetName </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_character_actor_base.html">CharacterActorBase</a></td>          <td class="paramname"><span class="paramname"><em>actor</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -383,12 +406,39 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_character_action_base.ht
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_controller_action_base.html">AdventureCore.ControllerActionBase</a>.</p>
+
+</div>
+</div>
+<a id="a67e9563d6f471dfff49eb469d56a07e2" name="a67e9563d6f471dfff49eb469d56a07e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67e9563d6f471dfff49eb469d56a07e2">&#9670;&#160;</a></span>OnInput() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureSouls.SoulsLadderAction.OnInput </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>parameter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 <p>Reimplemented from <a class="el" href="class_adventure_core_1_1_character_action_base.html">AdventureCore.CharacterActionBase</a>.</p>
 
 </div>
 </div>
 <a id="a30531bb93ce95f6ee4e7ae49b4595399" name="a30531bb93ce95f6ee4e7ae49b4595399"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30531bb93ce95f6ee4e7ae49b4595399">&#9670;&#160;</a></span>OnInput()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a30531bb93ce95f6ee4e7ae49b4595399">&#9670;&#160;</a></span>OnInput() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -468,7 +518,7 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_character_action_base.ht
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_character_action_base.html">AdventureCore.CharacterActionBase</a>.</p>
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_controller_action_base.html">AdventureCore.ControllerActionBase</a>.</p>
 
 </div>
 </div>

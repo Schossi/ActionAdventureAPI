@@ -8,6 +8,6 @@ var searchData=
   ['aligntoinput_5',['AlignToInput',['../class_adventure_core_1_1_movement_base.html#a25192175f3cd924e20e66c928be80b76',1,'AdventureCore.MovementBase.AlignToInput()'],['../class_adventure_core_1_1_character_controller_movement.html#a5758492223792b57f0d079e7d34ae47c',1,'AdventureCore.CharacterControllerMovement.AlignToInput()']]],
   ['aligntotarget_6',['AlignToTarget',['../class_adventure_core_1_1_movement_base.html#af0af77187032a111fdd61feb030e0af4',1,'AdventureCore::MovementBase']]],
   ['apply_7',['Apply',['../class_adventure_core_1_1_character_instruction_base.html#a215e505f75bd9a8736589e10b9e44a6b',1,'AdventureCore::CharacterInstructionBase']]],
-  ['applyinversekinematics_8',['ApplyInverseKinematics',['../class_adventure_core_1_1_character_base.html#a0dfd32b87161d2fcb58972f7dd054743',1,'AdventureCore.CharacterBase.ApplyInverseKinematics()'],['../class_adventure_souls_1_1_souls_character_base.html#ab848c3ab1fb87a6b39bcedb53f4bb2ef',1,'AdventureSouls.SoulsCharacterBase.ApplyInverseKinematics()']]],
+  ['applyinversekinematics_8',['ApplyInverseKinematics',['../class_adventure_core_1_1_character_base.html#a0dfd32b87161d2fcb58972f7dd054743',1,'AdventureCore::CharacterBase']]],
   ['applyrootmotion_9',['ApplyRootMotion',['../class_adventure_core_1_1_character_base.html#aefb1dd2ee632eb7934a3e0ba5f12079b',1,'AdventureCore::CharacterBase']]]
 ];

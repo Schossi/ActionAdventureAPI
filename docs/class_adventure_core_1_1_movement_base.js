@@ -15,11 +15,12 @@ var class_adventure_core_1_1_movement_base =
     [ "IsControlSuspended", "class_adventure_core_1_1_movement_base.html#a5484d4fb3923629b891866012ee5c3b0", null ],
     [ "IsGrounded", "class_adventure_core_1_1_movement_base.html#a03c801e2a8ee84b391fb43079f780f28", null ],
     [ "IsMarching", "class_adventure_core_1_1_movement_base.html#af11857ad0d5d12863e82271f8625f4e9", null ],
-    [ "IsMoving", "class_adventure_core_1_1_movement_base.html#aa321269ba1015ea547abadd1f552cace", null ],
+    [ "IsMoved", "class_adventure_core_1_1_movement_base.html#a25e4ffdf4fb53e82182e14c83518b536", null ],
     [ "IsPersistenceSuspended", "class_adventure_core_1_1_movement_base.html#ab2c33b98804a62219839bd2168bb909a", null ],
     [ "IsRotationSuspended", "class_adventure_core_1_1_movement_base.html#a64365023f30b41a66bd1fe428c3a8d0b", null ],
     [ "IsSprinting", "class_adventure_core_1_1_movement_base.html#a36c7759eff1a664ea5d880bee940bc73", null ],
     [ "IsTranslationSuspended", "class_adventure_core_1_1_movement_base.html#a091db654f40c756de4545bcebbd7cec0", null ],
+    [ "MotionMultiplier", "class_adventure_core_1_1_movement_base.html#a6284441de461e8de38c295f8a0b60c09", null ],
     [ "SpeedFactorForward", "class_adventure_core_1_1_movement_base.html#aa2f098a477e46390f40559090dc68fcb", null ],
     [ "SpeedFactorSideways", "class_adventure_core_1_1_movement_base.html#adbf898b333ba69dc0857c1522f83b0c6", null ],
     [ "SpeedMultiplier", "class_adventure_core_1_1_movement_base.html#a20738363723ec1c893146660c7ad8f81", null ]

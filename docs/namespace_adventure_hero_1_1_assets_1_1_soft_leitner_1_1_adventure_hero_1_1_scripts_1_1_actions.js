@@ -1,0 +1,4 @@
+var namespace_adventure_hero_1_1_assets_1_1_soft_leitner_1_1_adventure_hero_1_1_scripts_1_1_actions =
+[
+    [ "HeroHoldableAction", "class_adventure_hero_1_1_assets_1_1_soft_leitner_1_1_adventure_hero_1_1_scripts_1_1_actions_1_1_hero_holdable_action.html", null ]
+];

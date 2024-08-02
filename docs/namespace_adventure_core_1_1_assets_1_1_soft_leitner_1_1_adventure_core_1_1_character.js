@@ -1,0 +1,4 @@
+var namespace_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_character =
+[
+    [ "Instructions", "namespace_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_character_1_1_instructions.html", "namespace_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_character_1_1_instructions" ]
+];

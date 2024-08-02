@@ -122,38 +122,31 @@ Inheritance diagram for AdventureCore.CharacterActionBase:</div>
  <div class="center">
   <img src="class_adventure_core_1_1_character_action_base.png" usemap="#AdventureCore.CharacterActionBase_map" alt=""/>
   <map id="AdventureCore.CharacterActionBase_map" name="AdventureCore.CharacterActionBase_map">
-<area href="interface_adventure_core_1_1_i_character_associator.html" title="implemented by any behaviour that is owned or otherwise directly associated with a character  allows ..." alt="AdventureCore.ICharacterAssociator" shape="rect" coords="253,0,496,24"/>
-<area href="class_adventure_core_1_1_button_action.html" title="action that repeatedly lets a character interact with some object that is also animated plays an anim..." alt="AdventureCore.ButtonAction" shape="rect" coords="379,112,622,136"/>
-<area href="class_adventure_core_1_1_generic_action.html" title="action that does nothing on its own and is ended by any kind of bool input" alt="AdventureCore.GenericAction" shape="rect" coords="379,168,622,192"/>
-<area href="class_adventure_core_1_1_motion_action.html" title="a character action that represents a simple animation like jumping or rolling  the animation has to s..." alt="AdventureCore.MotionAction" shape="rect" coords="379,224,622,248"/>
-<area href="class_adventure_core_1_1_nav_approach_action.html" title="starts an approach on a NavMeshAgentMovement and waits for its completion  the target is the Movement..." alt="AdventureCore.NavApproachAction" shape="rect" coords="379,280,622,304"/>
-<area href="class_adventure_core_1_1_nav_patrol_action.html" title="moves a NavMeshAgentMovement cyclically between the specified points  automatically saves its current..." alt="AdventureCore.NavPatrolAction" shape="rect" coords="379,336,622,360"/>
-<area href="class_adventure_core_1_1_object_action.html" title="one time action that lets a character interact with some object that is also animated plays an animat..." alt="AdventureCore.ObjectAction" shape="rect" coords="379,392,622,416"/>
-<area href="class_adventure_core_1_1_pickup_action.html" title="action that plays an animation and adds items to the characters inventory, destroys itself afterwards..." alt="AdventureCore.PickupAction" shape="rect" coords="379,448,622,472"/>
-<area href="class_adventure_core_1_1_pose_action.html" title="a character action that represents a pose the character can go into and will only end once some input..." alt="AdventureCore.PoseAction" shape="rect" coords="379,504,622,528"/>
-<area href="class_adventure_core_1_1_timed_action.html" title="action that does nothing on its own and ends after a defined duration" alt="AdventureCore.TimedAction" shape="rect" coords="379,560,622,584"/>
-<area href="class_adventure_core_1_1_timeline_action.html" title="action that plays a timeline and ends when it is finished" alt="AdventureCore.TimelineAction" shape="rect" coords="379,616,622,640"/>
-<area href="class_adventure_core_1_1_visual_scripting_action.html" title="character action meant for actions mainly driven by a script machine exposes some additional events a..." alt="AdventureCore.VisualScriptingAction" shape="rect" coords="379,672,622,696"/>
-<area href="class_adventure_hero_1_1_hero_block_action.html" title="action that allows characters to push and pull on a block  ends when the button is released(CONTEXT_A..." alt="AdventureHero.HeroBlockAction" shape="rect" coords="379,728,622,752"/>
-<area href="class_adventure_hero_1_1_hero_carry_action.html" title="action for carrying and subsequently throwing objects  the configured rigidbody is changed to isKinem..." alt="AdventureHero.HeroCarryAction" shape="rect" coords="379,784,622,808"/>
-<area href="class_adventure_hero_1_1_hero_climb_action.html" title="action that starts itself when close to fitting colliders if the input is pushed towards the collider..." alt="AdventureHero.HeroClimbAction" shape="rect" coords="379,840,622,864"/>
-<area href="class_adventure_hero_1_1_hero_guard_action.html" title="action that holds up a shield in the players direction  this is done by activating an animation and r..." alt="AdventureHero.HeroGuardAction" shape="rect" coords="379,896,622,920"/>
-<area href="class_adventure_hero_1_1_hero_sling_action.html" title="action that fires a projectile from a slingshot  controls the slingshot model visibility and animatio..." alt="AdventureHero.HeroSlingAction" shape="rect" coords="379,952,622,976"/>
-<area href="class_adventure_souls_1_1_souls_attack_action.html" title="action for basic melee attacks that may combo into additional hits  in addition to START/END there ar..." alt="AdventureSouls.SoulsAttackAction" shape="rect" coords="379,1008,622,1032"/>
-<area href="class_adventure_souls_1_1_souls_bonfire_action.html" title="plays the correspondig timelines when entering, sitting or leaving a bonfire  also responsible for al..." alt="AdventureSouls.SoulsBonfireAction" shape="rect" coords="379,1064,622,1088"/>
-<area href="class_adventure_souls_1_1_souls_critical_action.html" title="action that gets checked by attacks with SoulsAttackAction.CanCritical  can only start when the trigg..." alt="AdventureSouls.SoulsCriticalAction" shape="rect" coords="379,1120,622,1144"/>
-<area href="class_adventure_souls_1_1_souls_critted_action.html" title="action started on a critted character by SoulsCriticalAction  moves the character to the appropriate ..." alt="AdventureSouls.SoulsCrittedAction" shape="rect" coords="379,1176,622,1200"/>
-<area href="class_adventure_souls_1_1_souls_guard_action.html" title="action for holding up a weapon(typically a shield) that guards the character from damage" alt="AdventureSouls.SoulsGuardAction" shape="rect" coords="379,1232,622,1256"/>
-<area href="class_adventure_souls_1_1_souls_ladder_action.html" title="action for climbing ladders with configurable segment count  ENTER/EXIT messages are used to get on o..." alt="AdventureSouls.SoulsLadderAction" shape="rect" coords="379,1288,622,1312"/>
-<area href="class_adventure_souls_1_1_souls_ladder_enter_action.html" title="proxy action for SoulsLadderAction  needed so the ladder action knows if the character is at the star..." alt="AdventureSouls.SoulsLadderEnterAction" shape="rect" coords="379,1344,622,1368"/>
-<area href="class_adventure_souls_1_1_souls_parry_action.html" title="an action that can guard break another character if it deals damage to it between PARRY_ON and PARRY_..." alt="AdventureSouls.SoulsParryAction" shape="rect" coords="379,1400,622,1424"/>
-<area href="class_adventure_souls_1_1_souls_recover_action.html" title="action for enemies that plays an animation while it refills a resource and ends when it is fully repl..." alt="AdventureSouls.SoulsRecoverAction" shape="rect" coords="379,1456,622,1480"/>
-<area href="class_adventure_souls_1_1_souls_recovery_action.html" title="similar to a pickup but instead of an item it gives the player the xp that was dropped on the last de..." alt="AdventureSouls.SoulsRecoveryAction" shape="rect" coords="379,1512,622,1536"/>
-<area href="class_adventure_souls_1_1_souls_shoot_action.html" title="action for firing projectiles from a bow weapon that is drawn  uses SoulsArrowItem for the visual tha..." alt="AdventureSouls.SoulsShootAction" shape="rect" coords="379,1568,622,1592"/>
-<area href="class_adventure_souls_1_1_souls_talk_action.html" alt="AdventureSouls.SoulsTalkAction" shape="rect" coords="379,1624,622,1648"/>
-<area href="class_adventure_souls_1_1_souls_teleport_action.html" alt="AdventureSouls.SoulsTeleportAction" shape="rect" coords="379,1680,622,1704"/>
-<area href="class_adventure_souls_1_1_souls_two_hand_action.html" title="action that toggles a weapons two handedness and ends immediately  for example bows can&#39;t do anything..." alt="AdventureSouls.SoulsTwoHandAction" shape="rect" coords="379,1736,622,1760"/>
-<area href="class_adventure_souls_1_1_souls_usable_action.html" title="action for usable items  the POCKET message is used to indicate the character reaching into its pocke..." alt="AdventureSouls.SoulsUsableAction" shape="rect" coords="379,1792,622,1816"/>
+<area href="interface_adventure_core_1_1_i_character_associator.html" title="implemented by any behaviour that is owned or otherwise directly associated with a character  allows ..." alt="AdventureCore.ICharacterAssociator" shape="rect" coords="513,0,1016,24"/>
+<area href="class_adventure_core_1_1_button_action.html" title="action that repeatedly lets a character interact with some object that is also animated plays an anim..." alt="AdventureCore.ButtonAction" shape="rect" coords="769,112,1272,136"/>
+<area href="class_adventure_core_1_1_controller_action_base.html" title="base class for actions that can use their own animator controllers which overrides the characters  by..." alt="AdventureCore.ControllerActionBase" shape="rect" coords="769,168,1272,192"/>
+<area href="class_adventure_core_1_1_generic_action.html" title="action that does nothing on its own and is ended by any kind of bool input" alt="AdventureCore.GenericAction" shape="rect" coords="769,224,1272,248"/>
+<area href="class_adventure_core_1_1_motion_action.html" title="a character action that represents a simple animation like jumping or rolling  when using TriggerName..." alt="AdventureCore.MotionAction" shape="rect" coords="769,280,1272,304"/>
+<area href="class_adventure_core_1_1_nav_approach_action.html" title="starts an approach on a NavMeshAgentMovement and waits for its completion  the target is the Movement..." alt="AdventureCore.NavApproachAction" shape="rect" coords="769,336,1272,360"/>
+<area href="class_adventure_core_1_1_nav_patrol_action.html" title="moves a NavMeshAgentMovement cyclically between the specified points  automatically saves its current..." alt="AdventureCore.NavPatrolAction" shape="rect" coords="769,392,1272,416"/>
+<area href="class_adventure_core_1_1_object_action.html" title="one time action that lets a character interact with some object that is also animated plays an animat..." alt="AdventureCore.ObjectAction" shape="rect" coords="769,448,1272,472"/>
+<area href="class_adventure_core_1_1_pickup_action.html" title="action that plays an animation and adds items to the characters inventory, destroys itself afterwards..." alt="AdventureCore.PickupAction" shape="rect" coords="769,504,1272,528"/>
+<area href="class_adventure_core_1_1_timed_action.html" title="action that does nothing on its own and ends after a defined duration" alt="AdventureCore.TimedAction" shape="rect" coords="769,560,1272,584"/>
+<area href="class_adventure_core_1_1_timeline_action.html" title="action that plays a timeline and ends when it is finished" alt="AdventureCore.TimelineAction" shape="rect" coords="769,616,1272,640"/>
+<area href="class_adventure_core_1_1_visual_scripting_action.html" title="character action meant for actions mainly driven by a script machine exposes some additional events a..." alt="AdventureCore.VisualScriptingAction" shape="rect" coords="769,672,1272,696"/>
+<area href="class_adventure_hero_1_1_assets_1_1_soft_leitner_1_1_adventure_hero_1_1_scripts_1_1_actions_1_1_hero_holdable_action.html" title="can be used to nest actions that are not holdable by themselves" alt="AdventureHero.Assets.SoftLeitner.AdventureHero.Scripts.Actions.HeroHoldableAction" shape="rect" coords="769,728,1272,752"/>
+<area href="class_adventure_hero_1_1_hero_carry_action.html" title="action for carrying and subsequently throwing objects  the configured rigidbody is changed to isKinem..." alt="AdventureHero.HeroCarryAction" shape="rect" coords="769,784,1272,808"/>
+<area href="class_adventure_hero_1_1_hero_guard_action.html" title="action that holds up a shield in the players direction  this is done by activating an animation and r..." alt="AdventureHero.HeroGuardAction" shape="rect" coords="769,840,1272,864"/>
+<area href="class_adventure_souls_1_1_souls_bonfire_action.html" title="plays the correspondig timelines when entering, sitting or leaving a bonfire  also responsible for al..." alt="AdventureSouls.SoulsBonfireAction" shape="rect" coords="769,896,1272,920"/>
+<area href="class_adventure_souls_1_1_souls_critical_action.html" title="action that gets checked by attacks with SoulsAttackAction.CanCritical  can only start when the trigg..." alt="AdventureSouls.SoulsCriticalAction" shape="rect" coords="769,952,1272,976"/>
+<area href="class_adventure_souls_1_1_souls_critted_action.html" title="action started on a critted character by SoulsCriticalAction  moves the character to the appropriate ..." alt="AdventureSouls.SoulsCrittedAction" shape="rect" coords="769,1008,1272,1032"/>
+<area href="class_adventure_souls_1_1_souls_ladder_enter_action.html" title="proxy action for SoulsLadderAction  needed so the ladder action knows if the character is at the star..." alt="AdventureSouls.SoulsLadderEnterAction" shape="rect" coords="769,1064,1272,1088"/>
+<area href="class_adventure_souls_1_1_souls_parry_action.html" title="an action that can guard break another character if it deals damage to it between PARRY_ON and PARRY_..." alt="AdventureSouls.SoulsParryAction" shape="rect" coords="769,1120,1272,1144"/>
+<area href="class_adventure_souls_1_1_souls_recover_action.html" title="action for enemies that plays an animation while it refills a resource and ends when it is fully repl..." alt="AdventureSouls.SoulsRecoverAction" shape="rect" coords="769,1176,1272,1200"/>
+<area href="class_adventure_souls_1_1_souls_recovery_action.html" title="similar to a pickup but instead of an item it gives the player the xp that was dropped on the last de..." alt="AdventureSouls.SoulsRecoveryAction" shape="rect" coords="769,1232,1272,1256"/>
+<area href="class_adventure_souls_1_1_souls_talk_action.html" alt="AdventureSouls.SoulsTalkAction" shape="rect" coords="769,1288,1272,1312"/>
+<area href="class_adventure_souls_1_1_souls_teleport_action.html" alt="AdventureSouls.SoulsTeleportAction" shape="rect" coords="769,1344,1272,1368"/>
+<area href="class_adventure_souls_1_1_souls_two_hand_action.html" title="action that toggles a weapons two handedness and ends immediately  for example bows can&#39;t do anything..." alt="AdventureSouls.SoulsTwoHandAction" shape="rect" coords="769,1400,1272,1424"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -279,21 +272,21 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> 
 <tr class="memitem:ac95cb820ff6875dd4bceb750e292018c" id="r_ac95cb820ff6875dd4bceb750e292018c"><td class="memItemLeft" align="right" valign="top"><a id="ac95cb820ff6875dd4bceb750e292018c" name="ac95cb820ff6875dd4bceb750e292018c"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDisable</b> ()</td></tr>
 <tr class="separator:ac95cb820ff6875dd4bceb750e292018c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7db41e9a5e98ee895a60298abe01679e" id="r_a7db41e9a5e98ee895a60298abe01679e"><td class="memItemLeft" align="right" valign="top"><a id="a7db41e9a5e98ee895a60298abe01679e" name="a7db41e9a5e98ee895a60298abe01679e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setTrigger</b> (int id)</td></tr>
-<tr class="separator:a7db41e9a5e98ee895a60298abe01679e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad14dbea0dbac98d1d39c1a389ea4bdc4" id="r_ad14dbea0dbac98d1d39c1a389ea4bdc4"><td class="memItemLeft" align="right" valign="top"><a id="ad14dbea0dbac98d1d39c1a389ea4bdc4" name="ad14dbea0dbac98d1d39c1a389ea4bdc4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setBool</b> (int id, bool value)</td></tr>
-<tr class="separator:ad14dbea0dbac98d1d39c1a389ea4bdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02acd80b7a86b067217c0b23e578b89b" id="r_a02acd80b7a86b067217c0b23e578b89b"><td class="memItemLeft" align="right" valign="top"><a id="a02acd80b7a86b067217c0b23e578b89b" name="a02acd80b7a86b067217c0b23e578b89b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setInt</b> (int id, int value)</td></tr>
-<tr class="separator:a02acd80b7a86b067217c0b23e578b89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac57d59fb5e4dc5456774df89aa1b6dfc" id="r_ac57d59fb5e4dc5456774df89aa1b6dfc"><td class="memItemLeft" align="right" valign="top"><a id="ac57d59fb5e4dc5456774df89aa1b6dfc" name="ac57d59fb5e4dc5456774df89aa1b6dfc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setFloat</b> (int id, float value)</td></tr>
-<tr class="separator:ac57d59fb5e4dc5456774df89aa1b6dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45df743afe93226e7f0a6f6a68d39c74" id="r_a45df743afe93226e7f0a6f6a68d39c74"><td class="memItemLeft" align="right" valign="top"><a id="a45df743afe93226e7f0a6f6a68d39c74" name="a45df743afe93226e7f0a6f6a68d39c74"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setState</b> (int id)</td></tr>
-<tr class="separator:a45df743afe93226e7f0a6f6a68d39c74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c8ec2f15dc9c8410e5348ca5280491" id="r_a39c8ec2f15dc9c8410e5348ca5280491"><td class="memItemLeft" align="right" valign="top"><a id="a39c8ec2f15dc9c8410e5348ca5280491" name="a39c8ec2f15dc9c8410e5348ca5280491"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setTrigger</b> (int id)</td></tr>
+<tr class="separator:a39c8ec2f15dc9c8410e5348ca5280491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1e1a19c7f5710b8373f01c1d647f5fb" id="r_aa1e1a19c7f5710b8373f01c1d647f5fb"><td class="memItemLeft" align="right" valign="top"><a id="aa1e1a19c7f5710b8373f01c1d647f5fb" name="aa1e1a19c7f5710b8373f01c1d647f5fb"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setBool</b> (int id, bool value)</td></tr>
+<tr class="separator:aa1e1a19c7f5710b8373f01c1d647f5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81e6dd188b2200d8324d0484a9428bde" id="r_a81e6dd188b2200d8324d0484a9428bde"><td class="memItemLeft" align="right" valign="top"><a id="a81e6dd188b2200d8324d0484a9428bde" name="a81e6dd188b2200d8324d0484a9428bde"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setInt</b> (int id, int value)</td></tr>
+<tr class="separator:a81e6dd188b2200d8324d0484a9428bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e81d822dfc1d43a6f4e5d328b4127af" id="r_a0e81d822dfc1d43a6f4e5d328b4127af"><td class="memItemLeft" align="right" valign="top"><a id="a0e81d822dfc1d43a6f4e5d328b4127af" name="a0e81d822dfc1d43a6f4e5d328b4127af"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setFloat</b> (int id, float value)</td></tr>
+<tr class="separator:a0e81d822dfc1d43a6f4e5d328b4127af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a72260d9dfa716361f4e0f5aa167af3" id="r_a4a72260d9dfa716361f4e0f5aa167af3"><td class="memItemLeft" align="right" valign="top"><a id="a4a72260d9dfa716361f4e0f5aa167af3" name="a4a72260d9dfa716361f4e0f5aa167af3"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setState</b> (int id)</td></tr>
+<tr class="separator:a4a72260d9dfa716361f4e0f5aa167af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7e7a9b04bd243be9d414d6fe937ff04" id="r_ab7e7a9b04bd243be9d414d6fe937ff04"><td class="memItemLeft" align="right" valign="top"><a id="ab7e7a9b04bd243be9d414d6fe937ff04" name="ab7e7a9b04bd243be9d414d6fe937ff04"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>onCanStartChanged</b> ()</td></tr>
 <tr class="separator:ab7e7a9b04bd243be9d414d6fe937ff04"><td class="memSeparator" colspan="2">&#160;</td></tr>

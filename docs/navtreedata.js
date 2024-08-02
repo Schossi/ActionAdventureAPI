@@ -26,7 +26,11 @@ var NAVTREE =
 [
   [ "ActionAdventureKit", "index.html", [
     [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
+      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -47,13 +51,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_adventure_core_1_1_dialog_base.html",
-"class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_play_manager_audio_descriptor.html",
-"class_adventure_core_1_1_item_base.html",
-"class_adventure_core_1_1_timeline_1_1_instruction_behaviour.html",
-"class_adventure_core_1_1_visual_scripting_1_1_has_effect_unit.html",
-"class_adventure_core_1_1_visual_scripting_1_1_unity_event_unit_custom_output.html#a89458387875914203123549909a60780",
-"interface_adventure_core_1_1_i_stat_modifier.html#a8c47892be886bd78f631c64ca0b197d5"
+"class_adventure_core_1_1_destructible_damage_receiver.html#a4bfd4bd744eb395fd5fc618447b43615",
+"class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_manager_state_info_descriptor.html",
+"class_adventure_core_1_1_generic_item.html",
+"class_adventure_core_1_1_playable_animation_message.html",
+"class_adventure_core_1_1_visual_scripting_1_1_animator_int_instruction_unit.html",
+"class_adventure_core_1_1_visual_scripting_1_1_reset_resources_unit.html",
+"class_adventure_souls_1_1_souls_bonfire_action.html",
+"struct_adventure_core_1_1_player_pref_saver_1_1_entry_data.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

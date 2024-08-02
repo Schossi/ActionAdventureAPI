@@ -280,6 +280,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_constant_stat.html">ConstantStat</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">stat that just returns its base value  <a href="class_adventure_core_1_1_constant_stat.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_controller_action_base.html">ControllerActionBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for actions that can use their own animator controllers which overrides the characters<br  />
+ by default the controller is started with the action and when it finishes it also ends the action  <a href="class_adventure_core_1_1_controller_action_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_copy_transform.html">CopyTransform</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies position and rotation from a target transform to this one  <a href="class_adventure_core_1_1_copy_transform.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -476,6 +480,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">interface used to find any persisting behaviour in a scene<br  />
  currently used only by the "Check Keys" and "Generate missing Keys" buttons on the <a class="el" href="class_adventure_core_1_1_persistence_container.html" title="central singleton manager behaviour for anything related to persistence  needs to be added to a scene...">PersistenceContainer</a>  <a href="interface_adventure_core_1_1_i_persister.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_adventure_core_1_1_i_play_animation.html">IPlayAnimation</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_adventure_core_1_1_i_stat_modifier.html">IStatModifier</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">interface for any class the modifies stats<br  />
  it is applied when a stat value is retrieved from the <a class="el" href="class_adventure_core_1_1_attribute_pool.html" title="manages the modification and observation of a defined set of attributes and stats  has built in suppo...">AttributePool</a> for example equipment that provides a stat bonus(defense from armor)  <a href="interface_adventure_core_1_1_i_stat_modifier.html#details">More...</a><br /></td></tr>
@@ -577,7 +583,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_motion_action.html">MotionAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a character action that represents a simple animation like jumping or rolling<br  />
- the animation has to send the START and END messages, RELEASE when Release is checked  <a href="class_adventure_core_1_1_motion_action.html#details">More...</a><br /></td></tr>
+ when using TriggerName the animation has to send the START and END messages, RELEASE when Release is checked<br  />
+ CharacterAnimation can be used instead of triggering an animation on the characters animator, in this case START is not necessary and END is optional  <a href="class_adventure_core_1_1_motion_action.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_movable_damage_receiver.html">MovableDamageReceiver</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">damage receiver that applies an impulse force to a rigidbody when damaged  <a href="class_adventure_core_1_1_movable_damage_receiver.html#details">More...</a><br /></td></tr>
@@ -590,6 +597,9 @@ Classes</h2></td></tr>
   <a href="class_adventure_core_1_1_movement_base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_movement_base_persisted.html">MovementBasePersisted</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_movement_motion_multiplier_instruction.html">MovementMotionMultiplierInstruction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">mutliplies the movement root motion while it is active  <a href="class_adventure_core_1_1_movement_motion_multiplier_instruction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_movement_speed_multiplier_instruction.html">MovementSpeedMultiplierInstruction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">mutliplies the movement speed while it is active  <a href="class_adventure_core_1_1_movement_speed_multiplier_instruction.html#details">More...</a><br /></td></tr>
@@ -670,6 +680,28 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_placeholder_item.html">PlaceholderItem</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">item that is replaced by another item when added to the inventory(bundles of arrows, higher currency denominations)<br  />
  the actual replacement is handled by the inventory implementation  <a href="class_adventure_core_1_1_placeholder_item.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_playable_animation.html">PlayableAnimation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">plays an animation clip or controller on an animator using a playable graph(like a timeline)<br  />
+ the original animation continues in the background and gets faded out and back in at the end<br  />
+<br  />
+ playing animations that are not part of a characters animator this way allows decoupling actions<br  />
+ for example when the animation for pulling a lever is configured in ObjectAction.CharacterAnimation<br  />
+ any arbitrary (humanoid)character can use that lever without having the animation in its controller  <a href="class_adventure_core_1_1_playable_animation.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_playable_animation_message.html">PlayableAnimationMessage</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_playable_animation_message_drawer.html">PlayableAnimationMessageDrawer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_playable_animation_parameters.html">PlayableAnimationParameters</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">parameters for <a class="el" href="class_adventure_core_1_1_playable_animation.html" title="plays an animation clip or controller on an animator using a playable graph(like a timeline)  the ori...">PlayableAnimation</a> that are used in behaviours and shown in the inspector  <a href="class_adventure_core_1_1_playable_animation_parameters.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_playable_animation_player.html">PlayableAnimationPlayer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple behaviour for playing a <a class="el" href="class_adventure_core_1_1_playable_animation.html" title="plays an animation clip or controller on an animator using a playable graph(like a timeline)  the ori...">PlayableAnimation</a> on a configurable animator<br  />
+ when no animator is set the player looks for an <a class="el" href="interface_adventure_core_1_1_i_character_associator.html" title="implemented by any behaviour that is owned or otherwise directly associated with a character  allows ...">ICharacterAssociator</a> in its parents  <a href="class_adventure_core_1_1_playable_animation_player.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_playable_animation_type_attribute.html">PlayableAnimationTypeAttribute</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">can be used to limit the playable parameters to either clip OR controller  <a href="class_adventure_core_1_1_playable_animation_type_attribute.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_player_pref_saver.html">PlayerPrefSaver</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple saver implementation that uses unitys player prefs<br  />
@@ -855,6 +887,12 @@ Enumerations</h2></td></tr>
 , <b>Await</b>
  }</td></tr>
 <tr class="separator:aa7d9b3cb7db735f42053a73d8fcab430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01e92119286eaaa9d11bff343809e41a" id="r_a01e92119286eaaa9d11bff343809e41a"><td class="memItemLeft" align="right" valign="top"><a id="a01e92119286eaaa9d11bff343809e41a" name="a01e92119286eaaa9d11bff343809e41a"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01e92119286eaaa9d11bff343809e41a">PlayableAnimationType</a> { <b>Any</b>
+, <b>Clip</b>
+, <b>Controller</b>
+ }</td></tr>
+<tr class="memdesc:a01e92119286eaaa9d11bff343809e41a"><td class="mdescLeft">&#160;</td><td class="mdescRight">used in PlayableAnimationTypeAttribute to limit the kind of playable animation to either clip OR controller <br /></td></tr>
+<tr class="separator:a01e92119286eaaa9d11bff343809e41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b4e848c92e663efbebf8a03065b4b58" id="r_a8b4e848c92e663efbebf8a03065b4b58"><td class="memItemLeft" align="right" valign="top"><a id="a8b4e848c92e663efbebf8a03065b4b58" name="a8b4e848c92e663efbebf8a03065b4b58"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>DialogButtons</b> { <br />
 &#160;&#160;<b>Ok</b>
 , <b>OkCancel</b>

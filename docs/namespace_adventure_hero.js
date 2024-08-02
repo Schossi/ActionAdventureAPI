@@ -1,6 +1,8 @@
 var namespace_adventure_hero =
 [
+    [ "Assets", "namespace_adventure_hero_1_1_assets.html", "namespace_adventure_hero_1_1_assets" ],
     [ "VisualScripting", "namespace_adventure_hero_1_1_visual_scripting.html", "namespace_adventure_hero_1_1_visual_scripting" ],
+    [ "HeroActionOverrideInstruction", "class_adventure_hero_1_1_hero_action_override_instruction.html", null ],
     [ "HeroActionPanel", "class_adventure_hero_1_1_hero_action_panel.html", null ],
     [ "HeroBlockAction", "class_adventure_hero_1_1_hero_block_action.html", null ],
     [ "HeroBoulder", "class_adventure_hero_1_1_hero_boulder.html", null ],

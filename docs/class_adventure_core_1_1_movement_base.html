@@ -250,6 +250,10 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsPersistence
 virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>SpeedMultiplier</b> = 1f<code> [get, set]</code></td></tr>
 <tr class="memdesc:a20738363723ec1c893146660c7ad8f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">can be used to modify the movements speed from outside(for example slowed by snow or boosted by some effect) <br /></td></tr>
 <tr class="separator:a20738363723ec1c893146660c7ad8f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6284441de461e8de38c295f8a0b60c09" id="r_a6284441de461e8de38c295f8a0b60c09"><td class="memItemLeft" align="right" valign="top"><a id="a6284441de461e8de38c295f8a0b60c09" name="a6284441de461e8de38c295f8a0b60c09"></a>
+virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>MotionMultiplier</b> = Vector3.one<code> [get, set]</code></td></tr>
+<tr class="memdesc:a6284441de461e8de38c295f8a0b60c09"><td class="mdescLeft">&#160;</td><td class="mdescRight">can be used to modify the movement from root motion from outside(may be useful when characters of different sizes use the same animation) <br /></td></tr>
+<tr class="separator:a6284441de461e8de38c295f8a0b60c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2f098a477e46390f40559090dc68fcb" id="r_aa2f098a477e46390f40559090dc68fcb"><td class="memItemLeft" align="right" valign="top"><a id="aa2f098a477e46390f40559090dc68fcb" name="aa2f098a477e46390f40559090dc68fcb"></a>
 virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>SpeedFactorForward</b><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:aa2f098a477e46390f40559090dc68fcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">how fast the character is moving forwards relative to its maximum speed<br  />
@@ -276,10 +280,10 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsSprinting</
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsMarching</b><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:af11857ad0d5d12863e82271f8625f4e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the character is currently marching <br /></td></tr>
 <tr class="separator:af11857ad0d5d12863e82271f8625f4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa321269ba1015ea547abadd1f552cace" id="r_aa321269ba1015ea547abadd1f552cace"><td class="memItemLeft" align="right" valign="top"><a id="aa321269ba1015ea547abadd1f552cace" name="aa321269ba1015ea547abadd1f552cace"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsMoving</b><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:aa321269ba1015ea547abadd1f552cace"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the character is currently being forced to move using <a class="el" href="#af71780ae0c477b9475632c504c9fb711" title="quickly moves the movement to the passed transform">MoveCharacter(Transform)</a> <br /></td></tr>
-<tr class="separator:aa321269ba1015ea547abadd1f552cace"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25e4ffdf4fb53e82182e14c83518b536" id="r_a25e4ffdf4fb53e82182e14c83518b536"><td class="memItemLeft" align="right" valign="top"><a id="a25e4ffdf4fb53e82182e14c83518b536" name="a25e4ffdf4fb53e82182e14c83518b536"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsMoved</b><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a25e4ffdf4fb53e82182e14c83518b536"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the character is currently being forced to move using <a class="el" href="#af71780ae0c477b9475632c504c9fb711" title="quickly moves the movement to the passed transform">MoveCharacter(Transform)</a> <br /></td></tr>
+<tr class="separator:a25e4ffdf4fb53e82182e14c83518b536"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50b8e007861f2c747e10321eddf2572a" id="r_a50b8e007861f2c747e10321eddf2572a"><td class="memItemLeft" align="right" valign="top"><a id="a50b8e007861f2c747e10321eddf2572a" name="a50b8e007861f2c747e10321eddf2572a"></a>
 virtual Transform&#160;</td><td class="memItemRight" valign="bottom"><b>Target</b><code> [get]</code></td></tr>
 <tr class="separator:a50b8e007861f2c747e10321eddf2572a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -313,6 +317,9 @@ virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>Direction<
 <tr class="memitem:ad95af34523d6780ae0266727722a98a7" id="r_ad95af34523d6780ae0266727722a98a7"><td class="memItemLeft" align="right" valign="top"><a id="ad95af34523d6780ae0266727722a98a7" name="ad95af34523d6780ae0266727722a98a7"></a>
 virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>Velocity</b><code> [get]</code></td></tr>
 <tr class="separator:ad95af34523d6780ae0266727722a98a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa321269ba1015ea547abadd1f552cace" id="r_aa321269ba1015ea547abadd1f552cace"><td class="memItemLeft" align="right" valign="top"><a id="aa321269ba1015ea547abadd1f552cace" name="aa321269ba1015ea547abadd1f552cace"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsMoving</b><code> [get]</code></td></tr>
+<tr class="separator:aa321269ba1015ea547abadd1f552cace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08b9c0305e8b9f11beccef7ee187b816" id="r_a08b9c0305e8b9f11beccef7ee187b816"><td class="memItemLeft" align="right" valign="top"><a id="a08b9c0305e8b9f11beccef7ee187b816" name="a08b9c0305e8b9f11beccef7ee187b816"></a>
 virtual Transform&#160;</td><td class="memItemRight" valign="bottom"><b>RotationPivot</b><code> [get]</code></td></tr>
 <tr class="separator:a08b9c0305e8b9f11beccef7ee187b816"><td class="memSeparator" colspan="2">&#160;</td></tr>

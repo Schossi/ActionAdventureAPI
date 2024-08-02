@@ -126,9 +126,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7498d011ea7d9925ca96710673732a3f" id="r_a7498d011ea7d9925ca96710673732a3f"><td class="memItemLeft" align="right" valign="top"><a id="a7498d011ea7d9925ca96710673732a3f" name="a7498d011ea7d9925ca96710673732a3f"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
 <tr class="separator:a7498d011ea7d9925ca96710673732a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab83208c554aa3e9120233b002fe316b5" id="r_ab83208c554aa3e9120233b002fe316b5"><td class="memItemLeft" align="right" valign="top"><a id="ab83208c554aa3e9120233b002fe316b5" name="ab83208c554aa3e9120233b002fe316b5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasItem</b> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item)</td></tr>
+<tr class="memitem:ab83208c554aa3e9120233b002fe316b5" id="r_ab83208c554aa3e9120233b002fe316b5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab83208c554aa3e9120233b002fe316b5">HasItem</a> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item)</td></tr>
+<tr class="memdesc:ab83208c554aa3e9120233b002fe316b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the item exists in the inventory, regardless of quantity(may be 0)  <br /></td></tr>
 <tr class="separator:ab83208c554aa3e9120233b002fe316b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8ccd6778e710a45c8efe0a6c09a5283" id="r_ae8ccd6778e710a45c8efe0a6c09a5283"><td class="memItemLeft" align="right" valign="top"><a id="ae8ccd6778e710a45c8efe0a6c09a5283" name="ae8ccd6778e710a45c8efe0a6c09a5283"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasItemQuantity</b> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item, int quantity=1)</td></tr>
+<tr class="separator:ae8ccd6778e710a45c8efe0a6c09a5283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a890b90935922da96d91553f3e635fb25" id="r_a890b90935922da96d91553f3e635fb25"><td class="memItemLeft" align="right" valign="top"><a id="a890b90935922da96d91553f3e635fb25" name="a890b90935922da96d91553f3e635fb25"></a>
 IEnumerable&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetItems</b> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item)</td></tr>
 <tr class="separator:a890b90935922da96d91553f3e635fb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,6 +226,40 @@ Properties</h2></td></tr>
 </dd>
 </dl>
 </div>
+
+</div>
+</div>
+<a id="ab83208c554aa3e9120233b002fe316b5" name="ab83208c554aa3e9120233b002fe316b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab83208c554aa3e9120233b002fe316b5">&#9670;&#160;</a></span>HasItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AdventureCore.InventoryBase.HasItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a></td>          <td class="paramname"><span class="paramname"><em>item</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks whether the item exists in the inventory, regardless of quantity(may be 0) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>

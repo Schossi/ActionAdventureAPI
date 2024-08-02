@@ -1,5 +1,6 @@
 var namespace_adventure_core =
 [
+    [ "Assets", "namespace_adventure_core_1_1_assets.html", "namespace_adventure_core_1_1_assets" ],
     [ "Editor", "namespace_adventure_core_1_1_editor.html", "namespace_adventure_core_1_1_editor" ],
     [ "Tests", "namespace_adventure_core_1_1_tests.html", "namespace_adventure_core_1_1_tests" ],
     [ "Timeline", "namespace_adventure_core_1_1_timeline.html", "namespace_adventure_core_1_1_timeline" ],
@@ -48,6 +49,7 @@ var namespace_adventure_core =
     [ "CharacterMessenger", "class_adventure_core_1_1_character_messenger.html", "class_adventure_core_1_1_character_messenger" ],
     [ "CollisionDebugger", "class_adventure_core_1_1_collision_debugger.html", null ],
     [ "ConstantStat", "class_adventure_core_1_1_constant_stat.html", null ],
+    [ "ControllerActionBase", "class_adventure_core_1_1_controller_action_base.html", null ],
     [ "CopyTransform", "class_adventure_core_1_1_copy_transform.html", null ],
     [ "DamageEffect", "class_adventure_core_1_1_damage_effect.html", null ],
     [ "DamageEvent", "class_adventure_core_1_1_damage_event.html", null ],
@@ -95,10 +97,11 @@ var namespace_adventure_core =
     [ "InstantiatingItemSlotClone", "class_adventure_core_1_1_instantiating_item_slot_clone.html", null ],
     [ "IntervalSpawner", "class_adventure_core_1_1_interval_spawner.html", null ],
     [ "IntPersistenceTrigger", "class_adventure_core_1_1_int_persistence_trigger.html", null ],
-    [ "InventoryBase", "class_adventure_core_1_1_inventory_base.html", null ],
+    [ "InventoryBase", "class_adventure_core_1_1_inventory_base.html", "class_adventure_core_1_1_inventory_base" ],
     [ "InventoryItem", "class_adventure_core_1_1_inventory_item.html", "class_adventure_core_1_1_inventory_item" ],
     [ "InventoryText", "class_adventure_core_1_1_inventory_text.html", null ],
     [ "IPersister", "interface_adventure_core_1_1_i_persister.html", null ],
+    [ "IPlayAnimation", "interface_adventure_core_1_1_i_play_animation.html", null ],
     [ "IStatModifier", "interface_adventure_core_1_1_i_stat_modifier.html", "interface_adventure_core_1_1_i_stat_modifier" ],
     [ "ItemBase", "class_adventure_core_1_1_item_base.html", null ],
     [ "ItemCategory", "class_adventure_core_1_1_item_category.html", null ],
@@ -125,10 +128,11 @@ var namespace_adventure_core =
     [ "ManualPersister", "class_adventure_core_1_1_manual_persister.html", null ],
     [ "MessageEvent", "class_adventure_core_1_1_message_event.html", null ],
     [ "MinimalCharacterActor", "class_adventure_core_1_1_minimal_character_actor.html", null ],
-    [ "MotionAction", "class_adventure_core_1_1_motion_action.html", null ],
+    [ "MotionAction", "class_adventure_core_1_1_motion_action.html", "class_adventure_core_1_1_motion_action" ],
     [ "MovableDamageReceiver", "class_adventure_core_1_1_movable_damage_receiver.html", "class_adventure_core_1_1_movable_damage_receiver" ],
     [ "MovementBase", "class_adventure_core_1_1_movement_base.html", "class_adventure_core_1_1_movement_base" ],
     [ "MovementBasePersisted", "class_adventure_core_1_1_movement_base_persisted.html", "class_adventure_core_1_1_movement_base_persisted" ],
+    [ "MovementMotionMultiplierInstruction", "class_adventure_core_1_1_movement_motion_multiplier_instruction.html", null ],
     [ "MovementSpeedMultiplierInstruction", "class_adventure_core_1_1_movement_speed_multiplier_instruction.html", null ],
     [ "Mover", "class_adventure_core_1_1_mover.html", null ],
     [ "MovingDamageSender", "class_adventure_core_1_1_moving_damage_sender.html", null ],
@@ -148,6 +152,12 @@ var namespace_adventure_core =
     [ "PersisterBase", "class_adventure_core_1_1_persister_base.html", null ],
     [ "PickupAction", "class_adventure_core_1_1_pickup_action.html", null ],
     [ "PlaceholderItem", "class_adventure_core_1_1_placeholder_item.html", null ],
+    [ "PlayableAnimation", "class_adventure_core_1_1_playable_animation.html", "class_adventure_core_1_1_playable_animation" ],
+    [ "PlayableAnimationMessage", "class_adventure_core_1_1_playable_animation_message.html", null ],
+    [ "PlayableAnimationMessageDrawer", "class_adventure_core_1_1_playable_animation_message_drawer.html", null ],
+    [ "PlayableAnimationParameters", "class_adventure_core_1_1_playable_animation_parameters.html", "class_adventure_core_1_1_playable_animation_parameters" ],
+    [ "PlayableAnimationPlayer", "class_adventure_core_1_1_playable_animation_player.html", null ],
+    [ "PlayableAnimationTypeAttribute", "class_adventure_core_1_1_playable_animation_type_attribute.html", null ],
     [ "PlayerPrefSaver", "class_adventure_core_1_1_player_pref_saver.html", "class_adventure_core_1_1_player_pref_saver" ],
     [ "PlaytimePersister", "class_adventure_core_1_1_playtime_persister.html", null ],
     [ "PoseAction", "class_adventure_core_1_1_pose_action.html", null ],
@@ -192,5 +202,10 @@ var namespace_adventure_core =
     [ "TriggerItem", "class_adventure_core_1_1_trigger_item.html", null ],
     [ "UIDebugger", "class_adventure_core_1_1_u_i_debugger.html", null ],
     [ "UsableItem", "class_adventure_core_1_1_usable_item.html", null ],
-    [ "VisualScriptingAction", "class_adventure_core_1_1_visual_scripting_action.html", null ]
+    [ "VisualScriptingAction", "class_adventure_core_1_1_visual_scripting_action.html", null ],
+    [ "PlayableAnimationType", "namespace_adventure_core.html#a01e92119286eaaa9d11bff343809e41a", [
+      [ "Any", "namespace_adventure_core.html#a01e92119286eaaa9d11bff343809e41aaed36a1ef76a59ee3f15180e0441188ad", null ],
+      [ "Clip", "namespace_adventure_core.html#a01e92119286eaaa9d11bff343809e41aa6adac929b615be2e0d213eb9d1ad15ba", null ],
+      [ "Controller", "namespace_adventure_core.html#a01e92119286eaaa9d11bff343809e41aa9bbf373797bf7cf7ba62c80023682e25", null ]
+    ] ]
 ];

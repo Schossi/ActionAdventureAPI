@@ -1,6 +1,17 @@
 var annotated_dup =
 [
     [ "AdventureCore", "namespace_adventure_core.html", [
+      [ "Assets", "namespace_adventure_core_1_1_assets.html", [
+        [ "SoftLeitner", "namespace_adventure_core_1_1_assets_1_1_soft_leitner.html", [
+          [ "AdventureCore", "namespace_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core.html", [
+            [ "Character", "namespace_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_character.html", [
+              [ "Instructions", "namespace_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_character_1_1_instructions.html", [
+                [ "DebugInstruction", "class_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_character_1_1_instructions_1_1_debug_instruction.html", null ]
+              ] ]
+            ] ]
+          ] ]
+        ] ]
+      ] ],
       [ "Editor", "namespace_adventure_core_1_1_editor.html", [
         [ "Persistence", "namespace_adventure_core_1_1_editor_1_1_persistence.html", [
           [ "PersistenceContainerEditor", "class_adventure_core_1_1_editor_1_1_persistence_1_1_persistence_container_editor.html", null ],
@@ -43,6 +54,7 @@ var annotated_dup =
           [ "BoolInputReceivedDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_bool_input_received_descriptor.html", null ],
           [ "CanAddItemsDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_can_add_items_descriptor.html", null ],
           [ "CancelCharacterDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_cancel_character_descriptor.html", null ],
+          [ "CancelPlayableAnimationDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_cancel_playable_animation_descriptor.html", null ],
           [ "CharacterEnterDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_character_enter_descriptor.html", null ],
           [ "CharacterExitDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_character_exit_descriptor.html", null ],
           [ "CharacterMessageReceivedDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_character_message_received_descriptor.html", null ],
@@ -61,6 +73,8 @@ var annotated_dup =
           [ "CheckResourceValueDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_check_resource_value_descriptor.html", null ],
           [ "ConfirmCharacterDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_confirm_character_descriptor.html", null ],
           [ "ConfirmTextBoxDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_confirm_text_box_descriptor.html", null ],
+          [ "CreatePlayableAnimationClipDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_create_playable_animation_clip_descriptor.html", null ],
+          [ "CreatePlayableAnimationControllerDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_create_playable_animation_controller_descriptor.html", null ],
           [ "DamagedCharacterDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_damaged_character_descriptor.html", null ],
           [ "DamagedCharacterTotalDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_damaged_character_total_descriptor.html", null ],
           [ "DamagedTriggerDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_damaged_trigger_descriptor.html", null ],
@@ -71,6 +85,7 @@ var annotated_dup =
           [ "DeactivateDamageDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_deactivate_damage_descriptor.html", null ],
           [ "DeleteAreaDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_delete_area_descriptor.html", null ],
           [ "DeleteDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_delete_descriptor.html", null ],
+          [ "DestroyPlayableAnimationDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_destroy_playable_animation_descriptor.html", null ],
           [ "EffectAddedDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_effect_added_descriptor.html", null ],
           [ "EffectPoolChangedDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_effect_pool_changed_descriptor.html", null ],
           [ "EffectRemovedDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_effect_removed_descriptor.html", null ],
@@ -78,7 +93,10 @@ var annotated_dup =
           [ "EquipItemCategoryDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_equip_item_category_descriptor.html", null ],
           [ "EquipItemDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_equip_item_descriptor.html", null ],
           [ "GetActionDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_action_descriptor.html", null ],
+          [ "GetCharacterBoolDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_character_bool_descriptor.html", null ],
           [ "GetCharacterDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_character_descriptor.html", null ],
+          [ "GetCharacterFloatDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_character_float_descriptor.html", null ],
+          [ "GetCharacterIntDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_character_int_descriptor.html", null ],
           [ "GetOffsetRotationDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_offset_rotation_descriptor.html", null ],
           [ "GetPersistenceBoolDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_persistence_bool_descriptor.html", null ],
           [ "GetPersistenceDescriptorBase", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_persistence_descriptor_base.html", null ],
@@ -90,6 +108,7 @@ var annotated_dup =
           [ "GetPersisterFloatDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_persister_float_descriptor.html", null ],
           [ "GetPersisterIntDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_persister_int_descriptor.html", null ],
           [ "GetPersisterStringDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_persister_string_descriptor.html", null ],
+          [ "GetPlayableAnimationDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_playable_animation_descriptor.html", null ],
           [ "GetSaveIndexDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_save_index_descriptor.html", null ],
           [ "HasEffectDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_has_effect_descriptor.html", null ],
           [ "HasItemDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_has_item_descriptor.html", null ],
@@ -124,11 +143,17 @@ var annotated_dup =
           [ "MovementVectorsDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_movement_vectors_descriptor.html", null ],
           [ "PerformActionDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_perform_action_descriptor.html", null ],
           [ "PerformActionNameDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_perform_action_name_descriptor.html", null ],
+          [ "PlayableAnimationClipDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_playable_animation_clip_descriptor.html", null ],
+          [ "PlayableAnimationClipSettingsDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_playable_animation_clip_settings_descriptor.html", null ],
+          [ "PlayableAnimationControllerDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_playable_animation_controller_descriptor.html", null ],
+          [ "PlayableAnimationControllerSettingsDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_playable_animation_controller_settings_descriptor.html", null ],
+          [ "PlayableAnimationInfoDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_playable_animation_info_descriptor.html", null ],
           [ "PlayAnimationDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_play_animation_descriptor.html", null ],
           [ "PlayAudioDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_play_audio_descriptor.html", null ],
           [ "PlayManagerAudioDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_play_manager_audio_descriptor.html", null ],
           [ "PlayManagerMusicDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_play_manager_music_descriptor.html", null ],
           [ "PlayMusicDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_play_music_descriptor.html", null ],
+          [ "PlayPlayableAnimationDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_play_playable_animation_descriptor.html", null ],
           [ "RagdollDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_ragdoll_descriptor.html", null ],
           [ "RemoveAttributeDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_remove_attribute_descriptor.html", null ],
           [ "RemoveEffectDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_remove_effect_descriptor.html", null ],
@@ -179,6 +204,11 @@ var annotated_dup =
           [ "SetPersisterFloatDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_persister_float_descriptor.html", null ],
           [ "SetPersisterIntDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_persister_int_descriptor.html", null ],
           [ "SetPersisterStringDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_persister_string_descriptor.html", null ],
+          [ "SetPlayableControllerBoolDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_playable_controller_bool_descriptor.html", null ],
+          [ "SetPlayableControllerFloatDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_playable_controller_float_descriptor.html", null ],
+          [ "SetPlayableControllerIntDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_playable_controller_int_descriptor.html", null ],
+          [ "SetPlayableControllerStateDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_playable_controller_state_descriptor.html", null ],
+          [ "SetPlayableControllerTriggerDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_playable_controller_trigger_descriptor.html", null ],
           [ "SetSaveIndexDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_save_index_descriptor.html", null ],
           [ "SetStateDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_state_descriptor.html", null ],
           [ "SetStateOverrideDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_state_override_descriptor.html", null ],
@@ -282,6 +312,7 @@ var annotated_dup =
         [ "BoolInputReceivedUnit", "class_adventure_core_1_1_visual_scripting_1_1_bool_input_received_unit.html", null ],
         [ "CanAddItemsUnit", "class_adventure_core_1_1_visual_scripting_1_1_can_add_items_unit.html", null ],
         [ "CancelCharacterUnit", "class_adventure_core_1_1_visual_scripting_1_1_cancel_character_unit.html", null ],
+        [ "CancelPlayableAnimationUnit", "class_adventure_core_1_1_visual_scripting_1_1_cancel_playable_animation_unit.html", null ],
         [ "CharacterEnterUnit", "class_adventure_core_1_1_visual_scripting_1_1_character_enter_unit.html", null ],
         [ "CharacterExitUnit", "class_adventure_core_1_1_visual_scripting_1_1_character_exit_unit.html", null ],
         [ "CharacterMessageReceivedUnit", "class_adventure_core_1_1_visual_scripting_1_1_character_message_received_unit.html", null ],
@@ -300,6 +331,8 @@ var annotated_dup =
         [ "CheckResourceValueUnit", "class_adventure_core_1_1_visual_scripting_1_1_check_resource_value_unit.html", null ],
         [ "ConfirmCharacterUnit", "class_adventure_core_1_1_visual_scripting_1_1_confirm_character_unit.html", null ],
         [ "ConfirmTextBoxUnit", "class_adventure_core_1_1_visual_scripting_1_1_confirm_text_box_unit.html", null ],
+        [ "CreatePlayableAnimationClipUnit", "class_adventure_core_1_1_visual_scripting_1_1_create_playable_animation_clip_unit.html", null ],
+        [ "CreatePlayableAnimationControllerUnit", "class_adventure_core_1_1_visual_scripting_1_1_create_playable_animation_controller_unit.html", null ],
         [ "DamagedCharacterTotalUnit", "class_adventure_core_1_1_visual_scripting_1_1_damaged_character_total_unit.html", null ],
         [ "DamagedCharacterUnit", "class_adventure_core_1_1_visual_scripting_1_1_damaged_character_unit.html", null ],
         [ "DamagedTriggerTotalUnit", "class_adventure_core_1_1_visual_scripting_1_1_damaged_trigger_total_unit.html", null ],
@@ -310,6 +343,7 @@ var annotated_dup =
         [ "DeactivateDamageUnit", "class_adventure_core_1_1_visual_scripting_1_1_deactivate_damage_unit.html", null ],
         [ "DeleteAreaUnit", "class_adventure_core_1_1_visual_scripting_1_1_delete_area_unit.html", null ],
         [ "DeleteUnit", "class_adventure_core_1_1_visual_scripting_1_1_delete_unit.html", null ],
+        [ "DestroyPlayableAnimationUnit", "class_adventure_core_1_1_visual_scripting_1_1_destroy_playable_animation_unit.html", null ],
         [ "EffectAddedUnit", "class_adventure_core_1_1_visual_scripting_1_1_effect_added_unit.html", null ],
         [ "EffectPoolChangedUnit", "class_adventure_core_1_1_visual_scripting_1_1_effect_pool_changed_unit.html", null ],
         [ "EffectRemovedUnit", "class_adventure_core_1_1_visual_scripting_1_1_effect_removed_unit.html", null ],
@@ -318,6 +352,9 @@ var annotated_dup =
         [ "EquipItemUnit", "class_adventure_core_1_1_visual_scripting_1_1_equip_item_unit.html", null ],
         [ "FindRecursiveUnit", "class_adventure_core_1_1_visual_scripting_1_1_find_recursive_unit.html", null ],
         [ "GetActionUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_action_unit.html", null ],
+        [ "GetCharacterBoolUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_character_bool_unit.html", null ],
+        [ "GetCharacterFloatUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_character_float_unit.html", null ],
+        [ "GetCharacterIntUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_character_int_unit.html", null ],
         [ "GetCharacterUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_character_unit.html", null ],
         [ "GetOffsetRotationUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_offset_rotation_unit.html", null ],
         [ "GetPersistenceBoolUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_persistence_bool_unit.html", null ],
@@ -331,6 +368,7 @@ var annotated_dup =
         [ "GetPersisterIntUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_persister_int_unit.html", null ],
         [ "GetPersisterStringUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_persister_string_unit.html", null ],
         [ "GetPersisterValueUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_persister_value_unit.html", null ],
+        [ "GetPlayableAnimationUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_playable_animation_unit.html", null ],
         [ "HasEffectUnit", "class_adventure_core_1_1_visual_scripting_1_1_has_effect_unit.html", null ],
         [ "HasItemUnit", "class_adventure_core_1_1_visual_scripting_1_1_has_item_unit.html", null ],
         [ "HideSlotInstructionUnit", "class_adventure_core_1_1_visual_scripting_1_1_hide_slot_instruction_unit.html", null ],
@@ -365,11 +403,17 @@ var annotated_dup =
         [ "PerformActionBaseUnit", "class_adventure_core_1_1_visual_scripting_1_1_perform_action_base_unit.html", null ],
         [ "PerformActionNameUnit", "class_adventure_core_1_1_visual_scripting_1_1_perform_action_name_unit.html", null ],
         [ "PerformActionUnit", "class_adventure_core_1_1_visual_scripting_1_1_perform_action_unit.html", null ],
+        [ "PlayableAnimationClipSettingsUnit", "class_adventure_core_1_1_visual_scripting_1_1_playable_animation_clip_settings_unit.html", null ],
+        [ "PlayableAnimationClipUnit", "class_adventure_core_1_1_visual_scripting_1_1_playable_animation_clip_unit.html", null ],
+        [ "PlayableAnimationControllerSettingsUnit", "class_adventure_core_1_1_visual_scripting_1_1_playable_animation_controller_settings_unit.html", null ],
+        [ "PlayableAnimationControllerUnit", "class_adventure_core_1_1_visual_scripting_1_1_playable_animation_controller_unit.html", null ],
+        [ "PlayableAnimationInfoUnit", "class_adventure_core_1_1_visual_scripting_1_1_playable_animation_info_unit.html", null ],
         [ "PlayAnimationUnit", "class_adventure_core_1_1_visual_scripting_1_1_play_animation_unit.html", null ],
         [ "PlayAudioUnit", "class_adventure_core_1_1_visual_scripting_1_1_play_audio_unit.html", null ],
         [ "PlayManagerAudioUnit", "class_adventure_core_1_1_visual_scripting_1_1_play_manager_audio_unit.html", null ],
         [ "PlayManagerMusicUnit", "class_adventure_core_1_1_visual_scripting_1_1_play_manager_music_unit.html", null ],
         [ "PlayMusicUnit", "class_adventure_core_1_1_visual_scripting_1_1_play_music_unit.html", null ],
+        [ "PlayPlayableAnimationUnit", "class_adventure_core_1_1_visual_scripting_1_1_play_playable_animation_unit.html", null ],
         [ "RagdollUnit", "class_adventure_core_1_1_visual_scripting_1_1_ragdoll_unit.html", null ],
         [ "RemoveAttributeUnit", "class_adventure_core_1_1_visual_scripting_1_1_remove_attribute_unit.html", null ],
         [ "RemoveEffectUnit", "class_adventure_core_1_1_visual_scripting_1_1_remove_effect_unit.html", null ],
@@ -420,6 +464,11 @@ var annotated_dup =
         [ "SetPersisterIntUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_persister_int_unit.html", null ],
         [ "SetPersisterStringUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_persister_string_unit.html", null ],
         [ "SetPersisterValueUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_persister_value_unit.html", null ],
+        [ "SetPlayableControllerBoolUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_playable_controller_bool_unit.html", null ],
+        [ "SetPlayableControllerFloatUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_playable_controller_float_unit.html", null ],
+        [ "SetPlayableControllerIntUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_playable_controller_int_unit.html", null ],
+        [ "SetPlayableControllerStateUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_playable_controller_state_unit.html", null ],
+        [ "SetPlayableControllerTriggerUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_playable_controller_trigger_unit.html", null ],
         [ "SetStateOverrideUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_state_override_unit.html", null ],
         [ "SetStateUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_state_unit.html", null ],
         [ "SetStringVariableUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_string_variable_unit.html", null ],
@@ -499,6 +548,7 @@ var annotated_dup =
       [ "CharacterMessenger", "class_adventure_core_1_1_character_messenger.html", "class_adventure_core_1_1_character_messenger" ],
       [ "CollisionDebugger", "class_adventure_core_1_1_collision_debugger.html", null ],
       [ "ConstantStat", "class_adventure_core_1_1_constant_stat.html", null ],
+      [ "ControllerActionBase", "class_adventure_core_1_1_controller_action_base.html", null ],
       [ "CopyTransform", "class_adventure_core_1_1_copy_transform.html", null ],
       [ "DamageEffect", "class_adventure_core_1_1_damage_effect.html", null ],
       [ "DamageEvent", "class_adventure_core_1_1_damage_event.html", null ],
@@ -546,10 +596,11 @@ var annotated_dup =
       [ "InstantiatingItemSlotClone", "class_adventure_core_1_1_instantiating_item_slot_clone.html", null ],
       [ "IntervalSpawner", "class_adventure_core_1_1_interval_spawner.html", null ],
       [ "IntPersistenceTrigger", "class_adventure_core_1_1_int_persistence_trigger.html", null ],
-      [ "InventoryBase", "class_adventure_core_1_1_inventory_base.html", null ],
+      [ "InventoryBase", "class_adventure_core_1_1_inventory_base.html", "class_adventure_core_1_1_inventory_base" ],
       [ "InventoryItem", "class_adventure_core_1_1_inventory_item.html", "class_adventure_core_1_1_inventory_item" ],
       [ "InventoryText", "class_adventure_core_1_1_inventory_text.html", null ],
       [ "IPersister", "interface_adventure_core_1_1_i_persister.html", null ],
+      [ "IPlayAnimation", "interface_adventure_core_1_1_i_play_animation.html", null ],
       [ "IStatModifier", "interface_adventure_core_1_1_i_stat_modifier.html", "interface_adventure_core_1_1_i_stat_modifier" ],
       [ "ItemBase", "class_adventure_core_1_1_item_base.html", null ],
       [ "ItemCategory", "class_adventure_core_1_1_item_category.html", null ],
@@ -576,10 +627,11 @@ var annotated_dup =
       [ "ManualPersister", "class_adventure_core_1_1_manual_persister.html", null ],
       [ "MessageEvent", "class_adventure_core_1_1_message_event.html", null ],
       [ "MinimalCharacterActor", "class_adventure_core_1_1_minimal_character_actor.html", null ],
-      [ "MotionAction", "class_adventure_core_1_1_motion_action.html", null ],
+      [ "MotionAction", "class_adventure_core_1_1_motion_action.html", "class_adventure_core_1_1_motion_action" ],
       [ "MovableDamageReceiver", "class_adventure_core_1_1_movable_damage_receiver.html", "class_adventure_core_1_1_movable_damage_receiver" ],
       [ "MovementBase", "class_adventure_core_1_1_movement_base.html", "class_adventure_core_1_1_movement_base" ],
       [ "MovementBasePersisted", "class_adventure_core_1_1_movement_base_persisted.html", "class_adventure_core_1_1_movement_base_persisted" ],
+      [ "MovementMotionMultiplierInstruction", "class_adventure_core_1_1_movement_motion_multiplier_instruction.html", null ],
       [ "MovementSpeedMultiplierInstruction", "class_adventure_core_1_1_movement_speed_multiplier_instruction.html", null ],
       [ "Mover", "class_adventure_core_1_1_mover.html", null ],
       [ "MovingDamageSender", "class_adventure_core_1_1_moving_damage_sender.html", null ],
@@ -599,6 +651,12 @@ var annotated_dup =
       [ "PersisterBase", "class_adventure_core_1_1_persister_base.html", null ],
       [ "PickupAction", "class_adventure_core_1_1_pickup_action.html", null ],
       [ "PlaceholderItem", "class_adventure_core_1_1_placeholder_item.html", null ],
+      [ "PlayableAnimation", "class_adventure_core_1_1_playable_animation.html", "class_adventure_core_1_1_playable_animation" ],
+      [ "PlayableAnimationMessage", "class_adventure_core_1_1_playable_animation_message.html", null ],
+      [ "PlayableAnimationMessageDrawer", "class_adventure_core_1_1_playable_animation_message_drawer.html", null ],
+      [ "PlayableAnimationParameters", "class_adventure_core_1_1_playable_animation_parameters.html", "class_adventure_core_1_1_playable_animation_parameters" ],
+      [ "PlayableAnimationPlayer", "class_adventure_core_1_1_playable_animation_player.html", null ],
+      [ "PlayableAnimationTypeAttribute", "class_adventure_core_1_1_playable_animation_type_attribute.html", null ],
       [ "PlayerPrefSaver", "class_adventure_core_1_1_player_pref_saver.html", "class_adventure_core_1_1_player_pref_saver" ],
       [ "PlaytimePersister", "class_adventure_core_1_1_playtime_persister.html", null ],
       [ "PoseAction", "class_adventure_core_1_1_pose_action.html", null ],
@@ -645,11 +703,26 @@ var annotated_dup =
       [ "UsableItem", "class_adventure_core_1_1_usable_item.html", null ],
       [ "VisualScriptingAction", "class_adventure_core_1_1_visual_scripting_action.html", null ]
     ] ],
+    [ "AdventureExtras", "namespace_adventure_extras.html", [
+      [ "AdventureExtras", "class_adventure_extras_1_1_adventure_extras.html", null ]
+    ] ],
     [ "AdventureHero", "namespace_adventure_hero.html", [
+      [ "Assets", "namespace_adventure_hero_1_1_assets.html", [
+        [ "SoftLeitner", "namespace_adventure_hero_1_1_assets_1_1_soft_leitner.html", [
+          [ "AdventureHero", "namespace_adventure_hero_1_1_assets_1_1_soft_leitner_1_1_adventure_hero.html", [
+            [ "Scripts", "namespace_adventure_hero_1_1_assets_1_1_soft_leitner_1_1_adventure_hero_1_1_scripts.html", [
+              [ "Actions", "namespace_adventure_hero_1_1_assets_1_1_soft_leitner_1_1_adventure_hero_1_1_scripts_1_1_actions.html", [
+                [ "HeroHoldableAction", "class_adventure_hero_1_1_assets_1_1_soft_leitner_1_1_adventure_hero_1_1_scripts_1_1_actions_1_1_hero_holdable_action.html", null ]
+              ] ]
+            ] ]
+          ] ]
+        ] ]
+      ] ],
       [ "VisualScripting", "namespace_adventure_hero_1_1_visual_scripting.html", [
         [ "HeroInfoUnit", "class_adventure_hero_1_1_visual_scripting_1_1_hero_info_unit.html", null ],
         [ "HeroSheathingUnit", "class_adventure_hero_1_1_visual_scripting_1_1_hero_sheathing_unit.html", null ]
       ] ],
+      [ "HeroActionOverrideInstruction", "class_adventure_hero_1_1_hero_action_override_instruction.html", null ],
       [ "HeroActionPanel", "class_adventure_hero_1_1_hero_action_panel.html", null ],
       [ "HeroBlockAction", "class_adventure_hero_1_1_hero_block_action.html", null ],
       [ "HeroBoulder", "class_adventure_hero_1_1_hero_boulder.html", null ],
@@ -693,7 +766,7 @@ var annotated_dup =
       [ "SoulsAttributeElement", "class_adventure_souls_1_1_souls_attribute_element.html", "class_adventure_souls_1_1_souls_attribute_element" ],
       [ "SoulsBonfireAction", "class_adventure_souls_1_1_souls_bonfire_action.html", null ],
       [ "SoulsBossArea", "class_adventure_souls_1_1_souls_boss_area.html", null ],
-      [ "SoulsCharacterBase", "class_adventure_souls_1_1_souls_character_base.html", "class_adventure_souls_1_1_souls_character_base" ],
+      [ "SoulsCharacterBase", "class_adventure_souls_1_1_souls_character_base.html", null ],
       [ "SoulsCommons", "class_adventure_souls_1_1_souls_commons.html", null ],
       [ "SoulsCriticalAction", "class_adventure_souls_1_1_souls_critical_action.html", null ],
       [ "SoulsCrittedAction", "class_adventure_souls_1_1_souls_critted_action.html", null ],
@@ -730,6 +803,7 @@ var annotated_dup =
       [ "SoulsShootAction", "class_adventure_souls_1_1_souls_shoot_action.html", null ],
       [ "SoulsSlotElement", "class_adventure_souls_1_1_souls_slot_element.html", "class_adventure_souls_1_1_souls_slot_element" ],
       [ "SoulsStamina", "class_adventure_souls_1_1_souls_stamina.html", null ],
+      [ "SoulsSuspendActingInstruction", "class_adventure_souls_1_1_souls_suspend_acting_instruction.html", null ],
       [ "SoulsSystemPanel", "class_adventure_souls_1_1_souls_system_panel.html", null ],
       [ "SoulsTalkAction", "class_adventure_souls_1_1_souls_talk_action.html", null ],
       [ "SoulsTeleportAction", "class_adventure_souls_1_1_souls_teleport_action.html", null ],
