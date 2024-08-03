@@ -1,5 +1,9 @@
 var NAVTREEINDEX6 =
 {
+"class_adventure_core_1_1_visual_scripting_1_1_reset_manager_state_override_unit.html":[1,0,0,4,145],
+"class_adventure_core_1_1_visual_scripting_1_1_reset_momentum_unit.html":[0,0,0,4,146],
+"class_adventure_core_1_1_visual_scripting_1_1_reset_momentum_unit.html":[1,0,0,4,146],
+"class_adventure_core_1_1_visual_scripting_1_1_reset_resources_unit.html":[0,0,0,4,147],
 "class_adventure_core_1_1_visual_scripting_1_1_reset_resources_unit.html":[1,0,0,4,147],
 "class_adventure_core_1_1_visual_scripting_1_1_reset_state_override_unit.html":[0,0,0,4,148],
 "class_adventure_core_1_1_visual_scripting_1_1_reset_state_override_unit.html":[1,0,0,4,148],
@@ -173,8 +177,8 @@ var NAVTREEINDEX6 =
 "class_adventure_core_1_1_visual_scripting_1_1_vector_input_received_unit.html":[1,0,0,4,224],
 "class_adventure_core_1_1_visual_scripting_1_1_visual_scripting_action_info_unit.html":[0,0,0,4,225],
 "class_adventure_core_1_1_visual_scripting_1_1_visual_scripting_action_info_unit.html":[1,0,0,4,225],
-"class_adventure_core_1_1_visual_scripting_action.html":[0,0,0,202],
-"class_adventure_core_1_1_visual_scripting_action.html":[1,0,0,202],
+"class_adventure_core_1_1_visual_scripting_action.html":[0,0,0,204],
+"class_adventure_core_1_1_visual_scripting_action.html":[1,0,0,204],
 "class_adventure_extras_1_1_adventure_extras.html":[0,0,1,0],
 "class_adventure_extras_1_1_adventure_extras.html":[1,0,1,0],
 "class_adventure_hero_1_1_assets_1_1_soft_leitner_1_1_adventure_hero_1_1_scripts_1_1_actions_1_1_hero_holdable_action.html":[0,0,2,0,0,0,0,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX6 =
 "class_adventure_souls_1_1_souls_arrow_slot.html":[1,0,4,9],
 "class_adventure_souls_1_1_souls_attack_action.html":[0,0,4,10],
 "class_adventure_souls_1_1_souls_attack_action.html":[1,0,4,10],
-"class_adventure_souls_1_1_souls_attribute_element.html":[0,0,4,11],
-"class_adventure_souls_1_1_souls_attribute_element.html":[1,0,4,11],
-"class_adventure_souls_1_1_souls_attribute_element_1_1_uxml_factory.html":[0,0,4,11,0],
-"class_adventure_souls_1_1_souls_attribute_element_1_1_uxml_factory.html":[1,0,4,11,0],
-"class_adventure_souls_1_1_souls_bonfire_action.html":[0,0,4,12]
+"class_adventure_souls_1_1_souls_attribute_element.html":[0,0,4,11]
 };

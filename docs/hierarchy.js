@@ -1182,6 +1182,8 @@ var hierarchy =
         [ "AdventureCore.ListedInventory", "class_adventure_core_1_1_listed_inventory.html", null ]
       ] ],
       [ "AdventureCore.InventoryText", "class_adventure_core_1_1_inventory_text.html", null ],
+      [ "AdventureCore.ItemNotification", "class_adventure_core_1_1_item_notification.html", null ],
+      [ "AdventureCore.ItemNotifications", "class_adventure_core_1_1_item_notifications.html", null ],
       [ "AdventureCore.ItemQuantityText", "class_adventure_core_1_1_item_quantity_text.html", [
         [ "AdventureCore.ItemQuantityTextCapped", "class_adventure_core_1_1_item_quantity_text_capped.html", null ]
       ] ],

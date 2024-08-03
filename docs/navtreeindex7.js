@@ -1,5 +1,9 @@
 var NAVTREEINDEX7 =
 {
+"class_adventure_souls_1_1_souls_attribute_element.html":[1,0,4,11],
+"class_adventure_souls_1_1_souls_attribute_element_1_1_uxml_factory.html":[0,0,4,11,0],
+"class_adventure_souls_1_1_souls_attribute_element_1_1_uxml_factory.html":[1,0,4,11,0],
+"class_adventure_souls_1_1_souls_bonfire_action.html":[0,0,4,12],
 "class_adventure_souls_1_1_souls_bonfire_action.html":[1,0,4,12],
 "class_adventure_souls_1_1_souls_boss_area.html":[0,0,4,13],
 "class_adventure_souls_1_1_souls_boss_area.html":[1,0,4,13],
@@ -203,10 +207,10 @@ var NAVTREEINDEX7 =
 "interface_adventure_souls_1_1_souls_input_1_1_i_u_i_actions.html":[0,0,4,27,7],
 "interface_adventure_souls_1_1_souls_input_1_1_i_u_i_actions.html":[1,0,4,27,7],
 "namespace_adventure_core.html":[0,0,0],
-"namespace_adventure_core.html#a01e92119286eaaa9d11bff343809e41a":[0,0,0,203],
-"namespace_adventure_core.html#a01e92119286eaaa9d11bff343809e41aa6adac929b615be2e0d213eb9d1ad15ba":[0,0,0,203,1],
-"namespace_adventure_core.html#a01e92119286eaaa9d11bff343809e41aa9bbf373797bf7cf7ba62c80023682e25":[0,0,0,203,2],
-"namespace_adventure_core.html#a01e92119286eaaa9d11bff343809e41aaed36a1ef76a59ee3f15180e0441188ad":[0,0,0,203,0],
+"namespace_adventure_core.html#a01e92119286eaaa9d11bff343809e41a":[0,0,0,205],
+"namespace_adventure_core.html#a01e92119286eaaa9d11bff343809e41aa6adac929b615be2e0d213eb9d1ad15ba":[0,0,0,205,1],
+"namespace_adventure_core.html#a01e92119286eaaa9d11bff343809e41aa9bbf373797bf7cf7ba62c80023682e25":[0,0,0,205,2],
+"namespace_adventure_core.html#a01e92119286eaaa9d11bff343809e41aaed36a1ef76a59ee3f15180e0441188ad":[0,0,0,205,0],
 "namespace_adventure_core_1_1_assets.html":[0,0,0,0],
 "namespace_adventure_core_1_1_assets_1_1_soft_leitner.html":[0,0,0,0,0],
 "namespace_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core.html":[0,0,0,0,0,0],
@@ -243,11 +247,7 @@ var NAVTREEINDEX7 =
 "struct_adventure_core_1_1_effect_pool_1_1_effect_value.html":[1,0,0,65,1],
 "struct_adventure_core_1_1_inventory_item_1_1_inventory_item_data.html":[0,0,0,98,0],
 "struct_adventure_core_1_1_inventory_item_1_1_inventory_item_data.html":[1,0,0,98,0],
-"struct_adventure_core_1_1_listed_inventory_1_1_listed_inventory_data.html":[0,0,0,115,0],
-"struct_adventure_core_1_1_listed_inventory_1_1_listed_inventory_data.html":[1,0,0,115,0],
-"struct_adventure_core_1_1_movement_base_persisted_1_1_movement_data.html":[0,0,0,131,0],
-"struct_adventure_core_1_1_movement_base_persisted_1_1_movement_data.html":[1,0,0,131,0],
-"struct_adventure_core_1_1_player_pref_saver_1_1_debug_save_data.html":[0,0,0,158,0],
-"struct_adventure_core_1_1_player_pref_saver_1_1_debug_save_data.html":[1,0,0,158,0],
-"struct_adventure_core_1_1_player_pref_saver_1_1_entry_data.html":[0,0,0,158,1]
+"struct_adventure_core_1_1_listed_inventory_1_1_listed_inventory_data.html":[0,0,0,117,0],
+"struct_adventure_core_1_1_listed_inventory_1_1_listed_inventory_data.html":[1,0,0,117,0],
+"struct_adventure_core_1_1_movement_base_persisted_1_1_movement_data.html":[0,0,0,133,0]
 };

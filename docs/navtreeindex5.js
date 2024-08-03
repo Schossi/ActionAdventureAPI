@@ -1,5 +1,9 @@
 var NAVTREEINDEX5 =
 {
+"class_adventure_core_1_1_visual_scripting_1_1_animator_bool_instruction_unit.html":[1,0,0,4,22],
+"class_adventure_core_1_1_visual_scripting_1_1_animator_float_instruction_unit.html":[0,0,0,4,23],
+"class_adventure_core_1_1_visual_scripting_1_1_animator_float_instruction_unit.html":[1,0,0,4,23],
+"class_adventure_core_1_1_visual_scripting_1_1_animator_int_instruction_unit.html":[0,0,0,4,24],
 "class_adventure_core_1_1_visual_scripting_1_1_animator_int_instruction_unit.html":[1,0,0,4,24],
 "class_adventure_core_1_1_visual_scripting_1_1_area_characters_unit.html":[0,0,0,4,25],
 "class_adventure_core_1_1_visual_scripting_1_1_area_characters_unit.html":[1,0,0,4,25],
@@ -245,9 +249,5 @@ var NAVTREEINDEX5 =
 "class_adventure_core_1_1_visual_scripting_1_1_replace_unit.html":[1,0,0,4,143],
 "class_adventure_core_1_1_visual_scripting_1_1_reset_input_unit.html":[0,0,0,4,144],
 "class_adventure_core_1_1_visual_scripting_1_1_reset_input_unit.html":[1,0,0,4,144],
-"class_adventure_core_1_1_visual_scripting_1_1_reset_manager_state_override_unit.html":[0,0,0,4,145],
-"class_adventure_core_1_1_visual_scripting_1_1_reset_manager_state_override_unit.html":[1,0,0,4,145],
-"class_adventure_core_1_1_visual_scripting_1_1_reset_momentum_unit.html":[0,0,0,4,146],
-"class_adventure_core_1_1_visual_scripting_1_1_reset_momentum_unit.html":[1,0,0,4,146],
-"class_adventure_core_1_1_visual_scripting_1_1_reset_resources_unit.html":[0,0,0,4,147]
+"class_adventure_core_1_1_visual_scripting_1_1_reset_manager_state_override_unit.html":[0,0,0,4,145]
 };

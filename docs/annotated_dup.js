@@ -605,6 +605,8 @@ var annotated_dup =
       [ "ItemBase", "class_adventure_core_1_1_item_base.html", null ],
       [ "ItemCategory", "class_adventure_core_1_1_item_category.html", null ],
       [ "ItemChance", "class_adventure_core_1_1_item_chance.html", null ],
+      [ "ItemNotification", "class_adventure_core_1_1_item_notification.html", null ],
+      [ "ItemNotifications", "class_adventure_core_1_1_item_notifications.html", null ],
       [ "ItemPickupArea", "class_adventure_core_1_1_item_pickup_area.html", null ],
       [ "ItemQuantity", "class_adventure_core_1_1_item_quantity.html", null ],
       [ "ItemQuantityText", "class_adventure_core_1_1_item_quantity_text.html", null ],
