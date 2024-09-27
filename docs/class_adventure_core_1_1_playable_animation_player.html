@@ -115,8 +115,11 @@ $(function(){initNavTree('class_adventure_core_1_1_playable_animation_player.htm
 Inheritance diagram for AdventureCore.PlayableAnimationPlayer:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="class_adventure_core_1_1_playable_animation_player.png" alt=""/>
- </div></div>
+  <img src="class_adventure_core_1_1_playable_animation_player.png" usemap="#AdventureCore.PlayableAnimationPlayer_map" alt=""/>
+  <map id="AdventureCore.PlayableAnimationPlayer_map" name="AdventureCore.PlayableAnimationPlayer_map">
+<area href="interface_adventure_core_1_1_i_play_animation.html" alt="AdventureCore.IPlayAnimation" shape="rect" coords="254,0,498,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -132,6 +135,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Stop</b> ()</
 <tr class="memitem:ad1585d525fc17f9ecfb04fad793e71ca" id="r_ad1585d525fc17f9ecfb04fad793e71ca"><td class="memItemLeft" align="right" valign="top"><a id="ad1585d525fc17f9ecfb04fad793e71ca" name="ad1585d525fc17f9ecfb04fad793e71ca"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Destroy</b> ()</td></tr>
 <tr class="separator:ad1585d525fc17f9ecfb04fad793e71ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b7d8fa688c19f2d62e97f9a72efd278" id="r_a4b7d8fa688c19f2d62e97f9a72efd278"><td class="memItemLeft" align="right" valign="top"><a id="a4b7d8fa688c19f2d62e97f9a72efd278" name="a4b7d8fa688c19f2d62e97f9a72efd278"></a>
+virtual Animator&#160;</td><td class="memItemRight" valign="bottom"><b>GetTarget</b> ()</td></tr>
+<tr class="separator:a4b7d8fa688c19f2d62e97f9a72efd278"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60091e24c8cc895e7d5b2eee066b2355" id="r_a60091e24c8cc895e7d5b2eee066b2355"><td class="memItemLeft" align="right" valign="top"><a id="a60091e24c8cc895e7d5b2eee066b2355" name="a60091e24c8cc895e7d5b2eee066b2355"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTrigger</b> (string name)</td></tr>
 <tr class="separator:a60091e24c8cc895e7d5b2eee066b2355"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,16 +198,67 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onStarted</b>
 <tr class="memitem:ade79117dfa1bc181273e1d0416cf52cc" id="r_ade79117dfa1bc181273e1d0416cf52cc"><td class="memItemLeft" align="right" valign="top"><a id="ade79117dfa1bc181273e1d0416cf52cc" name="ade79117dfa1bc181273e1d0416cf52cc"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onFinished</b> (<a class="el" href="class_adventure_core_1_1_playable_animation.html">PlayableAnimation</a> _)</td></tr>
 <tr class="separator:ade79117dfa1bc181273e1d0416cf52cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e2be2dbe5697cd324d99e8a006d30ae" id="r_a0e2be2dbe5697cd324d99e8a006d30ae"><td class="memItemLeft" align="right" valign="top"><a id="a0e2be2dbe5697cd324d99e8a006d30ae" name="a0e2be2dbe5697cd324d99e8a006d30ae"></a>
-virtual Animator&#160;</td><td class="memItemRight" valign="bottom"><b>getTarget</b> ()</td></tr>
-<tr class="separator:a0e2be2dbe5697cd324d99e8a006d30ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a8e774ac0d25f1726c72a2a628c847b2b" id="r_a8e774ac0d25f1726c72a2a628c847b2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_adventure_core_1_1_playable_animation.html">PlayableAnimation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e774ac0d25f1726c72a2a628c847b2b">PlayableAnimation</a><code> [get]</code></td></tr>
+<tr class="separator:a8e774ac0d25f1726c72a2a628c847b2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a635e2e6b882d9a6c7a59a866718c3b4c" id="r_a635e2e6b882d9a6c7a59a866718c3b4c"><td class="memItemLeft" align="right" valign="top">Animator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a635e2e6b882d9a6c7a59a866718c3b4c">PlayableAnimationTarget</a><code> [get]</code></td></tr>
+<tr class="separator:a635e2e6b882d9a6c7a59a866718c3b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78be8f195f967fd95dd028f33319c84f" id="r_a78be8f195f967fd95dd028f33319c84f"><td class="memItemLeft" align="right" valign="top"><a id="a78be8f195f967fd95dd028f33319c84f" name="a78be8f195f967fd95dd028f33319c84f"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsPlaying</b><code> [get]</code></td></tr>
 <tr class="separator:a78be8f195f967fd95dd028f33319c84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_interface_adventure_core_1_1_i_play_animation"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_adventure_core_1_1_i_play_animation')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_adventure_core_1_1_i_play_animation.html">AdventureCore.IPlayAnimation</a></td></tr>
 </table>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a8e774ac0d25f1726c72a2a628c847b2b" name="a8e774ac0d25f1726c72a2a628c847b2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e774ac0d25f1726c72a2a628c847b2b">&#9670;&#160;</a></span>PlayableAnimation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_adventure_core_1_1_playable_animation.html">PlayableAnimation</a> AdventureCore.PlayableAnimationPlayer.PlayableAnimation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_adventure_core_1_1_i_play_animation.html">AdventureCore.IPlayAnimation</a>.</p>
+
+</div>
+</div>
+<a id="a635e2e6b882d9a6c7a59a866718c3b4c" name="a635e2e6b882d9a6c7a59a866718c3b4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a635e2e6b882d9a6c7a59a866718c3b4c">&#9670;&#160;</a></span>PlayableAnimationTarget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Animator AdventureCore.PlayableAnimationPlayer.PlayableAnimationTarget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_adventure_core_1_1_i_play_animation.html">AdventureCore.IPlayAnimation</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

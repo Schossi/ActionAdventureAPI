@@ -51,14 +51,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_adventure_core_1_1_destructible_damage_receiver.html#a4bfd4bd744eb395fd5fc618447b43615",
-"class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_manager_state_info_descriptor.html",
-"class_adventure_core_1_1_generic_item.html",
-"class_adventure_core_1_1_playable_animation.html#aeff3b2e9616a0d0e378289c774e0d7c8",
-"class_adventure_core_1_1_visual_scripting_1_1_animator_bool_instruction_unit.html",
-"class_adventure_core_1_1_visual_scripting_1_1_reset_manager_state_override_unit.html",
-"class_adventure_souls_1_1_souls_attribute_element.html",
-"struct_adventure_core_1_1_movement_base_persisted_1_1_movement_data.html"
+"class_adventure_core_1_1_description_text.html",
+"class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_load_area_descriptor.html",
+"class_adventure_core_1_1_effect_pool_text.html",
+"class_adventure_core_1_1_playable_animation.html#a2c7a97baaca1397b9966600bad9d1505",
+"class_adventure_core_1_1_visual_scripting_1_1_action_message_received_unit.html",
+"class_adventure_core_1_1_visual_scripting_1_1_movement_speed_multiplier_instruction_unit.html",
+"class_adventure_hero_1_1_hero_climb_action.html",
+"interface_adventure_souls_1_1_souls_input_1_1_i_act_actions.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

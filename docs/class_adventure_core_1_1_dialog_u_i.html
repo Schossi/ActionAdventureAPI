@@ -101,6 +101,7 @@ $(function(){initNavTree('class_adventure_core_1_1_dialog_u_i.html',''); initRes
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_adventure_core_1_1_dialog_u_i-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">AdventureCore.DialogUI Class Reference</div></div>
@@ -108,7 +109,7 @@ $(function(){initNavTree('class_adventure_core_1_1_dialog_u_i.html',''); initRes
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>dialog implementation to be used with Unity UI and legacy Text components </p>
-<p><a href="https://adventure.softleitner.com/manual">https://adventure.softleitner.com/manual</a></p>
+<p><a href="https://adventure.softleitner.com/manual/utilities">https://adventure.softleitner.com/manual/utilities</a></p>
 </div><div class="dynheader">
 Inheritance diagram for AdventureCore.DialogUI:</div>
 <div class="dyncontent">
@@ -121,10 +122,63 @@ Inheritance diagram for AdventureCore.DialogUI:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6fb38e92cf0489cd7a0be3ac3bd48b2c" id="r_a6fb38e92cf0489cd7a0be3ac3bd48b2c"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fb38e92cf0489cd7a0be3ac3bd48b2c">Show</a> (string title, string content, Action&lt; DialogResult &gt; onClose, DialogButtons buttons=DialogButtons.Ok, DialogResult selection=DialogResult.None, DialogInput input=DialogInput.None, string inputValue=null)</td></tr>
-<tr class="separator:a6fb38e92cf0489cd7a0be3ac3bd48b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab91c560b9c4ab0516512551105290233" id="r_ab91c560b9c4ab0516512551105290233"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab91c560b9c4ab0516512551105290233">SetDialogResult</a> (DialogResult result)</td></tr>
-<tr class="separator:ab91c560b9c4ab0516512551105290233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4795d2df89651ed6a3622c618a24663f" id="r_a4795d2df89651ed6a3622c618a24663f"><td class="memItemLeft" align="right" valign="top"><a id="a4795d2df89651ed6a3622c618a24663f" name="a4795d2df89651ed6a3622c618a24663f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>OnSubmit</b> (BaseEventData eventData)</td></tr>
+<tr class="separator:a4795d2df89651ed6a3622c618a24663f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94fc2e45aa0a927bd9db496e0baf793f" id="r_a94fc2e45aa0a927bd9db496e0baf793f"><td class="memItemLeft" align="right" valign="top"><a id="a94fc2e45aa0a927bd9db496e0baf793f" name="a94fc2e45aa0a927bd9db496e0baf793f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>OnCancel</b> (BaseEventData eventData)</td></tr>
+<tr class="separator:a94fc2e45aa0a927bd9db496e0baf793f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34fc4aeb8b396b1c063eb392258707e0" id="r_a34fc4aeb8b396b1c063eb392258707e0"><td class="memItemLeft" align="right" valign="top"><a id="a34fc4aeb8b396b1c063eb392258707e0" name="a34fc4aeb8b396b1c063eb392258707e0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>OnPointerClick</b> (PointerEventData eventData)</td></tr>
+<tr class="separator:a34fc4aeb8b396b1c063eb392258707e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ca3bb5b82a66914f8b04b7f1065fbb2" id="r_a5ca3bb5b82a66914f8b04b7f1065fbb2"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ca3bb5b82a66914f8b04b7f1065fbb2">Focus</a> ()</td></tr>
+<tr class="separator:a5ca3bb5b82a66914f8b04b7f1065fbb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_adventure_core_1_1_dialog_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_adventure_core_1_1_dialog_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a></td></tr>
+<tr class="memitem:ab4a4b713da842f9f837391727d108a78 inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_ab4a4b713da842f9f837391727d108a78"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Show</b> (string title, string text, Action&lt; DialogResult &gt; onClose, DialogButtons buttons=DialogButtons.Ok, DialogResult selection=DialogResult.None, DialogInput input=DialogInput.None, string inputValue=null, Sprite image=null)</td></tr>
+<tr class="separator:ab4a4b713da842f9f837391727d108a78 inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a612ab869509094fce5bc8979f6093606 inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_a612ab869509094fce5bc8979f6093606"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Show</b> (string title, string[] texts, Action&lt; DialogResult &gt; onClose, DialogButtons buttons=DialogButtons.Ok, DialogResult selection=DialogResult.None, DialogInput input=DialogInput.None, string inputValue=null, Sprite image=null)</td></tr>
+<tr class="separator:a612ab869509094fce5bc8979f6093606 inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa314d44d25fa1ae1839172e4f2f5a72b inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_aa314d44d25fa1ae1839172e4f2f5a72b"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Show</b> (string title, string text, Action&lt; DialogResult &gt; onClose, string[] options, DialogResult selection=DialogResult.None, DialogInput input=DialogInput.None, string inputValue=null, Sprite image=null)</td></tr>
+<tr class="separator:aa314d44d25fa1ae1839172e4f2f5a72b inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afebaf9315e51da1d9806050837c63c09 inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_afebaf9315e51da1d9806050837c63c09"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Show</b> (string title, string[] texts, Action&lt; DialogResult &gt; onClose, string[] options, DialogResult selection=DialogResult.None, DialogInput input=DialogInput.None, string inputValue=null, Sprite image=null)</td></tr>
+<tr class="separator:afebaf9315e51da1d9806050837c63c09 inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a074fb16c38ad2672f0759928f2f00d inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_a4a074fb16c38ad2672f0759928f2f00d"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDefault</b> ()</td></tr>
+<tr class="separator:a4a074fb16c38ad2672f0759928f2f00d inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2807e34b575859341041379758371f64 inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_a2807e34b575859341041379758371f64"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetAbort</b> ()</td></tr>
+<tr class="separator:a2807e34b575859341041379758371f64 inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7be333446f752767e217d34bf951e98a inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_a7be333446f752767e217d34bf951e98a"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetOk</b> ()</td></tr>
+<tr class="separator:a7be333446f752767e217d34bf951e98a inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca364bda6696b0fd85393cc504f1b363 inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_aca364bda6696b0fd85393cc504f1b363"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCancel</b> ()</td></tr>
+<tr class="separator:aca364bda6696b0fd85393cc504f1b363 inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e1211cfe95de9cc0d072b4c9f0e56cb inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_a3e1211cfe95de9cc0d072b4c9f0e56cb"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDialogResult</b> (DialogResult result)</td></tr>
+<tr class="separator:a3e1211cfe95de9cc0d072b4c9f0e56cb inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af92b18c7a6a9936816210305ce09379c inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_af92b18c7a6a9936816210305ce09379c"><td class="memItemLeft" align="right" valign="top">
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>Continue</b> ()</td></tr>
+<tr class="separator:af92b18c7a6a9936816210305ce09379c inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a014f99aecbf1d778ead2f0a9123f32bf inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_a014f99aecbf1d778ead2f0a9123f32bf"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>StartTimeline</b> (<a class="el" href="class_adventure_core_1_1_timeline_1_1_dialog_behaviour.html">DialogBehaviour</a> behaviour)</td></tr>
+<tr class="separator:a014f99aecbf1d778ead2f0a9123f32bf inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e75c42354fb724e909a198880e0234c inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_a5e75c42354fb724e909a198880e0234c"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EndTimeline</b> (<a class="el" href="class_adventure_core_1_1_timeline_1_1_dialog_behaviour.html">DialogBehaviour</a> behaviour)</td></tr>
+<tr class="separator:a5e75c42354fb724e909a198880e0234c inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acadcede9c1e20282ca822b1799483938 inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_acadcede9c1e20282ca822b1799483938"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTimelineProgress</b> (<a class="el" href="class_adventure_core_1_1_timeline_1_1_dialog_behaviour.html">DialogBehaviour</a> behaviour, float value)</td></tr>
+<tr class="separator:acadcede9c1e20282ca822b1799483938 inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f9b12b5f9115322fb91d8a61a2892e4 inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_a8f9b12b5f9115322fb91d8a61a2892e4"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTimelineWait</b> (<a class="el" href="class_adventure_core_1_1_timeline_1_1_dialog_behaviour.html">DialogBehaviour</a> behaviour)</td></tr>
+<tr class="separator:a8f9b12b5f9115322fb91d8a61a2892e4 inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5591111132385e622eaf67bb1aaa4a5 inherit pub_methods_class_adventure_core_1_1_dialog_base" id="r_ab5591111132385e622eaf67bb1aaa4a5"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTimelineOpacity</b> (float value)</td></tr>
+<tr class="separator:ab5591111132385e622eaf67bb1aaa4a5 inherit pub_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -134,6 +188,15 @@ Text&#160;</td><td class="memItemRight" valign="bottom"><b>Title</b></td></tr>
 <tr class="memitem:a5cbdc4574e2869d03a5e92f23634c340" id="r_a5cbdc4574e2869d03a5e92f23634c340"><td class="memItemLeft" align="right" valign="top"><a id="a5cbdc4574e2869d03a5e92f23634c340" name="a5cbdc4574e2869d03a5e92f23634c340"></a>
 Text&#160;</td><td class="memItemRight" valign="bottom"><b>Content</b></td></tr>
 <tr class="separator:a5cbdc4574e2869d03a5e92f23634c340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98d1ab14ca1689212fbf5399fbb3db68" id="r_a98d1ab14ca1689212fbf5399fbb3db68"><td class="memItemLeft" align="right" valign="top"><a id="a98d1ab14ca1689212fbf5399fbb3db68" name="a98d1ab14ca1689212fbf5399fbb3db68"></a>
+Image&#160;</td><td class="memItemRight" valign="bottom"><b>Image</b></td></tr>
+<tr class="separator:a98d1ab14ca1689212fbf5399fbb3db68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a128fff92eed4cb27231fa17b8d4d005e" id="r_a128fff92eed4cb27231fa17b8d4d005e"><td class="memItemLeft" align="right" valign="top"><a id="a128fff92eed4cb27231fa17b8d4d005e" name="a128fff92eed4cb27231fa17b8d4d005e"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>CharacterDelay</b></td></tr>
+<tr class="separator:a128fff92eed4cb27231fa17b8d4d005e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a157449e4282aa7822b2cd0db77b9427b" id="r_a157449e4282aa7822b2cd0db77b9427b"><td class="memItemLeft" align="right" valign="top"><a id="a157449e4282aa7822b2cd0db77b9427b" name="a157449e4282aa7822b2cd0db77b9427b"></a>
+CanvasGroup&#160;</td><td class="memItemRight" valign="bottom"><b>CharacterDelayControls</b></td></tr>
+<tr class="separator:a157449e4282aa7822b2cd0db77b9427b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f2335d01b13bd81b34d087087a1ebb7" id="r_a6f2335d01b13bd81b34d087087a1ebb7"><td class="memItemLeft" align="right" valign="top"><a id="a6f2335d01b13bd81b34d087087a1ebb7" name="a6f2335d01b13bd81b34d087087a1ebb7"></a>
 InputField&#160;</td><td class="memItemRight" valign="bottom"><b>Input</b></td></tr>
 <tr class="separator:a6f2335d01b13bd81b34d087087a1ebb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,12 +212,83 @@ Button&#160;</td><td class="memItemRight" valign="bottom"><b>No</b></td></tr>
 <tr class="memitem:a444e68251ab3189778f0434d8f1dd52f" id="r_a444e68251ab3189778f0434d8f1dd52f"><td class="memItemLeft" align="right" valign="top"><a id="a444e68251ab3189778f0434d8f1dd52f" name="a444e68251ab3189778f0434d8f1dd52f"></a>
 Button&#160;</td><td class="memItemRight" valign="bottom"><b>Cancel</b></td></tr>
 <tr class="separator:a444e68251ab3189778f0434d8f1dd52f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a031c7eb7c87ec1712a3349d8f47d338b" id="r_a031c7eb7c87ec1712a3349d8f47d338b"><td class="memItemLeft" align="right" valign="top"><a id="a031c7eb7c87ec1712a3349d8f47d338b" name="a031c7eb7c87ec1712a3349d8f47d338b"></a>
+Button&#160;</td><td class="memItemRight" valign="bottom"><b>OptionPrefab</b></td></tr>
+<tr class="separator:a031c7eb7c87ec1712a3349d8f47d338b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae260053f21d68376dfabafd887e4d3b" id="r_aae260053f21d68376dfabafd887e4d3b"><td class="memItemLeft" align="right" valign="top"><a id="aae260053f21d68376dfabafd887e4d3b" name="aae260053f21d68376dfabafd887e4d3b"></a>
+Transform&#160;</td><td class="memItemRight" valign="bottom"><b>OptionParent</b></td></tr>
+<tr class="separator:aae260053f21d68376dfabafd887e4d3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95347c177da03bfe744360b59f26a603" id="r_a95347c177da03bfe744360b59f26a603"><td class="memItemLeft" align="right" valign="top"><a id="a95347c177da03bfe744360b59f26a603" name="a95347c177da03bfe744360b59f26a603"></a>
 CanvasGroup&#160;</td><td class="memItemRight" valign="bottom"><b>FadeGroup</b></td></tr>
 <tr class="separator:a95347c177da03bfe744360b59f26a603"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71e2fdf7afca6911d07778c0eb33477a" id="r_a71e2fdf7afca6911d07778c0eb33477a"><td class="memItemLeft" align="right" valign="top"><a id="a71e2fdf7afca6911d07778c0eb33477a" name="a71e2fdf7afca6911d07778c0eb33477a"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>FadeDuration</b></td></tr>
 <tr class="separator:a71e2fdf7afca6911d07778c0eb33477a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_adventure_core_1_1_dialog_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_adventure_core_1_1_dialog_base')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a></td></tr>
+<tr class="memitem:a9e4ca82b27f5bd18dc9c1e31a5020dbd inherit pub_attribs_class_adventure_core_1_1_dialog_base" id="r_a9e4ca82b27f5bd18dc9c1e31a5020dbd"><td class="memItemLeft" align="right" valign="top">
+string&#160;</td><td class="memItemRight" valign="bottom"><b>Key</b></td></tr>
+<tr class="separator:a9e4ca82b27f5bd18dc9c1e31a5020dbd inherit pub_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbac2b34270f934156d26d35b0958413 inherit pub_attribs_class_adventure_core_1_1_dialog_base" id="r_afbac2b34270f934156d26d35b0958413"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsVisible</b></td></tr>
+<tr class="separator:afbac2b34270f934156d26d35b0958413 inherit pub_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a118e0ec40a891b66e87167f7d1eb3e05 inherit pub_attribs_class_adventure_core_1_1_dialog_base" id="r_a118e0ec40a891b66e87167f7d1eb3e05"><td class="memItemLeft" align="right" valign="top">
+UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>Opening</b></td></tr>
+<tr class="separator:a118e0ec40a891b66e87167f7d1eb3e05 inherit pub_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91e8633dcb982b388175c0449077295a inherit pub_attribs_class_adventure_core_1_1_dialog_base" id="r_a91e8633dcb982b388175c0449077295a"><td class="memItemLeft" align="right" valign="top">
+UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>Continuing</b></td></tr>
+<tr class="separator:a91e8633dcb982b388175c0449077295a inherit pub_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1581b778b2613c3dd1a8d66399ae26f inherit pub_attribs_class_adventure_core_1_1_dialog_base" id="r_af1581b778b2613c3dd1a8d66399ae26f"><td class="memItemLeft" align="right" valign="top">
+UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>Waiting</b></td></tr>
+<tr class="separator:af1581b778b2613c3dd1a8d66399ae26f inherit pub_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf3e791e107b5ae572325c9a149236af inherit pub_attribs_class_adventure_core_1_1_dialog_base" id="r_abf3e791e107b5ae572325c9a149236af"><td class="memItemLeft" align="right" valign="top">
+UnityEvent&lt; DialogResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Closing</b></td></tr>
+<tr class="separator:abf3e791e107b5ae572325c9a149236af inherit pub_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee414ba297ddc8353121e666fc72a37b inherit pub_attribs_class_adventure_core_1_1_dialog_base" id="r_aee414ba297ddc8353121e666fc72a37b"><td class="memItemLeft" align="right" valign="top">
+UnityEvent&lt; DialogResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Closed</b></td></tr>
+<tr class="separator:aee414ba297ddc8353121e666fc72a37b inherit pub_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:adf4155ddc618e1614ffaeddbb43b4ec8" id="r_adf4155ddc618e1614ffaeddbb43b4ec8"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf4155ddc618e1614ffaeddbb43b4ec8">Awake</a> ()</td></tr>
+<tr class="separator:adf4155ddc618e1614ffaeddbb43b4ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a6381a8a3a5802c939162dc392ced0e" id="r_a3a6381a8a3a5802c939162dc392ced0e"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a6381a8a3a5802c939162dc392ced0e">initialize</a> (string title, string[] texts, Action&lt; DialogResult &gt; onClose, DialogButtons buttons, string[] options, DialogResult selection, DialogInput input, string inputValue, Sprite image)</td></tr>
+<tr class="separator:a3a6381a8a3a5802c939162dc392ced0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf686ef0fbcd06497d1a07116cd39b60" id="r_aaf686ef0fbcd06497d1a07116cd39b60"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf686ef0fbcd06497d1a07116cd39b60">tryContinue</a> ()</td></tr>
+<tr class="separator:aaf686ef0fbcd06497d1a07116cd39b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0665c8fe0833f2bb6a667225fe3e429" id="r_ac0665c8fe0833f2bb6a667225fe3e429"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0665c8fe0833f2bb6a667225fe3e429">setResult</a> (DialogResult result)</td></tr>
+<tr class="separator:ac0665c8fe0833f2bb6a667225fe3e429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6236a5dc450f3f9e2da1af5f5bf64317" id="r_a6236a5dc450f3f9e2da1af5f5bf64317"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6236a5dc450f3f9e2da1af5f5bf64317">initializeTimeline</a> ()</td></tr>
+<tr class="separator:a6236a5dc450f3f9e2da1af5f5bf64317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5740d78d462f4abe2809fd2e61f301c6" id="r_a5740d78d462f4abe2809fd2e61f301c6"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5740d78d462f4abe2809fd2e61f301c6">clearTimeline</a> (DialogResult result)</td></tr>
+<tr class="separator:a5740d78d462f4abe2809fd2e61f301c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a222368c1dfef62296a0773eb5ec877c8" id="r_a222368c1dfef62296a0773eb5ec877c8"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a222368c1dfef62296a0773eb5ec877c8">setTimelineProgress</a> (float value)</td></tr>
+<tr class="separator:a222368c1dfef62296a0773eb5ec877c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fae22f90ffac9fdc53c3a020916acc8" id="r_a0fae22f90ffac9fdc53c3a020916acc8"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fae22f90ffac9fdc53c3a020916acc8">setTimelineWait</a> (DialogButtons buttons, DialogResult selection)</td></tr>
+<tr class="separator:a0fae22f90ffac9fdc53c3a020916acc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5810245c7ff761b1b17fd60f5b630f83" id="r_a5810245c7ff761b1b17fd60f5b630f83"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5810245c7ff761b1b17fd60f5b630f83">setTimelineOpacity</a> (float value)</td></tr>
+<tr class="separator:a5810245c7ff761b1b17fd60f5b630f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_adventure_core_1_1_dialog_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_adventure_core_1_1_dialog_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a></td></tr>
+<tr class="memitem:aaea97b6135113da6d3f6bb6317b3b6e4 inherit pro_methods_class_adventure_core_1_1_dialog_base" id="r_aaea97b6135113da6d3f6bb6317b3b6e4"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
+<tr class="separator:aaea97b6135113da6d3f6bb6317b3b6e4 inherit pro_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a8795a996ef2d2b2733d18b0dc234f inherit pro_methods_class_adventure_core_1_1_dialog_base" id="r_ad6a8795a996ef2d2b2733d18b0dc234f"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnApplicationFocus</b> (bool focus)</td></tr>
+<tr class="separator:ad6a8795a996ef2d2b2733d18b0dc234f inherit pro_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ee42b22afd7bc06bc422d739d84e643 inherit pro_methods_class_adventure_core_1_1_dialog_base" id="r_a7ee42b22afd7bc06bc422d739d84e643"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onOpening</b> ()</td></tr>
+<tr class="separator:a7ee42b22afd7bc06bc422d739d84e643 inherit pro_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a411bcecd7ea2b48678d8efafe97f3b75 inherit pro_methods_class_adventure_core_1_1_dialog_base" id="r_a411bcecd7ea2b48678d8efafe97f3b75"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onContinue</b> ()</td></tr>
+<tr class="separator:a411bcecd7ea2b48678d8efafe97f3b75 inherit pro_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c0557881b4953161ee83322c8a36bd9 inherit pro_methods_class_adventure_core_1_1_dialog_base" id="r_a2c0557881b4953161ee83322c8a36bd9"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onWaiting</b> ()</td></tr>
+<tr class="separator:a2c0557881b4953161ee83322c8a36bd9 inherit pro_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8bd0153f046a8650d1b286721f9d71f inherit pro_methods_class_adventure_core_1_1_dialog_base" id="r_ad8bd0153f046a8650d1b286721f9d71f"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onClosing</b> (DialogResult result)</td></tr>
+<tr class="separator:ad8bd0153f046a8650d1b286721f9d71f inherit pro_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab286189f5cde8bb9525305547306de8e inherit pro_methods_class_adventure_core_1_1_dialog_base" id="r_ab286189f5cde8bb9525305547306de8e"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onClosed</b> (DialogResult result)</td></tr>
+<tr class="separator:ab286189f5cde8bb9525305547306de8e inherit pro_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -168,9 +302,33 @@ override int&#160;</td><td class="memItemRight" valign="bottom"><b>InputInteger<
 override float&#160;</td><td class="memItemRight" valign="bottom"><b>InputFloat</b><code> [get]</code></td></tr>
 <tr class="separator:af093b7e7b717f9db5b674ef6cd4c224d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_adventure_core_1_1_dialog_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_adventure_core_1_1_dialog_base')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a></td></tr>
-<tr class="memitem:af74a0dccfc4e772b6abc7a8e67953117 inherit properties_class_adventure_core_1_1_dialog_base" id="r_af74a0dccfc4e772b6abc7a8e67953117"><td class="memItemLeft" align="right" valign="top">
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsVisible</b><code> [get]</code></td></tr>
-<tr class="separator:af74a0dccfc4e772b6abc7a8e67953117 inherit properties_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a081437b59f63c78219a1322961c21e49 inherit properties_class_adventure_core_1_1_dialog_base" id="r_a081437b59f63c78219a1322961c21e49"><td class="memItemLeft" align="right" valign="top">
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsDialogVisible</b><code> [get]</code></td></tr>
+<tr class="separator:a081437b59f63c78219a1322961c21e49 inherit properties_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b5c505415663dcaafc675f39fc4466 inherit properties_class_adventure_core_1_1_dialog_base" id="r_af4b5c505415663dcaafc675f39fc4466"><td class="memItemLeft" align="right" valign="top">
+static <a class="el" href="class_adventure_core_1_1_dialog_base.html">DialogBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>VisibleDialog</b><code> [get]</code></td></tr>
+<tr class="separator:af4b5c505415663dcaafc675f39fc4466 inherit properties_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fa272c6845acc70bdd6aea123d0b822 inherit properties_class_adventure_core_1_1_dialog_base" id="r_a7fa272c6845acc70bdd6aea123d0b822"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="class_adventure_core_1_1_timeline_1_1_dialog_behaviour.html">DialogBehaviour</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentBehaviour</b><code> [get]</code></td></tr>
+<tr class="separator:a7fa272c6845acc70bdd6aea123d0b822 inherit properties_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7edcc0c785897b02016311243861e8a7 inherit properties_class_adventure_core_1_1_dialog_base" id="r_a7edcc0c785897b02016311243861e8a7"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsTimelineWaiting</b><code> [get]</code></td></tr>
+<tr class="separator:a7edcc0c785897b02016311243861e8a7 inherit properties_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4377790055415b41b5b087bdad5ef14e inherit properties_class_adventure_core_1_1_dialog_base" id="r_a4377790055415b41b5b087bdad5ef14e"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsTimelineActive</b><code> [get]</code></td></tr>
+<tr class="separator:a4377790055415b41b5b087bdad5ef14e inherit properties_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af124589a46576db2697f8a247da6ec5b inherit properties_class_adventure_core_1_1_dialog_base" id="r_af124589a46576db2697f8a247da6ec5b"><td class="memItemLeft" align="right" valign="top">
+string&#160;</td><td class="memItemRight" valign="bottom"><b>TimelineFallbackTitle</b><code> [get, set]</code></td></tr>
+<tr class="separator:af124589a46576db2697f8a247da6ec5b inherit properties_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d667dd52242b7f63fb2908293b7084 inherit properties_class_adventure_core_1_1_dialog_base" id="r_ae6d667dd52242b7f63fb2908293b7084"><td class="memItemLeft" align="right" valign="top">
+string&#160;</td><td class="memItemRight" valign="bottom"><b>TimelineFallbackContent</b><code> [get, set]</code></td></tr>
+<tr class="separator:ae6d667dd52242b7f63fb2908293b7084 inherit properties_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66011f7c168eea14df085f3c15dc3b73 inherit properties_class_adventure_core_1_1_dialog_base" id="r_a66011f7c168eea14df085f3c15dc3b73"><td class="memItemLeft" align="right" valign="top">
+string&#160;</td><td class="memItemRight" valign="bottom"><b>TimelineTitle</b><code> [get]</code></td></tr>
+<tr class="separator:a66011f7c168eea14df085f3c15dc3b73 inherit properties_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb215c14180535bf75b915f5d87acf3e inherit properties_class_adventure_core_1_1_dialog_base" id="r_aeb215c14180535bf75b915f5d87acf3e"><td class="memItemLeft" align="right" valign="top">
+string&#160;</td><td class="memItemRight" valign="bottom"><b>TimelineContent</b><code> [get]</code></td></tr>
+<tr class="separator:aeb215c14180535bf75b915f5d87acf3e inherit properties_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af22287f0a8169a59b6abbd4621718922 inherit properties_class_adventure_core_1_1_dialog_base" id="r_af22287f0a8169a59b6abbd4621718922"><td class="memItemLeft" align="right" valign="top">
 virtual DialogResult&#160;</td><td class="memItemRight" valign="bottom"><b>DialogResult</b><code> [get, protected set]</code></td></tr>
 <tr class="separator:af22287f0a8169a59b6abbd4621718922 inherit properties_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,14 +344,49 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>InputFloat</b><code>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_class_adventure_core_1_1_dialog_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_class_adventure_core_1_1_dialog_base')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a></td></tr>
+<tr class="memitem:afe5e558b71b9e388136cb03095a6349b inherit pub_static_methods_class_adventure_core_1_1_dialog_base" id="r_afe5e558b71b9e388136cb03095a6349b"><td class="memItemLeft" align="right" valign="top">
+static <a class="el" href="class_adventure_core_1_1_dialog_base.html">DialogBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetDialog</b> (string key)</td></tr>
+<tr class="separator:afe5e558b71b9e388136cb03095a6349b inherit pub_static_methods_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_class_adventure_core_1_1_dialog_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_attribs_class_adventure_core_1_1_dialog_base')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a></td></tr>
+<tr class="memitem:ac024da18dba441785f61ed6a2bc81bc1 inherit pub_static_attribs_class_adventure_core_1_1_dialog_base" id="r_ac024da18dba441785f61ed6a2bc81bc1"><td class="memItemLeft" align="right" valign="top">
+static <a class="el" href="class_adventure_core_1_1_dialog_base.html">DialogBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Main</b></td></tr>
+<tr class="separator:ac024da18dba441785f61ed6a2bc81bc1 inherit pub_static_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2dfa3165ef534a939e3af22103d3422 inherit pub_static_attribs_class_adventure_core_1_1_dialog_base" id="r_ad2dfa3165ef534a939e3af22103d3422"><td class="memItemLeft" align="right" valign="top">
+static Dictionary&lt; string, <a class="el" href="class_adventure_core_1_1_dialog_base.html">DialogBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Dialogs</b> = new Dictionary&lt;string, <a class="el" href="class_adventure_core_1_1_dialog_base.html">DialogBase</a>&gt;()</td></tr>
+<tr class="separator:ad2dfa3165ef534a939e3af22103d3422 inherit pub_static_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_adventure_core_1_1_dialog_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_adventure_core_1_1_dialog_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a></td></tr>
 <tr class="memitem:a1009a263ebed1fb3b41d4ae67d1db44b inherit pro_attribs_class_adventure_core_1_1_dialog_base" id="r_a1009a263ebed1fb3b41d4ae67d1db44b"><td class="memItemLeft" align="right" valign="top">
 Action&lt; DialogResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_onClose</b></td></tr>
 <tr class="separator:a1009a263ebed1fb3b41d4ae67d1db44b inherit pro_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0776409c6a433cb5f9605fc1347804b inherit pro_attribs_class_adventure_core_1_1_dialog_base" id="r_ac0776409c6a433cb5f9605fc1347804b"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isOptionsDialog</b></td></tr>
+<tr class="separator:ac0776409c6a433cb5f9605fc1347804b inherit pro_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8afdda13dd82ea8e300f6586d32e9919 inherit pro_attribs_class_adventure_core_1_1_dialog_base" id="r_a8afdda13dd82ea8e300f6586d32e9919"><td class="memItemLeft" align="right" valign="top">
+DialogButtons&#160;</td><td class="memItemRight" valign="bottom"><b>_buttons</b></td></tr>
+<tr class="separator:a8afdda13dd82ea8e300f6586d32e9919 inherit pro_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa51f25014eb888085249a1a21e1306d1 inherit pro_attribs_class_adventure_core_1_1_dialog_base" id="r_aa51f25014eb888085249a1a21e1306d1"><td class="memItemLeft" align="right" valign="top">
+DialogResult&#160;</td><td class="memItemRight" valign="bottom"><b>_selection</b></td></tr>
+<tr class="separator:aa51f25014eb888085249a1a21e1306d1 inherit pro_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28239a300644296e95ae63f5579f54b8 inherit pro_attribs_class_adventure_core_1_1_dialog_base" id="r_a28239a300644296e95ae63f5579f54b8"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="class_adventure_core_1_1_timeline_1_1_dialog_behaviour.html">DialogBehaviour</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_currentBehaviour</b></td></tr>
+<tr class="separator:a28239a300644296e95ae63f5579f54b8 inherit pro_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4f0739fbc30312430da8d0e25d53492 inherit pro_attribs_class_adventure_core_1_1_dialog_base" id="r_ab4f0739fbc30312430da8d0e25d53492"><td class="memItemLeft" align="right" valign="top">
+PlayableDirector&#160;</td><td class="memItemRight" valign="bottom"><b>_awaitingDirector</b></td></tr>
+<tr class="separator:ab4f0739fbc30312430da8d0e25d53492 inherit pro_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadbfdb793aff3de4c451c6b90cd7cc2b inherit pro_attribs_class_adventure_core_1_1_dialog_base" id="r_aadbfdb793aff3de4c451c6b90cd7cc2b"><td class="memItemLeft" align="right" valign="top">
+double?&#160;</td><td class="memItemRight" valign="bottom"><b>_targetYesOk</b></td></tr>
+<tr class="separator:aadbfdb793aff3de4c451c6b90cd7cc2b inherit pro_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f6a7cc82d681a27f28b9063a8dc1aa6 inherit pro_attribs_class_adventure_core_1_1_dialog_base" id="r_a2f6a7cc82d681a27f28b9063a8dc1aa6"><td class="memItemLeft" align="right" valign="top">
+double?&#160;</td><td class="memItemRight" valign="bottom"><b>_targetNo</b></td></tr>
+<tr class="separator:a2f6a7cc82d681a27f28b9063a8dc1aa6 inherit pro_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bc9a3f893282228906d987a46239862 inherit pro_attribs_class_adventure_core_1_1_dialog_base" id="r_a5bc9a3f893282228906d987a46239862"><td class="memItemLeft" align="right" valign="top">
+double?&#160;</td><td class="memItemRight" valign="bottom"><b>_targetCancel</b></td></tr>
+<tr class="separator:a5bc9a3f893282228906d987a46239862 inherit pro_attribs_class_adventure_core_1_1_dialog_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab91c560b9c4ab0516512551105290233" name="ab91c560b9c4ab0516512551105290233"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab91c560b9c4ab0516512551105290233">&#9670;&#160;</a></span>SetDialogResult()</h2>
+<a id="adf4155ddc618e1614ffaeddbb43b4ec8" name="adf4155ddc618e1614ffaeddbb43b4ec8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf4155ddc618e1614ffaeddbb43b4ec8">&#9670;&#160;</a></span>Awake()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202,9 +395,63 @@ Action&lt; DialogResult &gt;&#160;</td><td class="memItemRight" valign="bottom">
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void AdventureCore.DialogUI.SetDialogResult </td>
+          <td class="memname">override void AdventureCore.DialogUI.Awake </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a>.</p>
+
+</div>
+</div>
+<a id="a5740d78d462f4abe2809fd2e61f301c6" name="a5740d78d462f4abe2809fd2e61f301c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5740d78d462f4abe2809fd2e61f301c6">&#9670;&#160;</a></span>clearTimeline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.DialogUI.clearTimeline </td>
           <td>(</td>
           <td class="paramtype">DialogResult</td>          <td class="paramname"><span class="paramname"><em>result</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a>.</p>
+
+</div>
+</div>
+<a id="a5ca3bb5b82a66914f8b04b7f1065fbb2" name="a5ca3bb5b82a66914f8b04b7f1065fbb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ca3bb5b82a66914f8b04b7f1065fbb2">&#9670;&#160;</a></span>Focus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.DialogUI.Focus </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -219,8 +466,8 @@ Action&lt; DialogResult &gt;&#160;</td><td class="memItemRight" valign="bottom">
 
 </div>
 </div>
-<a id="a6fb38e92cf0489cd7a0be3ac3bd48b2c" name="a6fb38e92cf0489cd7a0be3ac3bd48b2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fb38e92cf0489cd7a0be3ac3bd48b2c">&#9670;&#160;</a></span>Show()</h2>
+<a id="a3a6381a8a3a5802c939162dc392ced0e" name="a3a6381a8a3a5802c939162dc392ced0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a6381a8a3a5802c939162dc392ced0e">&#9670;&#160;</a></span>initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,14 +476,14 @@ Action&lt; DialogResult &gt;&#160;</td><td class="memItemRight" valign="bottom">
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void AdventureCore.DialogUI.Show </td>
+          <td class="memname">override void AdventureCore.DialogUI.initialize </td>
           <td>(</td>
           <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>title</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>content</em></span>, </td>
+          <td class="paramtype">string[]</td>          <td class="paramname"><span class="paramname"><em>texts</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -246,27 +493,203 @@ Action&lt; DialogResult &gt;&#160;</td><td class="memItemRight" valign="bottom">
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">DialogButtons</td>          <td class="paramname"><span class="paramname"><em>buttons</em></span><span class="paramdefsep"> = </span><span class="paramdefval">DialogButtons::Ok</span>, </td>
+          <td class="paramtype">DialogButtons</td>          <td class="paramname"><span class="paramname"><em>buttons</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">DialogResult</td>          <td class="paramname"><span class="paramname"><em>selection</em></span><span class="paramdefsep"> = </span><span class="paramdefval">DialogResult::None</span>, </td>
+          <td class="paramtype">string[]</td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">DialogInput</td>          <td class="paramname"><span class="paramname"><em>input</em></span><span class="paramdefsep"> = </span><span class="paramdefval">DialogInput::None</span>, </td>
+          <td class="paramtype">DialogResult</td>          <td class="paramname"><span class="paramname"><em>selection</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>inputValue</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">DialogInput</td>          <td class="paramname"><span class="paramname"><em>input</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>inputValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Sprite</td>          <td class="paramname"><span class="paramname"><em>image</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a>.</p>
+
+</div>
+</div>
+<a id="a6236a5dc450f3f9e2da1af5f5bf64317" name="a6236a5dc450f3f9e2da1af5f5bf64317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6236a5dc450f3f9e2da1af5f5bf64317">&#9670;&#160;</a></span>initializeTimeline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.DialogUI.initializeTimeline </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a>.</p>
+
+</div>
+</div>
+<a id="ac0665c8fe0833f2bb6a667225fe3e429" name="ac0665c8fe0833f2bb6a667225fe3e429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0665c8fe0833f2bb6a667225fe3e429">&#9670;&#160;</a></span>setResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.DialogUI.setResult </td>
+          <td>(</td>
+          <td class="paramtype">DialogResult</td>          <td class="paramname"><span class="paramname"><em>result</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a>.</p>
+
+</div>
+</div>
+<a id="a5810245c7ff761b1b17fd60f5b630f83" name="a5810245c7ff761b1b17fd60f5b630f83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5810245c7ff761b1b17fd60f5b630f83">&#9670;&#160;</a></span>setTimelineOpacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.DialogUI.setTimelineOpacity </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a>.</p>
+
+</div>
+</div>
+<a id="a222368c1dfef62296a0773eb5ec877c8" name="a222368c1dfef62296a0773eb5ec877c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a222368c1dfef62296a0773eb5ec877c8">&#9670;&#160;</a></span>setTimelineProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.DialogUI.setTimelineProgress </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a>.</p>
+
+</div>
+</div>
+<a id="a0fae22f90ffac9fdc53c3a020916acc8" name="a0fae22f90ffac9fdc53c3a020916acc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fae22f90ffac9fdc53c3a020916acc8">&#9670;&#160;</a></span>setTimelineWait()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.DialogUI.setTimelineWait </td>
+          <td>(</td>
+          <td class="paramtype">DialogButtons</td>          <td class="paramname"><span class="paramname"><em>buttons</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DialogResult</td>          <td class="paramname"><span class="paramname"><em>selection</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_dialog_base.html">AdventureCore.DialogBase</a>.</p>
+
+</div>
+</div>
+<a id="aaf686ef0fbcd06497d1a07116cd39b60" name="aaf686ef0fbcd06497d1a07116cd39b60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf686ef0fbcd06497d1a07116cd39b60">&#9670;&#160;</a></span>tryContinue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool AdventureCore.DialogUI.tryContinue </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

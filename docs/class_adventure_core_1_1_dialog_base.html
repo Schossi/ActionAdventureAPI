@@ -100,6 +100,10 @@ $(function(){initNavTree('class_adventure_core_1_1_dialog_base.html',''); initRe
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_adventure_core_1_1_dialog_base-members.html">List of all members</a>  </div>
@@ -109,7 +113,7 @@ $(function(){initNavTree('class_adventure_core_1_1_dialog_base.html',''); initRe
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>base class for simple win forms style dialogs(for example 'are you sure?' Yes/No)<br  />
  used from the show method from code or by using the included visual scripting nodes </p>
-<p><a href="https://adventure.softleitner.com/manual">https://adventure.softleitner.com/manual</a></p>
+<p><a href="https://adventure.softleitner.com/manual/utilities">https://adventure.softleitner.com/manual/utilities</a></p>
 </div><div class="dynheader">
 Inheritance diagram for AdventureCore.DialogBase:</div>
 <div class="dyncontent">
@@ -124,24 +128,204 @@ Inheritance diagram for AdventureCore.DialogBase:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a85af2fc4eb6e9cd53e4d90fff7f04436" id="r_a85af2fc4eb6e9cd53e4d90fff7f04436"><td class="memItemLeft" align="right" valign="top"><a id="a85af2fc4eb6e9cd53e4d90fff7f04436" name="a85af2fc4eb6e9cd53e4d90fff7f04436"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Show</b> (string title, string content, Action&lt; DialogResult &gt; onClose, DialogButtons buttons=DialogButtons.Ok, DialogResult selection=DialogResult.None, DialogInput input=DialogInput.None, string inputValue=null)</td></tr>
-<tr class="separator:a85af2fc4eb6e9cd53e4d90fff7f04436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4a4b713da842f9f837391727d108a78" id="r_ab4a4b713da842f9f837391727d108a78"><td class="memItemLeft" align="right" valign="top"><a id="ab4a4b713da842f9f837391727d108a78" name="ab4a4b713da842f9f837391727d108a78"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Show</b> (string title, string text, Action&lt; DialogResult &gt; onClose, DialogButtons buttons=DialogButtons.Ok, DialogResult selection=DialogResult.None, DialogInput input=DialogInput.None, string inputValue=null, Sprite image=null)</td></tr>
+<tr class="separator:ab4a4b713da842f9f837391727d108a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a612ab869509094fce5bc8979f6093606" id="r_a612ab869509094fce5bc8979f6093606"><td class="memItemLeft" align="right" valign="top"><a id="a612ab869509094fce5bc8979f6093606" name="a612ab869509094fce5bc8979f6093606"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Show</b> (string title, string[] texts, Action&lt; DialogResult &gt; onClose, DialogButtons buttons=DialogButtons.Ok, DialogResult selection=DialogResult.None, DialogInput input=DialogInput.None, string inputValue=null, Sprite image=null)</td></tr>
+<tr class="separator:a612ab869509094fce5bc8979f6093606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa314d44d25fa1ae1839172e4f2f5a72b" id="r_aa314d44d25fa1ae1839172e4f2f5a72b"><td class="memItemLeft" align="right" valign="top"><a id="aa314d44d25fa1ae1839172e4f2f5a72b" name="aa314d44d25fa1ae1839172e4f2f5a72b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Show</b> (string title, string text, Action&lt; DialogResult &gt; onClose, string[] options, DialogResult selection=DialogResult.None, DialogInput input=DialogInput.None, string inputValue=null, Sprite image=null)</td></tr>
+<tr class="separator:aa314d44d25fa1ae1839172e4f2f5a72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afebaf9315e51da1d9806050837c63c09" id="r_afebaf9315e51da1d9806050837c63c09"><td class="memItemLeft" align="right" valign="top"><a id="afebaf9315e51da1d9806050837c63c09" name="afebaf9315e51da1d9806050837c63c09"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Show</b> (string title, string[] texts, Action&lt; DialogResult &gt; onClose, string[] options, DialogResult selection=DialogResult.None, DialogInput input=DialogInput.None, string inputValue=null, Sprite image=null)</td></tr>
+<tr class="separator:afebaf9315e51da1d9806050837c63c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cb75aadf9bf74dda68ff30c4ab20014" id="r_a3cb75aadf9bf74dda68ff30c4ab20014"><td class="memItemLeft" align="right" valign="top"><a id="a3cb75aadf9bf74dda68ff30c4ab20014" name="a3cb75aadf9bf74dda68ff30c4ab20014"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Focus</b> ()</td></tr>
+<tr class="separator:a3cb75aadf9bf74dda68ff30c4ab20014"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a074fb16c38ad2672f0759928f2f00d" id="r_a4a074fb16c38ad2672f0759928f2f00d"><td class="memItemLeft" align="right" valign="top"><a id="a4a074fb16c38ad2672f0759928f2f00d" name="a4a074fb16c38ad2672f0759928f2f00d"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDefault</b> ()</td></tr>
+<tr class="separator:a4a074fb16c38ad2672f0759928f2f00d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2807e34b575859341041379758371f64" id="r_a2807e34b575859341041379758371f64"><td class="memItemLeft" align="right" valign="top"><a id="a2807e34b575859341041379758371f64" name="a2807e34b575859341041379758371f64"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetAbort</b> ()</td></tr>
+<tr class="separator:a2807e34b575859341041379758371f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7be333446f752767e217d34bf951e98a" id="r_a7be333446f752767e217d34bf951e98a"><td class="memItemLeft" align="right" valign="top"><a id="a7be333446f752767e217d34bf951e98a" name="a7be333446f752767e217d34bf951e98a"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetOk</b> ()</td></tr>
+<tr class="separator:a7be333446f752767e217d34bf951e98a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca364bda6696b0fd85393cc504f1b363" id="r_aca364bda6696b0fd85393cc504f1b363"><td class="memItemLeft" align="right" valign="top"><a id="aca364bda6696b0fd85393cc504f1b363" name="aca364bda6696b0fd85393cc504f1b363"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCancel</b> ()</td></tr>
+<tr class="separator:aca364bda6696b0fd85393cc504f1b363"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e1211cfe95de9cc0d072b4c9f0e56cb" id="r_a3e1211cfe95de9cc0d072b4c9f0e56cb"><td class="memItemLeft" align="right" valign="top"><a id="a3e1211cfe95de9cc0d072b4c9f0e56cb" name="a3e1211cfe95de9cc0d072b4c9f0e56cb"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDialogResult</b> (DialogResult result)</td></tr>
 <tr class="separator:a3e1211cfe95de9cc0d072b4c9f0e56cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af92b18c7a6a9936816210305ce09379c" id="r_af92b18c7a6a9936816210305ce09379c"><td class="memItemLeft" align="right" valign="top"><a id="af92b18c7a6a9936816210305ce09379c" name="af92b18c7a6a9936816210305ce09379c"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>Continue</b> ()</td></tr>
+<tr class="separator:af92b18c7a6a9936816210305ce09379c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a014f99aecbf1d778ead2f0a9123f32bf" id="r_a014f99aecbf1d778ead2f0a9123f32bf"><td class="memItemLeft" align="right" valign="top"><a id="a014f99aecbf1d778ead2f0a9123f32bf" name="a014f99aecbf1d778ead2f0a9123f32bf"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>StartTimeline</b> (<a class="el" href="class_adventure_core_1_1_timeline_1_1_dialog_behaviour.html">DialogBehaviour</a> behaviour)</td></tr>
+<tr class="separator:a014f99aecbf1d778ead2f0a9123f32bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e75c42354fb724e909a198880e0234c" id="r_a5e75c42354fb724e909a198880e0234c"><td class="memItemLeft" align="right" valign="top"><a id="a5e75c42354fb724e909a198880e0234c" name="a5e75c42354fb724e909a198880e0234c"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EndTimeline</b> (<a class="el" href="class_adventure_core_1_1_timeline_1_1_dialog_behaviour.html">DialogBehaviour</a> behaviour)</td></tr>
+<tr class="separator:a5e75c42354fb724e909a198880e0234c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acadcede9c1e20282ca822b1799483938" id="r_acadcede9c1e20282ca822b1799483938"><td class="memItemLeft" align="right" valign="top"><a id="acadcede9c1e20282ca822b1799483938" name="acadcede9c1e20282ca822b1799483938"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTimelineProgress</b> (<a class="el" href="class_adventure_core_1_1_timeline_1_1_dialog_behaviour.html">DialogBehaviour</a> behaviour, float value)</td></tr>
+<tr class="separator:acadcede9c1e20282ca822b1799483938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f9b12b5f9115322fb91d8a61a2892e4" id="r_a8f9b12b5f9115322fb91d8a61a2892e4"><td class="memItemLeft" align="right" valign="top"><a id="a8f9b12b5f9115322fb91d8a61a2892e4" name="a8f9b12b5f9115322fb91d8a61a2892e4"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTimelineWait</b> (<a class="el" href="class_adventure_core_1_1_timeline_1_1_dialog_behaviour.html">DialogBehaviour</a> behaviour)</td></tr>
+<tr class="separator:a8f9b12b5f9115322fb91d8a61a2892e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5591111132385e622eaf67bb1aaa4a5" id="r_ab5591111132385e622eaf67bb1aaa4a5"><td class="memItemLeft" align="right" valign="top"><a id="ab5591111132385e622eaf67bb1aaa4a5" name="ab5591111132385e622eaf67bb1aaa4a5"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTimelineOpacity</b> (float value)</td></tr>
+<tr class="separator:ab5591111132385e622eaf67bb1aaa4a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:afe5e558b71b9e388136cb03095a6349b" id="r_afe5e558b71b9e388136cb03095a6349b"><td class="memItemLeft" align="right" valign="top"><a id="afe5e558b71b9e388136cb03095a6349b" name="afe5e558b71b9e388136cb03095a6349b"></a>
+static <a class="el" href="class_adventure_core_1_1_dialog_base.html">DialogBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetDialog</b> (string key)</td></tr>
+<tr class="separator:afe5e558b71b9e388136cb03095a6349b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a9e4ca82b27f5bd18dc9c1e31a5020dbd" id="r_a9e4ca82b27f5bd18dc9c1e31a5020dbd"><td class="memItemLeft" align="right" valign="top"><a id="a9e4ca82b27f5bd18dc9c1e31a5020dbd" name="a9e4ca82b27f5bd18dc9c1e31a5020dbd"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>Key</b></td></tr>
+<tr class="separator:a9e4ca82b27f5bd18dc9c1e31a5020dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbac2b34270f934156d26d35b0958413" id="r_afbac2b34270f934156d26d35b0958413"><td class="memItemLeft" align="right" valign="top"><a id="afbac2b34270f934156d26d35b0958413" name="afbac2b34270f934156d26d35b0958413"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsVisible</b></td></tr>
+<tr class="separator:afbac2b34270f934156d26d35b0958413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a118e0ec40a891b66e87167f7d1eb3e05" id="r_a118e0ec40a891b66e87167f7d1eb3e05"><td class="memItemLeft" align="right" valign="top"><a id="a118e0ec40a891b66e87167f7d1eb3e05" name="a118e0ec40a891b66e87167f7d1eb3e05"></a>
+UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>Opening</b></td></tr>
+<tr class="separator:a118e0ec40a891b66e87167f7d1eb3e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91e8633dcb982b388175c0449077295a" id="r_a91e8633dcb982b388175c0449077295a"><td class="memItemLeft" align="right" valign="top"><a id="a91e8633dcb982b388175c0449077295a" name="a91e8633dcb982b388175c0449077295a"></a>
+UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>Continuing</b></td></tr>
+<tr class="separator:a91e8633dcb982b388175c0449077295a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1581b778b2613c3dd1a8d66399ae26f" id="r_af1581b778b2613c3dd1a8d66399ae26f"><td class="memItemLeft" align="right" valign="top"><a id="af1581b778b2613c3dd1a8d66399ae26f" name="af1581b778b2613c3dd1a8d66399ae26f"></a>
+UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>Waiting</b></td></tr>
+<tr class="separator:af1581b778b2613c3dd1a8d66399ae26f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf3e791e107b5ae572325c9a149236af" id="r_abf3e791e107b5ae572325c9a149236af"><td class="memItemLeft" align="right" valign="top"><a id="abf3e791e107b5ae572325c9a149236af" name="abf3e791e107b5ae572325c9a149236af"></a>
+UnityEvent&lt; DialogResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Closing</b></td></tr>
+<tr class="separator:abf3e791e107b5ae572325c9a149236af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee414ba297ddc8353121e666fc72a37b" id="r_aee414ba297ddc8353121e666fc72a37b"><td class="memItemLeft" align="right" valign="top"><a id="aee414ba297ddc8353121e666fc72a37b" name="aee414ba297ddc8353121e666fc72a37b"></a>
+UnityEvent&lt; DialogResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Closed</b></td></tr>
+<tr class="separator:aee414ba297ddc8353121e666fc72a37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ac024da18dba441785f61ed6a2bc81bc1" id="r_ac024da18dba441785f61ed6a2bc81bc1"><td class="memItemLeft" align="right" valign="top"><a id="ac024da18dba441785f61ed6a2bc81bc1" name="ac024da18dba441785f61ed6a2bc81bc1"></a>
+static <a class="el" href="class_adventure_core_1_1_dialog_base.html">DialogBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Main</b></td></tr>
+<tr class="separator:ac024da18dba441785f61ed6a2bc81bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2dfa3165ef534a939e3af22103d3422" id="r_ad2dfa3165ef534a939e3af22103d3422"><td class="memItemLeft" align="right" valign="top"><a id="ad2dfa3165ef534a939e3af22103d3422" name="ad2dfa3165ef534a939e3af22103d3422"></a>
+static Dictionary&lt; string, <a class="el" href="class_adventure_core_1_1_dialog_base.html">DialogBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Dialogs</b> = new Dictionary&lt;string, <a class="el" href="class_adventure_core_1_1_dialog_base.html">DialogBase</a>&gt;()</td></tr>
+<tr class="separator:ad2dfa3165ef534a939e3af22103d3422"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:aad97489df1eac699a76b2eedd68d4fa6" id="r_aad97489df1eac699a76b2eedd68d4fa6"><td class="memItemLeft" align="right" valign="top"><a id="aad97489df1eac699a76b2eedd68d4fa6" name="aad97489df1eac699a76b2eedd68d4fa6"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="separator:aad97489df1eac699a76b2eedd68d4fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaea97b6135113da6d3f6bb6317b3b6e4" id="r_aaea97b6135113da6d3f6bb6317b3b6e4"><td class="memItemLeft" align="right" valign="top"><a id="aaea97b6135113da6d3f6bb6317b3b6e4" name="aaea97b6135113da6d3f6bb6317b3b6e4"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
+<tr class="separator:aaea97b6135113da6d3f6bb6317b3b6e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a8795a996ef2d2b2733d18b0dc234f" id="r_ad6a8795a996ef2d2b2733d18b0dc234f"><td class="memItemLeft" align="right" valign="top"><a id="ad6a8795a996ef2d2b2733d18b0dc234f" name="ad6a8795a996ef2d2b2733d18b0dc234f"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnApplicationFocus</b> (bool focus)</td></tr>
+<tr class="separator:ad6a8795a996ef2d2b2733d18b0dc234f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a663be66380cb103388b63b08b6fb7222" id="r_a663be66380cb103388b63b08b6fb7222"><td class="memItemLeft" align="right" valign="top"><a id="a663be66380cb103388b63b08b6fb7222" name="a663be66380cb103388b63b08b6fb7222"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>initialize</b> (string title, string[] texts, Action&lt; DialogResult &gt; onClose, DialogButtons buttons, string[] options, DialogResult selection, DialogInput input, string inputValue, Sprite image)</td></tr>
+<tr class="separator:a663be66380cb103388b63b08b6fb7222"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfcfb281aab603f0141fe2919ea70e21" id="r_abfcfb281aab603f0141fe2919ea70e21"><td class="memItemLeft" align="right" valign="top"><a id="abfcfb281aab603f0141fe2919ea70e21" name="abfcfb281aab603f0141fe2919ea70e21"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>tryContinue</b> ()</td></tr>
+<tr class="separator:abfcfb281aab603f0141fe2919ea70e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60101880b50aae62a8a3d6a5af5a9cde" id="r_a60101880b50aae62a8a3d6a5af5a9cde"><td class="memItemLeft" align="right" valign="top"><a id="a60101880b50aae62a8a3d6a5af5a9cde" name="a60101880b50aae62a8a3d6a5af5a9cde"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setResult</b> (DialogResult result)</td></tr>
+<tr class="separator:a60101880b50aae62a8a3d6a5af5a9cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ee42b22afd7bc06bc422d739d84e643" id="r_a7ee42b22afd7bc06bc422d739d84e643"><td class="memItemLeft" align="right" valign="top"><a id="a7ee42b22afd7bc06bc422d739d84e643" name="a7ee42b22afd7bc06bc422d739d84e643"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onOpening</b> ()</td></tr>
+<tr class="separator:a7ee42b22afd7bc06bc422d739d84e643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a411bcecd7ea2b48678d8efafe97f3b75" id="r_a411bcecd7ea2b48678d8efafe97f3b75"><td class="memItemLeft" align="right" valign="top"><a id="a411bcecd7ea2b48678d8efafe97f3b75" name="a411bcecd7ea2b48678d8efafe97f3b75"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onContinue</b> ()</td></tr>
+<tr class="separator:a411bcecd7ea2b48678d8efafe97f3b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c0557881b4953161ee83322c8a36bd9" id="r_a2c0557881b4953161ee83322c8a36bd9"><td class="memItemLeft" align="right" valign="top"><a id="a2c0557881b4953161ee83322c8a36bd9" name="a2c0557881b4953161ee83322c8a36bd9"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onWaiting</b> ()</td></tr>
+<tr class="separator:a2c0557881b4953161ee83322c8a36bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8bd0153f046a8650d1b286721f9d71f" id="r_ad8bd0153f046a8650d1b286721f9d71f"><td class="memItemLeft" align="right" valign="top"><a id="ad8bd0153f046a8650d1b286721f9d71f" name="ad8bd0153f046a8650d1b286721f9d71f"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onClosing</b> (DialogResult result)</td></tr>
+<tr class="separator:ad8bd0153f046a8650d1b286721f9d71f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab286189f5cde8bb9525305547306de8e" id="r_ab286189f5cde8bb9525305547306de8e"><td class="memItemLeft" align="right" valign="top"><a id="ab286189f5cde8bb9525305547306de8e" name="ab286189f5cde8bb9525305547306de8e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onClosed</b> (DialogResult result)</td></tr>
+<tr class="separator:ab286189f5cde8bb9525305547306de8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd12386d4b457990bdac5f784d1a4c35" id="r_afd12386d4b457990bdac5f784d1a4c35"><td class="memItemLeft" align="right" valign="top"><a id="afd12386d4b457990bdac5f784d1a4c35" name="afd12386d4b457990bdac5f784d1a4c35"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>initializeTimeline</b> ()</td></tr>
+<tr class="separator:afd12386d4b457990bdac5f784d1a4c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30e0d91382b796b027f8f070ba3c9d7b" id="r_a30e0d91382b796b027f8f070ba3c9d7b"><td class="memItemLeft" align="right" valign="top"><a id="a30e0d91382b796b027f8f070ba3c9d7b" name="a30e0d91382b796b027f8f070ba3c9d7b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>clearTimeline</b> (DialogResult result)</td></tr>
+<tr class="separator:a30e0d91382b796b027f8f070ba3c9d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeae5da73d3113b489ffc5ef8c895e677" id="r_aeae5da73d3113b489ffc5ef8c895e677"><td class="memItemLeft" align="right" valign="top"><a id="aeae5da73d3113b489ffc5ef8c895e677" name="aeae5da73d3113b489ffc5ef8c895e677"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setTimelineProgress</b> (float value)</td></tr>
+<tr class="separator:aeae5da73d3113b489ffc5ef8c895e677"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a119689a8b314b163eb24d94bfaaa026e" id="r_a119689a8b314b163eb24d94bfaaa026e"><td class="memItemLeft" align="right" valign="top"><a id="a119689a8b314b163eb24d94bfaaa026e" name="a119689a8b314b163eb24d94bfaaa026e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setTimelineWait</b> (DialogButtons buttons, DialogResult selection)</td></tr>
+<tr class="separator:a119689a8b314b163eb24d94bfaaa026e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13b2a08af1a6a421a9004549bfadf320" id="r_a13b2a08af1a6a421a9004549bfadf320"><td class="memItemLeft" align="right" valign="top"><a id="a13b2a08af1a6a421a9004549bfadf320" name="a13b2a08af1a6a421a9004549bfadf320"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setTimelineOpacity</b> (float value)</td></tr>
+<tr class="separator:a13b2a08af1a6a421a9004549bfadf320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a1009a263ebed1fb3b41d4ae67d1db44b" id="r_a1009a263ebed1fb3b41d4ae67d1db44b"><td class="memItemLeft" align="right" valign="top"><a id="a1009a263ebed1fb3b41d4ae67d1db44b" name="a1009a263ebed1fb3b41d4ae67d1db44b"></a>
 Action&lt; DialogResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_onClose</b></td></tr>
 <tr class="separator:a1009a263ebed1fb3b41d4ae67d1db44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0776409c6a433cb5f9605fc1347804b" id="r_ac0776409c6a433cb5f9605fc1347804b"><td class="memItemLeft" align="right" valign="top"><a id="ac0776409c6a433cb5f9605fc1347804b" name="ac0776409c6a433cb5f9605fc1347804b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isOptionsDialog</b></td></tr>
+<tr class="separator:ac0776409c6a433cb5f9605fc1347804b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8afdda13dd82ea8e300f6586d32e9919" id="r_a8afdda13dd82ea8e300f6586d32e9919"><td class="memItemLeft" align="right" valign="top"><a id="a8afdda13dd82ea8e300f6586d32e9919" name="a8afdda13dd82ea8e300f6586d32e9919"></a>
+DialogButtons&#160;</td><td class="memItemRight" valign="bottom"><b>_buttons</b></td></tr>
+<tr class="separator:a8afdda13dd82ea8e300f6586d32e9919"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa51f25014eb888085249a1a21e1306d1" id="r_aa51f25014eb888085249a1a21e1306d1"><td class="memItemLeft" align="right" valign="top"><a id="aa51f25014eb888085249a1a21e1306d1" name="aa51f25014eb888085249a1a21e1306d1"></a>
+DialogResult&#160;</td><td class="memItemRight" valign="bottom"><b>_selection</b></td></tr>
+<tr class="separator:aa51f25014eb888085249a1a21e1306d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28239a300644296e95ae63f5579f54b8" id="r_a28239a300644296e95ae63f5579f54b8"><td class="memItemLeft" align="right" valign="top"><a id="a28239a300644296e95ae63f5579f54b8" name="a28239a300644296e95ae63f5579f54b8"></a>
+<a class="el" href="class_adventure_core_1_1_timeline_1_1_dialog_behaviour.html">DialogBehaviour</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_currentBehaviour</b></td></tr>
+<tr class="separator:a28239a300644296e95ae63f5579f54b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4f0739fbc30312430da8d0e25d53492" id="r_ab4f0739fbc30312430da8d0e25d53492"><td class="memItemLeft" align="right" valign="top"><a id="ab4f0739fbc30312430da8d0e25d53492" name="ab4f0739fbc30312430da8d0e25d53492"></a>
+PlayableDirector&#160;</td><td class="memItemRight" valign="bottom"><b>_awaitingDirector</b></td></tr>
+<tr class="separator:ab4f0739fbc30312430da8d0e25d53492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadbfdb793aff3de4c451c6b90cd7cc2b" id="r_aadbfdb793aff3de4c451c6b90cd7cc2b"><td class="memItemLeft" align="right" valign="top"><a id="aadbfdb793aff3de4c451c6b90cd7cc2b" name="aadbfdb793aff3de4c451c6b90cd7cc2b"></a>
+double?&#160;</td><td class="memItemRight" valign="bottom"><b>_targetYesOk</b></td></tr>
+<tr class="separator:aadbfdb793aff3de4c451c6b90cd7cc2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f6a7cc82d681a27f28b9063a8dc1aa6" id="r_a2f6a7cc82d681a27f28b9063a8dc1aa6"><td class="memItemLeft" align="right" valign="top"><a id="a2f6a7cc82d681a27f28b9063a8dc1aa6" name="a2f6a7cc82d681a27f28b9063a8dc1aa6"></a>
+double?&#160;</td><td class="memItemRight" valign="bottom"><b>_targetNo</b></td></tr>
+<tr class="separator:a2f6a7cc82d681a27f28b9063a8dc1aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bc9a3f893282228906d987a46239862" id="r_a5bc9a3f893282228906d987a46239862"><td class="memItemLeft" align="right" valign="top"><a id="a5bc9a3f893282228906d987a46239862" name="a5bc9a3f893282228906d987a46239862"></a>
+double?&#160;</td><td class="memItemRight" valign="bottom"><b>_targetCancel</b></td></tr>
+<tr class="separator:a5bc9a3f893282228906d987a46239862"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:af74a0dccfc4e772b6abc7a8e67953117" id="r_af74a0dccfc4e772b6abc7a8e67953117"><td class="memItemLeft" align="right" valign="top"><a id="af74a0dccfc4e772b6abc7a8e67953117" name="af74a0dccfc4e772b6abc7a8e67953117"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsVisible</b><code> [get]</code></td></tr>
-<tr class="separator:af74a0dccfc4e772b6abc7a8e67953117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a081437b59f63c78219a1322961c21e49" id="r_a081437b59f63c78219a1322961c21e49"><td class="memItemLeft" align="right" valign="top"><a id="a081437b59f63c78219a1322961c21e49" name="a081437b59f63c78219a1322961c21e49"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsDialogVisible</b><code> [get]</code></td></tr>
+<tr class="separator:a081437b59f63c78219a1322961c21e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b5c505415663dcaafc675f39fc4466" id="r_af4b5c505415663dcaafc675f39fc4466"><td class="memItemLeft" align="right" valign="top"><a id="af4b5c505415663dcaafc675f39fc4466" name="af4b5c505415663dcaafc675f39fc4466"></a>
+static <a class="el" href="class_adventure_core_1_1_dialog_base.html">DialogBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>VisibleDialog</b><code> [get]</code></td></tr>
+<tr class="separator:af4b5c505415663dcaafc675f39fc4466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fa272c6845acc70bdd6aea123d0b822" id="r_a7fa272c6845acc70bdd6aea123d0b822"><td class="memItemLeft" align="right" valign="top"><a id="a7fa272c6845acc70bdd6aea123d0b822" name="a7fa272c6845acc70bdd6aea123d0b822"></a>
+<a class="el" href="class_adventure_core_1_1_timeline_1_1_dialog_behaviour.html">DialogBehaviour</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentBehaviour</b><code> [get]</code></td></tr>
+<tr class="separator:a7fa272c6845acc70bdd6aea123d0b822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7edcc0c785897b02016311243861e8a7" id="r_a7edcc0c785897b02016311243861e8a7"><td class="memItemLeft" align="right" valign="top"><a id="a7edcc0c785897b02016311243861e8a7" name="a7edcc0c785897b02016311243861e8a7"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsTimelineWaiting</b><code> [get]</code></td></tr>
+<tr class="separator:a7edcc0c785897b02016311243861e8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4377790055415b41b5b087bdad5ef14e" id="r_a4377790055415b41b5b087bdad5ef14e"><td class="memItemLeft" align="right" valign="top"><a id="a4377790055415b41b5b087bdad5ef14e" name="a4377790055415b41b5b087bdad5ef14e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsTimelineActive</b><code> [get]</code></td></tr>
+<tr class="separator:a4377790055415b41b5b087bdad5ef14e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af124589a46576db2697f8a247da6ec5b" id="r_af124589a46576db2697f8a247da6ec5b"><td class="memItemLeft" align="right" valign="top"><a id="af124589a46576db2697f8a247da6ec5b" name="af124589a46576db2697f8a247da6ec5b"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>TimelineFallbackTitle</b><code> [get, set]</code></td></tr>
+<tr class="separator:af124589a46576db2697f8a247da6ec5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d667dd52242b7f63fb2908293b7084" id="r_ae6d667dd52242b7f63fb2908293b7084"><td class="memItemLeft" align="right" valign="top"><a id="ae6d667dd52242b7f63fb2908293b7084" name="ae6d667dd52242b7f63fb2908293b7084"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>TimelineFallbackContent</b><code> [get, set]</code></td></tr>
+<tr class="separator:ae6d667dd52242b7f63fb2908293b7084"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66011f7c168eea14df085f3c15dc3b73" id="r_a66011f7c168eea14df085f3c15dc3b73"><td class="memItemLeft" align="right" valign="top"><a id="a66011f7c168eea14df085f3c15dc3b73" name="a66011f7c168eea14df085f3c15dc3b73"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>TimelineTitle</b><code> [get]</code></td></tr>
+<tr class="separator:a66011f7c168eea14df085f3c15dc3b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb215c14180535bf75b915f5d87acf3e" id="r_aeb215c14180535bf75b915f5d87acf3e"><td class="memItemLeft" align="right" valign="top"><a id="aeb215c14180535bf75b915f5d87acf3e" name="aeb215c14180535bf75b915f5d87acf3e"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>TimelineContent</b><code> [get]</code></td></tr>
+<tr class="separator:aeb215c14180535bf75b915f5d87acf3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af22287f0a8169a59b6abbd4621718922" id="r_af22287f0a8169a59b6abbd4621718922"><td class="memItemLeft" align="right" valign="top"><a id="af22287f0a8169a59b6abbd4621718922" name="af22287f0a8169a59b6abbd4621718922"></a>
 virtual DialogResult&#160;</td><td class="memItemRight" valign="bottom"><b>DialogResult</b><code> [get, protected set]</code></td></tr>
 <tr class="separator:af22287f0a8169a59b6abbd4621718922"><td class="memSeparator" colspan="2">&#160;</td></tr>

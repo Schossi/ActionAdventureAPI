@@ -166,6 +166,10 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanStart</b> 
 <tr class="memitem:a6ae7021a9d1c8e862e6a74a1be3b9022 inherit pub_methods_class_adventure_core_1_1_character_action_base" id="r_a6ae7021a9d1c8e862e6a74a1be3b9022"><td class="memItemLeft" align="right" valign="top">
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanEnd</b> (<a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a> next)</td></tr>
 <tr class="separator:a6ae7021a9d1c8e862e6a74a1be3b9022 inherit pub_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f6a8c43c86688fe16f2558c7dce37f5 inherit pub_methods_class_adventure_core_1_1_character_action_base" id="r_a8f6a8c43c86688fe16f2558c7dce37f5"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>StartAction</b> ()</td></tr>
+<tr class="memdesc:a8f6a8c43c86688fe16f2558c7dce37f5 inherit pub_methods_class_adventure_core_1_1_character_action_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">overload of StartAction(bool, bool) without a return type so it can be found in event triggers in the inspector <br /></td></tr>
+<tr class="separator:a8f6a8c43c86688fe16f2558c7dce37f5 inherit pub_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6faca6566024e41a1494af65fbbbb0b4 inherit pub_methods_class_adventure_core_1_1_character_action_base" id="r_a6faca6566024e41a1494af65fbbbb0b4"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>StartAction</b> (bool jumpStart=false, bool force=false)</td></tr>
 <tr class="separator:a6faca6566024e41a1494af65fbbbb0b4 inherit pub_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,8 +305,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isDestroyed</b> = fa
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a5ca2d4346f4733ef872433d265f78785" id="r_a5ca2d4346f4733ef872433d265f78785"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_adventure_core_1_1_playable_animation.html">PlayableAnimation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ca2d4346f4733ef872433d265f78785">Animation</a><code> [get]</code></td></tr>
-<tr class="separator:a5ca2d4346f4733ef872433d265f78785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e94121dd8e7933e2c81f2fdebbe1fe" id="r_a60e94121dd8e7933e2c81f2fdebbe1fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_adventure_core_1_1_playable_animation.html">PlayableAnimation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60e94121dd8e7933e2c81f2fdebbe1fe">PlayableAnimation</a><code> [get]</code></td></tr>
+<tr class="separator:a60e94121dd8e7933e2c81f2fdebbe1fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a054b52f1a143b5243112bb56af0f9258" id="r_a054b52f1a143b5243112bb56af0f9258"><td class="memItemLeft" align="right" valign="top">Animator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a054b52f1a143b5243112bb56af0f9258">PlayableAnimationTarget</a><code> [get]</code></td></tr>
+<tr class="separator:a054b52f1a143b5243112bb56af0f9258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_adventure_core_1_1_character_action_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_adventure_core_1_1_character_action_base')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_adventure_core_1_1_character_action_base.html">AdventureCore.CharacterActionBase</a></td></tr>
 <tr class="memitem:a75a1b0737902a0a9dde3bd55648c49dd inherit properties_class_adventure_core_1_1_character_action_base" id="r_a75a1b0737902a0a9dde3bd55648c49dd"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="class_adventure_core_1_1_character_actor_base.html">CharacterActorBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Actor</b><code> [get]</code></td></tr>
@@ -586,8 +592,8 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_character_action_base.ht
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="a5ca2d4346f4733ef872433d265f78785" name="a5ca2d4346f4733ef872433d265f78785"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ca2d4346f4733ef872433d265f78785">&#9670;&#160;</a></span>Animation</h2>
+<a id="a60e94121dd8e7933e2c81f2fdebbe1fe" name="a60e94121dd8e7933e2c81f2fdebbe1fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60e94121dd8e7933e2c81f2fdebbe1fe">&#9670;&#160;</a></span>PlayableAnimation</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -596,7 +602,31 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_character_action_base.ht
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_adventure_core_1_1_playable_animation.html">PlayableAnimation</a> AdventureCore.ControllerActionBase.Animation</td>
+          <td class="memname"><a class="el" href="class_adventure_core_1_1_playable_animation.html">PlayableAnimation</a> AdventureCore.ControllerActionBase.PlayableAnimation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_adventure_core_1_1_i_play_animation.html">AdventureCore.IPlayAnimation</a>.</p>
+
+</div>
+</div>
+<a id="a054b52f1a143b5243112bb56af0f9258" name="a054b52f1a143b5243112bb56af0f9258"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a054b52f1a143b5243112bb56af0f9258">&#9670;&#160;</a></span>PlayableAnimationTarget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Animator AdventureCore.ControllerActionBase.PlayableAnimationTarget</td>
         </tr>
       </table>
   </td>
