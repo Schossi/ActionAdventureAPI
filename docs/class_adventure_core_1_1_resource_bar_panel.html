@@ -101,15 +101,13 @@ $(function(){initNavTree('class_adventure_core_1_1_resource_bar_panel.html','');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="class_adventure_core_1_1_resource_bar_panel-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">AdventureCore.ResourceBarPanel Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>overlay element that display a bar for some character resource<br  />
- when the resource gets damaged it shows the damage value for a configurable duration<br  />
- like all OverlayElements it needs a UIDocument that actually gets displayed<br  />
- the setup for this is a bit involved, check out the demo for an example </p>
+<div class="textblock"><p>visualizes a resource using canvas objects and legacy text elements check out the ManualResource scene in the <a class="el" href="namespace_adventure_manual.html">AdventureManual</a> project for an example </p>
 <p><a href="https://adventure.softleitner.com/manual/resource">https://adventure.softleitner.com/manual/resource</a></p>
 </div><div class="dynheader">
 Inheritance diagram for AdventureCore.ResourceBarPanel:</div>
@@ -117,34 +115,48 @@ Inheritance diagram for AdventureCore.ResourceBarPanel:</div>
  <div class="center">
   <img src="class_adventure_core_1_1_resource_bar_panel.png" usemap="#AdventureCore.ResourceBarPanel_map" alt=""/>
   <map id="AdventureCore.ResourceBarPanel_map" name="AdventureCore.ResourceBarPanel_map">
-<area href="class_adventure_core_1_1_resource_bar_base.html" title="overlay element that display a bar for some character resource  when the resource gets damaged it sho..." alt="AdventureCore.ResourceBarBase" shape="rect" coords="0,56,209,80"/>
+<area href="class_adventure_core_1_1_resource_bar_base.html" title="base class for a bar that visualizes a character resource  when the resource gets damaged it can show..." alt="AdventureCore.ResourceBarBase" shape="rect" coords="0,56,209,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a73f568f23a81edaf8236d156f8efe574" id="r_a73f568f23a81edaf8236d156f8efe574"><td class="memItemLeft" align="right" valign="top"><a id="a73f568f23a81edaf8236d156f8efe574" name="a73f568f23a81edaf8236d156f8efe574"></a>
-override void&#160;</td><td class="memItemRight" valign="bottom"><b>Damage</b> (<a class="el" href="class_adventure_core_1_1_damage_event.html">DamageEvent</a> damageEvent)</td></tr>
+<tr class="memitem:ac549d36064608941ce56afff3a2fd924" id="r_ac549d36064608941ce56afff3a2fd924"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac549d36064608941ce56afff3a2fd924">Show</a> ()</td></tr>
+<tr class="separator:ac549d36064608941ce56afff3a2fd924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17d80bc95ef14f0b843fce5b832c4ef5" id="r_a17d80bc95ef14f0b843fce5b832c4ef5"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17d80bc95ef14f0b843fce5b832c4ef5">Hide</a> ()</td></tr>
+<tr class="separator:a17d80bc95ef14f0b843fce5b832c4ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabf4ff9d35ad80a7f47feb651433bad3" id="r_aabf4ff9d35ad80a7f47feb651433bad3"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabf4ff9d35ad80a7f47feb651433bad3">SetDescription</a> (string description)</td></tr>
+<tr class="separator:aabf4ff9d35ad80a7f47feb651433bad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f568f23a81edaf8236d156f8efe574" id="r_a73f568f23a81edaf8236d156f8efe574"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73f568f23a81edaf8236d156f8efe574">Damage</a> (<a class="el" href="class_adventure_core_1_1_damage_event.html">DamageEvent</a> damageEvent)</td></tr>
 <tr class="separator:a73f568f23a81edaf8236d156f8efe574"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_adventure_core_1_1_resource_bar_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_adventure_core_1_1_resource_bar_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_adventure_core_1_1_resource_bar_base.html">AdventureCore.ResourceBarBase</a></td></tr>
-<tr class="memitem:a89ed5507cb191d6372618d30647d7b6c inherit pub_methods_class_adventure_core_1_1_resource_bar_base" id="r_a89ed5507cb191d6372618d30647d7b6c"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Damage</b> (<a class="el" href="class_adventure_core_1_1_damage_event.html">DamageEvent</a> damageEvent)</td></tr>
-<tr class="separator:a89ed5507cb191d6372618d30647d7b6c inherit pub_methods_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad231d79eb46231c3cc7ff6afc7703656 inherit pub_methods_class_adventure_core_1_1_resource_bar_base" id="r_ad231d79eb46231c3cc7ff6afc7703656"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetResource</b> (<a class="el" href="class_adventure_core_1_1_resource_pool.html">ResourcePool</a> resourcePool, <a class="el" href="class_adventure_core_1_1_resource_type.html">ResourceType</a> resourceType)</td></tr>
+<tr class="separator:ad231d79eb46231c3cc7ff6afc7703656 inherit pub_methods_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa461eb4ae351c47510ee184ad8db4a53" id="r_aa461eb4ae351c47510ee184ad8db4a53"><td class="memItemLeft" align="right" valign="top"><a id="aa461eb4ae351c47510ee184ad8db4a53" name="aa461eb4ae351c47510ee184ad8db4a53"></a>
 RectTransform&#160;</td><td class="memItemRight" valign="bottom"><b>Bar</b></td></tr>
 <tr class="separator:aa461eb4ae351c47510ee184ad8db4a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1610b31d5e28244d769eb2a04723ff47" id="r_a1610b31d5e28244d769eb2a04723ff47"><td class="memItemLeft" align="right" valign="top"><a id="a1610b31d5e28244d769eb2a04723ff47" name="a1610b31d5e28244d769eb2a04723ff47"></a>
+Image&#160;</td><td class="memItemRight" valign="bottom"><b>ValueImage</b></td></tr>
+<tr class="separator:a1610b31d5e28244d769eb2a04723ff47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ce759274fc0068b4e89e9c6cff6d501" id="r_a3ce759274fc0068b4e89e9c6cff6d501"><td class="memItemLeft" align="right" valign="top"><a id="a3ce759274fc0068b4e89e9c6cff6d501" name="a3ce759274fc0068b4e89e9c6cff6d501"></a>
+Image&#160;</td><td class="memItemRight" valign="bottom"><b>HitImage</b></td></tr>
+<tr class="separator:a3ce759274fc0068b4e89e9c6cff6d501"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dd86f04736baf4ef7633c1d51fcc450" id="r_a3dd86f04736baf4ef7633c1d51fcc450"><td class="memItemLeft" align="right" valign="top"><a id="a3dd86f04736baf4ef7633c1d51fcc450" name="a3dd86f04736baf4ef7633c1d51fcc450"></a>
 Text&#160;</td><td class="memItemRight" valign="bottom"><b>ValueText</b></td></tr>
 <tr class="separator:a3dd86f04736baf4ef7633c1d51fcc450"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5fcc2045d64bab29798fa6e150d82f5" id="r_ac5fcc2045d64bab29798fa6e150d82f5"><td class="memItemLeft" align="right" valign="top"><a id="ac5fcc2045d64bab29798fa6e150d82f5" name="ac5fcc2045d64bab29798fa6e150d82f5"></a>
 Text&#160;</td><td class="memItemRight" valign="bottom"><b>HitText</b></td></tr>
 <tr class="separator:ac5fcc2045d64bab29798fa6e150d82f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9457043df1a350cfcdcb23b80167ddf" id="r_af9457043df1a350cfcdcb23b80167ddf"><td class="memItemLeft" align="right" valign="top"><a id="af9457043df1a350cfcdcb23b80167ddf" name="af9457043df1a350cfcdcb23b80167ddf"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>Fade</b> = true</td></tr>
-<tr class="separator:af9457043df1a350cfcdcb23b80167ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6000224742e6c308e23e58a2820926a4" id="r_a6000224742e6c308e23e58a2820926a4"><td class="memItemLeft" align="right" valign="top"><a id="a6000224742e6c308e23e58a2820926a4" name="a6000224742e6c308e23e58a2820926a4"></a>
+TMPro.TMP_Text&#160;</td><td class="memItemRight" valign="bottom"><b>DescriptionText</b></td></tr>
+<tr class="separator:a6000224742e6c308e23e58a2820926a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a46e5f08b71ddf27c01223f22cde2a5" id="r_a6a46e5f08b71ddf27c01223f22cde2a5"><td class="memItemLeft" align="right" valign="top"><a id="a6a46e5f08b71ddf27c01223f22cde2a5" name="a6a46e5f08b71ddf27c01223f22cde2a5"></a>
+RectTransform&#160;</td><td class="memItemRight" valign="bottom"><b>MaximumTransform</b></td></tr>
+<tr class="separator:a6a46e5f08b71ddf27c01223f22cde2a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_adventure_core_1_1_resource_bar_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_adventure_core_1_1_resource_bar_base')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_adventure_core_1_1_resource_bar_base.html">AdventureCore.ResourceBarBase</a></td></tr>
 <tr class="memitem:a77a34f0bd4f52f87f32edc5f2aed56cc inherit pub_attribs_class_adventure_core_1_1_resource_bar_base" id="r_a77a34f0bd4f52f87f32edc5f2aed56cc"><td class="memItemLeft" align="right" valign="top">
 Transform&#160;</td><td class="memItemRight" valign="bottom"><b>Target</b></td></tr>
@@ -161,7 +173,282 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>Format</b></td></tr
 <tr class="memitem:a6835e3728106972f193517c62e5f4c61 inherit pub_attribs_class_adventure_core_1_1_resource_bar_base" id="r_a6835e3728106972f193517c62e5f4c61"><td class="memItemLeft" align="right" valign="top">
 float&#160;</td><td class="memItemRight" valign="bottom"><b>HitDuration</b></td></tr>
 <tr class="separator:a6835e3728106972f193517c62e5f4c61 inherit pub_attribs_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94a82271b291f6a9c0544712d88cd33b inherit pub_attribs_class_adventure_core_1_1_resource_bar_base" id="r_a94a82271b291f6a9c0544712d88cd33b"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Fade</b> = true</td></tr>
+<tr class="separator:a94a82271b291f6a9c0544712d88cd33b inherit pub_attribs_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85df993d514e1c11941baac24fdbaaa4 inherit pub_attribs_class_adventure_core_1_1_resource_bar_base" id="r_a85df993d514e1c11941baac24fdbaaa4"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ShowDamageColor</b></td></tr>
+<tr class="separator:a85df993d514e1c11941baac24fdbaaa4 inherit pub_attribs_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7714068fd8db615d4717f5e15a106101 inherit pub_attribs_class_adventure_core_1_1_resource_bar_base" id="r_a7714068fd8db615d4717f5e15a106101"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>HideWhenEmpty</b></td></tr>
+<tr class="separator:a7714068fd8db615d4717f5e15a106101 inherit pub_attribs_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab178c531883b5c05b061643bbea479cf inherit pub_attribs_class_adventure_core_1_1_resource_bar_base" id="r_ab178c531883b5c05b061643bbea479cf"><td class="memItemLeft" align="right" valign="top">
+float&#160;</td><td class="memItemRight" valign="bottom"><b>MaximumReference</b></td></tr>
+<tr class="separator:ab178c531883b5c05b061643bbea479cf inherit pub_attribs_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a910931e6b93172fd93f24db0f25a4318 inherit pub_attribs_class_adventure_core_1_1_resource_bar_base" id="r_a910931e6b93172fd93f24db0f25a4318"><td class="memItemLeft" align="right" valign="top">
+UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>Damaged</b></td></tr>
+<tr class="separator:a910931e6b93172fd93f24db0f25a4318 inherit pub_attribs_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a584d44fe1514024d295d63552994d6fc" id="r_a584d44fe1514024d295d63552994d6fc"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a584d44fe1514024d295d63552994d6fc">setup</a> ()</td></tr>
+<tr class="separator:a584d44fe1514024d295d63552994d6fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3b7a2d5f19743c41dcaa0ed8a96d574" id="r_ad3b7a2d5f19743c41dcaa0ed8a96d574"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3b7a2d5f19743c41dcaa0ed8a96d574">onValueChanging</a> (float value)</td></tr>
+<tr class="separator:ad3b7a2d5f19743c41dcaa0ed8a96d574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacd396b46e81b1294e625f848c55b6cb" id="r_aacd396b46e81b1294e625f848c55b6cb"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacd396b46e81b1294e625f848c55b6cb">onValueChanged</a> (float value)</td></tr>
+<tr class="separator:aacd396b46e81b1294e625f848c55b6cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6f984f83cdb8a7e40f60ad421b27fa9" id="r_ac6f984f83cdb8a7e40f60ad421b27fa9"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6f984f83cdb8a7e40f60ad421b27fa9">onMaximumChanged</a> (float value)</td></tr>
+<tr class="separator:ac6f984f83cdb8a7e40f60ad421b27fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_adventure_core_1_1_resource_bar_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_adventure_core_1_1_resource_bar_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_adventure_core_1_1_resource_bar_base.html">AdventureCore.ResourceBarBase</a></td></tr>
+<tr class="memitem:ac3e34e1791cc7c32b8a7d3f282c61696 inherit pro_methods_class_adventure_core_1_1_resource_bar_base" id="r_ac3e34e1791cc7c32b8a7d3f282c61696"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="separator:ac3e34e1791cc7c32b8a7d3f282c61696 inherit pro_methods_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b1c3f97ff3cb7cd3f113a5c819e7407 inherit pro_methods_class_adventure_core_1_1_resource_bar_base" id="r_a3b1c3f97ff3cb7cd3f113a5c819e7407"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="separator:a3b1c3f97ff3cb7cd3f113a5c819e7407 inherit pro_methods_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69e016da354a9836471d45ca5e080349 inherit pro_methods_class_adventure_core_1_1_resource_bar_base" id="r_a69e016da354a9836471d45ca5e080349"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
+<tr class="separator:a69e016da354a9836471d45ca5e080349 inherit pro_methods_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbfeb2d77991c58dc4d7cd26f646c0e3 inherit pro_methods_class_adventure_core_1_1_resource_bar_base" id="r_acbfeb2d77991c58dc4d7cd26f646c0e3"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>attach</b> ()</td></tr>
+<tr class="separator:acbfeb2d77991c58dc4d7cd26f646c0e3 inherit pro_methods_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af43f5ba2c4ade9bd099c972dd424c4a6 inherit pro_methods_class_adventure_core_1_1_resource_bar_base" id="r_af43f5ba2c4ade9bd099c972dd424c4a6"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>detach</b> ()</td></tr>
+<tr class="separator:af43f5ba2c4ade9bd099c972dd424c4a6 inherit pro_methods_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a457457ac6cf9c060530a6f4b79b76181 inherit pro_methods_class_adventure_core_1_1_resource_bar_base" id="r_a457457ac6cf9c060530a6f4b79b76181"><td class="memItemLeft" align="right" valign="top">
+string&#160;</td><td class="memItemRight" valign="bottom"><b>getValueText</b> ()</td></tr>
+<tr class="separator:a457457ac6cf9c060530a6f4b79b76181 inherit pro_methods_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_class_adventure_core_1_1_resource_bar_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_adventure_core_1_1_resource_bar_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_adventure_core_1_1_resource_bar_base.html">AdventureCore.ResourceBarBase</a></td></tr>
+<tr class="memitem:acdde417b1d6b728ea8f742e1316e6270 inherit pro_attribs_class_adventure_core_1_1_resource_bar_base" id="r_acdde417b1d6b728ea8f742e1316e6270"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isSetup</b></td></tr>
+<tr class="separator:acdde417b1d6b728ea8f742e1316e6270 inherit pro_attribs_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7f82578b15f1a243e59535757abdc0 inherit pro_attribs_class_adventure_core_1_1_resource_bar_base" id="r_a4e7f82578b15f1a243e59535757abdc0"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isAttached</b></td></tr>
+<tr class="separator:a4e7f82578b15f1a243e59535757abdc0 inherit pro_attribs_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf5c71c79b529956f7af0a25b2e5c7f6 inherit pro_attribs_class_adventure_core_1_1_resource_bar_base" id="r_adf5c71c79b529956f7af0a25b2e5c7f6"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="class_adventure_core_1_1_resource_value.html">ResourceValue</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_resourceValue</b></td></tr>
+<tr class="separator:adf5c71c79b529956f7af0a25b2e5c7f6 inherit pro_attribs_class_adventure_core_1_1_resource_bar_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a73f568f23a81edaf8236d156f8efe574" name="a73f568f23a81edaf8236d156f8efe574"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73f568f23a81edaf8236d156f8efe574">&#9670;&#160;</a></span>Damage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.ResourceBarPanel.Damage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_damage_event.html">DamageEvent</a></td>          <td class="paramname"><span class="paramname"><em>damageEvent</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_resource_bar_base.html">AdventureCore.ResourceBarBase</a>.</p>
+
+</div>
+</div>
+<a id="a17d80bc95ef14f0b843fce5b832c4ef5" name="a17d80bc95ef14f0b843fce5b832c4ef5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17d80bc95ef14f0b843fce5b832c4ef5">&#9670;&#160;</a></span>Hide()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.ResourceBarPanel.Hide </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_resource_bar_base.html">AdventureCore.ResourceBarBase</a>.</p>
+
+</div>
+</div>
+<a id="ac6f984f83cdb8a7e40f60ad421b27fa9" name="ac6f984f83cdb8a7e40f60ad421b27fa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6f984f83cdb8a7e40f60ad421b27fa9">&#9670;&#160;</a></span>onMaximumChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.ResourceBarPanel.onMaximumChanged </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_resource_bar_base.html">AdventureCore.ResourceBarBase</a>.</p>
+
+</div>
+</div>
+<a id="aacd396b46e81b1294e625f848c55b6cb" name="aacd396b46e81b1294e625f848c55b6cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacd396b46e81b1294e625f848c55b6cb">&#9670;&#160;</a></span>onValueChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.ResourceBarPanel.onValueChanged </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_resource_bar_base.html">AdventureCore.ResourceBarBase</a>.</p>
+
+</div>
+</div>
+<a id="ad3b7a2d5f19743c41dcaa0ed8a96d574" name="ad3b7a2d5f19743c41dcaa0ed8a96d574"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3b7a2d5f19743c41dcaa0ed8a96d574">&#9670;&#160;</a></span>onValueChanging()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.ResourceBarPanel.onValueChanging </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_resource_bar_base.html">AdventureCore.ResourceBarBase</a>.</p>
+
+</div>
+</div>
+<a id="aabf4ff9d35ad80a7f47feb651433bad3" name="aabf4ff9d35ad80a7f47feb651433bad3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabf4ff9d35ad80a7f47feb651433bad3">&#9670;&#160;</a></span>SetDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.ResourceBarPanel.SetDescription </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>description</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_resource_bar_base.html">AdventureCore.ResourceBarBase</a>.</p>
+
+</div>
+</div>
+<a id="a584d44fe1514024d295d63552994d6fc" name="a584d44fe1514024d295d63552994d6fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a584d44fe1514024d295d63552994d6fc">&#9670;&#160;</a></span>setup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.ResourceBarPanel.setup </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_resource_bar_base.html">AdventureCore.ResourceBarBase</a>.</p>
+
+</div>
+</div>
+<a id="ac549d36064608941ce56afff3a2fd924" name="ac549d36064608941ce56afff3a2fd924"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac549d36064608941ce56afff3a2fd924">&#9670;&#160;</a></span>Show()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.ResourceBarPanel.Show </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_resource_bar_base.html">AdventureCore.ResourceBarBase</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -123,7 +123,7 @@ Inheritance diagram for AdventureCore.PickupAction:</div>
   <map id="AdventureCore.PickupAction_map" name="AdventureCore.PickupAction_map">
 <area href="class_adventure_core_1_1_character_action_base.html" title="character actions are, very loosely, defined as anything a character does in the game  they typicall ..." alt="AdventureCore.CharacterActionBase" shape="rect" coords="117,56,341,80"/>
 <area href="interface_adventure_core_1_1_i_persister.html" title="interface used to find any persisting behaviour in a scene  currently used only by the &quot;Check Keys&quot; a..." alt="AdventureCore.IPersister" shape="rect" coords="351,56,575,80"/>
-<area href="interface_adventure_core_1_1_i_play_animation.html" alt="AdventureCore.IPlayAnimation" shape="rect" coords="585,56,809,80"/>
+<area href="interface_adventure_core_1_1_i_play_animation.html" title="used to identify objects that play PlayableAnimation  used for preview and in visual scripting" alt="AdventureCore.IPlayAnimation" shape="rect" coords="585,56,809,80"/>
 <area href="interface_adventure_core_1_1_i_character_associator.html" title="implemented by any behaviour that is owned or otherwise directly associated with a character  allows ..." alt="AdventureCore.ICharacterAssociator" shape="rect" coords="234,0,458,24"/>
 <area href="class_adventure_souls_1_1_souls_pickup_action.html" alt="AdventureSouls.SoulsPickupAction" shape="rect" coords="351,168,575,192"/>
   </map>
@@ -224,6 +224,12 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>PersistenceKey</b><
 <tr class="memitem:ad35ca2592c65c1d27978eeb60bd0728f" id="r_ad35ca2592c65c1d27978eeb60bd0728f"><td class="memItemLeft" align="right" valign="top"><a id="ad35ca2592c65c1d27978eeb60bd0728f" name="ad35ca2592c65c1d27978eeb60bd0728f"></a>
 <a class="el" href="class_adventure_core_1_1_persistence_area.html">PersistenceArea</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PersistenceArea</b></td></tr>
 <tr class="separator:ad35ca2592c65c1d27978eeb60bd0728f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f08947a7c01593a0bfa216b0a311d61" id="r_a4f08947a7c01593a0bfa216b0a311d61"><td class="memItemLeft" align="right" valign="top"><a id="a4f08947a7c01593a0bfa216b0a311d61" name="a4f08947a7c01593a0bfa216b0a311d61"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>StartMessage</b> = &quot;START&quot;</td></tr>
+<tr class="separator:a4f08947a7c01593a0bfa216b0a311d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad71ca2a5c11e36ed1f078feef8707860" id="r_ad71ca2a5c11e36ed1f078feef8707860"><td class="memItemLeft" align="right" valign="top"><a id="ad71ca2a5c11e36ed1f078feef8707860" name="ad71ca2a5c11e36ed1f078feef8707860"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>EndMessage</b> = &quot;END&quot;</td></tr>
+<tr class="separator:ad71ca2a5c11e36ed1f078feef8707860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_adventure_core_1_1_character_action_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_adventure_core_1_1_character_action_base')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_adventure_core_1_1_character_action_base.html">AdventureCore.CharacterActionBase</a></td></tr>
 <tr class="memitem:a09fb0dc3468988efd76489afe9dd497f inherit pub_attribs_class_adventure_core_1_1_character_action_base" id="r_a09fb0dc3468988efd76489afe9dd497f"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="class_adventure_core_1_1_character_instruction_base.html">CharacterInstructionBase</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>Instructions</b></td></tr>
@@ -364,6 +370,10 @@ Additional Inherited Members</h2></td></tr>
 , <a class="el" href="class_adventure_core_1_1_character_action_base.html#ab53c4407229dd3d6e8501c9c5b04f126a57adb5e3dfd23b37cc58536f7ce139db">StartCancel</a> = 11
  }</td></tr>
 <tr class="separator:ab53c4407229dd3d6e8501c9c5b04f126 inherit pub_types_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_class_adventure_core_1_1_character_action_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_methods_class_adventure_core_1_1_character_action_base')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="class_adventure_core_1_1_character_action_base.html">AdventureCore.CharacterActionBase</a></td></tr>
+<tr class="memitem:a67a46f187fc092ee31b5fc0e7c2a8f3a inherit pro_static_methods_class_adventure_core_1_1_character_action_base" id="r_a67a46f187fc092ee31b5fc0e7c2a8f3a"><td class="memItemLeft" align="right" valign="top">
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>checkMessage</b> (string parameter, string message)</td></tr>
+<tr class="separator:a67a46f187fc092ee31b5fc0e7c2a8f3a inherit pro_static_methods_class_adventure_core_1_1_character_action_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header events_class_adventure_core_1_1_character_action_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('events_class_adventure_core_1_1_character_action_base')"><img src="closed.png" alt="-"/>&#160;Events inherited from <a class="el" href="class_adventure_core_1_1_character_action_base.html">AdventureCore.CharacterActionBase</a></td></tr>
 <tr class="memitem:a19ea6686446ee3f6222cf91053c73fc5 inherit events_class_adventure_core_1_1_character_action_base" id="r_a19ea6686446ee3f6222cf91053c73fc5"><td class="memItemLeft" align="right" valign="top">
 Action&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>IsAvailableChanged</b></td></tr>

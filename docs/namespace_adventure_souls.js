@@ -44,7 +44,6 @@ var namespace_adventure_souls =
     [ "SoulsPlayerCharacter", "class_adventure_souls_1_1_souls_player_character.html", "class_adventure_souls_1_1_souls_player_character" ],
     [ "SoulsRecoverAction", "class_adventure_souls_1_1_souls_recover_action.html", null ],
     [ "SoulsRecoveryAction", "class_adventure_souls_1_1_souls_recovery_action.html", null ],
-    [ "SoulsResourceElement", "class_adventure_souls_1_1_souls_resource_element.html", "class_adventure_souls_1_1_souls_resource_element" ],
     [ "SoulsSaveElement", "class_adventure_souls_1_1_souls_save_element.html", "class_adventure_souls_1_1_souls_save_element" ],
     [ "SoulsSaveInfo", "struct_adventure_souls_1_1_souls_save_info.html", null ],
     [ "SoulsShootAction", "class_adventure_souls_1_1_souls_shoot_action.html", null ],

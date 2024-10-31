@@ -1223,6 +1223,10 @@ var hierarchy =
         [ "AdventureCore.DialogTMP", "class_adventure_core_1_1_dialog_t_m_p.html", null ],
         [ "AdventureCore.DialogUI", "class_adventure_core_1_1_dialog_u_i.html", null ]
       ] ],
+      [ "AdventureCore.EffectBarBase", "class_adventure_core_1_1_effect_bar_base.html", [
+        [ "AdventureCore.EffectBarElement", "class_adventure_core_1_1_effect_bar_element.html", null ],
+        [ "AdventureCore.EffectBarPanel", "class_adventure_core_1_1_effect_bar_panel.html", null ]
+      ] ],
       [ "AdventureCore.EffectBase", "class_adventure_core_1_1_effect_base.html", null ],
       [ "AdventureCore.EffectPool", "class_adventure_core_1_1_effect_pool.html", null ],
       [ "AdventureCore.EffectPoolText", "class_adventure_core_1_1_effect_pool_text.html", null ],
@@ -1690,7 +1694,6 @@ var hierarchy =
     [ "AdventureCore.InputBindingLabel.UxmlFactory", "class_adventure_core_1_1_input_binding_label_1_1_uxml_factory.html", null ],
     [ "AdventureSouls.SoulsAttributeElement.UxmlFactory", "class_adventure_souls_1_1_souls_attribute_element_1_1_uxml_factory.html", null ],
     [ "AdventureSouls.SoulsItemElement.UxmlFactory", "class_adventure_souls_1_1_souls_item_element_1_1_uxml_factory.html", null ],
-    [ "AdventureSouls.SoulsResourceElement.UxmlFactory", "class_adventure_souls_1_1_souls_resource_element_1_1_uxml_factory.html", null ],
     [ "AdventureSouls.SoulsSaveElement.UxmlFactory", "class_adventure_souls_1_1_souls_save_element_1_1_uxml_factory.html", null ],
     [ "AdventureSouls.SoulsSlotElement.UxmlFactory", "class_adventure_souls_1_1_souls_slot_element_1_1_uxml_factory.html", null ],
     [ "Label.UxmlTraits", null, [
@@ -1701,7 +1704,6 @@ var hierarchy =
     [ "VisualElement", null, [
       [ "AdventureSouls.SoulsAttributeElement", "class_adventure_souls_1_1_souls_attribute_element.html", null ],
       [ "AdventureSouls.SoulsItemElement", "class_adventure_souls_1_1_souls_item_element.html", null ],
-      [ "AdventureSouls.SoulsResourceElement", "class_adventure_souls_1_1_souls_resource_element.html", null ],
       [ "AdventureSouls.SoulsSaveElement", "class_adventure_souls_1_1_souls_save_element.html", null ],
       [ "AdventureSouls.SoulsSlotElement", "class_adventure_souls_1_1_souls_slot_element.html", null ]
     ] ]

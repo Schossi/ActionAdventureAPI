@@ -349,6 +349,20 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_dialog_u_i.html">DialogUI</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">dialog implementation to be used with Unity UI and legacy Text components  <a href="class_adventure_core_1_1_dialog_u_i.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_effect_bar_base.html">EffectBarBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for ui behaviours that visualize the active effects of a pool<br  />
+ takes care of subscribing to the pools events  <a href="class_adventure_core_1_1_effect_bar_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_effect_bar_element.html">EffectBarElement</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for ui toolkit elements that display which effects are active on a character<br  />
+ it does so by adding a VisualElement for each effect under the root element<br  />
+ check out the ManualResource scene in the <a class="el" href="namespace_adventure_manual.html">AdventureManual</a> project for examples  <a href="class_adventure_core_1_1_effect_bar_element.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_effect_bar_panel.html">EffectBarPanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for a canvas panel that displays which effects are active on a character<br  />
+ it does so by adding a VisualElement for each effect under the root element<br  />
+ check out the ManualResource scene in the <a class="el" href="namespace_adventure_manual.html">AdventureManual</a> project for examples  <a href="class_adventure_core_1_1_effect_bar_panel.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_effect_base.html">EffectBase</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is the base class for the behaviours that will be instantiated when they are added to an <a class="el" href="class_adventure_core_1_1_effect_pool.html" title="manages the effects that are active on a character  when an effect is added it is instantiated as a c...">EffectPool</a><br  />
  derive from this to create a new effect with some unique logic<br  />
@@ -495,6 +509,8 @@ Classes</h2></td></tr>
  currently used only by the "Check Keys" and "Generate missing Keys" buttons on the <a class="el" href="class_adventure_core_1_1_persistence_container.html" title="central singleton manager behaviour for anything related to persistence  needs to be added to a scene...">PersistenceContainer</a>  <a href="interface_adventure_core_1_1_i_persister.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_adventure_core_1_1_i_play_animation.html">IPlayAnimation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to identify objects that play <a class="el" href="class_adventure_core_1_1_playable_animation.html" title="plays an animation clip or controller on an animator using a playable graph(like a timeline)  the ori...">PlayableAnimation</a><br  />
+ used for preview and in visual scripting  <a href="interface_adventure_core_1_1_i_play_animation.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_adventure_core_1_1_i_stat_modifier.html">IStatModifier</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">interface for any class the modifies stats<br  />
@@ -750,32 +766,25 @@ Classes</h2></td></tr>
  for example loot will be the same if the game is saved and loaded  <a href="class_adventure_core_1_1_random_state_persister.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_resource_bar_base.html">ResourceBarBase</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">overlay element that display a bar for some character resource<br  />
- when the resource gets damaged it shows the damage value for a configurable duration<br  />
- like all OverlayElements it needs a UIDocument that actually gets displayed<br  />
- the setup for this is a bit involved, check out the demo for an example  <a href="class_adventure_core_1_1_resource_bar_base.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for a bar that visualizes a character resource<br  />
+ when the resource gets damaged it can show the damage value for a configurable duration<br  />
+ check out the ManualResource scene in the <a class="el" href="namespace_adventure_manual.html">AdventureManual</a> project for examples  <a href="class_adventure_core_1_1_resource_bar_base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_resource_bar_element.html">ResourceBarElement</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">overlay element that display a bar for some character resource<br  />
  when the resource gets damaged it shows the damage value for a configurable duration<br  />
  like all OverlayElements it needs a UIDocument that actually gets displayed<br  />
- the setup for this is a bit involved, check out the demo for an example  <a href="class_adventure_core_1_1_resource_bar_element.html#details">More...</a><br /></td></tr>
+ check out the ManualResource scene in the <a class="el" href="namespace_adventure_manual.html">AdventureManual</a> project for an example  <a href="class_adventure_core_1_1_resource_bar_element.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_resource_bar_manager.html">ResourceBarManager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">singleton manager behaviour for resource bars(health bars for example)<br  />
  bars can be manually shown until revoked(lock on) or just temporarily when damage is done  <a href="class_adventure_core_1_1_resource_bar_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_resource_bar_panel.html">ResourceBarPanel</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">overlay element that display a bar for some character resource<br  />
- when the resource gets damaged it shows the damage value for a configurable duration<br  />
- like all OverlayElements it needs a UIDocument that actually gets displayed<br  />
- the setup for this is a bit involved, check out the demo for an example  <a href="class_adventure_core_1_1_resource_bar_panel.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes a resource using canvas objects and legacy text elements check out the ManualResource scene in the <a class="el" href="namespace_adventure_manual.html">AdventureManual</a> project for an example  <a href="class_adventure_core_1_1_resource_bar_panel.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_resource_bar_t_m_p.html">ResourceBarTMP</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">overlay element that display a bar for some character resource<br  />
- when the resource gets damaged it shows the damage value for a configurable duration<br  />
- like all OverlayElements it needs a UIDocument that actually gets displayed<br  />
- the setup for this is a bit involved, check out the demo for an example  <a href="class_adventure_core_1_1_resource_bar_t_m_p.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes a resource using canvas objects and TextMeshPro text elements check out the ManualResource scene in the <a class="el" href="namespace_adventure_manual.html">AdventureManual</a> project for an example  <a href="class_adventure_core_1_1_resource_bar_t_m_p.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_resource_damage.html">ResourceDamage</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">damage that reduces some resource value(health), probably the most common kind of damage  <a href="class_adventure_core_1_1_resource_damage.html#details">More...</a><br /></td></tr>

@@ -101,15 +101,16 @@ $(function(){initNavTree('class_adventure_core_1_1_resource_bar_base.html',''); 
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_adventure_core_1_1_resource_bar_base-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">AdventureCore.ResourceBarBase Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>overlay element that display a bar for some character resource<br  />
- when the resource gets damaged it shows the damage value for a configurable duration<br  />
- like all OverlayElements it needs a UIDocument that actually gets displayed<br  />
- the setup for this is a bit involved, check out the demo for an example </p>
+<div class="textblock"><p>base class for a bar that visualizes a character resource<br  />
+ when the resource gets damaged it can show the damage value for a configurable duration<br  />
+ check out the ManualResource scene in the <a class="el" href="namespace_adventure_manual.html">AdventureManual</a> project for examples </p>
 <p><a href="https://adventure.softleitner.com/manual/resource">https://adventure.softleitner.com/manual/resource</a></p>
 </div><div class="dynheader">
 Inheritance diagram for AdventureCore.ResourceBarBase:</div>
@@ -118,16 +119,28 @@ Inheritance diagram for AdventureCore.ResourceBarBase:</div>
   <img src="class_adventure_core_1_1_resource_bar_base.png" usemap="#AdventureCore.ResourceBarBase_map" alt=""/>
   <map id="AdventureCore.ResourceBarBase_map" name="AdventureCore.ResourceBarBase_map">
 <area href="class_adventure_core_1_1_resource_bar_element.html" title="overlay element that display a bar for some character resource  when the resource gets damaged it sho..." alt="AdventureCore.ResourceBarElement" shape="rect" coords="0,112,221,136"/>
-<area href="class_adventure_core_1_1_resource_bar_panel.html" title="overlay element that display a bar for some character resource  when the resource gets damaged it sho..." alt="AdventureCore.ResourceBarPanel" shape="rect" coords="231,112,452,136"/>
-<area href="class_adventure_core_1_1_resource_bar_t_m_p.html" title="overlay element that display a bar for some character resource  when the resource gets damaged it sho..." alt="AdventureCore.ResourceBarTMP" shape="rect" coords="462,112,683,136"/>
+<area href="class_adventure_core_1_1_resource_bar_panel.html" title="visualizes a resource using canvas objects and legacy text elements check out the ManualResource scen..." alt="AdventureCore.ResourceBarPanel" shape="rect" coords="231,112,452,136"/>
+<area href="class_adventure_core_1_1_resource_bar_t_m_p.html" title="visualizes a resource using canvas objects and TextMeshPro text elements check out the ManualResource..." alt="AdventureCore.ResourceBarTMP" shape="rect" coords="462,112,683,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a89ed5507cb191d6372618d30647d7b6c" id="r_a89ed5507cb191d6372618d30647d7b6c"><td class="memItemLeft" align="right" valign="top"><a id="a89ed5507cb191d6372618d30647d7b6c" name="a89ed5507cb191d6372618d30647d7b6c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Damage</b> (<a class="el" href="class_adventure_core_1_1_damage_event.html">DamageEvent</a> damageEvent)</td></tr>
-<tr class="separator:a89ed5507cb191d6372618d30647d7b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad231d79eb46231c3cc7ff6afc7703656" id="r_ad231d79eb46231c3cc7ff6afc7703656"><td class="memItemLeft" align="right" valign="top"><a id="ad231d79eb46231c3cc7ff6afc7703656" name="ad231d79eb46231c3cc7ff6afc7703656"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetResource</b> (<a class="el" href="class_adventure_core_1_1_resource_pool.html">ResourcePool</a> resourcePool, <a class="el" href="class_adventure_core_1_1_resource_type.html">ResourceType</a> resourceType)</td></tr>
+<tr class="separator:ad231d79eb46231c3cc7ff6afc7703656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2527a990bd9d080de7cee94db9c16a72" id="r_a2527a990bd9d080de7cee94db9c16a72"><td class="memItemLeft" align="right" valign="top"><a id="a2527a990bd9d080de7cee94db9c16a72" name="a2527a990bd9d080de7cee94db9c16a72"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Show</b> ()</td></tr>
+<tr class="separator:a2527a990bd9d080de7cee94db9c16a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47b8acdcb83c8b198360f52638d5cbdc" id="r_a47b8acdcb83c8b198360f52638d5cbdc"><td class="memItemLeft" align="right" valign="top"><a id="a47b8acdcb83c8b198360f52638d5cbdc" name="a47b8acdcb83c8b198360f52638d5cbdc"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Hide</b> ()</td></tr>
+<tr class="separator:a47b8acdcb83c8b198360f52638d5cbdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64fd63071b20a227f5f95939509ed6fa" id="r_a64fd63071b20a227f5f95939509ed6fa"><td class="memItemLeft" align="right" valign="top"><a id="a64fd63071b20a227f5f95939509ed6fa" name="a64fd63071b20a227f5f95939509ed6fa"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDescription</b> (string description)</td></tr>
+<tr class="separator:a64fd63071b20a227f5f95939509ed6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84ca70cb3cfe1b5077253edc621fd294" id="r_a84ca70cb3cfe1b5077253edc621fd294"><td class="memItemLeft" align="right" valign="top"><a id="a84ca70cb3cfe1b5077253edc621fd294" name="a84ca70cb3cfe1b5077253edc621fd294"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Damage</b> (<a class="el" href="class_adventure_core_1_1_damage_event.html">DamageEvent</a> damageEvent)</td></tr>
+<tr class="separator:a84ca70cb3cfe1b5077253edc621fd294"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -146,6 +159,66 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>Format</b></td></tr
 <tr class="memitem:a6835e3728106972f193517c62e5f4c61" id="r_a6835e3728106972f193517c62e5f4c61"><td class="memItemLeft" align="right" valign="top"><a id="a6835e3728106972f193517c62e5f4c61" name="a6835e3728106972f193517c62e5f4c61"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>HitDuration</b></td></tr>
 <tr class="separator:a6835e3728106972f193517c62e5f4c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94a82271b291f6a9c0544712d88cd33b" id="r_a94a82271b291f6a9c0544712d88cd33b"><td class="memItemLeft" align="right" valign="top"><a id="a94a82271b291f6a9c0544712d88cd33b" name="a94a82271b291f6a9c0544712d88cd33b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Fade</b> = true</td></tr>
+<tr class="separator:a94a82271b291f6a9c0544712d88cd33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85df993d514e1c11941baac24fdbaaa4" id="r_a85df993d514e1c11941baac24fdbaaa4"><td class="memItemLeft" align="right" valign="top"><a id="a85df993d514e1c11941baac24fdbaaa4" name="a85df993d514e1c11941baac24fdbaaa4"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ShowDamageColor</b></td></tr>
+<tr class="separator:a85df993d514e1c11941baac24fdbaaa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7714068fd8db615d4717f5e15a106101" id="r_a7714068fd8db615d4717f5e15a106101"><td class="memItemLeft" align="right" valign="top"><a id="a7714068fd8db615d4717f5e15a106101" name="a7714068fd8db615d4717f5e15a106101"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>HideWhenEmpty</b></td></tr>
+<tr class="separator:a7714068fd8db615d4717f5e15a106101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab178c531883b5c05b061643bbea479cf" id="r_ab178c531883b5c05b061643bbea479cf"><td class="memItemLeft" align="right" valign="top"><a id="ab178c531883b5c05b061643bbea479cf" name="ab178c531883b5c05b061643bbea479cf"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>MaximumReference</b></td></tr>
+<tr class="separator:ab178c531883b5c05b061643bbea479cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a910931e6b93172fd93f24db0f25a4318" id="r_a910931e6b93172fd93f24db0f25a4318"><td class="memItemLeft" align="right" valign="top"><a id="a910931e6b93172fd93f24db0f25a4318" name="a910931e6b93172fd93f24db0f25a4318"></a>
+UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>Damaged</b></td></tr>
+<tr class="separator:a910931e6b93172fd93f24db0f25a4318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ac3e34e1791cc7c32b8a7d3f282c61696" id="r_ac3e34e1791cc7c32b8a7d3f282c61696"><td class="memItemLeft" align="right" valign="top"><a id="ac3e34e1791cc7c32b8a7d3f282c61696" name="ac3e34e1791cc7c32b8a7d3f282c61696"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="separator:ac3e34e1791cc7c32b8a7d3f282c61696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b1c3f97ff3cb7cd3f113a5c819e7407" id="r_a3b1c3f97ff3cb7cd3f113a5c819e7407"><td class="memItemLeft" align="right" valign="top"><a id="a3b1c3f97ff3cb7cd3f113a5c819e7407" name="a3b1c3f97ff3cb7cd3f113a5c819e7407"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="separator:a3b1c3f97ff3cb7cd3f113a5c819e7407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69e016da354a9836471d45ca5e080349" id="r_a69e016da354a9836471d45ca5e080349"><td class="memItemLeft" align="right" valign="top"><a id="a69e016da354a9836471d45ca5e080349" name="a69e016da354a9836471d45ca5e080349"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
+<tr class="separator:a69e016da354a9836471d45ca5e080349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42f3af3aee7e23f15a818d974d323a99" id="r_a42f3af3aee7e23f15a818d974d323a99"><td class="memItemLeft" align="right" valign="top"><a id="a42f3af3aee7e23f15a818d974d323a99" name="a42f3af3aee7e23f15a818d974d323a99"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setup</b> ()</td></tr>
+<tr class="separator:a42f3af3aee7e23f15a818d974d323a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbfeb2d77991c58dc4d7cd26f646c0e3" id="r_acbfeb2d77991c58dc4d7cd26f646c0e3"><td class="memItemLeft" align="right" valign="top"><a id="acbfeb2d77991c58dc4d7cd26f646c0e3" name="acbfeb2d77991c58dc4d7cd26f646c0e3"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>attach</b> ()</td></tr>
+<tr class="separator:acbfeb2d77991c58dc4d7cd26f646c0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af43f5ba2c4ade9bd099c972dd424c4a6" id="r_af43f5ba2c4ade9bd099c972dd424c4a6"><td class="memItemLeft" align="right" valign="top"><a id="af43f5ba2c4ade9bd099c972dd424c4a6" name="af43f5ba2c4ade9bd099c972dd424c4a6"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>detach</b> ()</td></tr>
+<tr class="separator:af43f5ba2c4ade9bd099c972dd424c4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa75dc13a2c7a0c150b8d61694934584d" id="r_aa75dc13a2c7a0c150b8d61694934584d"><td class="memItemLeft" align="right" valign="top"><a id="aa75dc13a2c7a0c150b8d61694934584d" name="aa75dc13a2c7a0c150b8d61694934584d"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onValueChanging</b> (float value)</td></tr>
+<tr class="separator:aa75dc13a2c7a0c150b8d61694934584d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b19b540ef645f6f5d952e00787d8f75" id="r_a7b19b540ef645f6f5d952e00787d8f75"><td class="memItemLeft" align="right" valign="top"><a id="a7b19b540ef645f6f5d952e00787d8f75" name="a7b19b540ef645f6f5d952e00787d8f75"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onValueChanged</b> (float value)</td></tr>
+<tr class="separator:a7b19b540ef645f6f5d952e00787d8f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeed83f4e77f9726b8adcfeb857a6782e" id="r_aeed83f4e77f9726b8adcfeb857a6782e"><td class="memItemLeft" align="right" valign="top"><a id="aeed83f4e77f9726b8adcfeb857a6782e" name="aeed83f4e77f9726b8adcfeb857a6782e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onMaximumChanged</b> (float value)</td></tr>
+<tr class="separator:aeed83f4e77f9726b8adcfeb857a6782e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a457457ac6cf9c060530a6f4b79b76181" id="r_a457457ac6cf9c060530a6f4b79b76181"><td class="memItemLeft" align="right" valign="top"><a id="a457457ac6cf9c060530a6f4b79b76181" name="a457457ac6cf9c060530a6f4b79b76181"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>getValueText</b> ()</td></tr>
+<tr class="separator:a457457ac6cf9c060530a6f4b79b76181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:acdde417b1d6b728ea8f742e1316e6270" id="r_acdde417b1d6b728ea8f742e1316e6270"><td class="memItemLeft" align="right" valign="top"><a id="acdde417b1d6b728ea8f742e1316e6270" name="acdde417b1d6b728ea8f742e1316e6270"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isSetup</b></td></tr>
+<tr class="separator:acdde417b1d6b728ea8f742e1316e6270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7f82578b15f1a243e59535757abdc0" id="r_a4e7f82578b15f1a243e59535757abdc0"><td class="memItemLeft" align="right" valign="top"><a id="a4e7f82578b15f1a243e59535757abdc0" name="a4e7f82578b15f1a243e59535757abdc0"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isAttached</b></td></tr>
+<tr class="separator:a4e7f82578b15f1a243e59535757abdc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf5c71c79b529956f7af0a25b2e5c7f6" id="r_adf5c71c79b529956f7af0a25b2e5c7f6"><td class="memItemLeft" align="right" valign="top"><a id="adf5c71c79b529956f7af0a25b2e5c7f6" name="adf5c71c79b529956f7af0a25b2e5c7f6"></a>
+<a class="el" href="class_adventure_core_1_1_resource_value.html">ResourceValue</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_resourceValue</b></td></tr>
+<tr class="separator:adf5c71c79b529956f7af0a25b2e5c7f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
