@@ -964,7 +964,8 @@ var hierarchy =
     ] ],
     [ "IPointerClickHandler", null, [
       [ "AdventureCore.DialogTMP", "class_adventure_core_1_1_dialog_t_m_p.html", null ],
-      [ "AdventureCore.DialogUI", "class_adventure_core_1_1_dialog_u_i.html", null ]
+      [ "AdventureCore.DialogUI", "class_adventure_core_1_1_dialog_u_i.html", null ],
+      [ "AdventureCore.ItemsControlEntryBase< T >", "class_adventure_core_1_1_items_control_entry_base.html", null ]
     ] ],
     [ "IPointerMoveHandler", null, [
       [ "AdventureCore.EventSystemCursor", "class_adventure_core_1_1_event_system_cursor.html", null ]
@@ -981,11 +982,18 @@ var hierarchy =
     ] ],
     [ "ISubmitHandler", null, [
       [ "AdventureCore.DialogTMP", "class_adventure_core_1_1_dialog_t_m_p.html", null ],
-      [ "AdventureCore.DialogUI", "class_adventure_core_1_1_dialog_u_i.html", null ]
+      [ "AdventureCore.DialogUI", "class_adventure_core_1_1_dialog_u_i.html", null ],
+      [ "AdventureCore.ItemsControlEntryBase< T >", "class_adventure_core_1_1_items_control_entry_base.html", null ]
     ] ],
     [ "AdventureSouls.SoulsInput.ISystemActions", "interface_adventure_souls_1_1_souls_input_1_1_i_system_actions.html", null ],
     [ "AdventureCore.ItemChance", "class_adventure_core_1_1_item_chance.html", null ],
     [ "AdventureCore.ItemQuantity", "class_adventure_core_1_1_item_quantity.html", null ],
+    [ "AdventureCore.ItemsControlBase< InventoryItem >", "class_adventure_core_1_1_items_control_base.html", [
+      [ "AdventureCore.ListedInventoryPanel", "class_adventure_core_1_1_listed_inventory_panel.html", null ]
+    ] ],
+    [ "AdventureCore.ItemsControlEntryBase< InventoryItem >", "class_adventure_core_1_1_items_control_entry_base.html", [
+      [ "AdventureCore.ListedInventoryEntryPanel", "class_adventure_core_1_1_listed_inventory_entry_panel.html", null ]
+    ] ],
     [ "AdventureCore.ItemSlot< HeroEquipmentItem >", "class_adventure_core_1_1_item_slot.html", [
       [ "AdventureHero.HeroEquipmentSlot", "class_adventure_hero_1_1_hero_equipment_slot.html", null ]
     ] ],
@@ -1199,8 +1207,12 @@ var hierarchy =
       [ "AdventureCore.AnimationToggler", "class_adventure_core_1_1_animation_toggler.html", null ],
       [ "AdventureCore.AnimatorParameterSetter", "class_adventure_core_1_1_animator_parameter_setter.html", null ],
       [ "AdventureCore.AnimatorProxy", "class_adventure_core_1_1_animator_proxy.html", null ],
+      [ "AdventureCore.Assets.SoftLeitner.AdventureCore.UI.Item.InventoryItemElement", "class_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_u_i_1_1_item_1_1_inventory_item_element.html", null ],
+      [ "AdventureCore.Assets.SoftLeitner.AdventureCore.UI.Item.ItemSlotElement", "class_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_u_i_1_1_item_1_1_item_slot_element.html", null ],
       [ "AdventureCore.AttributePool", "class_adventure_core_1_1_attribute_pool.html", null ],
       [ "AdventureCore.AttributePoolText", "class_adventure_core_1_1_attribute_pool_text.html", null ],
+      [ "AdventureCore.AttributeStatPanel", "class_adventure_core_1_1_attribute_stat_panel.html", null ],
+      [ "AdventureCore.AttributeValuePanel", "class_adventure_core_1_1_attribute_value_panel.html", null ],
       [ "AdventureCore.AudioManager", "class_adventure_core_1_1_audio_manager.html", null ],
       [ "AdventureCore.AudioSlider", "class_adventure_core_1_1_audio_slider.html", null ],
       [ "AdventureCore.BehaviourEventTrigger", "class_adventure_core_1_1_behaviour_event_trigger.html", null ],
@@ -1241,9 +1253,11 @@ var hierarchy =
       [ "AdventureCore.InventoryBase", "class_adventure_core_1_1_inventory_base.html", [
         [ "AdventureCore.ListedInventory", "class_adventure_core_1_1_listed_inventory.html", null ]
       ] ],
+      [ "AdventureCore.InventoryItemPanel", "class_adventure_core_1_1_inventory_item_panel.html", null ],
       [ "AdventureCore.InventoryText", "class_adventure_core_1_1_inventory_text.html", null ],
       [ "AdventureCore.ItemNotification", "class_adventure_core_1_1_item_notification.html", null ],
       [ "AdventureCore.ItemNotifications", "class_adventure_core_1_1_item_notifications.html", null ],
+      [ "AdventureCore.ItemPanel", "class_adventure_core_1_1_item_panel.html", null ],
       [ "AdventureCore.ItemQuantityText", "class_adventure_core_1_1_item_quantity_text.html", [
         [ "AdventureCore.ItemQuantityTextCapped", "class_adventure_core_1_1_item_quantity_text_capped.html", null ]
       ] ],
@@ -1253,6 +1267,9 @@ var hierarchy =
           [ "AdventureSouls.SoulsUsableSlots", "class_adventure_souls_1_1_souls_usable_slots.html", null ]
         ] ]
       ] ],
+      [ "AdventureCore.ItemSlotPanel", "class_adventure_core_1_1_item_slot_panel.html", null ],
+      [ "AdventureCore.ItemsControlBase< T >", "class_adventure_core_1_1_items_control_base.html", null ],
+      [ "AdventureCore.ListedInventoryElement", "class_adventure_core_1_1_listed_inventory_element.html", null ],
       [ "AdventureCore.LockableCameraBase", "class_adventure_core_1_1_lockable_camera_base.html", [
         [ "AdventureCore.LockableCameraController", "class_adventure_core_1_1_lockable_camera_controller.html", null ],
         [ "AdventureCore.LockableCameraFreeLook", "class_adventure_core_1_1_lockable_camera_free_look.html", null ]
@@ -1410,6 +1427,9 @@ var hierarchy =
       [ "AdventureCore.PersistenceArea", "class_adventure_core_1_1_persistence_area.html", null ],
       [ "AdventureCore.ResourceType", "class_adventure_core_1_1_resource_type.html", null ],
       [ "AdventureCore.ScriptableHelper", "class_adventure_core_1_1_scriptable_helper.html", null ]
+    ] ],
+    [ "Selectable", null, [
+      [ "AdventureCore.ItemsControlEntryBase< T >", "class_adventure_core_1_1_items_control_entry_base.html", null ]
     ] ],
     [ "AdventureCore.Editor.VisualScripting.SetPersistenceDescriptorBase< SetPersistenceBoolUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_persistence_descriptor_base.html", [
       [ "AdventureCore.Editor.VisualScripting.SetPersistenceBoolDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_persistence_bool_descriptor.html", null ]

@@ -58,10 +58,10 @@ var namespace_adventure_souls =
     [ "SoulsTrading", "class_adventure_souls_1_1_souls_trading.html", null ],
     [ "SoulsTwoHandAction", "class_adventure_souls_1_1_souls_two_hand_action.html", null ],
     [ "SoulsUsableAction", "class_adventure_souls_1_1_souls_usable_action.html", null ],
-    [ "SoulsUsableItem", "class_adventure_souls_1_1_souls_usable_item.html", null ],
+    [ "SoulsUsableItem", "class_adventure_souls_1_1_souls_usable_item.html", "class_adventure_souls_1_1_souls_usable_item" ],
     [ "SoulsUsableSlot", "class_adventure_souls_1_1_souls_usable_slot.html", null ],
     [ "SoulsUsableSlots", "class_adventure_souls_1_1_souls_usable_slots.html", null ],
     [ "SoulsWeapon", "class_adventure_souls_1_1_souls_weapon.html", "class_adventure_souls_1_1_souls_weapon" ],
-    [ "SoulsWeaponItem", "class_adventure_souls_1_1_souls_weapon_item.html", null ],
+    [ "SoulsWeaponItem", "class_adventure_souls_1_1_souls_weapon_item.html", "class_adventure_souls_1_1_souls_weapon_item" ],
     [ "SoulsWeaponSlot", "class_adventure_souls_1_1_souls_weapon_slot.html", null ]
 ];

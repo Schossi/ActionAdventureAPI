@@ -1,6 +1,18 @@
 var annotated_dup =
 [
     [ "AdventureCore", "namespace_adventure_core.html", [
+      [ "Assets", "namespace_adventure_core_1_1_assets.html", [
+        [ "SoftLeitner", "namespace_adventure_core_1_1_assets_1_1_soft_leitner.html", [
+          [ "AdventureCore", "namespace_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core.html", [
+            [ "UI", "namespace_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_u_i.html", [
+              [ "Item", "namespace_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_u_i_1_1_item.html", [
+                [ "InventoryItemElement", "class_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_u_i_1_1_item_1_1_inventory_item_element.html", null ],
+                [ "ItemSlotElement", "class_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_u_i_1_1_item_1_1_item_slot_element.html", null ]
+              ] ]
+            ] ]
+          ] ]
+        ] ]
+      ] ],
       [ "Editor", "namespace_adventure_core_1_1_editor.html", [
         [ "Persistence", "namespace_adventure_core_1_1_editor_1_1_persistence.html", [
           [ "PersistenceContainerEditor", "class_adventure_core_1_1_editor_1_1_persistence_1_1_persistence_container_editor.html", null ],
@@ -527,9 +539,11 @@ var annotated_dup =
       [ "AttributePool", "class_adventure_core_1_1_attribute_pool.html", "class_adventure_core_1_1_attribute_pool" ],
       [ "AttributePoolText", "class_adventure_core_1_1_attribute_pool_text.html", null ],
       [ "AttributeStat", "class_adventure_core_1_1_attribute_stat.html", "class_adventure_core_1_1_attribute_stat" ],
+      [ "AttributeStatPanel", "class_adventure_core_1_1_attribute_stat_panel.html", null ],
       [ "AttributeStatValue", "class_adventure_core_1_1_attribute_stat_value.html", null ],
       [ "AttributeType", "class_adventure_core_1_1_attribute_type.html", null ],
       [ "AttributeValue", "class_adventure_core_1_1_attribute_value.html", null ],
+      [ "AttributeValuePanel", "class_adventure_core_1_1_attribute_value_panel.html", null ],
       [ "AudioManager", "class_adventure_core_1_1_audio_manager.html", "class_adventure_core_1_1_audio_manager" ],
       [ "AudioSlider", "class_adventure_core_1_1_audio_slider.html", null ],
       [ "BehaviourEventTrigger", "class_adventure_core_1_1_behaviour_event_trigger.html", null ],
@@ -540,7 +554,7 @@ var annotated_dup =
       [ "ButtonOnPlatformModifier", "class_adventure_core_1_1_button_on_platform_modifier.html", null ],
       [ "ButtonWithoutOneModifier", "class_adventure_core_1_1_button_without_one_modifier.html", null ],
       [ "CameraController", "class_adventure_core_1_1_camera_controller.html", null ],
-      [ "CapacityRaisingItem", "class_adventure_core_1_1_capacity_raising_item.html", null ],
+      [ "CapacityRaisingItem", "class_adventure_core_1_1_capacity_raising_item.html", "class_adventure_core_1_1_capacity_raising_item" ],
       [ "ChangingResourceValue", "class_adventure_core_1_1_changing_resource_value.html", null ],
       [ "CharacterActionArea", "class_adventure_core_1_1_character_action_area.html", "class_adventure_core_1_1_character_action_area" ],
       [ "CharacterActionAreaText", "class_adventure_core_1_1_character_action_area_text.html", null ],
@@ -614,25 +628,33 @@ var annotated_dup =
       [ "IntPersistenceTrigger", "class_adventure_core_1_1_int_persistence_trigger.html", null ],
       [ "InventoryBase", "class_adventure_core_1_1_inventory_base.html", "class_adventure_core_1_1_inventory_base" ],
       [ "InventoryItem", "class_adventure_core_1_1_inventory_item.html", "class_adventure_core_1_1_inventory_item" ],
+      [ "InventoryItemPanel", "class_adventure_core_1_1_inventory_item_panel.html", null ],
       [ "InventoryText", "class_adventure_core_1_1_inventory_text.html", null ],
       [ "IPersister", "interface_adventure_core_1_1_i_persister.html", null ],
       [ "IPlayAnimation", "interface_adventure_core_1_1_i_play_animation.html", null ],
       [ "IStatModifier", "interface_adventure_core_1_1_i_stat_modifier.html", "interface_adventure_core_1_1_i_stat_modifier" ],
-      [ "ItemBase", "class_adventure_core_1_1_item_base.html", null ],
+      [ "ItemBase", "class_adventure_core_1_1_item_base.html", "class_adventure_core_1_1_item_base" ],
       [ "ItemCategory", "class_adventure_core_1_1_item_category.html", null ],
       [ "ItemChance", "class_adventure_core_1_1_item_chance.html", null ],
       [ "ItemNotification", "class_adventure_core_1_1_item_notification.html", null ],
       [ "ItemNotifications", "class_adventure_core_1_1_item_notifications.html", null ],
+      [ "ItemPanel", "class_adventure_core_1_1_item_panel.html", null ],
       [ "ItemPickupArea", "class_adventure_core_1_1_item_pickup_area.html", null ],
       [ "ItemQuantity", "class_adventure_core_1_1_item_quantity.html", null ],
       [ "ItemQuantityText", "class_adventure_core_1_1_item_quantity_text.html", null ],
       [ "ItemQuantityTextCapped", "class_adventure_core_1_1_item_quantity_text_capped.html", null ],
+      [ "ItemsControlBase", "class_adventure_core_1_1_items_control_base.html", null ],
+      [ "ItemsControlEntryBase", "class_adventure_core_1_1_items_control_entry_base.html", null ],
       [ "ItemSet", "class_adventure_core_1_1_item_set.html", null ],
-      [ "ItemSlot", "class_adventure_core_1_1_item_slot.html", null ],
-      [ "ItemSlotBase", "class_adventure_core_1_1_item_slot_base.html", null ],
+      [ "ItemSlot", "class_adventure_core_1_1_item_slot.html", "class_adventure_core_1_1_item_slot" ],
+      [ "ItemSlotBase", "class_adventure_core_1_1_item_slot_base.html", "class_adventure_core_1_1_item_slot_base" ],
       [ "ItemSlotCategory", "class_adventure_core_1_1_item_slot_category.html", null ],
-      [ "ItemSlotProxy", "class_adventure_core_1_1_item_slot_proxy.html", null ],
+      [ "ItemSlotPanel", "class_adventure_core_1_1_item_slot_panel.html", null ],
+      [ "ItemSlotProxy", "class_adventure_core_1_1_item_slot_proxy.html", "class_adventure_core_1_1_item_slot_proxy" ],
       [ "ListedInventory", "class_adventure_core_1_1_listed_inventory.html", "class_adventure_core_1_1_listed_inventory" ],
+      [ "ListedInventoryElement", "class_adventure_core_1_1_listed_inventory_element.html", null ],
+      [ "ListedInventoryEntryPanel", "class_adventure_core_1_1_listed_inventory_entry_panel.html", null ],
+      [ "ListedInventoryPanel", "class_adventure_core_1_1_listed_inventory_panel.html", null ],
       [ "LockableCameraBase", "class_adventure_core_1_1_lockable_camera_base.html", null ],
       [ "LockableCameraController", "class_adventure_core_1_1_lockable_camera_controller.html", null ],
       [ "LockableCameraFreeLook", "class_adventure_core_1_1_lockable_camera_free_look.html", null ],
@@ -668,7 +690,7 @@ var annotated_dup =
       [ "PersistenceTrigger", "class_adventure_core_1_1_persistence_trigger.html", null ],
       [ "PersisterBase", "class_adventure_core_1_1_persister_base.html", null ],
       [ "PickupAction", "class_adventure_core_1_1_pickup_action.html", null ],
-      [ "PlaceholderItem", "class_adventure_core_1_1_placeholder_item.html", null ],
+      [ "PlaceholderItem", "class_adventure_core_1_1_placeholder_item.html", "class_adventure_core_1_1_placeholder_item" ],
       [ "PlayableAnimation", "class_adventure_core_1_1_playable_animation.html", "class_adventure_core_1_1_playable_animation" ],
       [ "PlayableAnimationMessage", "class_adventure_core_1_1_playable_animation_message.html", null ],
       [ "PlayableAnimationParameters", "class_adventure_core_1_1_playable_animation_parameters.html", "class_adventure_core_1_1_playable_animation_parameters" ],
@@ -717,7 +739,7 @@ var annotated_dup =
       [ "TriggerDamageSender", "class_adventure_core_1_1_trigger_damage_sender.html", "class_adventure_core_1_1_trigger_damage_sender" ],
       [ "TriggerItem", "class_adventure_core_1_1_trigger_item.html", null ],
       [ "UIDebugger", "class_adventure_core_1_1_u_i_debugger.html", null ],
-      [ "UsableItem", "class_adventure_core_1_1_usable_item.html", null ],
+      [ "UsableItem", "class_adventure_core_1_1_usable_item.html", "class_adventure_core_1_1_usable_item" ],
       [ "VisualScriptingAction", "class_adventure_core_1_1_visual_scripting_action.html", null ]
     ] ],
     [ "AdventureExtras", "namespace_adventure_extras.html", [
@@ -827,11 +849,11 @@ var annotated_dup =
       [ "SoulsTrading", "class_adventure_souls_1_1_souls_trading.html", null ],
       [ "SoulsTwoHandAction", "class_adventure_souls_1_1_souls_two_hand_action.html", null ],
       [ "SoulsUsableAction", "class_adventure_souls_1_1_souls_usable_action.html", null ],
-      [ "SoulsUsableItem", "class_adventure_souls_1_1_souls_usable_item.html", null ],
+      [ "SoulsUsableItem", "class_adventure_souls_1_1_souls_usable_item.html", "class_adventure_souls_1_1_souls_usable_item" ],
       [ "SoulsUsableSlot", "class_adventure_souls_1_1_souls_usable_slot.html", null ],
       [ "SoulsUsableSlots", "class_adventure_souls_1_1_souls_usable_slots.html", null ],
       [ "SoulsWeapon", "class_adventure_souls_1_1_souls_weapon.html", "class_adventure_souls_1_1_souls_weapon" ],
-      [ "SoulsWeaponItem", "class_adventure_souls_1_1_souls_weapon_item.html", null ],
+      [ "SoulsWeaponItem", "class_adventure_souls_1_1_souls_weapon_item.html", "class_adventure_souls_1_1_souls_weapon_item" ],
       [ "SoulsWeaponSlot", "class_adventure_souls_1_1_souls_weapon_slot.html", null ]
     ] ]
 ];

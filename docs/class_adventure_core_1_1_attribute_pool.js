@@ -9,6 +9,7 @@ var class_adventure_core_1_1_attribute_pool =
     [ "AddObserver", "class_adventure_core_1_1_attribute_pool.html#a1255a5262be693d7c5bb29533b2d5d28", null ],
     [ "AddObserver", "class_adventure_core_1_1_attribute_pool.html#a374262ff1e7e8500da34fd733bb369bd", null ],
     [ "GetData", "class_adventure_core_1_1_attribute_pool.html#a847de89f4f34172265edd641055956e0", null ],
+    [ "GetRawValue", "class_adventure_core_1_1_attribute_pool.html#a068d5d292d3b4340af2ea5afbbb27914", null ],
     [ "GetValue", "class_adventure_core_1_1_attribute_pool.html#ae2d16b812d28eef06baea529e483f13e", null ],
     [ "GetValue", "class_adventure_core_1_1_attribute_pool.html#a4ea0d21aaf5d0088788f99ce5e63c3cc", null ],
     [ "HasValue", "class_adventure_core_1_1_attribute_pool.html#aa339361616f1762e55d2ac616d0ac94c", null ],

@@ -195,6 +195,12 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanEnd</b> (<
 <tr class="memitem:ac60caf935e5c87ea6d439d1e5dd3e978" id="r_ac60caf935e5c87ea6d439d1e5dd3e978"><td class="memItemLeft" align="right" valign="top"><a id="ac60caf935e5c87ea6d439d1e5dd3e978" name="ac60caf935e5c87ea6d439d1e5dd3e978"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnd</b> (<a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a> next)</td></tr>
 <tr class="separator:ac60caf935e5c87ea6d439d1e5dd3e978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a6e39d9ead4f55ea56354ec3277d3d7" id="r_a2a6e39d9ead4f55ea56354ec3277d3d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a6e39d9ead4f55ea56354ec3277d3d7">ForceAction</a> (bool jumpStart=false)</td></tr>
+<tr class="memdesc:a2a6e39d9ead4f55ea56354ec3277d3d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience method for inspector events that calls StartAction(bool, bool) with force=true  <br /></td></tr>
+<tr class="separator:a2a6e39d9ead4f55ea56354ec3277d3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01d04a15b80c9d1f984fe6fbbf503c35" id="r_a01d04a15b80c9d1f984fe6fbbf503c35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01d04a15b80c9d1f984fe6fbbf503c35">JumpStartAction</a> (bool force=false)</td></tr>
+<tr class="memdesc:a01d04a15b80c9d1f984fe6fbbf503c35"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience method for inspector events that calls StartAction(bool, bool) with jumpStart=true  <br /></td></tr>
+<tr class="separator:a01d04a15b80c9d1f984fe6fbbf503c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f6a8c43c86688fe16f2558c7dce37f5" id="r_a8f6a8c43c86688fe16f2558c7dce37f5"><td class="memItemLeft" align="right" valign="top"><a id="a8f6a8c43c86688fe16f2558c7dce37f5" name="a8f6a8c43c86688fe16f2558c7dce37f5"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>StartAction</b> ()</td></tr>
 <tr class="memdesc:a8f6a8c43c86688fe16f2558c7dce37f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">overload of StartAction(bool, bool) without a return type so it can be found in event triggers in the inspector <br /></td></tr>
@@ -387,6 +393,57 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_character_action_base.ht
  for example holding a button to guard with a shield </p>
 </td></tr>
 </table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2a6e39d9ead4f55ea56354ec3277d3d7" name="a2a6e39d9ead4f55ea56354ec3277d3d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a6e39d9ead4f55ea56354ec3277d3d7">&#9670;&#160;</a></span>ForceAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AdventureCore.CharacterActionBase.ForceAction </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>jumpStart</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>convenience method for inspector events that calls StartAction(bool, bool) with force=true </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">jumpStart</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a01d04a15b80c9d1f984fe6fbbf503c35" name="a01d04a15b80c9d1f984fe6fbbf503c35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01d04a15b80c9d1f984fe6fbbf503c35">&#9670;&#160;</a></span>JumpStartAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AdventureCore.CharacterActionBase.JumpStartAction </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>force</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>convenience method for inspector events that calls StartAction(bool, bool) with jumpStart=true </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">force</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

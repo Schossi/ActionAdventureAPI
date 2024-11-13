@@ -159,6 +159,9 @@ Classes</h2></td></tr>
  for example a defense stat that has a base value and increases with the characters strength attribute and armor equipment<br  />
  how the final value is calculated is defined in the concrete implementations, modifiers are applied afterwards  <a href="class_adventure_core_1_1_attribute_stat.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_attribute_stat_panel.html">AttributeStatPanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes an <a class="el" href="class_adventure_core_1_1_attribute_stat.html" title="base class for stats, stats are metrics that do not have a value themselfes  instead they are calcula...">AttributeStat</a> and its current value in an <a class="el" href="class_adventure_core_1_1_attribute_pool.html" title="manages the modification and observation of a defined set of attributes and stats  has built in suppo...">AttributePool</a>  <a href="class_adventure_core_1_1_attribute_stat_panel.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_attribute_stat_value.html">AttributeStatValue</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">serializable utility class that combines a stat with a value<br  />
  useful for configuring stat values in the inspector<br  />
@@ -173,6 +176,9 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">serializable utility class that combines an attribute with a value<br  />
  useful for configuring attribute values in the inspector<br  />
  for example the starting attributes of an <a class="el" href="class_adventure_core_1_1_attribute_pool.html" title="manages the modification and observation of a defined set of attributes and stats  has built in suppo...">AttributePool</a> or the required attributes for equipment  <a href="class_adventure_core_1_1_attribute_value.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_attribute_value_panel.html">AttributeValuePanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes an <a class="el" href="class_adventure_core_1_1_attribute_type.html" title="attributes are whole number metrics that may change during the course of the game  they start with a ...">AttributeType</a> and its current value in an <a class="el" href="class_adventure_core_1_1_attribute_pool.html" title="manages the modification and observation of a defined set of attributes and stats  has built in suppo...">AttributePool</a>  <a href="class_adventure_core_1_1_attribute_value_panel.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_audio_manager.html">AudioManager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple manager that allows playing audio clips by using a key<br  />
@@ -501,6 +507,9 @@ Classes</h2></td></tr>
  manages some of the plumbing between item and slot<br  />
  should only be created by an inventory, if you need to show items quantities in the inspector use <a class="el" href="class_adventure_core_1_1_item_quantity.html" title="serializable utility class that combines an item with a quantity, useful for configuring items in the...">ItemQuantity</a>  <a href="class_adventure_core_1_1_inventory_item.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_inventory_item_panel.html">InventoryItemPanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes an <a class="el" href="class_adventure_core_1_1_inventory_item.html" title="serializable utility class used in inventories to keep track of item quantity and the slot it is equi...">InventoryItem</a> in the ui, the item can be forwarded to an <a class="el" href="class_adventure_core_1_1_item_panel.html" title="visualizes an ItemBase in the ui">ItemPanel</a> to be visualized there  <a href="class_adventure_core_1_1_inventory_item_panel.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_inventory_text.html">InventoryText</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">shows all items in the inventory in a text component, useful for debugging  <a href="class_adventure_core_1_1_inventory_text.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -533,6 +542,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_notifications.html">ItemNotifications</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">spawns an <a class="el" href="class_adventure_core_1_1_item_notification.html" title="visualizes an item quantity that has been added or removed">ItemNotification</a> when something is added or removed from an inventory  <a href="class_adventure_core_1_1_item_notifications.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_panel.html">ItemPanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes an <a class="el" href="class_adventure_core_1_1_item_base.html" title="base class for items, items are anything character can own some amount of  implementations can define...">ItemBase</a> in the ui  <a href="class_adventure_core_1_1_item_panel.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_pickup_area.html">ItemPickupArea</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">trigger area that adds items to the first character that enters and then destroys itself<br  />
  useful for simple pickups like coins, health or mana pots  <a href="class_adventure_core_1_1_item_pickup_area.html#details">More...</a><br /></td></tr>
@@ -547,6 +559,15 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_quantity_text_capped.html">ItemQuantityTextCapped</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">shows the quantity of a particular item in a UI text and colors it when its capacity is reached  <a href="class_adventure_core_1_1_item_quantity_text_capped.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_items_control_base.html">ItemsControlBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for selectable lists of items in ugui<br  />
+ creates and manages ui elements based on the contents of a list<br  />
+ similar in concept to uitoolkit listview or wpf itemscontrol  <a href="class_adventure_core_1_1_items_control_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_items_control_entry_base.html">ItemsControlEntryBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for the entries of a ItemsControlBase&lt;T&gt; that are instantiated for every item<br  />
+ used to expose the data of the item to the ui(for example to visualize a single <a class="el" href="class_adventure_core_1_1_inventory_item.html" title="serializable utility class used in inventories to keep track of item quantity and the slot it is equi...">InventoryItem</a>)  <a href="class_adventure_core_1_1_items_control_entry_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_set.html">ItemSet</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">some set of items, most commonly used as a set of all items that the persistence uses to load items  <a href="class_adventure_core_1_1_item_set.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -557,10 +578,13 @@ Classes</h2></td></tr>
  canEquip can be overridden to define whether a specific item can be equipped at the moment, applyVisibility is used when a slot is hidden(like weapons being hidden while pulling a lever)  <a href="class_adventure_core_1_1_item_slot.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_base.html">ItemSlotBase</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">non-generic base class for item slots, usually the generic ItemSlot&lt;T&gt; should be derived from  <a href="class_adventure_core_1_1_item_slot_base.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">non-generic base class for item slots, usually the generic ItemSlot&lt;T&gt; should be derived from this  <a href="class_adventure_core_1_1_item_slot_base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_category.html">ItemSlotCategory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">slot category that determines which slots an item can be equipped to  <a href="class_adventure_core_1_1_item_slot_category.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_panel.html">ItemSlotPanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes an <a class="el" href="class_adventure_core_1_1_item_slot_base.html" title="non-generic base class for item slots, usually the generic ItemSlot&lt;T&gt; should be derived from this">ItemSlotBase</a> in the ui, the equipped item can be forwarded to an <a class="el" href="class_adventure_core_1_1_inventory_item_panel.html" title="visualizes an InventoryItem in the ui, the item can be forwarded to an ItemPanel to be visualized the...">AdventureCore.InventoryItemPanel</a> to be visualized there  <a href="class_adventure_core_1_1_item_slot_panel.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_proxy.html">ItemSlotProxy</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">special slot that redirects to one of a number of other slots<br  />
@@ -569,6 +593,16 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_listed_inventory.html">ListedInventory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple implementation of an unlimited inventory that simply stores everything in a list  <a href="class_adventure_core_1_1_listed_inventory.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_listed_inventory_element.html">ListedInventoryElement</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes a listed inventory in a ui document  <a href="class_adventure_core_1_1_listed_inventory_element.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_listed_inventory_entry_panel.html">ListedInventoryEntryPanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation of ItemsControlEntryBase&lt;T&gt; for <a class="el" href="class_adventure_core_1_1_listed_inventory_panel.html" title="visualizes the contents of a ListedInventory and can enable using or equipping the items">ListedInventoryPanel</a><br  />
+ instantiated for every inventory item that is shown in the inventor panel  <a href="class_adventure_core_1_1_listed_inventory_entry_panel.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_listed_inventory_panel.html">ListedInventoryPanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes the contents of a <a class="el" href="class_adventure_core_1_1_listed_inventory.html" title="simple implementation of an unlimited inventory that simply stores everything in a list">ListedInventory</a> and can enable using or equipping the items  <a href="class_adventure_core_1_1_listed_inventory_panel.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_lockable_camera_base.html">LockableCameraBase</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -759,6 +793,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">special triggered damage sender that moves itself gets destroyed once it has done damage or hits the environment  <a href="class_adventure_core_1_1_projectile_damage_sender.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_quality_dropdown.html">QualityDropdown</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">attaches to a dropdown, when the dropdown is changed it sets the QualityLevel accordingly and persists it<br  />
+ the contents of the dropdown have to be defined in the ui to fit the quality levels in the settings  <a href="class_adventure_core_1_1_quality_dropdown.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_random_state_persister.html">RandomStatePersister</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">persists the state of randomness<br  />

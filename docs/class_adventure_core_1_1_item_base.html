@@ -132,38 +132,42 @@ Inheritance diagram for AdventureCore.ItemBase:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a51211c01328e406b6410c12c410de5fb" id="r_a51211c01328e406b6410c12c410de5fb"><td class="memItemLeft" align="right" valign="top"><a id="a51211c01328e406b6410c12c410de5fb" name="a51211c01328e406b6410c12c410de5fb"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanAdd</b> (<a class="el" href="class_adventure_core_1_1_inventory_base.html">InventoryBase</a> inventory, int quantity=1)</td></tr>
-<tr class="separator:a51211c01328e406b6410c12c410de5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8642e57de6b95e4e984257e72c0900dd" id="r_a8642e57de6b95e4e984257e72c0900dd"><td class="memItemLeft" align="right" valign="top"><a id="a8642e57de6b95e4e984257e72c0900dd" name="a8642e57de6b95e4e984257e72c0900dd"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>OnAdd</b> (<a class="el" href="class_adventure_core_1_1_inventory_base.html">InventoryBase</a> inventory, int quantity, out <a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem)</td></tr>
-<tr class="separator:a8642e57de6b95e4e984257e72c0900dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12a924b7222ec4cee9cb9a6bacf76417" id="r_a12a924b7222ec4cee9cb9a6bacf76417"><td class="memItemLeft" align="right" valign="top"><a id="a12a924b7222ec4cee9cb9a6bacf76417" name="a12a924b7222ec4cee9cb9a6bacf76417"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanUse</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character, int quantity=1)</td></tr>
+<tr class="memitem:a9d6559492d01e4dd7afefa8a69e52059" id="r_a9d6559492d01e4dd7afefa8a69e52059"><td class="memItemLeft" align="right" valign="top">virtual ? bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d6559492d01e4dd7afefa8a69e52059">CanAdd</a> (<a class="el" href="class_adventure_core_1_1_inventory_base.html">InventoryBase</a> inventory, int quantity=1, bool fully=true)</td></tr>
+<tr class="memdesc:a9d6559492d01e4dd7afefa8a69e52059"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if a quantity can be added in cases where the adding is handled by <a class="el" href="#ac685dbaaada00ed8fea3747518493060" title="signals to the item that a quantity of it is about to be added to an inventory  gives the item a chan...">OnAdd(InventoryBase, int, out int)</a>  <br /></td></tr>
+<tr class="separator:a9d6559492d01e4dd7afefa8a69e52059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac685dbaaada00ed8fea3747518493060" id="r_ac685dbaaada00ed8fea3747518493060"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac685dbaaada00ed8fea3747518493060">OnAdd</a> (<a class="el" href="class_adventure_core_1_1_inventory_base.html">InventoryBase</a> inventory, int quantity, out int remaining)</td></tr>
+<tr class="memdesc:ac685dbaaada00ed8fea3747518493060"><td class="mdescLeft">&#160;</td><td class="mdescRight">signals to the item that a quantity of it is about to be added to an inventory<br  />
+ gives the item a chance to interfere in that process and do something else instead<br  />
+ for example items that added different items or are used instead of being added  <br /></td></tr>
+<tr class="separator:ac685dbaaada00ed8fea3747518493060"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12a924b7222ec4cee9cb9a6bacf76417" id="r_a12a924b7222ec4cee9cb9a6bacf76417"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12a924b7222ec4cee9cb9a6bacf76417">CanUse</a> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character, int quantity=1)</td></tr>
+<tr class="memdesc:a12a924b7222ec4cee9cb9a6bacf76417"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the specified quantity of the item can be used on a character  <br /></td></tr>
 <tr class="separator:a12a924b7222ec4cee9cb9a6bacf76417"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06e0edbb482f6e00d4f4c70641b59dac" id="r_a06e0edbb482f6e00d4f4c70641b59dac"><td class="memItemLeft" align="right" valign="top"><a id="a06e0edbb482f6e00d4f4c70641b59dac" name="a06e0edbb482f6e00d4f4c70641b59dac"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>OnUse</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character, int quantity=1)</td></tr>
+<tr class="memitem:a06e0edbb482f6e00d4f4c70641b59dac" id="r_a06e0edbb482f6e00d4f4c70641b59dac"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06e0edbb482f6e00d4f4c70641b59dac">OnUse</a> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character, int quantity=1)</td></tr>
+<tr class="memdesc:a06e0edbb482f6e00d4f4c70641b59dac"><td class="mdescLeft">&#160;</td><td class="mdescRight">uses a quantity of the item on a character  <br /></td></tr>
 <tr class="separator:a06e0edbb482f6e00d4f4c70641b59dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66dee9f33d1030693fc1133cd61bd5f9" id="r_a66dee9f33d1030693fc1133cd61bd5f9"><td class="memItemLeft" align="right" valign="top"><a id="a66dee9f33d1030693fc1133cd61bd5f9" name="a66dee9f33d1030693fc1133cd61bd5f9"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanEquip</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="memitem:a66dee9f33d1030693fc1133cd61bd5f9" id="r_a66dee9f33d1030693fc1133cd61bd5f9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66dee9f33d1030693fc1133cd61bd5f9">CanEquip</a> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="memdesc:a66dee9f33d1030693fc1133cd61bd5f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the item can be equipped on a character  <br /></td></tr>
 <tr class="separator:a66dee9f33d1030693fc1133cd61bd5f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7685e3ec0a8538f4398a6d5bce857961" id="r_a7685e3ec0a8538f4398a6d5bce857961"><td class="memItemLeft" align="right" valign="top"><a id="a7685e3ec0a8538f4398a6d5bce857961" name="a7685e3ec0a8538f4398a6d5bce857961"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEquip</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="memitem:a7685e3ec0a8538f4398a6d5bce857961" id="r_a7685e3ec0a8538f4398a6d5bce857961"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7685e3ec0a8538f4398a6d5bce857961">OnEquip</a> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="memdesc:a7685e3ec0a8538f4398a6d5bce857961"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when the item gets equipped on a character<br  />
+ can be used to apply effects like attribute modifications  <br /></td></tr>
 <tr class="separator:a7685e3ec0a8538f4398a6d5bce857961"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65bd86fcaf5b6e1727bbe96b03b62f87" id="r_a65bd86fcaf5b6e1727bbe96b03b62f87"><td class="memItemLeft" align="right" valign="top"><a id="a65bd86fcaf5b6e1727bbe96b03b62f87" name="a65bd86fcaf5b6e1727bbe96b03b62f87"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnUnequip</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="memitem:a65bd86fcaf5b6e1727bbe96b03b62f87" id="r_a65bd86fcaf5b6e1727bbe96b03b62f87"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65bd86fcaf5b6e1727bbe96b03b62f87">OnUnequip</a> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="memdesc:a65bd86fcaf5b6e1727bbe96b03b62f87"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when the item gets unequipped from a character<br  />
+ can be used to remove effects like attribute modifications  <br /></td></tr>
 <tr class="separator:a65bd86fcaf5b6e1727bbe96b03b62f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9b80bc9e7f030bb33ec49335f7d83e0" id="r_ad9b80bc9e7f030bb33ec49335f7d83e0"><td class="memItemLeft" align="right" valign="top"><a id="ad9b80bc9e7f030bb33ec49335f7d83e0" name="ad9b80bc9e7f030bb33ec49335f7d83e0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Add</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="memitem:ad9b80bc9e7f030bb33ec49335f7d83e0" id="r_ad9b80bc9e7f030bb33ec49335f7d83e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9b80bc9e7f030bb33ec49335f7d83e0">Add</a> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="memdesc:ad9b80bc9e7f030bb33ec49335f7d83e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds one of this item to a character, this method can be called from events in the inspector by dragging the item into the target  <br /></td></tr>
 <tr class="separator:ad9b80bc9e7f030bb33ec49335f7d83e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7890ec16b102b70baf776b0f5ad960ae" id="r_a7890ec16b102b70baf776b0f5ad960ae"><td class="memItemLeft" align="right" valign="top"><a id="a7890ec16b102b70baf776b0f5ad960ae" name="a7890ec16b102b70baf776b0f5ad960ae"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Remove</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="memitem:a7890ec16b102b70baf776b0f5ad960ae" id="r_a7890ec16b102b70baf776b0f5ad960ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7890ec16b102b70baf776b0f5ad960ae">Remove</a> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="memdesc:a7890ec16b102b70baf776b0f5ad960ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes one of this item from a character, this method can be called from events in the inspector by dragging the item into the target  <br /></td></tr>
 <tr class="separator:a7890ec16b102b70baf776b0f5ad960ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fc3b7059c201604aba6ccd9db8f3c00" id="r_a0fc3b7059c201604aba6ccd9db8f3c00"><td class="memItemLeft" align="right" valign="top"><a id="a0fc3b7059c201604aba6ccd9db8f3c00" name="a0fc3b7059c201604aba6ccd9db8f3c00"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Add</b> (<a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a> action)</td></tr>
+<tr class="memitem:a0fc3b7059c201604aba6ccd9db8f3c00" id="r_a0fc3b7059c201604aba6ccd9db8f3c00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fc3b7059c201604aba6ccd9db8f3c00">Add</a> (<a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a> action)</td></tr>
+<tr class="memdesc:a0fc3b7059c201604aba6ccd9db8f3c00"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds one of this item to the character currently associated with an action, this method can be called from events in the inspector by dragging the item into the target  <br /></td></tr>
 <tr class="separator:a0fc3b7059c201604aba6ccd9db8f3c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92a4d99b05fd2f5ff5f1d2dcdec534a8" id="r_a92a4d99b05fd2f5ff5f1d2dcdec534a8"><td class="memItemLeft" align="right" valign="top"><a id="a92a4d99b05fd2f5ff5f1d2dcdec534a8" name="a92a4d99b05fd2f5ff5f1d2dcdec534a8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Remove</b> (<a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a> action)</td></tr>
+<tr class="memitem:a92a4d99b05fd2f5ff5f1d2dcdec534a8" id="r_a92a4d99b05fd2f5ff5f1d2dcdec534a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92a4d99b05fd2f5ff5f1d2dcdec534a8">Remove</a> (<a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a> action)</td></tr>
+<tr class="memdesc:a92a4d99b05fd2f5ff5f1d2dcdec534a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes one of this item from the character currently associated with an action, this method can be called from events in the inspector by dragging the item into the target  <br /></td></tr>
 <tr class="separator:a92a4d99b05fd2f5ff5f1d2dcdec534a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a117707144fbff6a1515dc2542025de36" id="r_a117707144fbff6a1515dc2542025de36"><td class="memItemLeft" align="right" valign="top"><a id="a117707144fbff6a1515dc2542025de36" name="a117707144fbff6a1515dc2542025de36"></a>
 override string&#160;</td><td class="memItemRight" valign="bottom"><b>ToString</b> ()</td></tr>
@@ -197,14 +201,402 @@ GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>Visual</b></td>
 Properties</h2></td></tr>
 <tr class="memitem:a8b1a85e32779e868c53985b59a0c85cf" id="r_a8b1a85e32779e868c53985b59a0c85cf"><td class="memItemLeft" align="right" valign="top"><a id="a8b1a85e32779e868c53985b59a0c85cf" name="a8b1a85e32779e868c53985b59a0c85cf"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsStackable</b><code> [get]</code></td></tr>
+<tr class="memdesc:a8b1a85e32779e868c53985b59a0c85cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether whether multiple items can be stacked in one inventory item <br /></td></tr>
 <tr class="separator:a8b1a85e32779e868c53985b59a0c85cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17d9fc91a3fe3f191500d5b119dcfaa3" id="r_a17d9fc91a3fe3f191500d5b119dcfaa3"><td class="memItemLeft" align="right" valign="top"><a id="a17d9fc91a3fe3f191500d5b119dcfaa3" name="a17d9fc91a3fe3f191500d5b119dcfaa3"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsEquippable</b><code> [get]</code></td></tr>
+<tr class="memdesc:a17d9fc91a3fe3f191500d5b119dcfaa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the item can be equipped to a slot <br /></td></tr>
 <tr class="separator:a17d9fc91a3fe3f191500d5b119dcfaa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8716d8223fb78ccfed8be1ce62657e9b" id="r_a8716d8223fb78ccfed8be1ce62657e9b"><td class="memItemLeft" align="right" valign="top"><a id="a8716d8223fb78ccfed8be1ce62657e9b" name="a8716d8223fb78ccfed8be1ce62657e9b"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsUsable</b><code> [get]</code></td></tr>
+<tr class="memdesc:a8716d8223fb78ccfed8be1ce62657e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the item can be used <br /></td></tr>
 <tr class="separator:a8716d8223fb78ccfed8be1ce62657e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0fc3b7059c201604aba6ccd9db8f3c00" name="a0fc3b7059c201604aba6ccd9db8f3c00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fc3b7059c201604aba6ccd9db8f3c00">&#9670;&#160;</a></span>Add() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AdventureCore.ItemBase.Add </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a></td>          <td class="paramname"><span class="paramname"><em>action</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>adds one of this item to the character currently associated with an action, this method can be called from events in the inspector by dragging the item into the target </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">character</td><td>the charracter the item is added to</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad9b80bc9e7f030bb33ec49335f7d83e0" name="ad9b80bc9e7f030bb33ec49335f7d83e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9b80bc9e7f030bb33ec49335f7d83e0">&#9670;&#160;</a></span>Add() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AdventureCore.ItemBase.Add </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a></td>          <td class="paramname"><span class="paramname"><em>character</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>adds one of this item to a character, this method can be called from events in the inspector by dragging the item into the target </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">character</td><td>the charracter the item is added to</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9d6559492d01e4dd7afefa8a69e52059" name="a9d6559492d01e4dd7afefa8a69e52059"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d6559492d01e4dd7afefa8a69e52059">&#9670;&#160;</a></span>CanAdd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ? bool AdventureCore.ItemBase.CanAdd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_inventory_base.html">InventoryBase</a></td>          <td class="paramname"><span class="paramname"><em>inventory</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fully</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks if a quantity can be added in cases where the adding is handled by <a class="el" href="#ac685dbaaada00ed8fea3747518493060" title="signals to the item that a quantity of it is about to be added to an inventory  gives the item a chan...">OnAdd(InventoryBase, int, out int)</a> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inventory</td><td>the inventory the item is about to be added to</td></tr>
+    <tr><td class="paramname">quantity</td><td>the quantit of the items that is about to be added to the inventory</td></tr>
+    <tr><td class="paramname">fully</td><td>whether the full quantity has to be added</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true/false if the item has custom adding logic, otherwise null</dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_adventure_core_1_1_capacity_raising_item.html#a848bca32ee10f9c63fb9721fd2603159">AdventureCore.CapacityRaisingItem</a>, <a class="el" href="class_adventure_core_1_1_placeholder_item.html#a07d3338d13e7b01dd8f95713692acfbf">AdventureCore.PlaceholderItem</a>, and <a class="el" href="class_adventure_core_1_1_usable_item.html#aed70cc99d6ae579766952bcfc9c3b654">AdventureCore.UsableItem</a>.</p>
+
+</div>
+</div>
+<a id="a66dee9f33d1030693fc1133cd61bd5f9" name="a66dee9f33d1030693fc1133cd61bd5f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66dee9f33d1030693fc1133cd61bd5f9">&#9670;&#160;</a></span>CanEquip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AdventureCore.ItemBase.CanEquip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a></td>          <td class="paramname"><span class="paramname"><em>character</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks if the item can be equipped on a character </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">character</td><td>the character the item may be equipped on</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the item may be equipped</dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_adventure_core_1_1_equipment_item.html#aad9116854a867247edd847287445d270">AdventureCore.EquipmentItem</a>, <a class="el" href="class_adventure_souls_1_1_souls_armor_item.html#ac8f30018e1b0c9373004e8530b6fb09c">AdventureSouls.SoulsArmorItem</a>, and <a class="el" href="class_adventure_souls_1_1_souls_weapon_item.html#a79977af75cd1992920d9542b9d2b8b17">AdventureSouls.SoulsWeaponItem</a>.</p>
+
+</div>
+</div>
+<a id="a12a924b7222ec4cee9cb9a6bacf76417" name="a12a924b7222ec4cee9cb9a6bacf76417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12a924b7222ec4cee9cb9a6bacf76417">&#9670;&#160;</a></span>CanUse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AdventureCore.ItemBase.CanUse </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a></td>          <td class="paramname"><span class="paramname"><em>character</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks if the specified quantity of the item can be used on a character </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">character</td><td>the character the item may be used on</td></tr>
+    <tr><td class="paramname">quantity</td><td>how many items may be used</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether the usage is possible</dd></dl>
+
+</div>
+</div>
+<a id="ac685dbaaada00ed8fea3747518493060" name="ac685dbaaada00ed8fea3747518493060"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac685dbaaada00ed8fea3747518493060">&#9670;&#160;</a></span>OnAdd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AdventureCore.ItemBase.OnAdd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_inventory_base.html">InventoryBase</a></td>          <td class="paramname"><span class="paramname"><em>inventory</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out int</td>          <td class="paramname"><span class="paramname"><em>remaining</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>signals to the item that a quantity of it is about to be added to an inventory<br  />
+ gives the item a chance to interfere in that process and do something else instead<br  />
+ for example items that added different items or are used instead of being added </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inventory</td><td>the inventory the item is about to be added to</td></tr>
+    <tr><td class="paramname">quantity</td><td>the quantit of the items that is about to be added to the inventory</td></tr>
+    <tr><td class="paramname">remaining</td><td>the remaining quantity if adding was handled by the item</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether the item has already handled the adding, this means the inventoy does not have to continue its own adding logic</dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_adventure_core_1_1_capacity_raising_item.html#aa96ab7a989d014b4166fe9571b7e3126">AdventureCore.CapacityRaisingItem</a>, <a class="el" href="class_adventure_core_1_1_placeholder_item.html#ab8971983a1438505293c889822d51cbc">AdventureCore.PlaceholderItem</a>, and <a class="el" href="class_adventure_core_1_1_usable_item.html#a212597610a4584dd0c230b56f997de13">AdventureCore.UsableItem</a>.</p>
+
+</div>
+</div>
+<a id="a7685e3ec0a8538f4398a6d5bce857961" name="a7685e3ec0a8538f4398a6d5bce857961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7685e3ec0a8538f4398a6d5bce857961">&#9670;&#160;</a></span>OnEquip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AdventureCore.ItemBase.OnEquip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a></td>          <td class="paramname"><span class="paramname"><em>character</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called when the item gets equipped on a character<br  />
+ can be used to apply effects like attribute modifications </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">character</td><td>the character the item is equipped on</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="class_adventure_core_1_1_equipment_item.html#a7eb492a9c3b9041936d13d5669ceb554">AdventureCore.EquipmentItem</a>.</p>
+
+</div>
+</div>
+<a id="a65bd86fcaf5b6e1727bbe96b03b62f87" name="a65bd86fcaf5b6e1727bbe96b03b62f87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65bd86fcaf5b6e1727bbe96b03b62f87">&#9670;&#160;</a></span>OnUnequip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AdventureCore.ItemBase.OnUnequip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a></td>          <td class="paramname"><span class="paramname"><em>character</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called when the item gets unequipped from a character<br  />
+ can be used to remove effects like attribute modifications </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">character</td><td>the character the item was equipped on</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="class_adventure_core_1_1_equipment_item.html#ab877bcedcd1ac93df5cdcd68dc911891">AdventureCore.EquipmentItem</a>.</p>
+
+</div>
+</div>
+<a id="a06e0edbb482f6e00d4f4c70641b59dac" name="a06e0edbb482f6e00d4f4c70641b59dac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06e0edbb482f6e00d4f4c70641b59dac">&#9670;&#160;</a></span>OnUse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AdventureCore.ItemBase.OnUse </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a></td>          <td class="paramname"><span class="paramname"><em>character</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>uses a quantity of the item on a character </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">character</td><td>the character to use the items on</td></tr>
+    <tr><td class="paramname">quantity</td><td>how many items to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether the items have been used</dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_adventure_core_1_1_usable_item.html#a859072af67221bea3ae357133e5b585a">AdventureCore.UsableItem</a>, and <a class="el" href="class_adventure_souls_1_1_souls_usable_item.html#abc3e0da0e02b3bc992bcfdeb59cdc5b9">AdventureSouls.SoulsUsableItem</a>.</p>
+
+</div>
+</div>
+<a id="a92a4d99b05fd2f5ff5f1d2dcdec534a8" name="a92a4d99b05fd2f5ff5f1d2dcdec534a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92a4d99b05fd2f5ff5f1d2dcdec534a8">&#9670;&#160;</a></span>Remove() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AdventureCore.ItemBase.Remove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a></td>          <td class="paramname"><span class="paramname"><em>action</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>removes one of this item from the character currently associated with an action, this method can be called from events in the inspector by dragging the item into the target </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">character</td><td>the charracter the item is removed from</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7890ec16b102b70baf776b0f5ad960ae" name="a7890ec16b102b70baf776b0f5ad960ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7890ec16b102b70baf776b0f5ad960ae">&#9670;&#160;</a></span>Remove() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AdventureCore.ItemBase.Remove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a></td>          <td class="paramname"><span class="paramname"><em>character</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>removes one of this item from a character, this method can be called from events in the inspector by dragging the item into the target </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">character</td><td>the charracter the item is removed from</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

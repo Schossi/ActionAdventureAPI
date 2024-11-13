@@ -1,4 +1,25 @@
 var class_adventure_core_1_1_inventory_base =
 [
-    [ "HasItem", "class_adventure_core_1_1_inventory_base.html#ab83208c554aa3e9120233b002fe316b5", null ]
+    [ "AddItems", "class_adventure_core_1_1_inventory_base.html#ab9c620c1dfca80043c522131a750d8d0", null ],
+    [ "CanAddItems", "class_adventure_core_1_1_inventory_base.html#a60b6b8c1fc0dc67b6af2120403c6c59f", null ],
+    [ "CanEquipItems", "class_adventure_core_1_1_inventory_base.html#aa2b9e068511e66bb11899dc25e76c5d2", null ],
+    [ "CanRemoveItems", "class_adventure_core_1_1_inventory_base.html#a3d8b0b0a3d06c0d30dd453da60dcf582", null ],
+    [ "CanRemoveItems", "class_adventure_core_1_1_inventory_base.html#ad7c9f2bc5dfa88f3777cfac27f176fb2", null ],
+    [ "CanUnequipItems", "class_adventure_core_1_1_inventory_base.html#af0143642bb751a7f45e155518bea1116", null ],
+    [ "CanUseItems", "class_adventure_core_1_1_inventory_base.html#ad11038227250bcceda0b00de52b45405", null ],
+    [ "EquipItems", "class_adventure_core_1_1_inventory_base.html#adebcecde53b3a9ed99a4c00f3c851fb5", null ],
+    [ "GetItems", "class_adventure_core_1_1_inventory_base.html#a890b90935922da96d91553f3e635fb25", null ],
+    [ "GetItems", "class_adventure_core_1_1_inventory_base.html#a3db65e2f0aef66df6b0887b4dfa19fc1", null ],
+    [ "GetQuantity", "class_adventure_core_1_1_inventory_base.html#a44c47f98a9636accc446ab1ca5680d68", null ],
+    [ "GetQuantity", "class_adventure_core_1_1_inventory_base.html#ae9c2d359d7d0bbc6ef9361b3ea34b994", null ],
+    [ "GetSlot", "class_adventure_core_1_1_inventory_base.html#a534714ff88898be649acc5919f5c5052", null ],
+    [ "GetSlot", "class_adventure_core_1_1_inventory_base.html#a5092d7e900c88239a38658f5cb165b9e", null ],
+    [ "GetSlot< T >", "class_adventure_core_1_1_inventory_base.html#a6bc99aee05b52a17c4f7632f6bf89095", null ],
+    [ "HasItem", "class_adventure_core_1_1_inventory_base.html#ab83208c554aa3e9120233b002fe316b5", null ],
+    [ "HasItemQuantity", "class_adventure_core_1_1_inventory_base.html#ae8ccd6778e710a45c8efe0a6c09a5283", null ],
+    [ "Initialize", "class_adventure_core_1_1_inventory_base.html#a7498d011ea7d9925ca96710673732a3f", null ],
+    [ "RemoveItems", "class_adventure_core_1_1_inventory_base.html#adde970f6bf1cfbdf31e2c5a317b4dff0", null ],
+    [ "RemoveItems", "class_adventure_core_1_1_inventory_base.html#ab0f29ff2cb01e123870246b604170f56", null ],
+    [ "UnequipItems", "class_adventure_core_1_1_inventory_base.html#ad788890027dc767c4876f6340961b3dd", null ],
+    [ "UseItems", "class_adventure_core_1_1_inventory_base.html#aeddf6621e2947cb1913b8a40083ea329", null ]
 ];

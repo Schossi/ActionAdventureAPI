@@ -132,7 +132,7 @@ Inheritance diagram for AdventureCore.ItemSlot&lt; T &gt;:</div>
  <div class="center">
   <img src="class_adventure_core_1_1_item_slot.png" usemap="#AdventureCore.ItemSlot_3C_20T_20_3E_map" alt=""/>
   <map id="AdventureCore.ItemSlot_3C_20T_20_3E_map" name="AdventureCore.ItemSlot_3C_20T_20_3E_map">
-<area href="class_adventure_core_1_1_item_slot_base.html" title="non-generic base class for item slots, usually the generic ItemSlot&lt;T&gt; should be derived from" alt="AdventureCore.ItemSlotBase" shape="rect" coords="0,56,177,80"/>
+<area href="class_adventure_core_1_1_item_slot_base.html" title="non-generic base class for item slots, usually the generic ItemSlot&lt;T&gt; should be derived from this" alt="AdventureCore.ItemSlotBase" shape="rect" coords="0,56,177,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -140,28 +140,42 @@ Inheritance diagram for AdventureCore.ItemSlot&lt; T &gt;:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa6f7a25e41d72ae3e6c7a25d373bbfce" id="r_aa6f7a25e41d72ae3e6c7a25d373bbfce"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6f7a25e41d72ae3e6c7a25d373bbfce">Initialize</a> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
 <tr class="separator:aa6f7a25e41d72ae3e6c7a25d373bbfce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7849d6d83a0cc18d8964449d86a60814" id="r_a7849d6d83a0cc18d8964449d86a60814"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7849d6d83a0cc18d8964449d86a60814">CanEquip</a> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem)</td></tr>
-<tr class="separator:a7849d6d83a0cc18d8964449d86a60814"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca087d36bf26dfd129b8e46f10694ed3" id="r_aca087d36bf26dfd129b8e46f10694ed3"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca087d36bf26dfd129b8e46f10694ed3">CanEquip</a> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem, bool clear=true)</td></tr>
+<tr class="memdesc:aca087d36bf26dfd129b8e46f10694ed3"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if an inventory item can be equipped  <br /></td></tr>
+<tr class="separator:aca087d36bf26dfd129b8e46f10694ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a267542a73afa59883d6d4992ddfc32be" id="r_a267542a73afa59883d6d4992ddfc32be"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a267542a73afa59883d6d4992ddfc32be">Equip</a> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem)</td></tr>
+<tr class="memdesc:a267542a73afa59883d6d4992ddfc32be"><td class="mdescLeft">&#160;</td><td class="mdescRight">equips an inventory item(if another item is already equipped it is unequipped first)  <br /></td></tr>
 <tr class="separator:a267542a73afa59883d6d4992ddfc32be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d594edca3567aa5c475dbdc2872a8ff" id="r_a7d594edca3567aa5c475dbdc2872a8ff"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d594edca3567aa5c475dbdc2872a8ff">Clear</a> ()</td></tr>
+<tr class="memdesc:a7d594edca3567aa5c475dbdc2872a8ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears the slot of its currently equipped item  <br /></td></tr>
 <tr class="separator:a7d594edca3567aa5c475dbdc2872a8ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53c67237712a89fd2011ffe8dd913e20" id="r_a53c67237712a89fd2011ffe8dd913e20"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53c67237712a89fd2011ffe8dd913e20">Show</a> ()</td></tr>
-<tr class="separator:a53c67237712a89fd2011ffe8dd913e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95a055c281a358952731b85442c9bb12" id="r_a95a055c281a358952731b85442c9bb12"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95a055c281a358952731b85442c9bb12">Hide</a> ()</td></tr>
-<tr class="separator:a95a055c281a358952731b85442c9bb12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_adventure_core_1_1_item_slot_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_adventure_core_1_1_item_slot_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_adventure_core_1_1_item_slot_base.html">AdventureCore.ItemSlotBase</a></td></tr>
-<tr class="memitem:a9d719fbcb8da80108c9da4828132c59d inherit pub_methods_class_adventure_core_1_1_item_slot_base" id="r_a9d719fbcb8da80108c9da4828132c59d"><td class="memItemLeft" align="right" valign="top">
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EquipPrevious</b> (bool clear=true)</td></tr>
-<tr class="separator:a9d719fbcb8da80108c9da4828132c59d inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83b4f64d7267c4dd9c1557a09cc37f66 inherit pub_methods_class_adventure_core_1_1_item_slot_base" id="r_a83b4f64d7267c4dd9c1557a09cc37f66"><td class="memItemLeft" align="right" valign="top">
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EquipNext</b> (bool clear=true)</td></tr>
-<tr class="separator:a83b4f64d7267c4dd9c1557a09cc37f66 inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a052bcfc52b2da2c2412f54864eb31239 inherit pub_methods_class_adventure_core_1_1_item_slot_base" id="r_a052bcfc52b2da2c2412f54864eb31239"><td class="memItemLeft" align="right" valign="top">
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanUse</b> (int quantity=1)</td></tr>
+<tr class="memitem:a3bc086203719e6f41d875eae89aad03e inherit pub_methods_class_adventure_core_1_1_item_slot_base" id="r_a3bc086203719e6f41d875eae89aad03e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_base.html#a3bc086203719e6f41d875eae89aad03e">CanEquipPrevious</a> (bool clear=true)</td></tr>
+<tr class="memdesc:a3bc086203719e6f41d875eae89aad03e inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the slot can switch its equipped item to the previous one in its characters inventory  <br /></td></tr>
+<tr class="separator:a3bc086203719e6f41d875eae89aad03e inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad63b486870bb8fb280d180dfdc0745f9 inherit pub_methods_class_adventure_core_1_1_item_slot_base" id="r_ad63b486870bb8fb280d180dfdc0745f9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_base.html#ad63b486870bb8fb280d180dfdc0745f9">EquipPrevious</a> (bool clear=true)</td></tr>
+<tr class="memdesc:ad63b486870bb8fb280d180dfdc0745f9 inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">equips the previous item in its characters inventory  <br /></td></tr>
+<tr class="separator:ad63b486870bb8fb280d180dfdc0745f9 inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ef282d2fc5495c2d22e76f076346b9e inherit pub_methods_class_adventure_core_1_1_item_slot_base" id="r_a2ef282d2fc5495c2d22e76f076346b9e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_base.html#a2ef282d2fc5495c2d22e76f076346b9e">CanEquipNext</a> (bool clear=true)</td></tr>
+<tr class="memdesc:a2ef282d2fc5495c2d22e76f076346b9e inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the slot can switch its equipped item to the next one in its characters inventory  <br /></td></tr>
+<tr class="separator:a2ef282d2fc5495c2d22e76f076346b9e inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c97b16a494bccf2a17a54c40d111fb inherit pub_methods_class_adventure_core_1_1_item_slot_base" id="r_a87c97b16a494bccf2a17a54c40d111fb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_base.html#a87c97b16a494bccf2a17a54c40d111fb">EquipNext</a> (bool clear=true)</td></tr>
+<tr class="memdesc:a87c97b16a494bccf2a17a54c40d111fb inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">equips the next item in its characters inventory  <br /></td></tr>
+<tr class="separator:a87c97b16a494bccf2a17a54c40d111fb inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e8bf69f86d0d12422eebfcf5c5b7868 inherit pub_methods_class_adventure_core_1_1_item_slot_base" id="r_a1e8bf69f86d0d12422eebfcf5c5b7868"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_base.html#a1e8bf69f86d0d12422eebfcf5c5b7868">CanClear</a> ()</td></tr>
+<tr class="memdesc:a1e8bf69f86d0d12422eebfcf5c5b7868 inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the slot can be cleared of its equipped items  <br /></td></tr>
+<tr class="separator:a1e8bf69f86d0d12422eebfcf5c5b7868 inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76d8c52894a46f3d574ce313989afd9b inherit pub_methods_class_adventure_core_1_1_item_slot_base" id="r_a76d8c52894a46f3d574ce313989afd9b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_base.html#a76d8c52894a46f3d574ce313989afd9b">Show</a> ()</td></tr>
+<tr class="memdesc:a76d8c52894a46f3d574ce313989afd9b inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">shows the slot if it was hidden before  <br /></td></tr>
+<tr class="separator:a76d8c52894a46f3d574ce313989afd9b inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73e0d36aad5cbd5724a9686f256ca111 inherit pub_methods_class_adventure_core_1_1_item_slot_base" id="r_a73e0d36aad5cbd5724a9686f256ca111"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_base.html#a73e0d36aad5cbd5724a9686f256ca111">Hide</a> ()</td></tr>
+<tr class="memdesc:a73e0d36aad5cbd5724a9686f256ca111 inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">hides the slot  <br /></td></tr>
+<tr class="separator:a73e0d36aad5cbd5724a9686f256ca111 inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a052bcfc52b2da2c2412f54864eb31239 inherit pub_methods_class_adventure_core_1_1_item_slot_base" id="r_a052bcfc52b2da2c2412f54864eb31239"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_base.html#a052bcfc52b2da2c2412f54864eb31239">CanUse</a> (int quantity=1)</td></tr>
+<tr class="memdesc:a052bcfc52b2da2c2412f54864eb31239 inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the equipped item can be used  <br /></td></tr>
 <tr class="separator:a052bcfc52b2da2c2412f54864eb31239 inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9ced4bdbacfa67fb71f355559f3df6a inherit pub_methods_class_adventure_core_1_1_item_slot_base" id="r_ac9ced4bdbacfa67fb71f355559f3df6a"><td class="memItemLeft" align="right" valign="top">
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Use</b> (int quantity=1)</td></tr>
+<tr class="memitem:ac9ced4bdbacfa67fb71f355559f3df6a inherit pub_methods_class_adventure_core_1_1_item_slot_base" id="r_ac9ced4bdbacfa67fb71f355559f3df6a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_base.html#ac9ced4bdbacfa67fb71f355559f3df6a">Use</a> (int quantity=1)</td></tr>
+<tr class="memdesc:ac9ced4bdbacfa67fb71f355559f3df6a inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">uses the equipped item  <br /></td></tr>
 <tr class="separator:ac9ced4bdbacfa67fb71f355559f3df6a inherit pub_methods_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -182,6 +196,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Index</b></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a06a659046cddfae6420f1b8f076016a3" id="r_a06a659046cddfae6420f1b8f076016a3"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06a659046cddfae6420f1b8f076016a3">onIsHiddenChanged</a> ()</td></tr>
+<tr class="separator:a06a659046cddfae6420f1b8f076016a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54fab2a6c1449e1164319d104103f167" id="r_a54fab2a6c1449e1164319d104103f167"><td class="memItemLeft" align="right" valign="top"><a id="a54fab2a6c1449e1164319d104103f167" name="a54fab2a6c1449e1164319d104103f167"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>canEquip</b> (T item)</td></tr>
 <tr class="separator:a54fab2a6c1449e1164319d104103f167"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,6 +211,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>unequip</b> (
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>applyVisibility</b> ()</td></tr>
 <tr class="separator:a475ce0ad772c0fa3ba8ada9c03e05b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_adventure_core_1_1_item_slot_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_adventure_core_1_1_item_slot_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_adventure_core_1_1_item_slot_base.html">AdventureCore.ItemSlotBase</a></td></tr>
+<tr class="memitem:a0eb374efa352a289b45df1c599a84feb inherit pro_methods_class_adventure_core_1_1_item_slot_base" id="r_a0eb374efa352a289b45df1c599a84feb"><td class="memItemLeft" align="right" valign="top">
+virtual <a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getPrevious</b> (bool clear=true)</td></tr>
+<tr class="separator:a0eb374efa352a289b45df1c599a84feb inherit pro_methods_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a522e93785b3d8a0896c0c71b0a978204 inherit pro_methods_class_adventure_core_1_1_item_slot_base" id="r_a522e93785b3d8a0896c0c71b0a978204"><td class="memItemLeft" align="right" valign="top">
+virtual <a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getNext</b> (bool clear=true)</td></tr>
+<tr class="separator:a522e93785b3d8a0896c0c71b0a978204 inherit pro_methods_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8ad4aa7823776c4002e75a0234214e2 inherit pro_methods_class_adventure_core_1_1_item_slot_base" id="r_ad8ad4aa7823776c4002e75a0234214e2"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onEquippedInventoryItemChanged</b> ()</td></tr>
 <tr class="separator:ad8ad4aa7823776c4002e75a0234214e2 inherit pro_methods_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -233,13 +255,16 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:aef70f3dcd40ba4624609f1969206501a inherit events_class_adventure_core_1_1_item_slot_base" id="r_aef70f3dcd40ba4624609f1969206501a"><td class="memItemLeft" align="right" valign="top">
 Action&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>IsInUseChanged</b></td></tr>
 <tr class="separator:aef70f3dcd40ba4624609f1969206501a inherit events_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a272ab52251aa859ae5ab12894de05465 inherit events_class_adventure_core_1_1_item_slot_base" id="r_a272ab52251aa859ae5ab12894de05465"><td class="memItemLeft" align="right" valign="top">
+Action&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>IsHiddenChanged</b></td></tr>
+<tr class="separator:a272ab52251aa859ae5ab12894de05465 inherit events_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e4686c15535122a10887d730c173faa inherit events_class_adventure_core_1_1_item_slot_base" id="r_a0e4686c15535122a10887d730c173faa"><td class="memItemLeft" align="right" valign="top">
 Action&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>EquippedInventoryItemChanged</b></td></tr>
 <tr class="separator:a0e4686c15535122a10887d730c173faa inherit events_class_adventure_core_1_1_item_slot_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7849d6d83a0cc18d8964449d86a60814" name="a7849d6d83a0cc18d8964449d86a60814"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7849d6d83a0cc18d8964449d86a60814">&#9670;&#160;</a></span>CanEquip()</h2>
+<a id="aca087d36bf26dfd129b8e46f10694ed3" name="aca087d36bf26dfd129b8e46f10694ed3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca087d36bf26dfd129b8e46f10694ed3">&#9670;&#160;</a></span>CanEquip()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,8 +275,12 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">Inv
         <tr>
           <td class="memname">override bool <a class="el" href="class_adventure_core_1_1_item_slot.html">AdventureCore.ItemSlot</a>&lt; T &gt;.CanEquip </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a></td>          <td class="paramname"><span class="paramname"><em>inventoryItem</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a></td>          <td class="paramname"><span class="paramname"><em>inventoryItem</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>clear</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -261,7 +290,17 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">Inv
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_item_slot_base.html">AdventureCore.ItemSlotBase</a>.</p>
+<p>checks if an inventory item can be equipped </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inventoryItem</td><td>the inventory item to equip</td></tr>
+    <tr><td class="paramname">clear</td><td>whether clearing the slot by equipping null is valid</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the item can be equipped</dd></dl>
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_item_slot_base.html#a191793ca87258de785d7e4370f2e2cb0">AdventureCore.ItemSlotBase</a>.</p>
 
 </div>
 </div>
@@ -288,7 +327,9 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">Inv
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_item_slot_base.html">AdventureCore.ItemSlotBase</a>.</p>
+<p>clears the slot of its currently equipped item </p>
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_item_slot_base.html#a8de526b42b8f4330edf430a79393fb1c">AdventureCore.ItemSlotBase</a>.</p>
 
 </div>
 </div>
@@ -315,34 +356,15 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">Inv
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_item_slot_base.html">AdventureCore.ItemSlotBase</a>.</p>
+<p>equips an inventory item(if another item is already equipped it is unequipped first) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inventoryItem</td><td>the inventory item to equip</td></tr>
+  </table>
+  </dd>
+</dl>
 
-</div>
-</div>
-<a id="a95a055c281a358952731b85442c9bb12" name="a95a055c281a358952731b85442c9bb12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95a055c281a358952731b85442c9bb12">&#9670;&#160;</a></span>Hide()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">override void <a class="el" href="class_adventure_core_1_1_item_slot.html">AdventureCore.ItemSlot</a>&lt; T &gt;.Hide </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_item_slot_base.html">AdventureCore.ItemSlotBase</a>.</p>
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_item_slot_base.html#a6b8f43f3831b2ad3d98a1dabe96c68ad">AdventureCore.ItemSlotBase</a>.</p>
 
 </div>
 </div>
@@ -373,8 +395,8 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">Inv
 
 </div>
 </div>
-<a id="a53c67237712a89fd2011ffe8dd913e20" name="a53c67237712a89fd2011ffe8dd913e20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53c67237712a89fd2011ffe8dd913e20">&#9670;&#160;</a></span>Show()</h2>
+<a id="a06a659046cddfae6420f1b8f076016a3" name="a06a659046cddfae6420f1b8f076016a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06a659046cddfae6420f1b8f076016a3">&#9670;&#160;</a></span>onIsHiddenChanged()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -383,7 +405,7 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">Inv
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void <a class="el" href="class_adventure_core_1_1_item_slot.html">AdventureCore.ItemSlot</a>&lt; T &gt;.Show </td>
+          <td class="memname">override void <a class="el" href="class_adventure_core_1_1_item_slot.html">AdventureCore.ItemSlot</a>&lt; T &gt;.onIsHiddenChanged </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -391,7 +413,7 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">Inv
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

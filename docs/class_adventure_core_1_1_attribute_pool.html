@@ -153,6 +153,9 @@ IEnumerable&lt; <a class="el" href="class_adventure_core_1_1_attribute_value.htm
 <tr class="memitem:a4ea0d21aaf5d0088788f99ce5e63c3cc" id="r_a4ea0d21aaf5d0088788f99ce5e63c3cc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ea0d21aaf5d0088788f99ce5e63c3cc">GetValue</a> (<a class="el" href="class_adventure_core_1_1_attribute_type.html">AttributeType</a> attribute)</td></tr>
 <tr class="memdesc:a4ea0d21aaf5d0088788f99ce5e63c3cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">applies all modifiers and returns the attribute value  <br /></td></tr>
 <tr class="separator:a4ea0d21aaf5d0088788f99ce5e63c3cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a068d5d292d3b4340af2ea5afbbb27914" id="r_a068d5d292d3b4340af2ea5afbbb27914"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a068d5d292d3b4340af2ea5afbbb27914">GetRawValue</a> (<a class="el" href="class_adventure_core_1_1_attribute_type.html">AttributeType</a> attribute)</td></tr>
+<tr class="memdesc:a068d5d292d3b4340af2ea5afbbb27914"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the attribute value without modifiers  <br /></td></tr>
+<tr class="separator:a068d5d292d3b4340af2ea5afbbb27914"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2d16b812d28eef06baea529e483f13e" id="r_ae2d16b812d28eef06baea529e483f13e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2d16b812d28eef06baea529e483f13e">GetValue</a> (<a class="el" href="class_adventure_core_1_1_attribute_stat.html">AttributeStat</a> stat)</td></tr>
 <tr class="memdesc:ae2d16b812d28eef06baea529e483f13e"><td class="mdescLeft">&#160;</td><td class="mdescRight">applies all modifiers and returns the stat value  <br /></td></tr>
 <tr class="separator:ae2d16b812d28eef06baea529e483f13e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -415,6 +418,40 @@ const string&#160;</td><td class="memItemRight" valign="bottom"><b>PERSISTENCE_S
 <p>collects all the state from attributes and puts it into a <a class="el" href="struct_adventure_core_1_1_attribute_pool_1_1_attribute_data.html">AttributeData</a> that can be serialized<br  />
  may be used from outside when attributedata is put into a larger structure that is persisted and no persister is set up here </p>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a068d5d292d3b4340af2ea5afbbb27914" name="a068d5d292d3b4340af2ea5afbbb27914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a068d5d292d3b4340af2ea5afbbb27914">&#9670;&#160;</a></span>GetRawValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AdventureCore.AttributePool.GetRawValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_attribute_type.html">AttributeType</a></td>          <td class="paramname"><span class="paramname"><em>attribute</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the attribute value without modifiers </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">attribute</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>current value of the attribute</dd></dl>
 
 </div>
 </div>

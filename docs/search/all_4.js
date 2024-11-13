@@ -22,10 +22,14 @@ var searchData=
   ['endaction_19',['EndAction',['../class_adventure_core_1_1_character_actor_base.html#a1f55d25110ff8afdf9d249a58bf7908a',1,'AdventureCore.CharacterActorBase.EndAction(string name)'],['../class_adventure_core_1_1_character_actor_base.html#a035ffd742012138bbab34794116df11c',1,'AdventureCore.CharacterActorBase.EndAction(CharacterActionBase characterAction)']]],
   ['endstates_20',['EndStates',['../class_adventure_core_1_1_playable_animation.html#a5bcfc9414b69522edfbc8d8fbc918a58',1,'AdventureCore::PlayableAnimation']]],
   ['entrydata_21',['EntryData',['../struct_adventure_core_1_1_player_pref_saver_1_1_entry_data.html',1,'AdventureCore::PlayerPrefSaver']]],
-  ['equipitemcategorydescriptor_22',['EquipItemCategoryDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_equip_item_category_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
-  ['equipitemcategoryunit_23',['EquipItemCategoryUnit',['../class_adventure_core_1_1_visual_scripting_1_1_equip_item_category_unit.html',1,'AdventureCore::VisualScripting']]],
-  ['equipitemdescriptor_24',['EquipItemDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_equip_item_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
-  ['equipitemunit_25',['EquipItemUnit',['../class_adventure_core_1_1_visual_scripting_1_1_equip_item_unit.html',1,'AdventureCore::VisualScripting']]],
-  ['equipmentitem_26',['EquipmentItem',['../class_adventure_core_1_1_equipment_item.html',1,'AdventureCore']]],
-  ['eventsystemcursor_27',['EventSystemCursor',['../class_adventure_core_1_1_event_system_cursor.html',1,'AdventureCore']]]
+  ['equip_22',['Equip',['../class_adventure_core_1_1_item_slot.html#a267542a73afa59883d6d4992ddfc32be',1,'AdventureCore.ItemSlot.Equip()'],['../class_adventure_core_1_1_item_slot_base.html#a6b8f43f3831b2ad3d98a1dabe96c68ad',1,'AdventureCore.ItemSlotBase.Equip()'],['../class_adventure_core_1_1_item_slot_proxy.html#a83ed9505dd0445d7dea31e1891b1af4a',1,'AdventureCore.ItemSlotProxy.Equip()']]],
+  ['equipitemcategorydescriptor_23',['EquipItemCategoryDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_equip_item_category_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
+  ['equipitemcategoryunit_24',['EquipItemCategoryUnit',['../class_adventure_core_1_1_visual_scripting_1_1_equip_item_category_unit.html',1,'AdventureCore::VisualScripting']]],
+  ['equipitemdescriptor_25',['EquipItemDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_equip_item_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
+  ['equipitems_26',['EquipItems',['../class_adventure_core_1_1_inventory_base.html#adebcecde53b3a9ed99a4c00f3c851fb5',1,'AdventureCore::InventoryBase']]],
+  ['equipitemunit_27',['EquipItemUnit',['../class_adventure_core_1_1_visual_scripting_1_1_equip_item_unit.html',1,'AdventureCore::VisualScripting']]],
+  ['equipmentitem_28',['EquipmentItem',['../class_adventure_core_1_1_equipment_item.html',1,'AdventureCore']]],
+  ['equipnext_29',['EquipNext',['../class_adventure_core_1_1_item_slot_base.html#a87c97b16a494bccf2a17a54c40d111fb',1,'AdventureCore::ItemSlotBase']]],
+  ['equipprevious_30',['EquipPrevious',['../class_adventure_core_1_1_item_slot_base.html#ad63b486870bb8fb280d180dfdc0745f9',1,'AdventureCore::ItemSlotBase']]],
+  ['eventsystemcursor_31',['EventSystemCursor',['../class_adventure_core_1_1_event_system_cursor.html',1,'AdventureCore']]]
 ];

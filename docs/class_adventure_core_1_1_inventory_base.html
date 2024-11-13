@@ -123,58 +123,75 @@ Inheritance diagram for AdventureCore.InventoryBase:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7498d011ea7d9925ca96710673732a3f" id="r_a7498d011ea7d9925ca96710673732a3f"><td class="memItemLeft" align="right" valign="top"><a id="a7498d011ea7d9925ca96710673732a3f" name="a7498d011ea7d9925ca96710673732a3f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="memitem:a7498d011ea7d9925ca96710673732a3f" id="r_a7498d011ea7d9925ca96710673732a3f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7498d011ea7d9925ca96710673732a3f">Initialize</a> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="memdesc:a7498d011ea7d9925ca96710673732a3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes the inventory including retrieving persisted data  <br /></td></tr>
 <tr class="separator:a7498d011ea7d9925ca96710673732a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab83208c554aa3e9120233b002fe316b5" id="r_ab83208c554aa3e9120233b002fe316b5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab83208c554aa3e9120233b002fe316b5">HasItem</a> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item)</td></tr>
-<tr class="memdesc:ab83208c554aa3e9120233b002fe316b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the item exists in the inventory, regardless of quantity(may be 0)  <br /></td></tr>
+<tr class="memdesc:ab83208c554aa3e9120233b002fe316b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the item exists in the inventory, regardless of quantity(may be 0 for stacked items to indicate they have been added at some point)  <br /></td></tr>
 <tr class="separator:ab83208c554aa3e9120233b002fe316b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8ccd6778e710a45c8efe0a6c09a5283" id="r_ae8ccd6778e710a45c8efe0a6c09a5283"><td class="memItemLeft" align="right" valign="top"><a id="ae8ccd6778e710a45c8efe0a6c09a5283" name="ae8ccd6778e710a45c8efe0a6c09a5283"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasItemQuantity</b> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item, int quantity=1)</td></tr>
+<tr class="memitem:ae8ccd6778e710a45c8efe0a6c09a5283" id="r_ae8ccd6778e710a45c8efe0a6c09a5283"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8ccd6778e710a45c8efe0a6c09a5283">HasItemQuantity</a> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item, int quantity=1)</td></tr>
+<tr class="memdesc:ae8ccd6778e710a45c8efe0a6c09a5283"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the inventory has at least the passed quantity of an item  <br /></td></tr>
 <tr class="separator:ae8ccd6778e710a45c8efe0a6c09a5283"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a890b90935922da96d91553f3e635fb25" id="r_a890b90935922da96d91553f3e635fb25"><td class="memItemLeft" align="right" valign="top"><a id="a890b90935922da96d91553f3e635fb25" name="a890b90935922da96d91553f3e635fb25"></a>
-IEnumerable&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetItems</b> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item)</td></tr>
+<tr class="memitem:a890b90935922da96d91553f3e635fb25" id="r_a890b90935922da96d91553f3e635fb25"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a890b90935922da96d91553f3e635fb25">GetItems</a> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item)</td></tr>
+<tr class="memdesc:a890b90935922da96d91553f3e635fb25"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves all inventory items for a specified item<br  />
+ multiple entries may be resturned for items that dont stack-<br  />
+ or when the inventory has a maximum stack size  <br /></td></tr>
 <tr class="separator:a890b90935922da96d91553f3e635fb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3db65e2f0aef66df6b0887b4dfa19fc1" id="r_a3db65e2f0aef66df6b0887b4dfa19fc1"><td class="memItemLeft" align="right" valign="top"><a id="a3db65e2f0aef66df6b0887b4dfa19fc1" name="a3db65e2f0aef66df6b0887b4dfa19fc1"></a>
-IEnumerable&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetItems</b> (<a class="el" href="class_adventure_core_1_1_item_category.html">ItemCategory</a> itemCategory=null, <a class="el" href="class_adventure_core_1_1_item_slot_category.html">ItemSlotCategory</a> itemSlotCategory=null)</td></tr>
+<tr class="memitem:a3db65e2f0aef66df6b0887b4dfa19fc1" id="r_a3db65e2f0aef66df6b0887b4dfa19fc1"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3db65e2f0aef66df6b0887b4dfa19fc1">GetItems</a> (<a class="el" href="class_adventure_core_1_1_item_category.html">ItemCategory</a> itemCategory=null, <a class="el" href="class_adventure_core_1_1_item_slot_category.html">ItemSlotCategory</a> itemSlotCategory=null)</td></tr>
+<tr class="memdesc:a3db65e2f0aef66df6b0887b4dfa19fc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves all inventory items for a specific category or slot  <br /></td></tr>
 <tr class="separator:a3db65e2f0aef66df6b0887b4dfa19fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44c47f98a9636accc446ab1ca5680d68" id="r_a44c47f98a9636accc446ab1ca5680d68"><td class="memItemLeft" align="right" valign="top"><a id="a44c47f98a9636accc446ab1ca5680d68" name="a44c47f98a9636accc446ab1ca5680d68"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>GetQuantity</b> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item)</td></tr>
+<tr class="memitem:a44c47f98a9636accc446ab1ca5680d68" id="r_a44c47f98a9636accc446ab1ca5680d68"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44c47f98a9636accc446ab1ca5680d68">GetQuantity</a> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item)</td></tr>
+<tr class="memdesc:a44c47f98a9636accc446ab1ca5680d68"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the total stored quantity of an item  <br /></td></tr>
 <tr class="separator:a44c47f98a9636accc446ab1ca5680d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9c2d359d7d0bbc6ef9361b3ea34b994" id="r_ae9c2d359d7d0bbc6ef9361b3ea34b994"><td class="memItemLeft" align="right" valign="top"><a id="ae9c2d359d7d0bbc6ef9361b3ea34b994" name="ae9c2d359d7d0bbc6ef9361b3ea34b994"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>GetQuantity</b> (<a class="el" href="class_adventure_core_1_1_item_category.html">ItemCategory</a> itemCategory=null, <a class="el" href="class_adventure_core_1_1_item_slot_category.html">ItemSlotCategory</a> itemSlotCategory=null)</td></tr>
+<tr class="memitem:ae9c2d359d7d0bbc6ef9361b3ea34b994" id="r_ae9c2d359d7d0bbc6ef9361b3ea34b994"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9c2d359d7d0bbc6ef9361b3ea34b994">GetQuantity</a> (<a class="el" href="class_adventure_core_1_1_item_category.html">ItemCategory</a> itemCategory=null, <a class="el" href="class_adventure_core_1_1_item_slot_category.html">ItemSlotCategory</a> itemSlotCategory=null)</td></tr>
+<tr class="memdesc:ae9c2d359d7d0bbc6ef9361b3ea34b994"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the total stored quantity of items filtered by an item category and/or slot  <br /></td></tr>
 <tr class="separator:ae9c2d359d7d0bbc6ef9361b3ea34b994"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ca9e31539584c49863a6ee25b76b2b3" id="r_a7ca9e31539584c49863a6ee25b76b2b3"><td class="memItemLeft" align="right" valign="top"><a id="a7ca9e31539584c49863a6ee25b76b2b3" name="a7ca9e31539584c49863a6ee25b76b2b3"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanAddItems</b> (<a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a> itemQuantity)</td></tr>
-<tr class="separator:a7ca9e31539584c49863a6ee25b76b2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c502c6b8e7471c8480b043aa4340eea" id="r_a6c502c6b8e7471c8480b043aa4340eea"><td class="memItemLeft" align="right" valign="top"><a id="a6c502c6b8e7471c8480b043aa4340eea" name="a6c502c6b8e7471c8480b043aa4340eea"></a>
-<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a>&#160;</td><td class="memItemRight" valign="bottom"><b>AddItems</b> (<a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a> itemQuantity)</td></tr>
-<tr class="separator:a6c502c6b8e7471c8480b043aa4340eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fe0c5154b18a3654afc733796a1da9b" id="r_a3fe0c5154b18a3654afc733796a1da9b"><td class="memItemLeft" align="right" valign="top"><a id="a3fe0c5154b18a3654afc733796a1da9b" name="a3fe0c5154b18a3654afc733796a1da9b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanRemoveItems</b> (<a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a> itemQuantity)</td></tr>
-<tr class="separator:a3fe0c5154b18a3654afc733796a1da9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abec21c35633d5ed5ea4f42220d158502" id="r_abec21c35633d5ed5ea4f42220d158502"><td class="memItemLeft" align="right" valign="top"><a id="abec21c35633d5ed5ea4f42220d158502" name="abec21c35633d5ed5ea4f42220d158502"></a>
-<a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a>&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveItems</b> (<a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a> itemQuantity)</td></tr>
-<tr class="separator:abec21c35633d5ed5ea4f42220d158502"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a218b1c9d2da519c1e3e20e7fd941faeb" id="r_a218b1c9d2da519c1e3e20e7fd941faeb"><td class="memItemLeft" align="right" valign="top"><a id="a218b1c9d2da519c1e3e20e7fd941faeb" name="a218b1c9d2da519c1e3e20e7fd941faeb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanRemoveItems</b> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem, int quantity=1)</td></tr>
-<tr class="separator:a218b1c9d2da519c1e3e20e7fd941faeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c0ea9aa68c7b7629c61708478f71c6d" id="r_a7c0ea9aa68c7b7629c61708478f71c6d"><td class="memItemLeft" align="right" valign="top"><a id="a7c0ea9aa68c7b7629c61708478f71c6d" name="a7c0ea9aa68c7b7629c61708478f71c6d"></a>
-<a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a>&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveItems</b> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem, int quantity=1)</td></tr>
-<tr class="separator:a7c0ea9aa68c7b7629c61708478f71c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad11038227250bcceda0b00de52b45405" id="r_ad11038227250bcceda0b00de52b45405"><td class="memItemLeft" align="right" valign="top"><a id="ad11038227250bcceda0b00de52b45405" name="ad11038227250bcceda0b00de52b45405"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanUseItems</b> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem, int quantity=1)</td></tr>
+<tr class="memitem:a60b6b8c1fc0dc67b6af2120403c6c59f" id="r_a60b6b8c1fc0dc67b6af2120403c6c59f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60b6b8c1fc0dc67b6af2120403c6c59f">CanAddItems</a> (<a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a> itemQuantity, bool fully=true)</td></tr>
+<tr class="memdesc:a60b6b8c1fc0dc67b6af2120403c6c59f"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether an item quantity can be added to the inventory<br  />
+ may be false when the quantity exceeds the capacity  <br /></td></tr>
+<tr class="separator:a60b6b8c1fc0dc67b6af2120403c6c59f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9c620c1dfca80043c522131a750d8d0" id="r_ab9c620c1dfca80043c522131a750d8d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9c620c1dfca80043c522131a750d8d0">AddItems</a> (<a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a> itemQuantity)</td></tr>
+<tr class="memdesc:ab9c620c1dfca80043c522131a750d8d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a quantity of an item to the inventory<br  />
+ returns the inventory item that was added to or created  <br /></td></tr>
+<tr class="separator:ab9c620c1dfca80043c522131a750d8d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7c9f2bc5dfa88f3777cfac27f176fb2" id="r_ad7c9f2bc5dfa88f3777cfac27f176fb2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7c9f2bc5dfa88f3777cfac27f176fb2">CanRemoveItems</a> (<a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a> itemQuantity, bool fully=true)</td></tr>
+<tr class="memdesc:ad7c9f2bc5dfa88f3777cfac27f176fb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether a quantity of items is present and can be removed  <br /></td></tr>
+<tr class="separator:ad7c9f2bc5dfa88f3777cfac27f176fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0f29ff2cb01e123870246b604170f56" id="r_ab0f29ff2cb01e123870246b604170f56"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0f29ff2cb01e123870246b604170f56">RemoveItems</a> (<a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a> itemQuantity)</td></tr>
+<tr class="memdesc:ab0f29ff2cb01e123870246b604170f56"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a quantity of items  <br /></td></tr>
+<tr class="separator:ab0f29ff2cb01e123870246b604170f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d8b0b0a3d06c0d30dd453da60dcf582" id="r_a3d8b0b0a3d06c0d30dd453da60dcf582"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d8b0b0a3d06c0d30dd453da60dcf582">CanRemoveItems</a> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem, int quantity=1, bool fully=true)</td></tr>
+<tr class="memdesc:a3d8b0b0a3d06c0d30dd453da60dcf582"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether a quantity of items is present and can be removed from an inventory item  <br /></td></tr>
+<tr class="separator:a3d8b0b0a3d06c0d30dd453da60dcf582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adde970f6bf1cfbdf31e2c5a317b4dff0" id="r_adde970f6bf1cfbdf31e2c5a317b4dff0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adde970f6bf1cfbdf31e2c5a317b4dff0">RemoveItems</a> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem, int quantity=1)</td></tr>
+<tr class="memdesc:adde970f6bf1cfbdf31e2c5a317b4dff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes specified quantity from the inventory item  <br /></td></tr>
+<tr class="separator:adde970f6bf1cfbdf31e2c5a317b4dff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad11038227250bcceda0b00de52b45405" id="r_ad11038227250bcceda0b00de52b45405"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad11038227250bcceda0b00de52b45405">CanUseItems</a> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem, int quantity=1)</td></tr>
+<tr class="memdesc:ad11038227250bcceda0b00de52b45405"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if a quantity of an inventory item can be used  <br /></td></tr>
 <tr class="separator:ad11038227250bcceda0b00de52b45405"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeddf6621e2947cb1913b8a40083ea329" id="r_aeddf6621e2947cb1913b8a40083ea329"><td class="memItemLeft" align="right" valign="top"><a id="aeddf6621e2947cb1913b8a40083ea329" name="aeddf6621e2947cb1913b8a40083ea329"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UseItems</b> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem, int quantity=1)</td></tr>
+<tr class="memitem:aeddf6621e2947cb1913b8a40083ea329" id="r_aeddf6621e2947cb1913b8a40083ea329"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeddf6621e2947cb1913b8a40083ea329">UseItems</a> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem, int quantity=1)</td></tr>
+<tr class="memdesc:aeddf6621e2947cb1913b8a40083ea329"><td class="mdescLeft">&#160;</td><td class="mdescRight">uses a quantity of an inventory item can be used  <br /></td></tr>
 <tr class="separator:aeddf6621e2947cb1913b8a40083ea329"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5092d7e900c88239a38658f5cb165b9e" id="r_a5092d7e900c88239a38658f5cb165b9e"><td class="memItemLeft" align="right" valign="top"><a id="a5092d7e900c88239a38658f5cb165b9e" name="a5092d7e900c88239a38658f5cb165b9e"></a>
-<a class="el" href="class_adventure_core_1_1_item_slot_base.html">ItemSlotBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetSlot</b> (<a class="el" href="class_adventure_core_1_1_item_slot_category.html">ItemSlotCategory</a> category, int index=0)</td></tr>
+<tr class="memitem:aa2b9e068511e66bb11899dc25e76c5d2" id="r_aa2b9e068511e66bb11899dc25e76c5d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2b9e068511e66bb11899dc25e76c5d2">CanEquipItems</a> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem, int index=0)</td></tr>
+<tr class="memdesc:aa2b9e068511e66bb11899dc25e76c5d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if an inventory item can be equipped  <br /></td></tr>
+<tr class="separator:aa2b9e068511e66bb11899dc25e76c5d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adebcecde53b3a9ed99a4c00f3c851fb5" id="r_adebcecde53b3a9ed99a4c00f3c851fb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_adventure_core_1_1_item_slot_base.html">ItemSlotBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adebcecde53b3a9ed99a4c00f3c851fb5">EquipItems</a> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem, int index=0)</td></tr>
+<tr class="memdesc:adebcecde53b3a9ed99a4c00f3c851fb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">equipps an inventory item to a slot  <br /></td></tr>
+<tr class="separator:adebcecde53b3a9ed99a4c00f3c851fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0143642bb751a7f45e155518bea1116" id="r_af0143642bb751a7f45e155518bea1116"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0143642bb751a7f45e155518bea1116">CanUnequipItems</a> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem)</td></tr>
+<tr class="memdesc:af0143642bb751a7f45e155518bea1116"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if an inventory item can be unequipped  <br /></td></tr>
+<tr class="separator:af0143642bb751a7f45e155518bea1116"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad788890027dc767c4876f6340961b3dd" id="r_ad788890027dc767c4876f6340961b3dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_adventure_core_1_1_item_slot_base.html">ItemSlotBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad788890027dc767c4876f6340961b3dd">UnequipItems</a> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem)</td></tr>
+<tr class="memdesc:ad788890027dc767c4876f6340961b3dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">unequips an inventory item  <br /></td></tr>
+<tr class="separator:ad788890027dc767c4876f6340961b3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5092d7e900c88239a38658f5cb165b9e" id="r_a5092d7e900c88239a38658f5cb165b9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_adventure_core_1_1_item_slot_base.html">ItemSlotBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5092d7e900c88239a38658f5cb165b9e">GetSlot</a> (<a class="el" href="class_adventure_core_1_1_item_slot_category.html">ItemSlotCategory</a> category, int index=0)</td></tr>
+<tr class="memdesc:a5092d7e900c88239a38658f5cb165b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves an item slot by its category  <br /></td></tr>
 <tr class="separator:a5092d7e900c88239a38658f5cb165b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a534714ff88898be649acc5919f5c5052" id="r_a534714ff88898be649acc5919f5c5052"><td class="memItemLeft" align="right" valign="top"><a id="a534714ff88898be649acc5919f5c5052" name="a534714ff88898be649acc5919f5c5052"></a>
-<a class="el" href="class_adventure_core_1_1_item_slot_base.html">ItemSlotBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetSlot</b> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item, int index=0)</td></tr>
+<tr class="memitem:a534714ff88898be649acc5919f5c5052" id="r_a534714ff88898be649acc5919f5c5052"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_adventure_core_1_1_item_slot_base.html">ItemSlotBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a534714ff88898be649acc5919f5c5052">GetSlot</a> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item, int index=0)</td></tr>
+<tr class="memdesc:a534714ff88898be649acc5919f5c5052"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves an item slot for the passed item  <br /></td></tr>
 <tr class="separator:a534714ff88898be649acc5919f5c5052"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bc99aee05b52a17c4f7632f6bf89095" id="r_a6bc99aee05b52a17c4f7632f6bf89095"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bc99aee05b52a17c4f7632f6bf89095">GetSlot&lt; T &gt;</a> (int index=0)</td></tr>
+<tr class="memdesc:a6bc99aee05b52a17c4f7632f6bf89095"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves an item slot by its type  <br /></td></tr>
 <tr class="separator:a6bc99aee05b52a17c4f7632f6bf89095"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -185,6 +202,9 @@ UnityEvent&lt; <a class="el" href="class_adventure_core_1_1_item_quantity.html">
 <tr class="memitem:aaad8f0a9fa48170fce0dd541cf6be960" id="r_aaad8f0a9fa48170fce0dd541cf6be960"><td class="memItemLeft" align="right" valign="top"><a id="aaad8f0a9fa48170fce0dd541cf6be960" name="aaad8f0a9fa48170fce0dd541cf6be960"></a>
 UnityEvent&lt; <a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Changed</b></td></tr>
 <tr class="separator:aaad8f0a9fa48170fce0dd541cf6be960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172a1087679fd89fb10ad8f4b078cf00" id="r_a172a1087679fd89fb10ad8f4b078cf00"><td class="memItemLeft" align="right" valign="top"><a id="a172a1087679fd89fb10ad8f4b078cf00" name="a172a1087679fd89fb10ad8f4b078cf00"></a>
+UnityEvent&lt; <a class="el" href="class_adventure_core_1_1_item_slot_base.html">ItemSlotBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>EquipmentChanged</b></td></tr>
+<tr class="separator:a172a1087679fd89fb10ad8f4b078cf00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -202,6 +222,542 @@ Properties</h2></td></tr>
 <tr class="separator:a3ddb504450a502b5e47e6463d9b4ce9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab9c620c1dfca80043c522131a750d8d0" name="ab9c620c1dfca80043c522131a750d8d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9c620c1dfca80043c522131a750d8d0">&#9670;&#160;</a></span>AddItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AdventureCore.InventoryBase.AddItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a></td>          <td class="paramname"><span class="paramname"><em>itemQuantity</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>adds a quantity of an item to the inventory<br  />
+ returns the inventory item that was added to or created </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itemQuantity</td><td>how much and what to add to the inventory</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the remaining quantity that could not be added</dd></dl>
+
+</div>
+</div>
+<a id="a60b6b8c1fc0dc67b6af2120403c6c59f" name="a60b6b8c1fc0dc67b6af2120403c6c59f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60b6b8c1fc0dc67b6af2120403c6c59f">&#9670;&#160;</a></span>CanAddItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AdventureCore.InventoryBase.CanAddItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a></td>          <td class="paramname"><span class="paramname"><em>itemQuantity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fully</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>whether an item quantity can be added to the inventory<br  />
+ may be false when the quantity exceeds the capacity </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itemQuantity</td><td>the item and quantity to check</td></tr>
+    <tr><td class="paramname">fully</td><td>if the quantity has to be stored entirely</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether the item quantity can be stored</dd></dl>
+
+</div>
+</div>
+<a id="aa2b9e068511e66bb11899dc25e76c5d2" name="aa2b9e068511e66bb11899dc25e76c5d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2b9e068511e66bb11899dc25e76c5d2">&#9670;&#160;</a></span>CanEquipItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AdventureCore.InventoryBase.CanEquipItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a></td>          <td class="paramname"><span class="paramname"><em>inventoryItem</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks if an inventory item can be equipped </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inventoryItem</td><td>the inventory item to equip</td></tr>
+    <tr><td class="paramname">index</td><td>index of the slot to equip to if there are multiple(for example left/right arm in souls)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether the item can be equipped</dd></dl>
+
+</div>
+</div>
+<a id="a3d8b0b0a3d06c0d30dd453da60dcf582" name="a3d8b0b0a3d06c0d30dd453da60dcf582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d8b0b0a3d06c0d30dd453da60dcf582">&#9670;&#160;</a></span>CanRemoveItems() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AdventureCore.InventoryBase.CanRemoveItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a></td>          <td class="paramname"><span class="paramname"><em>inventoryItem</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fully</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>whether a quantity of items is present and can be removed from an inventory item </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inventoryItem</td><td>the inventory item to remove from</td></tr>
+    <tr><td class="paramname">quantity</td><td>how much to remove</td></tr>
+    <tr><td class="paramname">fully</td><td>if the quantity has to be stored entirely</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether the quantity can be removed</dd></dl>
+
+</div>
+</div>
+<a id="ad7c9f2bc5dfa88f3777cfac27f176fb2" name="ad7c9f2bc5dfa88f3777cfac27f176fb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7c9f2bc5dfa88f3777cfac27f176fb2">&#9670;&#160;</a></span>CanRemoveItems() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AdventureCore.InventoryBase.CanRemoveItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a></td>          <td class="paramname"><span class="paramname"><em>itemQuantity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fully</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>whether a quantity of items is present and can be removed </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itemQuantity</td><td>how much and what to remove from the inventory</td></tr>
+    <tr><td class="paramname">fully</td><td>if the quantity has to be stored entirely</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="af0143642bb751a7f45e155518bea1116" name="af0143642bb751a7f45e155518bea1116"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0143642bb751a7f45e155518bea1116">&#9670;&#160;</a></span>CanUnequipItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AdventureCore.InventoryBase.CanUnequipItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a></td>          <td class="paramname"><span class="paramname"><em>inventoryItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks if an inventory item can be unequipped </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inventoryItem</td><td>the inventory item to unequip</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether the item can be unequipped</dd></dl>
+
+</div>
+</div>
+<a id="ad11038227250bcceda0b00de52b45405" name="ad11038227250bcceda0b00de52b45405"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad11038227250bcceda0b00de52b45405">&#9670;&#160;</a></span>CanUseItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AdventureCore.InventoryBase.CanUseItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a></td>          <td class="paramname"><span class="paramname"><em>inventoryItem</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>check if a quantity of an inventory item can be used </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inventoryItem</td><td>the inventory item to use</td></tr>
+    <tr><td class="paramname">quantity</td><td>how many to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether the quantity can be used</dd></dl>
+
+</div>
+</div>
+<a id="adebcecde53b3a9ed99a4c00f3c851fb5" name="adebcecde53b3a9ed99a4c00f3c851fb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adebcecde53b3a9ed99a4c00f3c851fb5">&#9670;&#160;</a></span>EquipItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_adventure_core_1_1_item_slot_base.html">ItemSlotBase</a> AdventureCore.InventoryBase.EquipItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a></td>          <td class="paramname"><span class="paramname"><em>inventoryItem</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>equipps an inventory item to a slot </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inventoryItem</td><td>the inventory item to equip</td></tr>
+    <tr><td class="paramname">index</td><td>index of the slot to equip to if there are multiple(for example left/right arm in souls)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the slot the item was equipped to</dd></dl>
+
+</div>
+</div>
+<a id="a890b90935922da96d91553f3e635fb25" name="a890b90935922da96d91553f3e635fb25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a890b90935922da96d91553f3e635fb25">&#9670;&#160;</a></span>GetItems() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> &gt; AdventureCore.InventoryBase.GetItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a></td>          <td class="paramname"><span class="paramname"><em>item</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>retrieves all inventory items for a specified item<br  />
+ multiple entries may be resturned for items that dont stack-<br  />
+ or when the inventory has a maximum stack size </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>the item to check</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>all inventory items that store the specified item</dd></dl>
+
+</div>
+</div>
+<a id="a3db65e2f0aef66df6b0887b4dfa19fc1" name="a3db65e2f0aef66df6b0887b4dfa19fc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3db65e2f0aef66df6b0887b4dfa19fc1">&#9670;&#160;</a></span>GetItems() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> &gt; AdventureCore.InventoryBase.GetItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_item_category.html">ItemCategory</a></td>          <td class="paramname"><span class="paramname"><em>itemCategory</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_item_slot_category.html">ItemSlotCategory</a></td>          <td class="paramname"><span class="paramname"><em>itemSlotCategory</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>retrieves all inventory items for a specific category or slot </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itemCategory</td><td>the category to filter items for</td></tr>
+    <tr><td class="paramname">itemSlotCategory</td><td>the slot to filter items for</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>all inventory items that match the given category and/or slot</dd></dl>
+
+</div>
+</div>
+<a id="a44c47f98a9636accc446ab1ca5680d68" name="a44c47f98a9636accc446ab1ca5680d68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44c47f98a9636accc446ab1ca5680d68">&#9670;&#160;</a></span>GetQuantity() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AdventureCore.InventoryBase.GetQuantity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a></td>          <td class="paramname"><span class="paramname"><em>item</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>calculates the total stored quantity of an item </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>the item to sum quantities for</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>sum of all inventory item quantities that have the specified item</dd></dl>
+
+</div>
+</div>
+<a id="ae9c2d359d7d0bbc6ef9361b3ea34b994" name="ae9c2d359d7d0bbc6ef9361b3ea34b994"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9c2d359d7d0bbc6ef9361b3ea34b994">&#9670;&#160;</a></span>GetQuantity() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AdventureCore.InventoryBase.GetQuantity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_item_category.html">ItemCategory</a></td>          <td class="paramname"><span class="paramname"><em>itemCategory</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_item_slot_category.html">ItemSlotCategory</a></td>          <td class="paramname"><span class="paramname"><em>itemSlotCategory</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>calculates the total stored quantity of items filtered by an item category and/or slot </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itemCategory</td><td>the category to filter items for</td></tr>
+    <tr><td class="paramname">itemSlotCategory</td><td>the slot to filter items for</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>sum of all inventory item quantities that have the given category and/or slot</dd></dl>
+
+</div>
+</div>
+<a id="a534714ff88898be649acc5919f5c5052" name="a534714ff88898be649acc5919f5c5052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a534714ff88898be649acc5919f5c5052">&#9670;&#160;</a></span>GetSlot() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_adventure_core_1_1_item_slot_base.html">ItemSlotBase</a> AdventureCore.InventoryBase.GetSlot </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a></td>          <td class="paramname"><span class="paramname"><em>item</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>retrieves an item slot for the passed item </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>the item to retrieve a slot for</td></tr>
+    <tr><td class="paramname">index</td><td>when there are mutliple slots in one category(sould left/right weapon slots)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the found slot</dd></dl>
+
+</div>
+</div>
+<a id="a5092d7e900c88239a38658f5cb165b9e" name="a5092d7e900c88239a38658f5cb165b9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5092d7e900c88239a38658f5cb165b9e">&#9670;&#160;</a></span>GetSlot() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_adventure_core_1_1_item_slot_base.html">ItemSlotBase</a> AdventureCore.InventoryBase.GetSlot </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_item_slot_category.html">ItemSlotCategory</a></td>          <td class="paramname"><span class="paramname"><em>category</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>retrieves an item slot by its category </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">category</td><td>the category of the slot(helmet, shield, ...)</td></tr>
+    <tr><td class="paramname">index</td><td>when there are mutliple slots in one category(sould left/right weapon slots)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the found slot</dd></dl>
+
+</div>
+</div>
 <a id="a6bc99aee05b52a17c4f7632f6bf89095" name="a6bc99aee05b52a17c4f7632f6bf89095"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6bc99aee05b52a17c4f7632f6bf89095">&#9670;&#160;</a></span>GetSlot&lt; T &gt;()</h2>
 
@@ -212,7 +768,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T AdventureCore.InventoryBase.GetSlot&lt; T &gt; </td>
+          <td class="memname">T <a class="el" href="#a5092d7e900c88239a38658f5cb165b9e">AdventureCore.InventoryBase.GetSlot</a>&lt; T &gt; </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span></td><td>)</td>
           <td></td>
@@ -224,6 +780,21 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>retrieves an item slot by its type </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>the type of the item slot</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>when there are mutliple slots in one category(sould left/right weapon slots)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the found slot</dd></dl>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -258,7 +829,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>checks whether the item exists in the inventory, regardless of quantity(may be 0) </p>
+<p>checks whether the item exists in the inventory, regardless of quantity(may be 0 for stacked items to indicate they have been added at some point) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">item</td><td></td></tr>
@@ -266,6 +837,225 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ae8ccd6778e710a45c8efe0a6c09a5283" name="ae8ccd6778e710a45c8efe0a6c09a5283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8ccd6778e710a45c8efe0a6c09a5283">&#9670;&#160;</a></span>HasItemQuantity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AdventureCore.InventoryBase.HasItemQuantity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a></td>          <td class="paramname"><span class="paramname"><em>item</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks if the inventory has at least the passed quantity of an item </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>the item to check</td></tr>
+    <tr><td class="paramname">quantity</td><td>the minimum quantity needed</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the needed quantity is present</dd></dl>
+
+</div>
+</div>
+<a id="a7498d011ea7d9925ca96710673732a3f" name="a7498d011ea7d9925ca96710673732a3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7498d011ea7d9925ca96710673732a3f">&#9670;&#160;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AdventureCore.InventoryBase.Initialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a></td>          <td class="paramname"><span class="paramname"><em>character</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>initializes the inventory including retrieving persisted data </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">character</td><td>the owner of the inventory</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="class_adventure_core_1_1_listed_inventory.html#a5eca5e9d26a6bbaf268bc346956728e2">AdventureCore.ListedInventory</a>.</p>
+
+</div>
+</div>
+<a id="adde970f6bf1cfbdf31e2c5a317b4dff0" name="adde970f6bf1cfbdf31e2c5a317b4dff0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adde970f6bf1cfbdf31e2c5a317b4dff0">&#9670;&#160;</a></span>RemoveItems() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AdventureCore.InventoryBase.RemoveItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a></td>          <td class="paramname"><span class="paramname"><em>inventoryItem</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes specified quantity from the inventory item </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inventoryItem</td><td>the inventory item to remove from</td></tr>
+    <tr><td class="paramname">quantity</td><td>the quantity to remove</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the remaining quantity that could not be removed</dd></dl>
+
+</div>
+</div>
+<a id="ab0f29ff2cb01e123870246b604170f56" name="ab0f29ff2cb01e123870246b604170f56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0f29ff2cb01e123870246b604170f56">&#9670;&#160;</a></span>RemoveItems() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AdventureCore.InventoryBase.RemoveItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a></td>          <td class="paramname"><span class="paramname"><em>itemQuantity</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes a quantity of items </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itemQuantity</td><td>how much and what to remove</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the remaining quantity that could not be removed</dd></dl>
+
+</div>
+</div>
+<a id="ad788890027dc767c4876f6340961b3dd" name="ad788890027dc767c4876f6340961b3dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad788890027dc767c4876f6340961b3dd">&#9670;&#160;</a></span>UnequipItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_adventure_core_1_1_item_slot_base.html">ItemSlotBase</a> AdventureCore.InventoryBase.UnequipItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a></td>          <td class="paramname"><span class="paramname"><em>inventoryItem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>unequips an inventory item </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inventoryItem</td><td>the inventory item to unequip</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the slot the inventory item was equipped to</dd></dl>
+
+</div>
+</div>
+<a id="aeddf6621e2947cb1913b8a40083ea329" name="aeddf6621e2947cb1913b8a40083ea329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeddf6621e2947cb1913b8a40083ea329">&#9670;&#160;</a></span>UseItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AdventureCore.InventoryBase.UseItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a></td>          <td class="paramname"><span class="paramname"><em>inventoryItem</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>uses a quantity of an inventory item can be used </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inventoryItem</td><td>the inventory item to use</td></tr>
+    <tr><td class="paramname">quantity</td><td>how many to use</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
