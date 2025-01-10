@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.7.3</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.8.0</span>
    </div>
   </td>
  </tr>
@@ -124,11 +124,26 @@ Inheritance diagram for AdventureCore.DamageEffect:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a5773189f4c7f64d9f5b4c04189a0811c" id="r_a5773189f4c7f64d9f5b4c04189a0811c"><td class="memItemLeft" align="right" valign="top">virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5773189f4c7f64d9f5b4c04189a0811c">GetPosition</a> ()</td></tr>
+<tr class="memdesc:a5773189f4c7f64d9f5b4c04189a0811c"><td class="mdescLeft">&#160;</td><td class="mdescRight">position of the receiver, may be used to determine damage direction  <br /></td></tr>
+<tr class="separator:a5773189f4c7f64d9f5b4c04189a0811c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa13f2f420b4bca36d631d3b3fd053199" id="r_aa13f2f420b4bca36d631d3b3fd053199"><td class="memItemLeft" align="right" valign="top">virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa13f2f420b4bca36d631d3b3fd053199">GetDirection</a> (<a class="el" href="interface_adventure_core_1_1_i_damage_receiver.html">IDamageReceiver</a> receiver)</td></tr>
+<tr class="memdesc:aa13f2f420b4bca36d631d3b3fd053199"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates direction of damage between this sender and a receiver  <br /></td></tr>
+<tr class="separator:aa13f2f420b4bca36d631d3b3fd053199"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7fcc7b9b3ff2dad5a6cc2bd4dbcf1d3" id="r_ad7fcc7b9b3ff2dad5a6cc2bd4dbcf1d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7fcc7b9b3ff2dad5a6cc2bd4dbcf1d3">PreDamage</a> (<a class="el" href="interface_adventure_core_1_1_i_damage_receiver.html">IDamageReceiver</a> receiver)</td></tr>
+<tr class="memdesc:ad7fcc7b9b3ff2dad5a6cc2bd4dbcf1d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before any real damage handling to check if the handling is valid and should continue<br  />
+ for example if a character is currently dodging damage handling can be cancelled here  <br /></td></tr>
 <tr class="separator:ad7fcc7b9b3ff2dad5a6cc2bd4dbcf1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c0f6d2f0783cc4e5a2b18bb8aae80f2" id="r_a0c0f6d2f0783cc4e5a2b18bb8aae80f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c0f6d2f0783cc4e5a2b18bb8aae80f2">OnDamage</a> (<a class="el" href="class_adventure_core_1_1_damage_event.html">DamageEvent</a> e)</td></tr>
+<tr class="memdesc:a0c0f6d2f0783cc4e5a2b18bb8aae80f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is where the main damage handling should take place and damage vectors are assigned<br  />
+ OnDamage is called in the order Sender &gt; Receiver &gt; Damage<br  />
+ for example if a character is wearing protective gear it may reduce the damage value here<br  />
+ this method is called for every damage parameter see <a class="el" href="class_adventure_core_1_1_damage_event.html" title="event args like class that gets passed through all the participants when damage occurs  -PreDamage is...">DamageEvent</a> for more details  <br /></td></tr>
 <tr class="separator:a0c0f6d2f0783cc4e5a2b18bb8aae80f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0329b93cd018645d956ff71f1f294859" id="r_a0329b93cd018645d956ff71f1f294859"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0329b93cd018645d956ff71f1f294859">PostDamage</a> (<a class="el" href="interface_adventure_core_1_1_i_damage_receiver.html">IDamageReceiver</a> receiver, List&lt; <a class="el" href="class_adventure_core_1_1_damage_event.html">DamageEvent</a> &gt; events)</td></tr>
+<tr class="memdesc:a0329b93cd018645d956ff71f1f294859"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after alle the damages have been applied<br  />
+ this is a good spot to react to the change of state that has been done by the damages<br  />
+ for example death or destruction if health was reduced to 0 by the damages  <br /></td></tr>
 <tr class="separator:a0329b93cd018645d956ff71f1f294859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6dea95eb35c66551e44df1ac072df74a" id="r_a6dea95eb35c66551e44df1ac072df74a"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dea95eb35c66551e44df1ac072df74a">GetValue</a> ()</td></tr>
 <tr class="separator:a6dea95eb35c66551e44df1ac072df74a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,6 +200,72 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsExternal</b><code> 
 <tr class="inherit_header properties_interface_adventure_core_1_1_i_damage_sender"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_adventure_core_1_1_i_damage_sender')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html">AdventureCore.IDamageSender</a></td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa13f2f420b4bca36d631d3b3fd053199" name="aa13f2f420b4bca36d631d3b3fd053199"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa13f2f420b4bca36d631d3b3fd053199">&#9670;&#160;</a></span>GetDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Vector3 AdventureCore.DamageEffect.GetDirection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_adventure_core_1_1_i_damage_receiver.html">IDamageReceiver</a></td>          <td class="paramname"><span class="paramname"><em>receiver</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>calculates direction of damage between this sender and a receiver </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">receiver</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html#ac1842687f3bf6824be344bf9b4c3c87f">AdventureCore.IDamageSender</a>.</p>
+
+</div>
+</div>
+<a id="a5773189f4c7f64d9f5b4c04189a0811c" name="a5773189f4c7f64d9f5b4c04189a0811c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5773189f4c7f64d9f5b4c04189a0811c">&#9670;&#160;</a></span>GetPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Vector3 AdventureCore.DamageEffect.GetPosition </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>position of the receiver, may be used to determine damage direction </p>
+<dl class="section return"><dt>Returns</dt><dd>position of the receiver, or the character associated with it</dd></dl>
+
+<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html#a7b2e903c2e8d3ecd2562b9b132b6be6e">AdventureCore.IDamageSender</a>.</p>
+
+</div>
+</div>
 <a id="a6dea95eb35c66551e44df1ac072df74a" name="a6dea95eb35c66551e44df1ac072df74a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6dea95eb35c66551e44df1ac072df74a">&#9670;&#160;</a></span>GetValue()</h2>
 
@@ -235,7 +316,18 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsExternal</b><code> 
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html">AdventureCore.IDamageSender</a>.</p>
+<p>this is where the main damage handling should take place and damage vectors are assigned<br  />
+ OnDamage is called in the order Sender &gt; Receiver &gt; Damage<br  />
+ for example if a character is wearing protective gear it may reduce the damage value here<br  />
+ this method is called for every damage parameter see <a class="el" href="class_adventure_core_1_1_damage_event.html" title="event args like class that gets passed through all the participants when damage occurs  -PreDamage is...">DamageEvent</a> for more details </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html#a60be9cf710d14a844a035103025e74d1">AdventureCore.IDamageSender</a>.</p>
 
 </div>
 </div>
@@ -266,7 +358,18 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsExternal</b><code> 
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html">AdventureCore.IDamageSender</a>.</p>
+<p>called after alle the damages have been applied<br  />
+ this is a good spot to react to the change of state that has been done by the damages<br  />
+ for example death or destruction if health was reduced to 0 by the damages </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td></td></tr>
+    <tr><td class="paramname">events</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html#a6c5b0bef3e31421573cfe37c1cff456f">AdventureCore.IDamageSender</a>.</p>
 
 </div>
 </div>
@@ -285,7 +388,17 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsExternal</b><code> 
       </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html">AdventureCore.IDamageSender</a>.</p>
+<p>called before any real damage handling to check if the handling is valid and should continue<br  />
+ for example if a character is currently dodging damage handling can be cancelled here </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">receiver</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether the damage handling should continue</dd></dl>
+
+<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html#a0c74fbcbd1184740aadf67992ea6ce8b">AdventureCore.IDamageSender</a>.</p>
 
 </div>
 </div>

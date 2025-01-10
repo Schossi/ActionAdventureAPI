@@ -7,6 +7,7 @@ var class_adventure_core_1_1_movement_base =
     [ "KeepAlignedToInput", "class_adventure_core_1_1_movement_base.html#a4728a7856dd0ba635e05bf7be784df97", null ],
     [ "KeepAlignedToTarget", "class_adventure_core_1_1_movement_base.html#ada1c8894119a77a6ded4eb8cf0b2faf8", null ],
     [ "MoveCharacter", "class_adventure_core_1_1_movement_base.html#af71780ae0c477b9475632c504c9fb711", null ],
+    [ "MoveCharacter", "class_adventure_core_1_1_movement_base.html#a977bf8c697cad7944b13e5a9e4cd0e48", null ],
     [ "ResetInput", "class_adventure_core_1_1_movement_base.html#aeae3605b520060e55b58315983dbba4c", null ],
     [ "ResetMomentum", "class_adventure_core_1_1_movement_base.html#a3133f4aa9eb6be6b4d4f7ce6839fc22b", null ],
     [ "TeleportCharacter", "class_adventure_core_1_1_movement_base.html#a561b2457072676d896b7edaf1f04b9bd", null ],

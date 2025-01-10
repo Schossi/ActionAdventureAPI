@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.7.3</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.8.0</span>
    </div>
   </td>
  </tr>
@@ -126,6 +126,9 @@ Inheritance diagram for AdventureCore.IDamageReceiver:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aae0ba026a1029caaf27db4d419615221" id="r_aae0ba026a1029caaf27db4d419615221"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae0ba026a1029caaf27db4d419615221">GetPosition</a> ()</td></tr>
+<tr class="memdesc:aae0ba026a1029caaf27db4d419615221"><td class="mdescLeft">&#160;</td><td class="mdescRight">position of the receiver, may be used to determine damage direction  <br /></td></tr>
+<tr class="separator:aae0ba026a1029caaf27db4d419615221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0c2494998aaf4001968b26938879b64" id="r_ac0c2494998aaf4001968b26938879b64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0c2494998aaf4001968b26938879b64">PreDamage</a> (<a class="el" href="interface_adventure_core_1_1_i_damage_sender.html">IDamageSender</a> sender)</td></tr>
 <tr class="memdesc:ac0c2494998aaf4001968b26938879b64"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before any real damage handling to check if the handling is valid and should continue<br  />
  for example if a character is currently dodging damage handling can be cancelled here  <br /></td></tr>
@@ -150,6 +153,28 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:abc0d41c4be6f1cc6070e0a748b87ac5f inherit properties_interface_adventure_core_1_1_i_character_associator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aae0ba026a1029caaf27db4d419615221" name="aae0ba026a1029caaf27db4d419615221"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae0ba026a1029caaf27db4d419615221">&#9670;&#160;</a></span>GetPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 AdventureCore.IDamageReceiver.GetPosition </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>position of the receiver, may be used to determine damage direction </p>
+<dl class="section return"><dt>Returns</dt><dd>position of the receiver, or the character associated with it</dd></dl>
+
+<p>Implemented in <a class="el" href="class_adventure_core_1_1_trigger_damage_receiver.html#a6321ed8b7ead98da88509a8fb86dd80a">AdventureCore.TriggerDamageReceiver</a>.</p>
+
+</div>
+</div>
 <a id="a44fc1665f4f1f26fbcdbc404f785e728" name="a44fc1665f4f1f26fbcdbc404f785e728"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44fc1665f4f1f26fbcdbc404f785e728">&#9670;&#160;</a></span>OnDamage()</h2>
 

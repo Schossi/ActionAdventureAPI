@@ -147,6 +147,7 @@ var namespace_adventure_core_1_1_editor_1_1_visual_scripting =
     [ "PlayMusicDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_play_music_descriptor.html", null ],
     [ "PlayPlayableAnimationDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_play_playable_animation_descriptor.html", null ],
     [ "RagdollDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_ragdoll_descriptor.html", null ],
+    [ "RandomChanceDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_random_chance_descriptor.html", null ],
     [ "RemoveAttributeDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_remove_attribute_descriptor.html", null ],
     [ "RemoveEffectDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_remove_effect_descriptor.html", null ],
     [ "RemoveInstructionDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_remove_instruction_descriptor.html", null ],

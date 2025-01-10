@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.7.3</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.8.0</span>
    </div>
   </td>
  </tr>
@@ -222,6 +222,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EndMarch</b> 
 <tr class="memitem:a081fca75ec083e5db39151a6a5ea29fd inherit pub_methods_class_adventure_core_1_1_movement_base" id="r_a081fca75ec083e5db39151a6a5ea29fd"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>MoveCharacter</b> (Vector3 position, Quaternion rotation)</td></tr>
 <tr class="separator:a081fca75ec083e5db39151a6a5ea29fd inherit pub_methods_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a977bf8c697cad7944b13e5a9e4cd0e48 inherit pub_methods_class_adventure_core_1_1_movement_base" id="r_a977bf8c697cad7944b13e5a9e4cd0e48"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_movement_base.html#a977bf8c697cad7944b13e5a9e4cd0e48">MoveCharacter</a> (Transform transform, bool unscaled)</td></tr>
+<tr class="memdesc:a977bf8c697cad7944b13e5a9e4cd0e48 inherit pub_methods_class_adventure_core_1_1_movement_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">quickly moves the movement to the passed transform  <br /></td></tr>
+<tr class="separator:a977bf8c697cad7944b13e5a9e4cd0e48 inherit pub_methods_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac566c568dded5647498fe38726cc3109 inherit pub_methods_class_adventure_core_1_1_movement_base" id="r_ac566c568dded5647498fe38726cc3109"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>MoveCharacter</b> (Vector3 position, Quaternion rotation, bool unscaled)</td></tr>
+<tr class="separator:ac566c568dded5647498fe38726cc3109 inherit pub_methods_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad82040252b361cb289b3fc03260fe49f inherit pub_methods_class_adventure_core_1_1_movement_base" id="r_ad82040252b361cb289b3fc03260fe49f"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>PropelCharacterLocal</b> (Vector3 value)</td></tr>
 <tr class="separator:ad82040252b361cb289b3fc03260fe49f inherit pub_methods_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -261,9 +267,12 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>WeightPower</b> = 0.
 <tr class="memitem:a49628a449af91ffcf487e97aa00405af" id="r_a49628a449af91ffcf487e97aa00405af"><td class="memItemLeft" align="right" valign="top"><a id="a49628a449af91ffcf487e97aa00405af" name="a49628a449af91ffcf487e97aa00405af"></a>
 UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>Jumping</b></td></tr>
 <tr class="separator:a49628a449af91ffcf487e97aa00405af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ed436457a0a9acb28428264ace4b3a5" id="r_a7ed436457a0a9acb28428264ace4b3a5"><td class="memItemLeft" align="right" valign="top"><a id="a7ed436457a0a9acb28428264ace4b3a5" name="a7ed436457a0a9acb28428264ace4b3a5"></a>
-UnityEvent&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Fallen</b></td></tr>
-<tr class="separator:a7ed436457a0a9acb28428264ace4b3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a897e0e70115d00c2ad55d53aaf85247a" id="r_a897e0e70115d00c2ad55d53aaf85247a"><td class="memItemLeft" align="right" valign="top"><a id="a897e0e70115d00c2ad55d53aaf85247a" name="a897e0e70115d00c2ad55d53aaf85247a"></a>
+UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>Falling</b></td></tr>
+<tr class="separator:a897e0e70115d00c2ad55d53aaf85247a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa965dfe299a5d47347b057883a3dcad6" id="r_aa965dfe299a5d47347b057883a3dcad6"><td class="memItemLeft" align="right" valign="top"><a id="aa965dfe299a5d47347b057883a3dcad6" name="aa965dfe299a5d47347b057883a3dcad6"></a>
+UnityEvent&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Landing</b></td></tr>
+<tr class="separator:aa965dfe299a5d47347b057883a3dcad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fc78893e54361a5f4e8e1d6fccff297" id="r_a9fc78893e54361a5f4e8e1d6fccff297"><td class="memItemLeft" align="right" valign="top"><a id="a9fc78893e54361a5f4e8e1d6fccff297" name="a9fc78893e54361a5f4e8e1d6fccff297"></a>
 UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>Teleported</b></td></tr>
 <tr class="separator:a9fc78893e54361a5f4e8e1d6fccff297"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -299,8 +308,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:af7aae37ba10a6105c0766c1c0e124402"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87b4f3750f37a06227d7642c824521c4" id="r_a87b4f3750f37a06227d7642c824521c4"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87b4f3750f37a06227d7642c824521c4">Update</a> ()</td></tr>
 <tr class="separator:a87b4f3750f37a06227d7642c824521c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfcbe4604ab775e7d5090897b6de93c9" id="r_abfcbe4604ab775e7d5090897b6de93c9"><td class="memItemLeft" align="right" valign="top">override IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfcbe4604ab775e7d5090897b6de93c9">moveCharacter</a> (Vector3 position, Quaternion rotation)</td></tr>
-<tr class="separator:abfcbe4604ab775e7d5090897b6de93c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a465d60554e7a494752bdd0cecddbd7d8" id="r_a465d60554e7a494752bdd0cecddbd7d8"><td class="memItemLeft" align="right" valign="top">override IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a465d60554e7a494752bdd0cecddbd7d8">moveCharacter</a> (Vector3 position, Quaternion rotation, bool unscaled=false)</td></tr>
+<tr class="separator:a465d60554e7a494752bdd0cecddbd7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_adventure_core_1_1_movement_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_adventure_core_1_1_movement_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_adventure_core_1_1_movement_base.html">AdventureCore.MovementBase</a></td></tr>
 <tr class="memitem:af618cf5fff686d6cacdddd1151fefc20 inherit pro_methods_class_adventure_core_1_1_movement_base" id="r_af618cf5fff686d6cacdddd1151fefc20"><td class="memItemLeft" align="right" valign="top">
 virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>align</b> (float target, Action finished=null, bool waitForEndOfFrame=false)</td></tr>
@@ -445,9 +454,9 @@ Additional Inherited Members</h2></td></tr>
 const string&#160;</td><td class="memItemRight" valign="bottom"><b>PERSISTENCE_SUB_KEY</b> = &quot;MOV&quot;</td></tr>
 <tr class="separator:acc050edf784dff605a07dcf493bd790f inherit pub_static_attribs_class_adventure_core_1_1_movement_base_persisted"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_class_adventure_core_1_1_movement_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_methods_class_adventure_core_1_1_movement_base')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="class_adventure_core_1_1_movement_base.html">AdventureCore.MovementBase</a></td></tr>
-<tr class="memitem:abb469e206865ea0e90e7420e3144c02b inherit pro_static_methods_class_adventure_core_1_1_movement_base" id="r_abb469e206865ea0e90e7420e3144c02b"><td class="memItemLeft" align="right" valign="top">
-static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>tween</b> (Action&lt; float &gt; change, Action finished, float duration, bool waitForEndOfFrame=false)</td></tr>
-<tr class="separator:abb469e206865ea0e90e7420e3144c02b inherit pro_static_methods_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63a6c64473a028aa4c83ae5d07ed4b03 inherit pro_static_methods_class_adventure_core_1_1_movement_base" id="r_a63a6c64473a028aa4c83ae5d07ed4b03"><td class="memItemLeft" align="right" valign="top">
+static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>tween</b> (Action&lt; float &gt; change, Action finished, float duration, bool waitForEndOfFrame=false, bool unscaled=false)</td></tr>
+<tr class="separator:a63a6c64473a028aa4c83ae5d07ed4b03 inherit pro_static_methods_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header events_class_adventure_core_1_1_movement_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('events_class_adventure_core_1_1_movement_base')"><img src="closed.png" alt="-"/>&#160;Events inherited from <a class="el" href="class_adventure_core_1_1_movement_base.html">AdventureCore.MovementBase</a></td></tr>
 <tr class="memitem:aa7721a069dcc75d1012212c119f28b50 inherit events_class_adventure_core_1_1_movement_base" id="r_aa7721a069dcc75d1012212c119f28b50"><td class="memItemLeft" align="right" valign="top">
 Action&lt; Transform &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>TargetChanged</b></td></tr>
@@ -619,8 +628,8 @@ Action&lt; Transform &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>
 
 </div>
 </div>
-<a id="abfcbe4604ab775e7d5090897b6de93c9" name="abfcbe4604ab775e7d5090897b6de93c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfcbe4604ab775e7d5090897b6de93c9">&#9670;&#160;</a></span>moveCharacter()</h2>
+<a id="a465d60554e7a494752bdd0cecddbd7d8" name="a465d60554e7a494752bdd0cecddbd7d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a465d60554e7a494752bdd0cecddbd7d8">&#9670;&#160;</a></span>moveCharacter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -636,7 +645,12 @@ Action&lt; Transform &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Quaternion</td>          <td class="paramname"><span class="paramname"><em>rotation</em></span>&#160;)</td>
+          <td class="paramtype">Quaternion</td>          <td class="paramname"><span class="paramname"><em>rotation</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>unscaled</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
   </td>

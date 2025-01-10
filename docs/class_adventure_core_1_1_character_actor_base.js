@@ -9,5 +9,6 @@ var class_adventure_core_1_1_character_actor_base =
     [ "RemoveAction", "class_adventure_core_1_1_character_actor_base.html#a692a6c5485912597a67594dc1c9c3861", null ],
     [ "StartAction", "class_adventure_core_1_1_character_actor_base.html#a52574a293fd1528d69db3b80f5cc514b", null ],
     [ "StartAction", "class_adventure_core_1_1_character_actor_base.html#a02e6f5a21074ec34a2263c44720f6030", null ],
-    [ "AssociatedCharacter", "class_adventure_core_1_1_character_actor_base.html#a7bd3969102851cb202c0f00f4fb0e75b", null ]
+    [ "AssociatedCharacter", "class_adventure_core_1_1_character_actor_base.html#a7bd3969102851cb202c0f00f4fb0e75b", null ],
+    [ "Idling", "class_adventure_core_1_1_character_actor_base.html#a086621c7a77164ddab0764f5bd5d88d0", null ]
 ];

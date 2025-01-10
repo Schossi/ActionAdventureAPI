@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.7.3</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.8.0</span>
    </div>
   </td>
  </tr>
@@ -125,6 +125,7 @@ Inheritance diagram for AdventureCore.MovementBase:</div>
 <area href="class_adventure_core_1_1_movement_base_persisted.html" alt="AdventureCore.MovementBasePersisted" shape="rect" coords="284,112,558,136"/>
 <area href="class_adventure_core_1_1_character_controller_movement.html" title="a movement implementation that is built on top of the unity CharacterController  meant for player mov..." alt="AdventureCore.CharacterControllerMovement" shape="rect" coords="142,168,416,192"/>
 <area href="class_adventure_core_1_1_nav_mesh_agent_movement.html" title="a movement implementation that is built on top of the unity NavMeshAgent  meant for enemy movement,..." alt="AdventureCore.NavMeshAgentMovement" shape="rect" coords="426,168,700,192"/>
+<area href="class_adventure_core_1_1_nav_mesh_tank_movement.html" title="variation on nav mesh movement that uses root motion and manual rotation instead of letting the agent..." alt="AdventureCore.NavMeshTankMovement" shape="rect" coords="426,224,700,248"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -190,6 +191,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EndMarch</b> 
 <tr class="memitem:a081fca75ec083e5db39151a6a5ea29fd" id="r_a081fca75ec083e5db39151a6a5ea29fd"><td class="memItemLeft" align="right" valign="top"><a id="a081fca75ec083e5db39151a6a5ea29fd" name="a081fca75ec083e5db39151a6a5ea29fd"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>MoveCharacter</b> (Vector3 position, Quaternion rotation)</td></tr>
 <tr class="separator:a081fca75ec083e5db39151a6a5ea29fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a977bf8c697cad7944b13e5a9e4cd0e48" id="r_a977bf8c697cad7944b13e5a9e4cd0e48"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a977bf8c697cad7944b13e5a9e4cd0e48">MoveCharacter</a> (Transform transform, bool unscaled)</td></tr>
+<tr class="memdesc:a977bf8c697cad7944b13e5a9e4cd0e48"><td class="mdescLeft">&#160;</td><td class="mdescRight">quickly moves the movement to the passed transform  <br /></td></tr>
+<tr class="separator:a977bf8c697cad7944b13e5a9e4cd0e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac566c568dded5647498fe38726cc3109" id="r_ac566c568dded5647498fe38726cc3109"><td class="memItemLeft" align="right" valign="top"><a id="ac566c568dded5647498fe38726cc3109" name="ac566c568dded5647498fe38726cc3109"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>MoveCharacter</b> (Vector3 position, Quaternion rotation, bool unscaled)</td></tr>
+<tr class="separator:ac566c568dded5647498fe38726cc3109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad82040252b361cb289b3fc03260fe49f" id="r_ad82040252b361cb289b3fc03260fe49f"><td class="memItemLeft" align="right" valign="top"><a id="ad82040252b361cb289b3fc03260fe49f" name="ad82040252b361cb289b3fc03260fe49f"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>PropelCharacterLocal</b> (Vector3 value)</td></tr>
 <tr class="separator:ad82040252b361cb289b3fc03260fe49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,9 +215,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPersisted<
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aa6f765db08d09fdcdae9651522ec1ece" id="r_aa6f765db08d09fdcdae9651522ec1ece"><td class="memItemLeft" align="right" valign="top"><a id="aa6f765db08d09fdcdae9651522ec1ece" name="aa6f765db08d09fdcdae9651522ec1ece"></a>
-virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>moveCharacter</b> (Vector3 position, Quaternion rotation)</td></tr>
-<tr class="separator:aa6f765db08d09fdcdae9651522ec1ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad180fdf7576c304b2e9de45a17761887" id="r_ad180fdf7576c304b2e9de45a17761887"><td class="memItemLeft" align="right" valign="top"><a id="ad180fdf7576c304b2e9de45a17761887" name="ad180fdf7576c304b2e9de45a17761887"></a>
+virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>moveCharacter</b> (Vector3 position, Quaternion rotation, bool unscaled=false)</td></tr>
+<tr class="separator:ad180fdf7576c304b2e9de45a17761887"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af618cf5fff686d6cacdddd1151fefc20" id="r_af618cf5fff686d6cacdddd1151fefc20"><td class="memItemLeft" align="right" valign="top"><a id="af618cf5fff686d6cacdddd1151fefc20" name="af618cf5fff686d6cacdddd1151fefc20"></a>
 virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>align</b> (float target, Action finished=null, bool waitForEndOfFrame=false)</td></tr>
 <tr class="separator:af618cf5fff686d6cacdddd1151fefc20"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,9 +227,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>keepAligned</
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:abb469e206865ea0e90e7420e3144c02b" id="r_abb469e206865ea0e90e7420e3144c02b"><td class="memItemLeft" align="right" valign="top"><a id="abb469e206865ea0e90e7420e3144c02b" name="abb469e206865ea0e90e7420e3144c02b"></a>
-static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>tween</b> (Action&lt; float &gt; change, Action finished, float duration, bool waitForEndOfFrame=false)</td></tr>
-<tr class="separator:abb469e206865ea0e90e7420e3144c02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63a6c64473a028aa4c83ae5d07ed4b03" id="r_a63a6c64473a028aa4c83ae5d07ed4b03"><td class="memItemLeft" align="right" valign="top"><a id="a63a6c64473a028aa4c83ae5d07ed4b03" name="a63a6c64473a028aa4c83ae5d07ed4b03"></a>
+static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>tween</b> (Action&lt; float &gt; change, Action finished, float duration, bool waitForEndOfFrame=false, bool unscaled=false)</td></tr>
+<tr class="separator:a63a6c64473a028aa4c83ae5d07ed4b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -430,7 +437,7 @@ Action&lt; Transform &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>
 </div>
 </div>
 <a id="af71780ae0c477b9475632c504c9fb711" name="af71780ae0c477b9475632c504c9fb711"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af71780ae0c477b9475632c504c9fb711">&#9670;&#160;</a></span>MoveCharacter()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af71780ae0c477b9475632c504c9fb711">&#9670;&#160;</a></span>MoveCharacter() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -456,6 +463,44 @@ Action&lt; Transform &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">transform</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a977bf8c697cad7944b13e5a9e4cd0e48" name="a977bf8c697cad7944b13e5a9e4cd0e48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a977bf8c697cad7944b13e5a9e4cd0e48">&#9670;&#160;</a></span>MoveCharacter() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AdventureCore.MovementBase.MoveCharacter </td>
+          <td>(</td>
+          <td class="paramtype">Transform</td>          <td class="paramname"><span class="paramname"><em>transform</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>unscaled</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>quickly moves the movement to the passed transform </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transform</td><td></td></tr>
+    <tr><td class="paramname">unscaled</td><td>whether the character is still moved even if the game is paused</td></tr>
   </table>
   </dd>
 </dl>

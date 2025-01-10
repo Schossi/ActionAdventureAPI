@@ -30,11 +30,12 @@ var searchData=
   ['heroplayercharacter_27',['HeroPlayerCharacter',['../class_adventure_hero_1_1_hero_player_character.html',1,'AdventureHero']]],
   ['herosheathingdescriptor_28',['HeroSheathingDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_hero_sheathing_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
   ['herosheathingunit_29',['HeroSheathingUnit',['../class_adventure_hero_1_1_visual_scripting_1_1_hero_sheathing_unit.html',1,'AdventureHero::VisualScripting']]],
-  ['heroslingaction_30',['HeroSlingAction',['../class_adventure_hero_1_1_hero_sling_action.html',1,'AdventureHero']]],
-  ['heroslotpanel_31',['HeroSlotPanel',['../class_adventure_hero_1_1_hero_slot_panel.html',1,'AdventureHero']]],
-  ['hide_32',['Hide',['../class_adventure_core_1_1_item_slot_base.html#a73e0d36aad5cbd5724a9686f256ca111',1,'AdventureCore.ItemSlotBase.Hide()'],['../class_adventure_core_1_1_item_slot_proxy.html#acc9d17276b90526d1d90fb428f8c55b2',1,'AdventureCore.ItemSlotProxy.Hide()']]],
-  ['hidecharacterinstruction_33',['HideCharacterInstruction',['../class_adventure_core_1_1_hide_character_instruction.html',1,'AdventureCore']]],
-  ['hideslotinstruction_34',['HideSlotInstruction',['../class_adventure_core_1_1_hide_slot_instruction.html',1,'AdventureCore']]],
-  ['hideslotinstructiondescriptor_35',['HideSlotInstructionDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_hide_slot_instruction_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
-  ['hideslotinstructionunit_36',['HideSlotInstructionUnit',['../class_adventure_core_1_1_visual_scripting_1_1_hide_slot_instruction_unit.html',1,'AdventureCore::VisualScripting']]]
+  ['heroshielditem_30',['HeroShieldItem',['../class_adventure_hero_1_1_hero_shield_item.html',1,'AdventureHero']]],
+  ['heroslingaction_31',['HeroSlingAction',['../class_adventure_hero_1_1_hero_sling_action.html',1,'AdventureHero']]],
+  ['heroslotpanel_32',['HeroSlotPanel',['../class_adventure_hero_1_1_hero_slot_panel.html',1,'AdventureHero']]],
+  ['hide_33',['Hide',['../class_adventure_core_1_1_item_slot_base.html#a73e0d36aad5cbd5724a9686f256ca111',1,'AdventureCore.ItemSlotBase.Hide()'],['../class_adventure_core_1_1_item_slot_proxy.html#acc9d17276b90526d1d90fb428f8c55b2',1,'AdventureCore.ItemSlotProxy.Hide()']]],
+  ['hidecharacterinstruction_34',['HideCharacterInstruction',['../class_adventure_core_1_1_hide_character_instruction.html',1,'AdventureCore']]],
+  ['hideslotinstruction_35',['HideSlotInstruction',['../class_adventure_core_1_1_hide_slot_instruction.html',1,'AdventureCore']]],
+  ['hideslotinstructiondescriptor_36',['HideSlotInstructionDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_hide_slot_instruction_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
+  ['hideslotinstructionunit_37',['HideSlotInstructionUnit',['../class_adventure_core_1_1_visual_scripting_1_1_hide_slot_instruction_unit.html',1,'AdventureCore::VisualScripting']]]
 ];

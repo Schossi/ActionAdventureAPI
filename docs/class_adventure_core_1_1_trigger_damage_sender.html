@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.7.3</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.8.0</span>
    </div>
   </td>
  </tr>
@@ -154,11 +154,32 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Deactivate</b
 <tr class="memitem:a7150586d6ffb3ec7d4244f65ee891f16" id="r_a7150586d6ffb3ec7d4244f65ee891f16"><td class="memItemLeft" align="right" valign="top"><a id="a7150586d6ffb3ec7d4244f65ee891f16" name="a7150586d6ffb3ec7d4244f65ee891f16"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Send</b> ()</td></tr>
 <tr class="separator:a7150586d6ffb3ec7d4244f65ee891f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab99e8fcb539f153616ed1b99f870b243" id="r_ab99e8fcb539f153616ed1b99f870b243"><td class="memItemLeft" align="right" valign="top"><a id="ab99e8fcb539f153616ed1b99f870b243" name="ab99e8fcb539f153616ed1b99f870b243"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SendCharacterMessages</b> (string e)</td></tr>
+<tr class="separator:ab99e8fcb539f153616ed1b99f870b243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46faf915a0d1e56beeedc2c07d8259d6" id="r_a46faf915a0d1e56beeedc2c07d8259d6"><td class="memItemLeft" align="right" valign="top"><a id="a46faf915a0d1e56beeedc2c07d8259d6" name="a46faf915a0d1e56beeedc2c07d8259d6"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SendCharacterMessage</b> (string e)</td></tr>
+<tr class="separator:a46faf915a0d1e56beeedc2c07d8259d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f06777a0cb0a1b61dde9b208f4f7280" id="r_a9f06777a0cb0a1b61dde9b208f4f7280"><td class="memItemLeft" align="right" valign="top">virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f06777a0cb0a1b61dde9b208f4f7280">GetPosition</a> ()</td></tr>
+<tr class="memdesc:a9f06777a0cb0a1b61dde9b208f4f7280"><td class="mdescLeft">&#160;</td><td class="mdescRight">position of the receiver, may be used to determine damage direction  <br /></td></tr>
+<tr class="separator:a9f06777a0cb0a1b61dde9b208f4f7280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ca303cbf8a56ae0dbf9dab2037f590e" id="r_a3ca303cbf8a56ae0dbf9dab2037f590e"><td class="memItemLeft" align="right" valign="top">virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ca303cbf8a56ae0dbf9dab2037f590e">GetDirection</a> (<a class="el" href="interface_adventure_core_1_1_i_damage_receiver.html">IDamageReceiver</a> receiver)</td></tr>
+<tr class="memdesc:a3ca303cbf8a56ae0dbf9dab2037f590e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates direction of damage between this sender and a receiver  <br /></td></tr>
+<tr class="separator:a3ca303cbf8a56ae0dbf9dab2037f590e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35660aaafbaf596e2287fe10dd053120" id="r_a35660aaafbaf596e2287fe10dd053120"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35660aaafbaf596e2287fe10dd053120">PreDamage</a> (<a class="el" href="interface_adventure_core_1_1_i_damage_receiver.html">IDamageReceiver</a> receiver)</td></tr>
+<tr class="memdesc:a35660aaafbaf596e2287fe10dd053120"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before any real damage handling to check if the handling is valid and should continue<br  />
+ for example if a character is currently dodging damage handling can be cancelled here  <br /></td></tr>
 <tr class="separator:a35660aaafbaf596e2287fe10dd053120"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ec775373acd73c43cbffae56f2bec46" id="r_a3ec775373acd73c43cbffae56f2bec46"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ec775373acd73c43cbffae56f2bec46">OnDamage</a> (<a class="el" href="class_adventure_core_1_1_damage_event.html">DamageEvent</a> e)</td></tr>
+<tr class="memdesc:a3ec775373acd73c43cbffae56f2bec46"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is where the main damage handling should take place and damage vectors are assigned<br  />
+ OnDamage is called in the order Sender &gt; Receiver &gt; Damage<br  />
+ for example if a character is wearing protective gear it may reduce the damage value here<br  />
+ this method is called for every damage parameter see <a class="el" href="class_adventure_core_1_1_damage_event.html" title="event args like class that gets passed through all the participants when damage occurs  -PreDamage is...">DamageEvent</a> for more details  <br /></td></tr>
 <tr class="separator:a3ec775373acd73c43cbffae56f2bec46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09c0c3e445ad018abbf185d69c8ee35e" id="r_a09c0c3e445ad018abbf185d69c8ee35e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09c0c3e445ad018abbf185d69c8ee35e">PostDamage</a> (<a class="el" href="interface_adventure_core_1_1_i_damage_receiver.html">IDamageReceiver</a> receiver, List&lt; <a class="el" href="class_adventure_core_1_1_damage_event.html">DamageEvent</a> &gt; events)</td></tr>
+<tr class="memdesc:a09c0c3e445ad018abbf185d69c8ee35e"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after alle the damages have been applied<br  />
+ this is a good spot to react to the change of state that has been done by the damages<br  />
+ for example death or destruction if health was reduced to 0 by the damages  <br /></td></tr>
 <tr class="separator:a09c0c3e445ad018abbf185d69c8ee35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_adventure_core_1_1_trigger_area"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_adventure_core_1_1_trigger_area')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_adventure_core_1_1_trigger_area.html">AdventureCore.TriggerArea&lt; TriggerDamageSender, TriggerDamageReceiver &gt;</a></td></tr>
 <tr class="memitem:a9f3bc81c47e41ae35c602fc6ba4d97fa inherit pub_methods_class_adventure_core_1_1_trigger_area" id="r_a9f3bc81c47e41ae35c602fc6ba4d97fa"><td class="memItemLeft" align="right" valign="top">
@@ -231,18 +252,18 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>assignDamageV
 <tr class="memitem:a99d263b66297c3a0342bed0e67f7e691 inherit pro_methods_class_adventure_core_1_1_trigger_area" id="r_a99d263b66297c3a0342bed0e67f7e691"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td></tr>
 <tr class="separator:a99d263b66297c3a0342bed0e67f7e691 inherit pro_methods_class_adventure_core_1_1_trigger_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cf1ea938afd7e31c1f6e4246eb9acef inherit pro_methods_class_adventure_core_1_1_trigger_area" id="r_a5cf1ea938afd7e31c1f6e4246eb9acef"><td class="memItemLeft" align="right" valign="top">
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnTriggerEnter2D</b> (Collider2D collision)</td></tr>
-<tr class="separator:a5cf1ea938afd7e31c1f6e4246eb9acef inherit pro_methods_class_adventure_core_1_1_trigger_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65ae4204d710fd9c50318e673e425ffa inherit pro_methods_class_adventure_core_1_1_trigger_area" id="r_a65ae4204d710fd9c50318e673e425ffa"><td class="memItemLeft" align="right" valign="top">
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnTriggerExit2D</b> (Collider2D collision)</td></tr>
-<tr class="separator:a65ae4204d710fd9c50318e673e425ffa inherit pro_methods_class_adventure_core_1_1_trigger_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a493dc9daa532aaed801e5b75c12999d3 inherit pro_methods_class_adventure_core_1_1_trigger_area" id="r_a493dc9daa532aaed801e5b75c12999d3"><td class="memItemLeft" align="right" valign="top">
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnTriggerEnter</b> (Collider other)</td></tr>
-<tr class="separator:a493dc9daa532aaed801e5b75c12999d3 inherit pro_methods_class_adventure_core_1_1_trigger_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaabd5da57ad2c1a49cd475ffccb70a5 inherit pro_methods_class_adventure_core_1_1_trigger_area" id="r_acaabd5da57ad2c1a49cd475ffccb70a5"><td class="memItemLeft" align="right" valign="top">
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnTriggerExit</b> (Collider other)</td></tr>
-<tr class="separator:acaabd5da57ad2c1a49cd475ffccb70a5 inherit pro_methods_class_adventure_core_1_1_trigger_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d094ef87b0054b338cf3bd1c63fd050 inherit pro_methods_class_adventure_core_1_1_trigger_area" id="r_a3d094ef87b0054b338cf3bd1c63fd050"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnTriggerEnter2D</b> (Collider2D collider)</td></tr>
+<tr class="separator:a3d094ef87b0054b338cf3bd1c63fd050 inherit pro_methods_class_adventure_core_1_1_trigger_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4e82362ede41fba6f2d3856dcb36042 inherit pro_methods_class_adventure_core_1_1_trigger_area" id="r_ac4e82362ede41fba6f2d3856dcb36042"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnTriggerExit2D</b> (Collider2D collider)</td></tr>
+<tr class="separator:ac4e82362ede41fba6f2d3856dcb36042 inherit pro_methods_class_adventure_core_1_1_trigger_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac670b7d0492a848d0a2754c5eabaa3a8 inherit pro_methods_class_adventure_core_1_1_trigger_area" id="r_ac670b7d0492a848d0a2754c5eabaa3a8"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnTriggerEnter</b> (Collider collider)</td></tr>
+<tr class="separator:ac670b7d0492a848d0a2754c5eabaa3a8 inherit pro_methods_class_adventure_core_1_1_trigger_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ec8ade2dde646c2ae69f6ea2e3bb204 inherit pro_methods_class_adventure_core_1_1_trigger_area" id="r_a7ec8ade2dde646c2ae69f6ea2e3bb204"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnTriggerExit</b> (Collider collider)</td></tr>
+<tr class="separator:a7ec8ade2dde646c2ae69f6ea2e3bb204 inherit pro_methods_class_adventure_core_1_1_trigger_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a487092000f6f80e77d5dfd73c9e81466 inherit pro_methods_class_adventure_core_1_1_trigger_area" id="r_a487092000f6f80e77d5dfd73c9e81466"><td class="memItemLeft" align="right" valign="top">
 void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
 <tr class="separator:a487092000f6f80e77d5dfd73c9e81466 inherit pro_methods_class_adventure_core_1_1_trigger_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,6 +288,9 @@ Dictionary&lt; <a class="el" href="class_adventure_core_1_1_trigger_damage_recei
 <tr class="memitem:a45bf778bb2753abbb3cadc8a718eacdc" id="r_a45bf778bb2753abbb3cadc8a718eacdc"><td class="memItemLeft" align="right" valign="top"><a id="a45bf778bb2753abbb3cadc8a718eacdc" name="a45bf778bb2753abbb3cadc8a718eacdc"></a>
 List&lt; <a class="el" href="class_adventure_core_1_1_trigger_damage_receiver.html">TriggerDamageReceiver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_sent</b> = new List&lt;<a class="el" href="class_adventure_core_1_1_trigger_damage_receiver.html">TriggerDamageReceiver</a>&gt;()</td></tr>
 <tr class="separator:a45bf778bb2753abbb3cadc8a718eacdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a116162a07b321916212e0e8daec49616" id="r_a116162a07b321916212e0e8daec49616"><td class="memItemLeft" align="right" valign="top"><a id="a116162a07b321916212e0e8daec49616" name="a116162a07b321916212e0e8daec49616"></a>
+List&lt; <a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_sentCharacters</b> = new List&lt;<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a>&gt;()</td></tr>
+<tr class="separator:a116162a07b321916212e0e8daec49616"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1279f080b2664e5179f4b925bc32d115" id="r_a1279f080b2664e5179f4b925bc32d115"><td class="memItemLeft" align="right" valign="top"><a id="a1279f080b2664e5179f4b925bc32d115" name="a1279f080b2664e5179f4b925bc32d115"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>_modifier</b> = 1f</td></tr>
 <tr class="separator:a1279f080b2664e5179f4b925bc32d115"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -288,6 +312,74 @@ IEnumerable&lt; TItem &gt;&#160;</td><td class="memItemRight" valign="bottom"><b
 <tr class="inherit_header properties_interface_adventure_core_1_1_i_character_associator"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_adventure_core_1_1_i_character_associator')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_adventure_core_1_1_i_character_associator.html">AdventureCore.ICharacterAssociator</a></td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3ca303cbf8a56ae0dbf9dab2037f590e" name="a3ca303cbf8a56ae0dbf9dab2037f590e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ca303cbf8a56ae0dbf9dab2037f590e">&#9670;&#160;</a></span>GetDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Vector3 AdventureCore.TriggerDamageSender.GetDirection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_adventure_core_1_1_i_damage_receiver.html">IDamageReceiver</a></td>          <td class="paramname"><span class="paramname"><em>receiver</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>calculates direction of damage between this sender and a receiver </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">receiver</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html#ac1842687f3bf6824be344bf9b4c3c87f">AdventureCore.IDamageSender</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_adventure_core_1_1_moving_damage_sender.html#a52c44633a5c87e97f675c762f40ce995">AdventureCore.MovingDamageSender</a>.</p>
+
+</div>
+</div>
+<a id="a9f06777a0cb0a1b61dde9b208f4f7280" name="a9f06777a0cb0a1b61dde9b208f4f7280"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f06777a0cb0a1b61dde9b208f4f7280">&#9670;&#160;</a></span>GetPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Vector3 AdventureCore.TriggerDamageSender.GetPosition </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>position of the receiver, may be used to determine damage direction </p>
+<dl class="section return"><dt>Returns</dt><dd>position of the receiver, or the character associated with it</dd></dl>
+
+<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html#a7b2e903c2e8d3ecd2562b9b132b6be6e">AdventureCore.IDamageSender</a>.</p>
+
+</div>
+</div>
 <a id="a3ec775373acd73c43cbffae56f2bec46" name="a3ec775373acd73c43cbffae56f2bec46"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3ec775373acd73c43cbffae56f2bec46">&#9670;&#160;</a></span>OnDamage()</h2>
 
@@ -311,7 +403,18 @@ IEnumerable&lt; TItem &gt;&#160;</td><td class="memItemRight" valign="bottom"><b
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html">AdventureCore.IDamageSender</a>.</p>
+<p>this is where the main damage handling should take place and damage vectors are assigned<br  />
+ OnDamage is called in the order Sender &gt; Receiver &gt; Damage<br  />
+ for example if a character is wearing protective gear it may reduce the damage value here<br  />
+ this method is called for every damage parameter see <a class="el" href="class_adventure_core_1_1_damage_event.html" title="event args like class that gets passed through all the participants when damage occurs  -PreDamage is...">DamageEvent</a> for more details </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html#a60be9cf710d14a844a035103025e74d1">AdventureCore.IDamageSender</a>.</p>
 
 </div>
 </div>
@@ -369,7 +472,20 @@ IEnumerable&lt; TItem &gt;&#160;</td><td class="memItemRight" valign="bottom"><b
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html">AdventureCore.IDamageSender</a>.</p>
+<p>called after alle the damages have been applied<br  />
+ this is a good spot to react to the change of state that has been done by the damages<br  />
+ for example death or destruction if health was reduced to 0 by the damages </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td></td></tr>
+    <tr><td class="paramname">events</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html#a6c5b0bef3e31421573cfe37c1cff456f">AdventureCore.IDamageSender</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_adventure_core_1_1_projectile_damage_sender.html#abf5924fd00aeca3a8d12eedfc4c7c1da">AdventureCore.ProjectileDamageSender</a>.</p>
 
 </div>
 </div>
@@ -396,7 +512,19 @@ IEnumerable&lt; TItem &gt;&#160;</td><td class="memItemRight" valign="bottom"><b
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html">AdventureCore.IDamageSender</a>.</p>
+<p>called before any real damage handling to check if the handling is valid and should continue<br  />
+ for example if a character is currently dodging damage handling can be cancelled here </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">receiver</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether the damage handling should continue</dd></dl>
+
+<p>Implements <a class="el" href="interface_adventure_core_1_1_i_damage_sender.html#a0c74fbcbd1184740aadf67992ea6ce8b">AdventureCore.IDamageSender</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_adventure_core_1_1_projectile_damage_sender.html#a2c28d93190ee19bcc24b0c4b1eac31f5">AdventureCore.ProjectileDamageSender</a>.</p>
 
 </div>
 </div>

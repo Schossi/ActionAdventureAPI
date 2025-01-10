@@ -24,5 +24,6 @@ var class_adventure_core_1_1_playable_animation =
     [ "Output", "class_adventure_core_1_1_playable_animation.html#acd9adb282d4ce58d2542d338b28cf4bf", null ],
     [ "Parameters", "class_adventure_core_1_1_playable_animation.html#a4f451499f84fb9dcdd0c7de3c9f2d184", null ],
     [ "Playable", "class_adventure_core_1_1_playable_animation.html#afac59b3f0185acf466ca6b52a47eb3d2", null ],
+    [ "Target", "class_adventure_core_1_1_playable_animation.html#a5c7317a34e1368c5435267e0c9fccb87", null ],
     [ "Finished", "class_adventure_core_1_1_playable_animation.html#a6ce22cb5a5f92df46f9e4c38914f5dd5", null ]
 ];

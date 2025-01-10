@@ -27,10 +27,11 @@ var searchData=
   ['heroplayercharacter_24',['HeroPlayerCharacter',['../class_adventure_hero_1_1_hero_player_character.html',1,'AdventureHero']]],
   ['herosheathingdescriptor_25',['HeroSheathingDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_hero_sheathing_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
   ['herosheathingunit_26',['HeroSheathingUnit',['../class_adventure_hero_1_1_visual_scripting_1_1_hero_sheathing_unit.html',1,'AdventureHero::VisualScripting']]],
-  ['heroslingaction_27',['HeroSlingAction',['../class_adventure_hero_1_1_hero_sling_action.html',1,'AdventureHero']]],
-  ['heroslotpanel_28',['HeroSlotPanel',['../class_adventure_hero_1_1_hero_slot_panel.html',1,'AdventureHero']]],
-  ['hidecharacterinstruction_29',['HideCharacterInstruction',['../class_adventure_core_1_1_hide_character_instruction.html',1,'AdventureCore']]],
-  ['hideslotinstruction_30',['HideSlotInstruction',['../class_adventure_core_1_1_hide_slot_instruction.html',1,'AdventureCore']]],
-  ['hideslotinstructiondescriptor_31',['HideSlotInstructionDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_hide_slot_instruction_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
-  ['hideslotinstructionunit_32',['HideSlotInstructionUnit',['../class_adventure_core_1_1_visual_scripting_1_1_hide_slot_instruction_unit.html',1,'AdventureCore::VisualScripting']]]
+  ['heroshielditem_27',['HeroShieldItem',['../class_adventure_hero_1_1_hero_shield_item.html',1,'AdventureHero']]],
+  ['heroslingaction_28',['HeroSlingAction',['../class_adventure_hero_1_1_hero_sling_action.html',1,'AdventureHero']]],
+  ['heroslotpanel_29',['HeroSlotPanel',['../class_adventure_hero_1_1_hero_slot_panel.html',1,'AdventureHero']]],
+  ['hidecharacterinstruction_30',['HideCharacterInstruction',['../class_adventure_core_1_1_hide_character_instruction.html',1,'AdventureCore']]],
+  ['hideslotinstruction_31',['HideSlotInstruction',['../class_adventure_core_1_1_hide_slot_instruction.html',1,'AdventureCore']]],
+  ['hideslotinstructiondescriptor_32',['HideSlotInstructionDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_hide_slot_instruction_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
+  ['hideslotinstructionunit_33',['HideSlotInstructionUnit',['../class_adventure_core_1_1_visual_scripting_1_1_hide_slot_instruction_unit.html',1,'AdventureCore::VisualScripting']]]
 ];

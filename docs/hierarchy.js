@@ -389,6 +389,9 @@ var hierarchy =
     [ "AdventureCore.Editor.VisualScripting.AdventureDescriptorBase< RagdollUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_adventure_descriptor_base.html", [
       [ "AdventureCore.Editor.VisualScripting.RagdollDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_ragdoll_descriptor.html", null ]
     ] ],
+    [ "AdventureCore.Editor.VisualScripting.AdventureDescriptorBase< RandomChanceUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_adventure_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.RandomChanceDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_random_chance_descriptor.html", null ]
+    ] ],
     [ "AdventureCore.Editor.VisualScripting.AdventureDescriptorBase< RemoveAttributeUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_adventure_descriptor_base.html", [
       [ "AdventureCore.Editor.VisualScripting.RemoveAttributeDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_remove_attribute_descriptor.html", null ]
     ] ],
@@ -599,6 +602,7 @@ var hierarchy =
       [ "AdventureCore.HideSlotInstruction", "class_adventure_core_1_1_hide_slot_instruction.html", null ],
       [ "AdventureCore.MovementMotionMultiplierInstruction", "class_adventure_core_1_1_movement_motion_multiplier_instruction.html", null ],
       [ "AdventureCore.MovementSpeedMultiplierInstruction", "class_adventure_core_1_1_movement_speed_multiplier_instruction.html", null ],
+      [ "AdventureCore.PauseGameInstruction", "class_adventure_core_1_1_pause_game_instruction.html", null ],
       [ "AdventureCore.StatMultiplierInstruction", "class_adventure_core_1_1_stat_multiplier_instruction.html", null ],
       [ "AdventureCore.SuspendControlInstruction", "class_adventure_core_1_1_suspend_control_instruction.html", null ],
       [ "AdventureCore.SuspendMovementCollisionInstruction", "class_adventure_core_1_1_suspend_movement_collision_instruction.html", null ],
@@ -646,6 +650,7 @@ var hierarchy =
         ] ]
       ] ],
       [ "AdventureCore.VisualScripting.StateTransitionedUnit", "class_adventure_core_1_1_visual_scripting_1_1_state_transitioned_unit.html", null ],
+      [ "AdventureCore.VisualScripting.SystemEventUnit< TOwner >", "class_adventure_core_1_1_visual_scripting_1_1_system_event_unit.html", null ],
       [ "AdventureCore.VisualScripting.UnityEventUnit< TOwner, TArgs >", "class_adventure_core_1_1_visual_scripting_1_1_unity_event_unit.html", null ],
       [ "AdventureCore.VisualScripting.UnityEventUnit< TOwner, TArgs >", "class_adventure_core_1_1_visual_scripting_1_1_unity_event_unit.html", null ],
       [ "AdventureCore.VisualScripting.UnityEventUnitCustomArgs< TOwner, TArgs >", "class_adventure_core_1_1_visual_scripting_1_1_unity_event_unit_custom_args.html", null ],
@@ -833,6 +838,7 @@ var hierarchy =
       [ "AdventureSouls.SoulsCharacterBase< TActor, TMovement, TInventory >", "class_adventure_souls_1_1_souls_character_base.html", null ]
     ] ],
     [ "AdventureSouls.IGetGuardBroken", "interface_adventure_souls_1_1_i_get_guard_broken.html", [
+      [ "AdventureExtras.SoulsHeroApe", "class_adventure_extras_1_1_souls_hero_ape.html", null ],
       [ "AdventureSouls.SoulsCharacterBase< TActor, TMovement, TInventory >", "class_adventure_souls_1_1_souls_character_base.html", null ]
     ] ],
     [ "AdventureSouls.IGetStaggered", "interface_adventure_souls_1_1_i_get_staggered.html", [
@@ -848,6 +854,7 @@ var hierarchy =
     ] ],
     [ "AdventureSouls.SoulsInput.ILookActions", "interface_adventure_souls_1_1_souls_input_1_1_i_look_actions.html", null ],
     [ "AdventureSouls.SoulsInput.IMoveActions", "interface_adventure_souls_1_1_souls_input_1_1_i_move_actions.html", null ],
+    [ "AdventureCore.ImpactItem.ImpactOption", "class_adventure_core_1_1_impact_item_1_1_impact_option.html", null ],
     [ "InputBindingComposite", null, [
       [ "AdventureCore.ButtonOnPlatformModifier", "class_adventure_core_1_1_button_on_platform_modifier.html", null ],
       [ "AdventureCore.ButtonWithoutOneModifier", "class_adventure_core_1_1_button_without_one_modifier.html", null ]
@@ -1207,8 +1214,6 @@ var hierarchy =
       [ "AdventureCore.AnimationToggler", "class_adventure_core_1_1_animation_toggler.html", null ],
       [ "AdventureCore.AnimatorParameterSetter", "class_adventure_core_1_1_animator_parameter_setter.html", null ],
       [ "AdventureCore.AnimatorProxy", "class_adventure_core_1_1_animator_proxy.html", null ],
-      [ "AdventureCore.Assets.SoftLeitner.AdventureCore.UI.Item.InventoryItemElement", "class_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_u_i_1_1_item_1_1_inventory_item_element.html", null ],
-      [ "AdventureCore.Assets.SoftLeitner.AdventureCore.UI.Item.ItemSlotElement", "class_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_u_i_1_1_item_1_1_item_slot_element.html", null ],
       [ "AdventureCore.AttributePool", "class_adventure_core_1_1_attribute_pool.html", null ],
       [ "AdventureCore.AttributePoolText", "class_adventure_core_1_1_attribute_pool_text.html", null ],
       [ "AdventureCore.AttributeStatPanel", "class_adventure_core_1_1_attribute_stat_panel.html", null ],
@@ -1247,12 +1252,15 @@ var hierarchy =
       [ "AdventureCore.FocusHelper", "class_adventure_core_1_1_focus_helper.html", null ],
       [ "AdventureCore.Follower", "class_adventure_core_1_1_follower.html", null ],
       [ "AdventureCore.GroundChecker", "class_adventure_core_1_1_ground_checker.html", null ],
+      [ "AdventureCore.ImpactArea", "class_adventure_core_1_1_impact_area.html", null ],
+      [ "AdventureCore.ImpactItem", "class_adventure_core_1_1_impact_item.html", null ],
       [ "AdventureCore.InputBindingText", "class_adventure_core_1_1_input_binding_text.html", null ],
       [ "AdventureCore.InstantiatingItemSlotClone", "class_adventure_core_1_1_instantiating_item_slot_clone.html", null ],
       [ "AdventureCore.IntervalSpawner", "class_adventure_core_1_1_interval_spawner.html", null ],
       [ "AdventureCore.InventoryBase", "class_adventure_core_1_1_inventory_base.html", [
         [ "AdventureCore.ListedInventory", "class_adventure_core_1_1_listed_inventory.html", null ]
       ] ],
+      [ "AdventureCore.InventoryItemElement", "class_adventure_core_1_1_inventory_item_element.html", null ],
       [ "AdventureCore.InventoryItemPanel", "class_adventure_core_1_1_inventory_item_panel.html", null ],
       [ "AdventureCore.InventoryText", "class_adventure_core_1_1_inventory_text.html", null ],
       [ "AdventureCore.ItemNotification", "class_adventure_core_1_1_item_notification.html", null ],
@@ -1267,6 +1275,7 @@ var hierarchy =
           [ "AdventureSouls.SoulsUsableSlots", "class_adventure_souls_1_1_souls_usable_slots.html", null ]
         ] ]
       ] ],
+      [ "AdventureCore.ItemSlotElement", "class_adventure_core_1_1_item_slot_element.html", null ],
       [ "AdventureCore.ItemSlotPanel", "class_adventure_core_1_1_item_slot_panel.html", null ],
       [ "AdventureCore.ItemsControlBase< T >", "class_adventure_core_1_1_items_control_base.html", null ],
       [ "AdventureCore.ListedInventoryElement", "class_adventure_core_1_1_listed_inventory_element.html", null ],
@@ -1278,7 +1287,9 @@ var hierarchy =
         [ "AdventureCore.ManualMovement", "class_adventure_core_1_1_manual_movement.html", null ],
         [ "AdventureCore.MovementBasePersisted", "class_adventure_core_1_1_movement_base_persisted.html", [
           [ "AdventureCore.CharacterControllerMovement", "class_adventure_core_1_1_character_controller_movement.html", null ],
-          [ "AdventureCore.NavMeshAgentMovement", "class_adventure_core_1_1_nav_mesh_agent_movement.html", null ]
+          [ "AdventureCore.NavMeshAgentMovement", "class_adventure_core_1_1_nav_mesh_agent_movement.html", [
+            [ "AdventureCore.NavMeshTankMovement", "class_adventure_core_1_1_nav_mesh_tank_movement.html", null ]
+          ] ]
         ] ]
       ] ],
       [ "AdventureCore.Mover", "class_adventure_core_1_1_mover.html", null ],
@@ -1314,6 +1325,7 @@ var hierarchy =
       [ "AdventureCore.TriggerArea< TArea, TItem >", "class_adventure_core_1_1_trigger_area.html", null ],
       [ "AdventureCore.TriggerItem< TArea, TItem >", "class_adventure_core_1_1_trigger_item.html", null ],
       [ "AdventureCore.UIDebugger", "class_adventure_core_1_1_u_i_debugger.html", null ],
+      [ "AdventureCore.VisualScriptingHelper", "class_adventure_core_1_1_visual_scripting_helper.html", null ],
       [ "AdventureHero.HeroActionPanel", "class_adventure_hero_1_1_hero_action_panel.html", null ],
       [ "AdventureHero.HeroBoulder", "class_adventure_hero_1_1_hero_boulder.html", null ],
       [ "AdventureHero.HeroGearToggle", "class_adventure_hero_1_1_hero_gear_toggle.html", null ],
@@ -1413,7 +1425,8 @@ var hierarchy =
         [ "AdventureCore.PlaceholderItem", "class_adventure_core_1_1_placeholder_item.html", null ],
         [ "AdventureCore.PrefabItem", "class_adventure_core_1_1_prefab_item.html", [
           [ "AdventureCore.EquipmentItem", "class_adventure_core_1_1_equipment_item.html", null ],
-          [ "AdventureCore.UsableItem", "class_adventure_core_1_1_usable_item.html", null ]
+          [ "AdventureCore.UsableItem", "class_adventure_core_1_1_usable_item.html", null ],
+          [ "AdventureHero.HeroShieldItem", "class_adventure_hero_1_1_hero_shield_item.html", null ]
         ] ],
         [ "AdventureHero.HeroEquipmentItem", "class_adventure_hero_1_1_hero_equipment_item.html", null ],
         [ "AdventureSouls.SoulsArmorItem", "class_adventure_souls_1_1_souls_armor_item.html", null ],
@@ -1520,6 +1533,9 @@ var hierarchy =
     [ "AdventureSouls.SoulsCharacterBase< MinimalCharacterActor, MovementBase, InventoryBase >", "class_adventure_souls_1_1_souls_character_base.html", [
       [ "AdventureSouls.SoulsMorningstar", "class_adventure_souls_1_1_souls_morningstar.html", null ]
     ] ],
+    [ "AdventureSouls.SoulsCharacterBase< SerialCharacterActor, MovementBase, InventoryBase >", "class_adventure_souls_1_1_souls_character_base.html", [
+      [ "AdventureExtras.SoulsHeroApe", "class_adventure_extras_1_1_souls_hero_ape.html", null ]
+    ] ],
     [ "AdventureSouls.SoulsCharacterBase< SerialCharacterActor, NavMeshAgentMovement, ListedInventory >", "class_adventure_souls_1_1_souls_character_base.html", [
       [ "AdventureSouls.SoulsNonPlayerCharacter", "class_adventure_souls_1_1_souls_non_player_character.html", [
         [ "AdventureSouls.SoulsEnemyCharacter", "class_adventure_souls_1_1_souls_enemy_character.html", null ],
@@ -1531,6 +1547,9 @@ var hierarchy =
     [ "AdventureCore.StateManager.StateEntry", "class_adventure_core_1_1_state_manager_1_1_state_entry.html", null ],
     [ "AdventureCore.StateManager.StateOverride", "class_adventure_core_1_1_state_manager_1_1_state_override.html", null ],
     [ "AdventureSouls.SoulsInput.SystemActions", "struct_adventure_souls_1_1_souls_input_1_1_system_actions.html", null ],
+    [ "AdventureCore.VisualScripting.SystemEventUnit< ICharacterAssociator >", "class_adventure_core_1_1_visual_scripting_1_1_system_event_unit.html", [
+      [ "AdventureCore.VisualScripting.ActiorIdlingUnit", "class_adventure_core_1_1_visual_scripting_1_1_actior_idling_unit.html", null ]
+    ] ],
     [ "AdventureCore.Tests.TestInput.TestActions", "struct_adventure_core_1_1_tests_1_1_test_input_1_1_test_actions.html", null ],
     [ "AdventureCore.PersistedStringText.TextReplacement", "class_adventure_core_1_1_persisted_string_text_1_1_text_replacement.html", null ],
     [ "AdventureCore.TieredStat.Tier", "class_adventure_core_1_1_tiered_stat_1_1_tier.html", null ],
@@ -1596,6 +1615,7 @@ var hierarchy =
       ] ],
       [ "AdventureCore.VisualScripting.PlayableAnimationClipSettingsUnit", "class_adventure_core_1_1_visual_scripting_1_1_playable_animation_clip_settings_unit.html", null ],
       [ "AdventureCore.VisualScripting.PlayableAnimationControllerSettingsUnit", "class_adventure_core_1_1_visual_scripting_1_1_playable_animation_controller_settings_unit.html", null ],
+      [ "AdventureCore.VisualScripting.RandomChanceUnit", "class_adventure_core_1_1_visual_scripting_1_1_random_chance_unit.html", null ],
       [ "AdventureCore.VisualScripting.SetVariableUnitBase< T >", "class_adventure_core_1_1_visual_scripting_1_1_set_variable_unit_base.html", null ],
       [ "AdventureCore.VisualScripting.ShowDialogOptionsUnit", "class_adventure_core_1_1_visual_scripting_1_1_show_dialog_options_unit.html", null ],
       [ "AdventureCore.VisualScripting.ShowDialogTextUnit", "class_adventure_core_1_1_visual_scripting_1_1_show_dialog_text_unit.html", null ],

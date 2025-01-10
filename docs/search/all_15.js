@@ -7,5 +7,6 @@ var searchData=
   ['vectorinputreceivedunit_4',['VectorInputReceivedUnit',['../class_adventure_core_1_1_visual_scripting_1_1_vector_input_received_unit.html',1,'AdventureCore::VisualScripting']]],
   ['visualscriptingaction_5',['VisualScriptingAction',['../class_adventure_core_1_1_visual_scripting_action.html',1,'AdventureCore']]],
   ['visualscriptingactioninfodescriptor_6',['VisualScriptingActionInfoDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_visual_scripting_action_info_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
-  ['visualscriptingactioninfounit_7',['VisualScriptingActionInfoUnit',['../class_adventure_core_1_1_visual_scripting_1_1_visual_scripting_action_info_unit.html',1,'AdventureCore::VisualScripting']]]
+  ['visualscriptingactioninfounit_7',['VisualScriptingActionInfoUnit',['../class_adventure_core_1_1_visual_scripting_1_1_visual_scripting_action_info_unit.html',1,'AdventureCore::VisualScripting']]],
+  ['visualscriptinghelper_8',['VisualScriptingHelper',['../class_adventure_core_1_1_visual_scripting_helper.html',1,'AdventureCore']]]
 ];

@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.7.3</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.8.0</span>
    </div>
   </td>
  </tr>
@@ -186,6 +186,7 @@ Classes</h2></td></tr>
  playing sounds from anything else hooked up to the messageing, usually animators or timelines  <a href="class_adventure_core_1_1_audio_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_audio_slider.html">AudioSlider</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">ui behaviour that lets players change the volume of an audio mixer  <a href="class_adventure_core_1_1_audio_slider.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_behaviour_event_trigger.html">BehaviourEventTrigger</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides unity events invoked by the most common unity messages like Start or OnEnable<br  />
@@ -204,11 +205,12 @@ Classes</h2></td></tr>
  useful for buttons or levers that reset themselfes  <a href="class_adventure_core_1_1_button_action.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_button_input_adapter.html">ButtonInputAdapter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">behaviour that allows hooking up an input event from the new input system to a button<br  />
+ the button is pressed and released according to the input action phase  <a href="class_adventure_core_1_1_button_input_adapter.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_button_on_platform_modifier.html">ButtonOnPlatformModifier</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">modifier for the new input system that only acts when a modifier is NOT active<br  />
- when an action is bound to s and another to ctrl+s the new input system would still perform the first one when ctrl was pressed<br  />
- put this modifier with ctrl on the first action to solve that  <a href="class_adventure_core_1_1_button_on_platform_modifier.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">modifier for the new input system that only acts on the selected platform<br  />
+ this is used to disable the esc button in the editor so the game view can be exited without opening the menu  <a href="class_adventure_core_1_1_button_on_platform_modifier.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_button_without_one_modifier.html">ButtonWithoutOneModifier</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">modifier for the new input system that only acts when a modifier is NOT active<br  />
@@ -277,6 +279,7 @@ Classes</h2></td></tr>
  IF UNITY RANDOMLY DECIDES THAT AN INSTRUCTION IS SUDDENLY NULL TRY REIMPORTING ALL ASSETS TO CLEAR CACHE  <a href="class_adventure_core_1_1_character_instruction_base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_character_instruction_object.html">CharacterInstructionObject</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">used on the character editor to display an instruction that can be added to the character from the inspector for debugging  <a href="class_adventure_core_1_1_character_instruction_object.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_character_messenger.html">CharacterMessenger</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">receives and sends messages to a character, effectively acting as a proxy<br  />
@@ -448,6 +451,8 @@ Classes</h2></td></tr>
  this one is most likely situated on the character while the area is some part of the level  <a href="class_adventure_core_1_1_generic_trigger_item.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_ground_checker.html">GroundChecker</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">when its Check method is called it raycasts from its own position downwards and fires different events depending on the material and texture color it finds<br  />
+ the textures of materials checked need to have Read/Write in their import settings checked, otherwise the checker can not read the color  <a href="class_adventure_core_1_1_ground_checker.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_hide_character_instruction.html">HideCharacterInstruction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">hides the complete character, by default this deactivates the animators gameobject  <a href="class_adventure_core_1_1_hide_character_instruction.html#details">More...</a><br /></td></tr>
@@ -479,6 +484,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_adventure_core_1_1_i_description_item.html">IDescriptionItem</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">interface that provides description text for hints or tooltips  <a href="interface_adventure_core_1_1_i_description_item.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_impact_area.html">ImpactArea</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">behaviour that provides keys for triggers so <a class="el" href="class_adventure_core_1_1_impact_item.html" title="behaviour that triggers an event when it receives trigger enter messages  which event is triggered ca...">ImpactItem</a> can trigger different events based on the hit object  <a href="class_adventure_core_1_1_impact_area.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_impact_item.html">ImpactItem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">behaviour that triggers an event when it receives trigger enter messages<br  />
+ which event is triggered can be keyed to an <a class="el" href="class_adventure_core_1_1_impact_area.html" title="behaviour that provides keys for triggers so ImpactItem can trigger different events based on the hit...">ImpactArea</a><br  />
+ used in the demos to display different sparks and sounds when weapons hit the environment  <a href="class_adventure_core_1_1_impact_item.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_input_binding_label.html">InputBindingLabel</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_input_binding_text.html">InputBindingText</a></td></tr>
@@ -506,6 +519,9 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">serializable utility class used in inventories to keep track of item quantity and the slot it is equipped to<br  />
  manages some of the plumbing between item and slot<br  />
  should only be created by an inventory, if you need to show items quantities in the inspector use <a class="el" href="class_adventure_core_1_1_item_quantity.html" title="serializable utility class that combines an item with a quantity, useful for configuring items in the...">ItemQuantity</a>  <a href="class_adventure_core_1_1_inventory_item.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_inventory_item_element.html">InventoryItemElement</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes an inventory item in the UI  <a href="class_adventure_core_1_1_inventory_item_element.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_inventory_item_panel.html">InventoryItemPanel</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes an <a class="el" href="class_adventure_core_1_1_inventory_item.html" title="serializable utility class used in inventories to keep track of item quantity and the slot it is equi...">InventoryItem</a> in the ui, the item can be forwarded to an <a class="el" href="class_adventure_core_1_1_item_panel.html" title="visualizes an ItemBase in the ui">ItemPanel</a> to be visualized there  <a href="class_adventure_core_1_1_inventory_item_panel.html#details">More...</a><br /></td></tr>
@@ -583,6 +599,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_category.html">ItemSlotCategory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">slot category that determines which slots an item can be equipped to  <a href="class_adventure_core_1_1_item_slot_category.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_element.html">ItemSlotElement</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes an item slot in the UI  <a href="class_adventure_core_1_1_item_slot_element.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_slot_panel.html">ItemSlotPanel</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes an <a class="el" href="class_adventure_core_1_1_item_slot_base.html" title="non-generic base class for item slots, usually the generic ItemSlot&lt;T&gt; should be derived from this">ItemSlotBase</a> in the ui, the equipped item can be forwarded to an <a class="el" href="class_adventure_core_1_1_inventory_item_panel.html" title="visualizes an InventoryItem in the ui, the item can be forwarded to an ItemPanel to be visualized the...">AdventureCore.InventoryItemPanel</a> to be visualized there  <a href="class_adventure_core_1_1_item_slot_panel.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -605,6 +624,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes the contents of a <a class="el" href="class_adventure_core_1_1_listed_inventory.html" title="simple implementation of an unlimited inventory that simply stores everything in a list">ListedInventory</a> and can enable using or equipping the items  <a href="class_adventure_core_1_1_listed_inventory_panel.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_lockable_camera_base.html">LockableCameraBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for camera controllers that can be locked to lock on points  <a href="class_adventure_core_1_1_lockable_camera_base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_lockable_camera_controller.html">LockableCameraController</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">camera controller for players, provide input in OnInput(InputValue) or SetInput(Vector2)<br  />
@@ -694,6 +714,11 @@ Classes</h2></td></tr>
  meant for enemy movement, use StartApproach(Action, float) to walk to the MovementBase.Target<br  />
   <a href="class_adventure_core_1_1_nav_mesh_agent_movement.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_nav_mesh_tank_movement.html">NavMeshTankMovement</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">variation on nav mesh movement that uses root motion and manual rotation instead of letting the agent steer<br  />
+ the movement rotates itself until it points towards the target<br  />
+ to move forward the SpeedFactor value is set and root motion from the animator is applied  <a href="class_adventure_core_1_1_nav_mesh_tank_movement.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_nav_patrol_action.html">NavPatrolAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves a <a class="el" href="class_adventure_core_1_1_nav_mesh_agent_movement.html" title="a movement implementation that is built on top of the unity NavMeshAgent  meant for enemy movement,...">NavMeshAgentMovement</a> cyclically between the specified points<br  />
  automatically saves its current index into the movements persister with subkey 'PAT'  <a href="class_adventure_core_1_1_nav_patrol_action.html#details">More...</a><br /></td></tr>
@@ -706,6 +731,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_overlay_element.html">OverlayElement</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes a ui element automatically follow a transform  <a href="class_adventure_core_1_1_overlay_element.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_pause_game_instruction.html">PauseGameInstruction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets timeScale to 0 while it is active  <a href="class_adventure_core_1_1_pause_game_instruction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_persisted_number_text.html">PersistedNumberText</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves a number from persistence and visualizes it in a text component  <a href="class_adventure_core_1_1_persisted_number_text.html#details">More...</a><br /></td></tr>
@@ -848,6 +876,8 @@ Classes</h2></td></tr>
  inherit from this class to implement resources with custom logic  <a href="class_adventure_core_1_1_resource_value.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_scriptable_helper.html">ScriptableHelper</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper class used in unity events in the inspector to call general functions<br  />
+ by drawing the <a class="el" href="class_adventure_core_1_1_scriptable_helper.html" title="helper class used in unity events in the inspector to call general functions  by drawing the Scriptab...">ScriptableHelper</a> in AdventureCore/Utilities into the target of an event the methods become available there  <a href="class_adventure_core_1_1_scriptable_helper.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_serial_character_actor.html">SerialCharacterActor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for any actor that has one active action at a time  <a href="class_adventure_core_1_1_serial_character_actor.html#details">More...</a><br /></td></tr>
@@ -941,6 +971,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_visual_scripting_action.html">VisualScriptingAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">character action meant for actions mainly driven by a script machine exposes some additional events and properties to support that  <a href="class_adventure_core_1_1_visual_scripting_action.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_visual_scripting_helper.html">VisualScriptingHelper</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper behaviour that carries utility methods relevant to visual scripting  <a href="class_adventure_core_1_1_visual_scripting_helper.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>

@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.7.3</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.8.0</span>
    </div>
   </td>
  </tr>
@@ -130,6 +130,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a699c083a947561b2e46934c204cbbf4a inherit pub_attribs_class_adventure_core_1_1_character_actor_base" id="r_a699c083a947561b2e46934c204cbbf4a"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Character</b></td></tr>
 <tr class="separator:a699c083a947561b2e46934c204cbbf4a inherit pub_attribs_class_adventure_core_1_1_character_actor_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafe567bf590a500bdb1ef6495ad81db0 inherit pub_attribs_class_adventure_core_1_1_character_actor_base" id="r_aafe567bf590a500bdb1ef6495ad81db0"><td class="memItemLeft" align="right" valign="top">
+OverruleCanStartMode&#160;</td><td class="memItemRight" valign="bottom"><b>OverruleCanStart</b></td></tr>
+<tr class="separator:aafe567bf590a500bdb1ef6495ad81db0 inherit pub_attribs_class_adventure_core_1_1_character_actor_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e684576f731d23c9d294a807ceb8b09 inherit pub_attribs_class_adventure_core_1_1_character_actor_base" id="r_a7e684576f731d23c9d294a807ceb8b09"><td class="memItemLeft" align="right" valign="top">
 UnityEvent&lt; <a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ActionStarted</b></td></tr>
 <tr class="separator:a7e684576f731d23c9d294a807ceb8b09 inherit pub_attribs_class_adventure_core_1_1_character_actor_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,6 +145,12 @@ UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>ActionsChanged<
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_class_adventure_core_1_1_character_actor_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_class_adventure_core_1_1_character_actor_base')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_adventure_core_1_1_character_actor_base.html">AdventureCore.CharacterActorBase</a></td></tr>
+<tr class="memitem:a518520fda257c4c7b151a77d51722f80 inherit pub_types_class_adventure_core_1_1_character_actor_base" id="r_a518520fda257c4c7b151a77d51722f80"><td class="memItemLeft" align="right" valign="top"><a id="a518520fda257c4c7b151a77d51722f80" name="a518520fda257c4c7b151a77d51722f80"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>OverruleCanStartMode</b> { <b>Forced</b>
+, <b>Never</b>
+, <b>Always</b>
+ }</td></tr>
+<tr class="separator:a518520fda257c4c7b151a77d51722f80 inherit pub_types_class_adventure_core_1_1_character_actor_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_adventure_core_1_1_minimal_character_actor"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_adventure_core_1_1_minimal_character_actor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_adventure_core_1_1_minimal_character_actor.html">AdventureCore.MinimalCharacterActor</a></td></tr>
 <tr class="memitem:a0debfaf05366cba1d80f9badf8513b79 inherit pub_methods_class_adventure_core_1_1_minimal_character_actor" id="r_a0debfaf05366cba1d80f9badf8513b79"><td class="memItemLeft" align="right" valign="top">
 override bool&#160;</td><td class="memItemRight" valign="bottom"><b>StartAction</b> (<a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a> characterAction, bool jumpStart=false, bool force=false)</td></tr>
@@ -198,6 +207,9 @@ override void&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveAction
  actions are usually known by being children of the actor  <br /></td></tr>
 <tr class="separator:a832ef27deb69dc511e287d58d7271fdc inherit pub_methods_class_adventure_core_1_1_character_actor_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_adventure_core_1_1_character_actor_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_adventure_core_1_1_character_actor_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_adventure_core_1_1_character_actor_base.html">AdventureCore.CharacterActorBase</a></td></tr>
+<tr class="memitem:af33d2deb090156412ee753f9b26a7ce4 inherit pro_methods_class_adventure_core_1_1_character_actor_base" id="r_af33d2deb090156412ee753f9b26a7ce4"><td class="memItemLeft" align="right" valign="top">
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>canStart</b> (<a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a> action, bool forced)</td></tr>
+<tr class="separator:af33d2deb090156412ee753f9b26a7ce4 inherit pro_methods_class_adventure_core_1_1_character_actor_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6827e0eb183a3bf8d55bc80f5faeec7d inherit pro_methods_class_adventure_core_1_1_character_actor_base" id="r_a6827e0eb183a3bf8d55bc80f5faeec7d"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onActionStarted</b> (<a class="el" href="class_adventure_core_1_1_character_action_base.html">CharacterActionBase</a> characterAction)</td></tr>
 <tr class="separator:a6827e0eb183a3bf8d55bc80f5faeec7d inherit pro_methods_class_adventure_core_1_1_character_actor_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,6 +256,11 @@ Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>InputVector</b><co
 <tr class="memdesc:a7bd3969102851cb202c0f00f4fb0e75b inherit properties_class_adventure_core_1_1_character_actor_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">character that owns or is otherwise associted with the object  <br /></td></tr>
 <tr class="separator:a7bd3969102851cb202c0f00f4fb0e75b inherit properties_class_adventure_core_1_1_character_actor_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_adventure_core_1_1_i_character_associator"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_adventure_core_1_1_i_character_associator')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_adventure_core_1_1_i_character_associator.html">AdventureCore.ICharacterAssociator</a></td></tr>
+<tr class="inherit_header events_class_adventure_core_1_1_character_actor_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('events_class_adventure_core_1_1_character_actor_base')"><img src="closed.png" alt="-"/>&#160;Events inherited from <a class="el" href="class_adventure_core_1_1_character_actor_base.html">AdventureCore.CharacterActorBase</a></td></tr>
+<tr class="memitem:a086621c7a77164ddab0764f5bd5d88d0 inherit events_class_adventure_core_1_1_character_actor_base" id="r_a086621c7a77164ddab0764f5bd5d88d0"><td class="memItemLeft" align="right" valign="top">
+Action&#160;</td><td class="memItemRight" valign="bottom"><b>Idling</b></td></tr>
+<tr class="memdesc:a086621c7a77164ddab0764f5bd5d88d0 inherit events_class_adventure_core_1_1_character_actor_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">fired after an event has ended an not other action has been started by the end of the frame <br /></td></tr>
+<tr class="separator:a086621c7a77164ddab0764f5bd5d88d0 inherit events_class_adventure_core_1_1_character_actor_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.7.3</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.8.0</span>
    </div>
   </td>
  </tr>
@@ -127,19 +127,20 @@ Inheritance diagram for AdventureCore.CharacterInstructionBase:</div>
 <area href="class_adventure_core_1_1_hide_slot_instruction.html" title="hides an item slot while it is active  it may not be possible to directly access the slot(for exemple..." alt="AdventureCore.HideSlotInstruction" shape="rect" coords="344,448,678,472"/>
 <area href="class_adventure_core_1_1_movement_motion_multiplier_instruction.html" title="mutliplies the movement root motion while it is active" alt="AdventureCore.MovementMotionMultiplierInstruction" shape="rect" coords="344,504,678,528"/>
 <area href="class_adventure_core_1_1_movement_speed_multiplier_instruction.html" title="mutliplies the movement speed while it is active" alt="AdventureCore.MovementSpeedMultiplierInstruction" shape="rect" coords="344,560,678,584"/>
-<area href="class_adventure_core_1_1_stat_multiplier_instruction.html" title="multiplies the stat of its character while it is active  for example a buff that increases attack by ..." alt="AdventureCore.StatMultiplierInstruction" shape="rect" coords="344,616,678,640"/>
-<area href="class_adventure_core_1_1_suspend_control_instruction.html" title="completely stops input from being processed" alt="AdventureCore.SuspendControlInstruction" shape="rect" coords="344,672,678,696"/>
-<area href="class_adventure_core_1_1_suspend_movement_collision_instruction.html" title="suspends collision of the movement, usefull when an action moves a character somwhere that its usual ..." alt="AdventureCore.SuspendMovementCollisionInstruction" shape="rect" coords="344,728,678,752"/>
-<area href="class_adventure_core_1_1_suspend_movement_control_instruction.html" title="suspends movement from processing controls but leaves movement otherwise running  for example when ju..." alt="AdventureCore.SuspendMovementControlInstruction" shape="rect" coords="344,784,678,808"/>
-<area href="class_adventure_core_1_1_suspend_movement_instruction.html" title="suspends movement entirely, useful when an action takes over movement while it is active  for example..." alt="AdventureCore.SuspendMovementInstruction" shape="rect" coords="344,840,678,864"/>
-<area href="class_adventure_core_1_1_suspend_movement_parts_instruction.html" title="suspends movement translation and/or rotation  more fine grained version of SuspendMovementInstructio..." alt="AdventureCore.SuspendMovementPartsInstruction" shape="rect" coords="344,896,678,920"/>
-<area href="class_adventure_core_1_1_suspend_movement_persistence_instruction.html" title="pauses persistence of the movement, for example when standing on a moving platform or in a hazardous ..." alt="AdventureCore.SuspendMovementPersistenceInstruction" shape="rect" coords="344,952,678,976"/>
-<area href="class_adventure_core_1_1_suspend_receive_damage_instruction.html" title="incoming damage is discarded while this instruction is active  for example i-frames in a rolling or d..." alt="AdventureCore.SuspendReceiveDamageInstruction" shape="rect" coords="344,1008,678,1032"/>
-<area href="class_adventure_core_1_1_suspend_send_damage_instruction.html" title="no damage is sent while this instruction is active" alt="AdventureCore.SuspendSendDamageInstruction" shape="rect" coords="344,1064,678,1088"/>
-<area href="class_adventure_hero_1_1_hero_action_override_instruction.html" title="instruction that sets the &quot;ActionOverride&quot; visual scripting scene variable" alt="AdventureHero.HeroActionOverrideInstruction" shape="rect" coords="344,1120,678,1144"/>
-<area href="class_adventure_souls_1_1_souls_hide_h_u_d_instruction.html" title="instruction that hides the HUD while it is active(for cutscenes or sitting at the bonfire)" alt="AdventureSouls.SoulsHideHUDInstruction" shape="rect" coords="344,1176,678,1200"/>
-<area href="class_adventure_souls_1_1_souls_hide_weapons_instruction.html" title="instruction that hides the configured weapon slots when active(when opening doors,..." alt="AdventureSouls.SoulsHideWeaponsInstruction" shape="rect" coords="344,1232,678,1256"/>
-<area href="class_adventure_souls_1_1_souls_suspend_acting_instruction.html" title="disables all Act inputs while active" alt="AdventureSouls.SoulsSuspendActingInstruction" shape="rect" coords="344,1288,678,1312"/>
+<area href="class_adventure_core_1_1_pause_game_instruction.html" title="sets timeScale to 0 while it is active" alt="AdventureCore.PauseGameInstruction" shape="rect" coords="344,616,678,640"/>
+<area href="class_adventure_core_1_1_stat_multiplier_instruction.html" title="multiplies the stat of its character while it is active  for example a buff that increases attack by ..." alt="AdventureCore.StatMultiplierInstruction" shape="rect" coords="344,672,678,696"/>
+<area href="class_adventure_core_1_1_suspend_control_instruction.html" title="completely stops input from being processed" alt="AdventureCore.SuspendControlInstruction" shape="rect" coords="344,728,678,752"/>
+<area href="class_adventure_core_1_1_suspend_movement_collision_instruction.html" title="suspends collision of the movement, usefull when an action moves a character somwhere that its usual ..." alt="AdventureCore.SuspendMovementCollisionInstruction" shape="rect" coords="344,784,678,808"/>
+<area href="class_adventure_core_1_1_suspend_movement_control_instruction.html" title="suspends movement from processing controls but leaves movement otherwise running  for example when ju..." alt="AdventureCore.SuspendMovementControlInstruction" shape="rect" coords="344,840,678,864"/>
+<area href="class_adventure_core_1_1_suspend_movement_instruction.html" title="suspends movement entirely, useful when an action takes over movement while it is active  for example..." alt="AdventureCore.SuspendMovementInstruction" shape="rect" coords="344,896,678,920"/>
+<area href="class_adventure_core_1_1_suspend_movement_parts_instruction.html" title="suspends movement translation and/or rotation  more fine grained version of SuspendMovementInstructio..." alt="AdventureCore.SuspendMovementPartsInstruction" shape="rect" coords="344,952,678,976"/>
+<area href="class_adventure_core_1_1_suspend_movement_persistence_instruction.html" title="pauses persistence of the movement, for example when standing on a moving platform or in a hazardous ..." alt="AdventureCore.SuspendMovementPersistenceInstruction" shape="rect" coords="344,1008,678,1032"/>
+<area href="class_adventure_core_1_1_suspend_receive_damage_instruction.html" title="incoming damage is discarded while this instruction is active  for example i-frames in a rolling or d..." alt="AdventureCore.SuspendReceiveDamageInstruction" shape="rect" coords="344,1064,678,1088"/>
+<area href="class_adventure_core_1_1_suspend_send_damage_instruction.html" title="no damage is sent while this instruction is active" alt="AdventureCore.SuspendSendDamageInstruction" shape="rect" coords="344,1120,678,1144"/>
+<area href="class_adventure_hero_1_1_hero_action_override_instruction.html" title="instruction that sets the &quot;ActionOverride&quot; visual scripting scene variable" alt="AdventureHero.HeroActionOverrideInstruction" shape="rect" coords="344,1176,678,1200"/>
+<area href="class_adventure_souls_1_1_souls_hide_h_u_d_instruction.html" title="instruction that hides the HUD while it is active(for cutscenes or sitting at the bonfire)" alt="AdventureSouls.SoulsHideHUDInstruction" shape="rect" coords="344,1232,678,1256"/>
+<area href="class_adventure_souls_1_1_souls_hide_weapons_instruction.html" title="instruction that hides the configured weapon slots when active(when opening doors,..." alt="AdventureSouls.SoulsHideWeaponsInstruction" shape="rect" coords="344,1288,678,1312"/>
+<area href="class_adventure_souls_1_1_souls_suspend_acting_instruction.html" title="disables all Act inputs while active" alt="AdventureSouls.SoulsSuspendActingInstruction" shape="rect" coords="344,1344,678,1368"/>
   </map>
 </div></div>
 <table class="memberdecls">

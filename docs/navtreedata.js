@@ -38,7 +38,7 @@ var NAVTREE =
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
+        [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Properties", "functions_prop.html", null ],
@@ -51,15 +51,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_adventure_core_1_1_damage_effect.html",
-"class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_instruction_descriptor_base.html",
-"class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_suspend_send_damage_instruction_descriptor.html",
-"class_adventure_core_1_1_items_control_base.html",
-"class_adventure_core_1_1_resource_bar_panel.html",
-"class_adventure_core_1_1_visual_scripting_1_1_check_movement_target_distance_unit.html",
-"class_adventure_core_1_1_visual_scripting_1_1_set_action_name_unit.html",
-"class_adventure_souls_1_1_souls_guard_action.html",
-"struct_adventure_core_1_1_player_pref_saver_1_1_save_data.html"
+"class_adventure_core_1_1_controller_action_base.html",
+"class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_playable_animation_descriptor.html",
+"class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_state_info_descriptor.html",
+"class_adventure_core_1_1_item_slot_base.html#a8de526b42b8f4330edf430a79393fb1c",
+"class_adventure_core_1_1_playable_animation_parameters.html#a12d23159420af85cf44aa496259e1a14",
+"class_adventure_core_1_1_visual_scripting_1_1_add_effect_unit.html",
+"class_adventure_core_1_1_visual_scripting_1_1_perform_action_base_unit.html",
+"class_adventure_hero_1_1_hero_boulder.html",
+"functions_u.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

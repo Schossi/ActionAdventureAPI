@@ -20,6 +20,7 @@ var namespace_adventure_hero =
     [ "HeroMenuTab", "class_adventure_hero_1_1_hero_menu_tab.html", null ],
     [ "HeroPickupArea", "class_adventure_hero_1_1_hero_pickup_area.html", null ],
     [ "HeroPlayerCharacter", "class_adventure_hero_1_1_hero_player_character.html", "class_adventure_hero_1_1_hero_player_character" ],
+    [ "HeroShieldItem", "class_adventure_hero_1_1_hero_shield_item.html", null ],
     [ "HeroSlingAction", "class_adventure_hero_1_1_hero_sling_action.html", null ],
     [ "HeroSlotPanel", "class_adventure_hero_1_1_hero_slot_panel.html", null ]
 ];

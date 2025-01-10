@@ -1,5 +1,6 @@
 var class_adventure_core_1_1_trigger_damage_receiver =
 [
+    [ "GetPosition", "class_adventure_core_1_1_trigger_damage_receiver.html#a6321ed8b7ead98da88509a8fb86dd80a", null ],
     [ "OnDamage", "class_adventure_core_1_1_trigger_damage_receiver.html#adba5a2f853eedc1f5f7cdb5f571d3bb6", null ],
     [ "PostDamage", "class_adventure_core_1_1_trigger_damage_receiver.html#a60d4f47b18f3ae8c11ac9dbccc76be0f", null ],
     [ "PreDamage", "class_adventure_core_1_1_trigger_damage_receiver.html#a056f8697782361b2d3ce3a47c4150289", null ],
