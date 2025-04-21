@@ -1,4 +1,6 @@
 var namespace_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_character_1_1_instructions =
 [
-    [ "DebugInstruction", "class_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_character_1_1_instructions_1_1_debug_instruction.html", null ]
+    [ "ConsolidatedMessagesInstruction", "class_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_character_1_1_instructio1a69b8283a12048329f51923b59202cf.html", null ],
+    [ "ModifyDamageReceivedInstruction", "class_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_character_1_1_instructiodee12b493f3ef22ed9ee6b9283256f73.html", null ],
+    [ "ModifyDamageSent", "class_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_character_1_1_instructions_1_1_modify_damage_sent.html", null ]
 ];

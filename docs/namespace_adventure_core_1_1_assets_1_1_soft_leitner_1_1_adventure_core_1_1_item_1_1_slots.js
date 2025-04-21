@@ -1,0 +1,5 @@
+var namespace_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_item_1_1_slots =
+[
+    [ "ActionItemSlot", "class_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_item_1_1_slots_1_1_action_item_slot.html", "class_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_item_1_1_slots_1_1_action_item_slot" ],
+    [ "UsableItemSlot", "class_adventure_core_1_1_assets_1_1_soft_leitner_1_1_adventure_core_1_1_item_1_1_slots_1_1_usable_item_slot.html", null ]
+];

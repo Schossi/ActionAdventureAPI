@@ -58,8 +58,9 @@ var searchData=
   ['resourcevaluesunit_55',['ResourceValuesUnit',['../class_adventure_core_1_1_visual_scripting_1_1_resource_values_unit.html',1,'AdventureCore::VisualScripting']]],
   ['resourcevalueunit_56',['ResourceValueUnit',['../class_adventure_core_1_1_visual_scripting_1_1_resource_value_unit.html',1,'AdventureCore::VisualScripting']]],
   ['result_57',['Result',['../class_adventure_souls_1_1_souls_item_selector_1_1_result.html',1,'AdventureSouls::SoulsItemSelector']]],
-  ['runactiondescriptor_58',['RunActionDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_run_action_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
-  ['runactionnamedescriptor_59',['RunActionNameDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_run_action_name_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
-  ['runactionnameunit_60',['RunActionNameUnit',['../class_adventure_core_1_1_visual_scripting_1_1_run_action_name_unit.html',1,'AdventureCore::VisualScripting']]],
-  ['runactionunit_61',['RunActionUnit',['../class_adventure_core_1_1_visual_scripting_1_1_run_action_unit.html',1,'AdventureCore::VisualScripting']]]
+  ['right_58',['Right',['../class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38a92b09c7c48c520c3c55e497875da437c',1,'AdventureCore::TriggerDamageSender']]],
+  ['runactiondescriptor_59',['RunActionDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_run_action_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
+  ['runactionnamedescriptor_60',['RunActionNameDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_run_action_name_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
+  ['runactionnameunit_61',['RunActionNameUnit',['../class_adventure_core_1_1_visual_scripting_1_1_run_action_name_unit.html',1,'AdventureCore::VisualScripting']]],
+  ['runactionunit_62',['RunActionUnit',['../class_adventure_core_1_1_visual_scripting_1_1_run_action_unit.html',1,'AdventureCore::VisualScripting']]]
 ];

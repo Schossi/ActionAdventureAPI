@@ -14,6 +14,7 @@ var class_adventure_core_1_1_movement_base =
     [ "TeleportCharacter", "class_adventure_core_1_1_movement_base.html#ab61d1348c7a5ca2a91cda0d841aea74f", null ],
     [ "IsCollisionSuspended", "class_adventure_core_1_1_movement_base.html#a1febdb70c4c1ae09b23a6a6df8b1ea7c", null ],
     [ "IsControlSuspended", "class_adventure_core_1_1_movement_base.html#a5484d4fb3923629b891866012ee5c3b0", null ],
+    [ "IsControlSuspendedKeepMoving", "class_adventure_core_1_1_movement_base.html#adc335e383dbf8835bf4be3e83d3aec9a", null ],
     [ "IsGrounded", "class_adventure_core_1_1_movement_base.html#a03c801e2a8ee84b391fb43079f780f28", null ],
     [ "IsMarching", "class_adventure_core_1_1_movement_base.html#af11857ad0d5d12863e82271f8625f4e9", null ],
     [ "IsMoved", "class_adventure_core_1_1_movement_base.html#a25e4ffdf4fb53e82182e14c83518b536", null ],
@@ -21,8 +22,11 @@ var class_adventure_core_1_1_movement_base =
     [ "IsRotationSuspended", "class_adventure_core_1_1_movement_base.html#a64365023f30b41a66bd1fe428c3a8d0b", null ],
     [ "IsSprinting", "class_adventure_core_1_1_movement_base.html#a36c7759eff1a664ea5d880bee940bc73", null ],
     [ "IsTranslationSuspended", "class_adventure_core_1_1_movement_base.html#a091db654f40c756de4545bcebbd7cec0", null ],
+    [ "IsTranslationSuspendedApplyPhysics", "class_adventure_core_1_1_movement_base.html#a023bc70148439d1c3ab3693fc10de0b0", null ],
     [ "MotionMultiplier", "class_adventure_core_1_1_movement_base.html#a6284441de461e8de38c295f8a0b60c09", null ],
     [ "SpeedFactorForward", "class_adventure_core_1_1_movement_base.html#aa2f098a477e46390f40559090dc68fcb", null ],
     [ "SpeedFactorSideways", "class_adventure_core_1_1_movement_base.html#adbf898b333ba69dc0857c1522f83b0c6", null ],
+    [ "SpeedMaximum", "class_adventure_core_1_1_movement_base.html#ab76c47ce6e6c234bc3c637762c5a90b3", null ],
+    [ "SpeedMinimum", "class_adventure_core_1_1_movement_base.html#ae73e09b8d263d8806e8a8bceb2a65322", null ],
     [ "SpeedMultiplier", "class_adventure_core_1_1_movement_base.html#a20738363723ec1c893146660c7ad8f81", null ]
 ];

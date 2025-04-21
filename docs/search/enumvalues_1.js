@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['start_0',['Start',['../class_adventure_core_1_1_character_action_base.html#ab53c4407229dd3d6e8501c9c5b04f126aa6122a65eaa676f700ae68d393054a37',1,'AdventureCore::CharacterActionBase']]],
-  ['startcancel_1',['StartCancel',['../class_adventure_core_1_1_character_action_base.html#ab53c4407229dd3d6e8501c9c5b04f126a57adb5e3dfd23b37cc58536f7ce139db',1,'AdventureCore::CharacterActionBase']]]
+  ['none_0',['None',['../class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38a6adf97f83acf6453d4a6a4b1070f3754',1,'AdventureCore::TriggerDamageSender']]]
 ];

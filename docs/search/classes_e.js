@@ -55,5 +55,6 @@ var searchData=
   ['playtimepersister_52',['PlaytimePersister',['../class_adventure_core_1_1_playtime_persister.html',1,'AdventureCore']]],
   ['poseaction_53',['PoseAction',['../class_adventure_core_1_1_pose_action.html',1,'AdventureCore']]],
   ['prefabitem_54',['PrefabItem',['../class_adventure_core_1_1_prefab_item.html',1,'AdventureCore']]],
-  ['projectiledamagesender_55',['ProjectileDamageSender',['../class_adventure_core_1_1_projectile_damage_sender.html',1,'AdventureCore']]]
+  ['projectiledamagesender_55',['ProjectileDamageSender',['../class_adventure_core_1_1_projectile_damage_sender.html',1,'AdventureCore']]],
+  ['purchaseaction_56',['PurchaseAction',['../class_adventure_core_1_1_purchase_action.html',1,'AdventureCore']]]
 ];

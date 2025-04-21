@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.8.0</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.0</span>
    </div>
   </td>
  </tr>
@@ -128,6 +128,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_animator_int_instruction.html">AnimatorIntInstruction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets a int parameter in an animator  <a href="class_adventure_core_1_1_animator_int_instruction.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_animator_movement_setter.html">AnimatorMovementSetter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple utility behaviour that can be used to transfer movement parameters to an animator  <a href="class_adventure_core_1_1_animator_movement_setter.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_animator_parameter_setter.html">AnimatorParameterSetter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper that enables setting bool, int and float parameters on an animator from a UnityEngine.Events.UnityEvent in the inspector  <a href="class_adventure_core_1_1_animator_parameter_setter.html#details">More...</a><br /></td></tr>
@@ -319,6 +322,12 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for damage kinds, typically damages will reduce some resource value which is implemented in <a class="el" href="class_adventure_core_1_1_resource_damage.html" title="damage that reduces some resource value(health), probably the most common kind of damage">ResourceDamage</a><br  />
  technically though damages can do pretty much anything to the sender and receiver by creating a new implementation of <a class="el" href="class_adventure_core_1_1_damage_kind.html" title="base class for damage kinds, typically damages will reduce some resource value which is implemented i...">DamageKind</a> and overriding OnDamage  <a href="class_adventure_core_1_1_damage_kind.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_damage_message.html">DamageMessage</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">can be used to send messages and trigger events filtered by damage kind and value  <a href="class_adventure_core_1_1_damage_message.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_damage_modifier.html">DamageModifier</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">offers a generic way to change damage values by a flat value or stats from a character  <a href="class_adventure_core_1_1_damage_modifier.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_damage_parameter.html">DamageParameter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">serializable utility class that combines a damage kind with a value and a tag<br  />
  useful for configuring damage values in the inspector<br  />
@@ -410,6 +419,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_fade_and_destroy.html">FadeAndDestroy</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">behaviour that wait for some duration, than fades any renderer it finds out and finally destroys its gameobject<br  />
  can be used to just wait and destroy be leaving fade fields empty  <a href="class_adventure_core_1_1_fade_and_destroy.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_fader.html">Fader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple helper that fades a canvas group and sound in or out over a short period  <a href="class_adventure_core_1_1_fader.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_float_persistence_trigger.html">FloatPersistenceTrigger</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides unity events that are fired in relation to a persisted float  <a href="class_adventure_core_1_1_float_persistence_trigger.html#details">More...</a><br /></td></tr>
@@ -687,9 +699,19 @@ Classes</h2></td></tr>
   <a href="class_adventure_core_1_1_movement_base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_movement_base_persisted.html">MovementBasePersisted</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">extended version of <a class="el" href="class_adventure_core_1_1_movement_base.html" title="base class for movements, movements determine how and where a character moves  these will be where pl...">MovementBase</a> that adds persistence logic<br  />
+ allows persisting position, rotation(and optionally camera position)<br  />
+ persistence can be triggered automatically in an interval, otherwise Set() can also be called manually  <a href="class_adventure_core_1_1_movement_base_persisted.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_movement_motion_multiplier_instruction.html">MovementMotionMultiplierInstruction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">mutliplies the movement root motion while it is active  <a href="class_adventure_core_1_1_movement_motion_multiplier_instruction.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_movement_speed_maximum_instruction.html">MovementSpeedMaximumInstruction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the maximum speed factor to limit how fast the character can move  <a href="class_adventure_core_1_1_movement_speed_maximum_instruction.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_movement_speed_minimum_instruction.html">MovementSpeedMinimumInstruction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the minimum speed factor which can be used to force some minimum movement<br  />
+ for example to make the character move forward a little when rolling while standing still  <a href="class_adventure_core_1_1_movement_speed_minimum_instruction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_movement_speed_multiplier_instruction.html">MovementSpeedMultiplierInstruction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">mutliplies the movement speed while it is active  <a href="class_adventure_core_1_1_movement_speed_multiplier_instruction.html#details">More...</a><br /></td></tr>
@@ -708,6 +730,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_nav_approach_action.html">NavApproachAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts an approach on a <a class="el" href="class_adventure_core_1_1_nav_mesh_agent_movement.html" title="a movement implementation that is built on top of the unity NavMeshAgent  meant for enemy movement,...">NavMeshAgentMovement</a> and waits for its completion<br  />
  the target is the MovementBase.Target on the Movement  <a href="class_adventure_core_1_1_nav_approach_action.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_nav_away_action.html">NavAwayAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts an avoid on a <a class="el" href="class_adventure_core_1_1_nav_mesh_agent_movement.html" title="a movement implementation that is built on top of the unity NavMeshAgent  meant for enemy movement,...">NavMeshAgentMovement</a> and waits for its completion<br  />
+ the target is the MovementBase.Target on the Movement  <a href="class_adventure_core_1_1_nav_away_action.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_nav_mesh_agent_movement.html">NavMeshAgentMovement</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a movement implementation that is built on top of the unity NavMeshAgent<br  />
@@ -820,6 +846,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_projectile_damage_sender.html">ProjectileDamageSender</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">special triggered damage sender that moves itself gets destroyed once it has done damage or hits the environment  <a href="class_adventure_core_1_1_projectile_damage_sender.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_purchase_action.html">PurchaseAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">character action that exchanges items, attributes or resources for different items, can also play an animation using playable or trigger  <a href="class_adventure_core_1_1_purchase_action.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_quality_dropdown.html">QualityDropdown</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">attaches to a dropdown, when the dropdown is changed it sets the QualityLevel accordingly and persists it<br  />
  the contents of the dropdown have to be defined in the ui to fit the quality levels in the settings  <a href="class_adventure_core_1_1_quality_dropdown.html#details">More...</a><br /></td></tr>
@@ -874,6 +903,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_resource_value.html">ResourceValue</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">basic resource value that does not change on its own<br  />
  inherit from this class to implement resources with custom logic  <a href="class_adventure_core_1_1_resource_value.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_scene_explainer.html">SceneExplainer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">displays an "About" button in the scene view that can be used to get documentation and comments specific to the current scene  <a href="class_adventure_core_1_1_scene_explainer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_scriptable_helper.html">ScriptableHelper</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper class used in unity events in the inspector to call general functions<br  />
@@ -978,6 +1010,17 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:adec74bc347f12c633e02e80dce631496" id="r_adec74bc347f12c633e02e80dce631496"><td class="memItemLeft" align="right" valign="top"><a id="adec74bc347f12c633e02e80dce631496" name="adec74bc347f12c633e02e80dce631496"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>DamageModifierMethod</b> { <br />
+&#160;&#160;<b>Add</b>
+, <b>Subtract</b>
+, <b>Multiply</b>
+, <b>Divide</b>
+, <br />
+&#160;&#160;<b>Max</b>
+, <b>Min</b>
+<br />
+ }</td></tr>
+<tr class="separator:adec74bc347f12c633e02e80dce631496"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7d9b3cb7db735f42053a73d8fcab430" id="r_aa7d9b3cb7db735f42053a73d8fcab430"><td class="memItemLeft" align="right" valign="top"><a id="aa7d9b3cb7db735f42053a73d8fcab430" name="aa7d9b3cb7db735f42053a73d8fcab430"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>MarchMode</b> { <b>Regular</b>
 , <b>Pace</b>
 , <b>Await</b>

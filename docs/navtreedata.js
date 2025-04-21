@@ -51,15 +51,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_adventure_core_1_1_controller_action_base.html",
-"class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_playable_animation_descriptor.html",
-"class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_state_info_descriptor.html",
-"class_adventure_core_1_1_item_slot_base.html#a8de526b42b8f4330edf430a79393fb1c",
-"class_adventure_core_1_1_playable_animation_parameters.html#a12d23159420af85cf44aa496259e1a14",
-"class_adventure_core_1_1_visual_scripting_1_1_add_effect_unit.html",
-"class_adventure_core_1_1_visual_scripting_1_1_perform_action_base_unit.html",
-"class_adventure_hero_1_1_hero_boulder.html",
-"functions_u.html"
+"class_adventure_core_1_1_character_controller_movement.html#af567a7d123512d11169ec1c64092fa99",
+"class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_focus_dialog_ref_descriptor.html",
+"class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_state_override_descriptor.html",
+"class_adventure_core_1_1_item_notifications.html",
+"class_adventure_core_1_1_playable_animation.html#a26a2c2b024ae0b9285138648da9fbd8d",
+"class_adventure_core_1_1_trigger_damage_receiver.html",
+"class_adventure_core_1_1_visual_scripting_1_1_get_character_float_unit.html",
+"class_adventure_core_1_1_visual_scripting_1_1_set_variable_unit_base.html#a2405026a77b18f9ae0169cd639f56e88",
+"class_adventure_souls_1_1_souls_morningstar.html",
+"struct_adventure_core_1_1_player_pref_saver_1_1_save_data.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

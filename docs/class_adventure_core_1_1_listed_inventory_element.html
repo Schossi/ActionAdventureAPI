@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.8.0</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.0</span>
    </div>
   </td>
  </tr>
@@ -102,6 +102,7 @@ $(function(){initNavTree('class_adventure_core_1_1_listed_inventory_element.html
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_adventure_core_1_1_listed_inventory_element-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">AdventureCore.ListedInventoryElement Class Reference</div></div>
@@ -134,6 +135,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Use</b> ()</td></tr>
 <tr class="memitem:ab6fa440bf3068b6740d4fedd28e84849" id="r_ab6fa440bf3068b6740d4fedd28e84849"><td class="memItemLeft" align="right" valign="top"><a id="ab6fa440bf3068b6740d4fedd28e84849" name="ab6fa440bf3068b6740d4fedd28e84849"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Equip</b> ()</td></tr>
 <tr class="separator:ab6fa440bf3068b6740d4fedd28e84849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9310a6d81ada7e3388003a85b590af9d" id="r_a9310a6d81ada7e3388003a85b590af9d"><td class="memItemLeft" align="right" valign="top"><a id="a9310a6d81ada7e3388003a85b590af9d" name="a9310a6d81ada7e3388003a85b590af9d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Equip</b> (int index)</td></tr>
+<tr class="separator:a9310a6d81ada7e3388003a85b590af9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaedd874bcc83c4763fc1713b802c6f45" id="r_aaedd874bcc83c4763fc1713b802c6f45"><td class="memItemLeft" align="right" valign="top"><a id="aaedd874bcc83c4763fc1713b802c6f45" name="aaedd874bcc83c4763fc1713b802c6f45"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Unequip</b> ()</td></tr>
 <tr class="separator:aaedd874bcc83c4763fc1713b802c6f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,6 +162,12 @@ UIDocument&#160;</td><td class="memItemRight" valign="bottom"><b>Document</b></t
 <tr class="memitem:a195628ed12dff44cd919f813430bf2a4" id="r_a195628ed12dff44cd919f813430bf2a4"><td class="memItemLeft" align="right" valign="top"><a id="a195628ed12dff44cd919f813430bf2a4" name="a195628ed12dff44cd919f813430bf2a4"></a>
 VisualTreeAsset&#160;</td><td class="memItemRight" valign="bottom"><b>Prefab</b></td></tr>
 <tr class="separator:a195628ed12dff44cd919f813430bf2a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeee5614a2c16189b9bffab8f3cf95151" id="r_aeee5614a2c16189b9bffab8f3cf95151"><td class="memItemLeft" align="right" valign="top"><a id="aeee5614a2c16189b9bffab8f3cf95151" name="aeee5614a2c16189b9bffab8f3cf95151"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>DisableUse</b></td></tr>
+<tr class="separator:aeee5614a2c16189b9bffab8f3cf95151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5900e748c143e6d8b5a7b3c01878b1b9" id="r_a5900e748c143e6d8b5a7b3c01878b1b9"><td class="memItemLeft" align="right" valign="top"><a id="a5900e748c143e6d8b5a7b3c01878b1b9" name="a5900e748c143e6d8b5a7b3c01878b1b9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>DisableEquip</b></td></tr>
+<tr class="separator:a5900e748c143e6d8b5a7b3c01878b1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31a53c07b172f0dee8301364dcfe48a3" id="r_a31a53c07b172f0dee8301364dcfe48a3"><td class="memItemLeft" align="right" valign="top"><a id="a31a53c07b172f0dee8301364dcfe48a3" name="a31a53c07b172f0dee8301364dcfe48a3"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>RootName</b></td></tr>
 <tr class="separator:a31a53c07b172f0dee8301364dcfe48a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,6 +207,18 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>ItemSlotName</b></t
 <tr class="memitem:a283c53ab9075a503595ccebc635327e3" id="r_a283c53ab9075a503595ccebc635327e3"><td class="memItemLeft" align="right" valign="top"><a id="a283c53ab9075a503595ccebc635327e3" name="a283c53ab9075a503595ccebc635327e3"></a>
 UnityEvent&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>SelectionChanged</b></td></tr>
 <tr class="separator:a283c53ab9075a503595ccebc635327e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a4c7c6c65d31cc36b1516ada6ff26416e" id="r_a4c7c6c65d31cc36b1516ada6ff26416e"><td class="memItemLeft" align="right" valign="top"><a id="a4c7c6c65d31cc36b1516ada6ff26416e" name="a4c7c6c65d31cc36b1516ada6ff26416e"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>canUse</b> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem)</td></tr>
+<tr class="separator:a4c7c6c65d31cc36b1516ada6ff26416e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d49494b4fa9c3020b97590569e2796" id="r_a80d49494b4fa9c3020b97590569e2796"><td class="memItemLeft" align="right" valign="top"><a id="a80d49494b4fa9c3020b97590569e2796" name="a80d49494b4fa9c3020b97590569e2796"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>canEquip</b> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem, int index=0)</td></tr>
+<tr class="separator:a80d49494b4fa9c3020b97590569e2796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b77c053f4bf21163ce116b2470c1d86" id="r_a0b77c053f4bf21163ce116b2470c1d86"><td class="memItemLeft" align="right" valign="top"><a id="a0b77c053f4bf21163ce116b2470c1d86" name="a0b77c053f4bf21163ce116b2470c1d86"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>canUnequip</b> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem)</td></tr>
+<tr class="separator:a0b77c053f4bf21163ce116b2470c1d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>

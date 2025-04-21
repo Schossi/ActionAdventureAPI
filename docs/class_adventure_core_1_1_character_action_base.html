@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.8.0</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.0</span>
    </div>
   </td>
  </tr>
@@ -129,25 +129,27 @@ Inheritance diagram for AdventureCore.CharacterActionBase:</div>
 <area href="class_adventure_core_1_1_generic_action.html" title="action that does nothing on its own and is ended by any kind of bool input" alt="AdventureCore.GenericAction" shape="rect" coords="769,224,1272,248"/>
 <area href="class_adventure_core_1_1_motion_action.html" title="a character action that represents a simple animation like jumping or rolling  when using TriggerName..." alt="AdventureCore.MotionAction" shape="rect" coords="769,280,1272,304"/>
 <area href="class_adventure_core_1_1_nav_approach_action.html" title="starts an approach on a NavMeshAgentMovement and waits for its completion  the target is the Movement..." alt="AdventureCore.NavApproachAction" shape="rect" coords="769,336,1272,360"/>
-<area href="class_adventure_core_1_1_nav_patrol_action.html" title="moves a NavMeshAgentMovement cyclically between the specified points  automatically saves its current..." alt="AdventureCore.NavPatrolAction" shape="rect" coords="769,392,1272,416"/>
-<area href="class_adventure_core_1_1_object_action.html" title="one time action that lets a character interact with some object that is also animated plays an animat..." alt="AdventureCore.ObjectAction" shape="rect" coords="769,448,1272,472"/>
-<area href="class_adventure_core_1_1_pickup_action.html" title="action that plays an animation and adds items to the characters inventory, destroys itself afterwards..." alt="AdventureCore.PickupAction" shape="rect" coords="769,504,1272,528"/>
-<area href="class_adventure_core_1_1_timed_action.html" title="action that does nothing on its own and ends after a defined duration" alt="AdventureCore.TimedAction" shape="rect" coords="769,560,1272,584"/>
-<area href="class_adventure_core_1_1_timeline_action.html" title="action that plays a timeline and ends when it is finished" alt="AdventureCore.TimelineAction" shape="rect" coords="769,616,1272,640"/>
-<area href="class_adventure_core_1_1_visual_scripting_action.html" title="character action meant for actions mainly driven by a script machine exposes some additional events a..." alt="AdventureCore.VisualScriptingAction" shape="rect" coords="769,672,1272,696"/>
-<area href="class_adventure_hero_1_1_assets_1_1_soft_leitner_1_1_adventure_hero_1_1_scripts_1_1_actions_1_1_hero_holdable_action.html" title="can be used to nest actions that are not holdable by themselves" alt="AdventureHero.Assets.SoftLeitner.AdventureHero.Scripts.Actions.HeroHoldableAction" shape="rect" coords="769,728,1272,752"/>
-<area href="class_adventure_hero_1_1_hero_carry_action.html" title="action for carrying and subsequently throwing objects  the configured rigidbody is changed to isKinem..." alt="AdventureHero.HeroCarryAction" shape="rect" coords="769,784,1272,808"/>
-<area href="class_adventure_hero_1_1_hero_guard_action.html" title="action that holds up a shield in the players direction  this is done by activating an animation and r..." alt="AdventureHero.HeroGuardAction" shape="rect" coords="769,840,1272,864"/>
-<area href="class_adventure_souls_1_1_souls_bonfire_action.html" title="plays the correspondig timelines when entering, sitting or leaving a bonfire  also responsible for al..." alt="AdventureSouls.SoulsBonfireAction" shape="rect" coords="769,896,1272,920"/>
-<area href="class_adventure_souls_1_1_souls_critical_action.html" title="action that gets checked by attacks with SoulsAttackAction.CanCritical  can only start when the trigg..." alt="AdventureSouls.SoulsCriticalAction" shape="rect" coords="769,952,1272,976"/>
-<area href="class_adventure_souls_1_1_souls_critted_action.html" title="action started on a critted character by SoulsCriticalAction  moves the character to the appropriate ..." alt="AdventureSouls.SoulsCrittedAction" shape="rect" coords="769,1008,1272,1032"/>
-<area href="class_adventure_souls_1_1_souls_ladder_enter_action.html" title="proxy action for SoulsLadderAction  needed so the ladder action knows if the character is at the star..." alt="AdventureSouls.SoulsLadderEnterAction" shape="rect" coords="769,1064,1272,1088"/>
-<area href="class_adventure_souls_1_1_souls_parry_action.html" title="an action that can guard break another character if it deals damage to it between PARRY_ON and PARRY_..." alt="AdventureSouls.SoulsParryAction" shape="rect" coords="769,1120,1272,1144"/>
-<area href="class_adventure_souls_1_1_souls_recover_action.html" title="action for enemies that plays an animation while it refills a resource and ends when it is fully repl..." alt="AdventureSouls.SoulsRecoverAction" shape="rect" coords="769,1176,1272,1200"/>
-<area href="class_adventure_souls_1_1_souls_recovery_action.html" title="similar to a pickup but instead of an item it gives the player the xp that was dropped on the last de..." alt="AdventureSouls.SoulsRecoveryAction" shape="rect" coords="769,1232,1272,1256"/>
-<area href="class_adventure_souls_1_1_souls_talk_action.html" alt="AdventureSouls.SoulsTalkAction" shape="rect" coords="769,1288,1272,1312"/>
-<area href="class_adventure_souls_1_1_souls_teleport_action.html" alt="AdventureSouls.SoulsTeleportAction" shape="rect" coords="769,1344,1272,1368"/>
-<area href="class_adventure_souls_1_1_souls_two_hand_action.html" title="action that toggles a weapons two handedness and ends immediately  for example bows can&#39;t do anything..." alt="AdventureSouls.SoulsTwoHandAction" shape="rect" coords="769,1400,1272,1424"/>
+<area href="class_adventure_core_1_1_nav_away_action.html" title="starts an avoid on a NavMeshAgentMovement and waits for its completion  the target is the MovementBas..." alt="AdventureCore.NavAwayAction" shape="rect" coords="769,392,1272,416"/>
+<area href="class_adventure_core_1_1_nav_patrol_action.html" title="moves a NavMeshAgentMovement cyclically between the specified points  automatically saves its current..." alt="AdventureCore.NavPatrolAction" shape="rect" coords="769,448,1272,472"/>
+<area href="class_adventure_core_1_1_object_action.html" title="one time action that lets a character interact with some object that is also animated plays an animat..." alt="AdventureCore.ObjectAction" shape="rect" coords="769,504,1272,528"/>
+<area href="class_adventure_core_1_1_pickup_action.html" title="action that plays an animation and adds items to the characters inventory, destroys itself afterwards..." alt="AdventureCore.PickupAction" shape="rect" coords="769,560,1272,584"/>
+<area href="class_adventure_core_1_1_purchase_action.html" title="character action that exchanges items, attributes or resources for different items,..." alt="AdventureCore.PurchaseAction" shape="rect" coords="769,616,1272,640"/>
+<area href="class_adventure_core_1_1_timed_action.html" title="action that does nothing on its own and ends after a defined duration" alt="AdventureCore.TimedAction" shape="rect" coords="769,672,1272,696"/>
+<area href="class_adventure_core_1_1_timeline_action.html" title="action that plays a timeline and ends when it is finished" alt="AdventureCore.TimelineAction" shape="rect" coords="769,728,1272,752"/>
+<area href="class_adventure_core_1_1_visual_scripting_action.html" title="character action meant for actions mainly driven by a script machine exposes some additional events a..." alt="AdventureCore.VisualScriptingAction" shape="rect" coords="769,784,1272,808"/>
+<area href="class_adventure_hero_1_1_assets_1_1_soft_leitner_1_1_adventure_hero_1_1_scripts_1_1_actions_1_1_hero_holdable_action.html" title="can be used to nest actions that are not holdable by themselves" alt="AdventureHero.Assets.SoftLeitner.AdventureHero.Scripts.Actions.HeroHoldableAction" shape="rect" coords="769,840,1272,864"/>
+<area href="class_adventure_hero_1_1_hero_carry_action.html" title="action for carrying and subsequently throwing objects  the configured rigidbody is changed to isKinem..." alt="AdventureHero.HeroCarryAction" shape="rect" coords="769,896,1272,920"/>
+<area href="class_adventure_hero_1_1_hero_guard_action.html" title="action that holds up a shield in the players direction  this is done by activating an animation and r..." alt="AdventureHero.HeroGuardAction" shape="rect" coords="769,952,1272,976"/>
+<area href="class_adventure_souls_1_1_souls_bonfire_action.html" title="plays the correspondig timelines when entering, sitting or leaving a bonfire  also responsible for al..." alt="AdventureSouls.SoulsBonfireAction" shape="rect" coords="769,1008,1272,1032"/>
+<area href="class_adventure_souls_1_1_souls_critical_action.html" title="action that gets checked by attacks with SoulsAttackAction.CanCritical  can only start when the trigg..." alt="AdventureSouls.SoulsCriticalAction" shape="rect" coords="769,1064,1272,1088"/>
+<area href="class_adventure_souls_1_1_souls_critted_action.html" title="action started on a critted character by SoulsCriticalAction  moves the character to the appropriate ..." alt="AdventureSouls.SoulsCrittedAction" shape="rect" coords="769,1120,1272,1144"/>
+<area href="class_adventure_souls_1_1_souls_ladder_enter_action.html" title="proxy action for SoulsLadderAction  needed so the ladder action knows if the character is at the star..." alt="AdventureSouls.SoulsLadderEnterAction" shape="rect" coords="769,1176,1272,1200"/>
+<area href="class_adventure_souls_1_1_souls_parry_action.html" title="an action that can guard break another character if it deals damage to it between PARRY_ON and PARRY_..." alt="AdventureSouls.SoulsParryAction" shape="rect" coords="769,1232,1272,1256"/>
+<area href="class_adventure_souls_1_1_souls_recover_action.html" title="action for enemies that plays an animation while it refills a resource and ends when it is fully repl..." alt="AdventureSouls.SoulsRecoverAction" shape="rect" coords="769,1288,1272,1312"/>
+<area href="class_adventure_souls_1_1_souls_recovery_action.html" title="similar to a pickup but instead of an item it gives the player the xp that was dropped on the last de..." alt="AdventureSouls.SoulsRecoveryAction" shape="rect" coords="769,1344,1272,1368"/>
+<area href="class_adventure_souls_1_1_souls_talk_action.html" title="action that opens up a message box that displays some text" alt="AdventureSouls.SoulsTalkAction" shape="rect" coords="769,1400,1272,1424"/>
+<area href="class_adventure_souls_1_1_souls_teleport_action.html" title="action that teleports the character to a different position in the same or a different scene" alt="AdventureSouls.SoulsTeleportAction" shape="rect" coords="769,1456,1272,1480"/>
+<area href="class_adventure_souls_1_1_souls_two_hand_action.html" title="action that toggles a weapons two handedness and ends immediately  for example bows can&#39;t do anything..." alt="AdventureSouls.SoulsTwoHandAction" shape="rect" coords="769,1512,1272,1536"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -244,6 +246,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnInput</b> (
 <tr class="memitem:ac08f7653a5a41313e2e9841cf1416135" id="r_ac08f7653a5a41313e2e9841cf1416135"><td class="memItemLeft" align="right" valign="top"><a id="ac08f7653a5a41313e2e9841cf1416135" name="ac08f7653a5a41313e2e9841cf1416135"></a>
 virtual string&#160;</td><td class="memItemRight" valign="bottom"><b>GetName</b> ()</td></tr>
 <tr class="separator:ac08f7653a5a41313e2e9841cf1416135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a384928418b370d0cde67c73fd24e28eb" id="r_a384928418b370d0cde67c73fd24e28eb"><td class="memItemLeft" align="right" valign="top"><a id="a384928418b370d0cde67c73fd24e28eb" name="a384928418b370d0cde67c73fd24e28eb"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCharacter</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="separator:a384928418b370d0cde67c73fd24e28eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>

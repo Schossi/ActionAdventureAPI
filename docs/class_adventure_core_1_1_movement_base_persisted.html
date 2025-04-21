@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.8.0</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.0</span>
    </div>
   </td>
  </tr>
@@ -109,7 +109,12 @@ $(function(){initNavTree('class_adventure_core_1_1_movement_base_persisted.html'
   <div class="headertitle"><div class="title">AdventureCore.MovementBasePersisted Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>extended version of <a class="el" href="class_adventure_core_1_1_movement_base.html" title="base class for movements, movements determine how and where a character moves  these will be where pl...">MovementBase</a> that adds persistence logic<br  />
+ allows persisting position, rotation(and optionally camera position)<br  />
+ persistence can be triggered automatically in an interval, otherwise Set() can also be called manually </p>
+<p><a href="https://adventure.softleitner.com/manual/movement">https://adventure.softleitner.com/manual/movement</a></p>
+</div><div class="dynheader">
 Inheritance diagram for AdventureCore.MovementBasePersisted:</div>
 <div class="dyncontent">
  <div class="center">
@@ -141,6 +146,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Set</b> (Vector3 posi
 <tr class="memitem:ae346b06b8610a096dca8e65658a634d7 inherit pub_methods_class_adventure_core_1_1_movement_base" id="r_ae346b06b8610a096dca8e65658a634d7"><td class="memItemLeft" align="right" valign="top">
 virtual Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>GetOffsetRotation</b> (float horizontal, float vertical)</td></tr>
 <tr class="separator:ae346b06b8610a096dca8e65658a634d7 inherit pub_methods_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55ce0a7d35ec34fc9821bf173312ba21 inherit pub_methods_class_adventure_core_1_1_movement_base" id="r_a55ce0a7d35ec34fc9821bf173312ba21"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> ()</td></tr>
+<tr class="separator:a55ce0a7d35ec34fc9821bf173312ba21 inherit pub_methods_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedb9e1671d3a7d54d2f0b87202241fe0 inherit pub_methods_class_adventure_core_1_1_movement_base" id="r_aedb9e1671d3a7d54d2f0b87202241fe0"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTarget</b> (Component component)</td></tr>
 <tr class="separator:aedb9e1671d3a7d54d2f0b87202241fe0 inherit pub_methods_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,13 +248,18 @@ const string&#160;</td><td class="memItemRight" valign="bottom"><b>PERSISTENCE_S
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:af368441a42e8c517169cca39a91f2e7f" id="r_af368441a42e8c517169cca39a91f2e7f"><td class="memItemLeft" align="right" valign="top"><a id="af368441a42e8c517169cca39a91f2e7f" name="af368441a42e8c517169cca39a91f2e7f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
-<tr class="separator:af368441a42e8c517169cca39a91f2e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87ca95014656d01844474efb5c8e5254" id="r_a87ca95014656d01844474efb5c8e5254"><td class="memItemLeft" align="right" valign="top"><a id="a87ca95014656d01844474efb5c8e5254" name="a87ca95014656d01844474efb5c8e5254"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
 <tr class="separator:a87ca95014656d01844474efb5c8e5254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6184d29cda311a2f04f8a97c09a5eb49" id="r_a6184d29cda311a2f04f8a97c09a5eb49"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6184d29cda311a2f04f8a97c09a5eb49">doInitialize</a> ()</td></tr>
+<tr class="separator:a6184d29cda311a2f04f8a97c09a5eb49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_adventure_core_1_1_movement_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_adventure_core_1_1_movement_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_adventure_core_1_1_movement_base.html">AdventureCore.MovementBase</a></td></tr>
+<tr class="memitem:aea8aa604654f4ad745d10ad5065cf406 inherit pro_methods_class_adventure_core_1_1_movement_base" id="r_aea8aa604654f4ad745d10ad5065cf406"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="separator:aea8aa604654f4ad745d10ad5065cf406 inherit pro_methods_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a222233bf8790d7c435d28c74365a49b3 inherit pro_methods_class_adventure_core_1_1_movement_base" id="r_a222233bf8790d7c435d28c74365a49b3"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDrawGizmosSelected</b> ()</td></tr>
+<tr class="separator:a222233bf8790d7c435d28c74365a49b3 inherit pro_methods_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad180fdf7576c304b2e9de45a17761887 inherit pro_methods_class_adventure_core_1_1_movement_base" id="r_ad180fdf7576c304b2e9de45a17761887"><td class="memItemLeft" align="right" valign="top">
 virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>moveCharacter</b> (Vector3 position, Quaternion rotation, bool unscaled=false)</td></tr>
 <tr class="separator:ad180fdf7576c304b2e9de45a17761887 inherit pro_methods_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -263,18 +276,29 @@ Properties</h2></td></tr>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isPersistenceActive</b><code> [get]</code></td></tr>
 <tr class="separator:a55314925deb9d5269491ddd92e5d42ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_adventure_core_1_1_movement_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_adventure_core_1_1_movement_base')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_adventure_core_1_1_movement_base.html">AdventureCore.MovementBase</a></td></tr>
+<tr class="memitem:a7cdaab69b5f6291ee94e1563d21d4e12 inherit properties_class_adventure_core_1_1_movement_base" id="r_a7cdaab69b5f6291ee94e1563d21d4e12"><td class="memItemLeft" align="right" valign="top">
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsInitialized</b><code> [get]</code></td></tr>
+<tr class="separator:a7cdaab69b5f6291ee94e1563d21d4e12 inherit properties_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a091db654f40c756de4545bcebbd7cec0 inherit properties_class_adventure_core_1_1_movement_base" id="r_a091db654f40c756de4545bcebbd7cec0"><td class="memItemLeft" align="right" valign="top">
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsTranslationSuspended</b><code> [get, set]</code></td></tr>
 <tr class="memdesc:a091db654f40c756de4545bcebbd7cec0 inherit properties_class_adventure_core_1_1_movement_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">means that no translation should be applied by the movement <br /></td></tr>
 <tr class="separator:a091db654f40c756de4545bcebbd7cec0 inherit properties_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a023bc70148439d1c3ab3693fc10de0b0 inherit properties_class_adventure_core_1_1_movement_base" id="r_a023bc70148439d1c3ab3693fc10de0b0"><td class="memItemLeft" align="right" valign="top">
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsTranslationSuspendedApplyPhysics</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:a023bc70148439d1c3ab3693fc10de0b0 inherit properties_class_adventure_core_1_1_movement_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to still apply physics when translation is suspended <br /></td></tr>
+<tr class="separator:a023bc70148439d1c3ab3693fc10de0b0 inherit properties_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64365023f30b41a66bd1fe428c3a8d0b inherit properties_class_adventure_core_1_1_movement_base" id="r_a64365023f30b41a66bd1fe428c3a8d0b"><td class="memItemLeft" align="right" valign="top">
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsRotationSuspended</b><code> [get, set]</code></td></tr>
 <tr class="memdesc:a64365023f30b41a66bd1fe428c3a8d0b inherit properties_class_adventure_core_1_1_movement_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">means that no rotation should be applied by the movement <br /></td></tr>
 <tr class="separator:a64365023f30b41a66bd1fe428c3a8d0b inherit properties_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5484d4fb3923629b891866012ee5c3b0 inherit properties_class_adventure_core_1_1_movement_base" id="r_a5484d4fb3923629b891866012ee5c3b0"><td class="memItemLeft" align="right" valign="top">
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsControlSuspended</b><code> [get, set]</code></td></tr>
-<tr class="memdesc:a5484d4fb3923629b891866012ee5c3b0 inherit properties_class_adventure_core_1_1_movement_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">while this is true input will have no influence on the movement(rolling for example) <br /></td></tr>
+<tr class="memdesc:a5484d4fb3923629b891866012ee5c3b0 inherit properties_class_adventure_core_1_1_movement_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">while this is true input will have no influence on the movement(when rolling or staggered for example) <br /></td></tr>
 <tr class="separator:a5484d4fb3923629b891866012ee5c3b0 inherit properties_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc335e383dbf8835bf4be3e83d3aec9a inherit properties_class_adventure_core_1_1_movement_base" id="r_adc335e383dbf8835bf4be3e83d3aec9a"><td class="memItemLeft" align="right" valign="top">
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsControlSuspendedKeepMoving</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:adc335e383dbf8835bf4be3e83d3aec9a inherit properties_class_adventure_core_1_1_movement_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the character should continue the movement it had when control was suspened <br /></td></tr>
+<tr class="separator:adc335e383dbf8835bf4be3e83d3aec9a inherit properties_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1febdb70c4c1ae09b23a6a6df8b1ea7c inherit properties_class_adventure_core_1_1_movement_base" id="r_a1febdb70c4c1ae09b23a6a6df8b1ea7c"><td class="memItemLeft" align="right" valign="top">
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsCollisionSuspended</b><code> [get, set]</code></td></tr>
 <tr class="memdesc:a1febdb70c4c1ae09b23a6a6df8b1ea7c inherit properties_class_adventure_core_1_1_movement_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">suspends collision of the player with environment and such, for example when the player is moved through a tight crack by an animation or climbing a ladder <br /></td></tr>
@@ -291,6 +315,16 @@ virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>SpeedMultipl
 virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>MotionMultiplier</b> = Vector3.one<code> [get, set]</code></td></tr>
 <tr class="memdesc:a6284441de461e8de38c295f8a0b60c09 inherit properties_class_adventure_core_1_1_movement_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">can be used to modify the movement from root motion from outside(may be useful when characters of different sizes use the same animation) <br /></td></tr>
 <tr class="separator:a6284441de461e8de38c295f8a0b60c09 inherit properties_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae73e09b8d263d8806e8a8bceb2a65322 inherit properties_class_adventure_core_1_1_movement_base" id="r_ae73e09b8d263d8806e8a8bceb2a65322"><td class="memItemLeft" align="right" valign="top">
+virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>SpeedMinimum</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:ae73e09b8d263d8806e8a8bceb2a65322 inherit properties_class_adventure_core_1_1_movement_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">can be used to force the character to move forward at least by this speed<br  />
+ for example when rolling, 0 by default, usually set as a factor 0-1 <br /></td></tr>
+<tr class="separator:ae73e09b8d263d8806e8a8bceb2a65322 inherit properties_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab76c47ce6e6c234bc3c637762c5a90b3 inherit properties_class_adventure_core_1_1_movement_base" id="r_ab76c47ce6e6c234bc3c637762c5a90b3"><td class="memItemLeft" align="right" valign="top">
+virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>SpeedMaximum</b> = float.MaxValue<code> [get, set]</code></td></tr>
+<tr class="memdesc:ab76c47ce6e6c234bc3c637762c5a90b3 inherit properties_class_adventure_core_1_1_movement_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">can be used to limit the maximum speed to slow the character down or prevent them from sprinting<br  />
+ different way of slowing character down from a multiplier, usually set as a factor of 0-1(-2 for sprinting) <br /></td></tr>
+<tr class="separator:ab76c47ce6e6c234bc3c637762c5a90b3 inherit properties_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2f098a477e46390f40559090dc68fcb inherit properties_class_adventure_core_1_1_movement_base" id="r_aa2f098a477e46390f40559090dc68fcb"><td class="memItemLeft" align="right" valign="top">
 virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>SpeedFactorForward</b><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:aa2f098a477e46390f40559090dc68fcb inherit properties_class_adventure_core_1_1_movement_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">how fast the character is moving forwards relative to its maximum speed<br  />
@@ -376,6 +410,33 @@ Action&lt; Transform &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>
 <tr class="separator:aa7721a069dcc75d1012212c119f28b50 inherit events_class_adventure_core_1_1_movement_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6184d29cda311a2f04f8a97c09a5eb49" name="a6184d29cda311a2f04f8a97c09a5eb49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6184d29cda311a2f04f8a97c09a5eb49">&#9670;&#160;</a></span>doInitialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AdventureCore.MovementBasePersisted.doInitialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_adventure_core_1_1_movement_base.html">AdventureCore.MovementBase</a>.</p>
+
+</div>
+</div>
 <a id="a5f9f2c236dd5e907727d5d35f4889b63" name="a5f9f2c236dd5e907727d5d35f4889b63"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f9f2c236dd5e907727d5d35f4889b63">&#9670;&#160;</a></span>SetPersisted()</h2>
 

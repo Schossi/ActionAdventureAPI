@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.8.0</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.0</span>
    </div>
   </td>
  </tr>
@@ -145,6 +145,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Redirect</b> (<a clas
 <tr class="memitem:a7a9e7e3d726c8d1c8c0d3bd74a330fec" id="r_a7a9e7e3d726c8d1c8c0d3bd74a330fec"><td class="memItemLeft" align="right" valign="top"><a id="a7a9e7e3d726c8d1c8c0d3bd74a330fec" name="a7a9e7e3d726c8d1c8c0d3bd74a330fec"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>RedirectBack</b> ()</td></tr>
 <tr class="separator:a7a9e7e3d726c8d1c8c0d3bd74a330fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ead352335efdec7e7de2ac6cafc8c01" id="r_a5ead352335efdec7e7de2ac6cafc8c01"><td class="memItemLeft" align="right" valign="top"><a id="a5ead352335efdec7e7de2ac6cafc8c01" name="a5ead352335efdec7e7de2ac6cafc8c01"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Instantiate</b> ()</td></tr>
+<tr class="separator:a5ead352335efdec7e7de2ac6cafc8c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd8c903007be8697e801159ca9d08e6f" id="r_acd8c903007be8697e801159ca9d08e6f"><td class="memItemLeft" align="right" valign="top"><a id="acd8c903007be8697e801159ca9d08e6f" name="acd8c903007be8697e801159ca9d08e6f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>InstantiateCharacterForward</b> ()</td></tr>
+<tr class="separator:acd8c903007be8697e801159ca9d08e6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_adventure_core_1_1_trigger_damage_sender"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_adventure_core_1_1_trigger_damage_sender')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_adventure_core_1_1_trigger_damage_sender.html">AdventureCore.TriggerDamageSender</a></td></tr>
 <tr class="memitem:a8262c032abec1641f78fbe9354246f31 inherit pub_methods_class_adventure_core_1_1_trigger_damage_sender" id="r_a8262c032abec1641f78fbe9354246f31"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Activate</b> ()</td></tr>
@@ -176,6 +182,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SendCharacter
  for example if a character is wearing protective gear it may reduce the damage value here<br  />
  this method is called for every damage parameter see <a class="el" href="class_adventure_core_1_1_damage_event.html" title="event args like class that gets passed through all the participants when damage occurs  -PreDamage is...">DamageEvent</a> for more details  <br /></td></tr>
 <tr class="separator:a3ec775373acd73c43cbffae56f2bec46 inherit pub_methods_class_adventure_core_1_1_trigger_damage_sender"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af84f52605c463cb9e65ca89c22fa04d0 inherit pub_methods_class_adventure_core_1_1_trigger_damage_sender" id="r_af84f52605c463cb9e65ca89c22fa04d0"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCharacter</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="separator:af84f52605c463cb9e65ca89c22fa04d0 inherit pub_methods_class_adventure_core_1_1_trigger_damage_sender"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_adventure_core_1_1_trigger_area"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_adventure_core_1_1_trigger_area')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_adventure_core_1_1_trigger_area.html">AdventureCore.TriggerArea&lt; TriggerDamageSender, TriggerDamageReceiver &gt;</a></td></tr>
 <tr class="memitem:a9f3bc81c47e41ae35c602fc6ba4d97fa inherit pub_methods_class_adventure_core_1_1_trigger_area" id="r_a9f3bc81c47e41ae35c602fc6ba4d97fa"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>AddItem</b> (TItem item)</td></tr>
@@ -208,8 +217,14 @@ LayerMask&#160;</td><td class="memItemRight" valign="bottom"><b>Environment</b><
 <tr class="memitem:a48e3feaf0125a338b0f276e2a05e2740 inherit pub_attribs_class_adventure_core_1_1_trigger_damage_sender" id="r_a48e3feaf0125a338b0f276e2a05e2740"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="class_adventure_core_1_1_damage_parameter.html">DamageParameter</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>Damages</b></td></tr>
 <tr class="separator:a48e3feaf0125a338b0f276e2a05e2740 inherit pub_attribs_class_adventure_core_1_1_trigger_damage_sender"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17cdcb9584ccc4e38af461309b497990 inherit pub_attribs_class_adventure_core_1_1_trigger_damage_sender" id="r_a17cdcb9584ccc4e38af461309b497990"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="class_adventure_core_1_1_damage_modifier.html">DamageModifier</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>Modifiers</b></td></tr>
+<tr class="separator:a17cdcb9584ccc4e38af461309b497990 inherit pub_attribs_class_adventure_core_1_1_trigger_damage_sender"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a126edf79abd4b3fdad4017c967ad00ef inherit pub_attribs_class_adventure_core_1_1_trigger_damage_sender" id="r_a126edf79abd4b3fdad4017c967ad00ef"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="class_adventure_core_1_1_damage_message.html">DamageMessage</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>Messages</b></td></tr>
+<tr class="separator:a126edf79abd4b3fdad4017c967ad00ef inherit pub_attribs_class_adventure_core_1_1_trigger_damage_sender"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a0de8f6f6c8d329fd278b18009742da inherit pub_attribs_class_adventure_core_1_1_trigger_damage_sender" id="r_a3a0de8f6f6c8d329fd278b18009742da"><td class="memItemLeft" align="right" valign="top">
-DirectionMode&#160;</td><td class="memItemRight" valign="bottom"><b>Direction</b></td></tr>
+<a class="el" href="class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38">DirectionMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Direction</b></td></tr>
 <tr class="separator:a3a0de8f6f6c8d329fd278b18009742da inherit pub_attribs_class_adventure_core_1_1_trigger_damage_sender"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43b29ffe4967d6012ac573f91b7d2e25 inherit pub_attribs_class_adventure_core_1_1_trigger_damage_sender" id="r_a43b29ffe4967d6012ac573f91b7d2e25"><td class="memItemLeft" align="right" valign="top">
 float&#160;</td><td class="memItemRight" valign="bottom"><b>Magnitude</b> = 0f</td></tr>
@@ -293,14 +308,16 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onItemRemoved
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_class_adventure_core_1_1_trigger_damage_sender"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_class_adventure_core_1_1_trigger_damage_sender')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_adventure_core_1_1_trigger_damage_sender.html">AdventureCore.TriggerDamageSender</a></td></tr>
-<tr class="memitem:abfa71d0ad38a28fa280852e254604a38 inherit pub_types_class_adventure_core_1_1_trigger_damage_sender" id="r_abfa71d0ad38a28fa280852e254604a38"><td class="memItemLeft" align="right" valign="top"><a id="abfa71d0ad38a28fa280852e254604a38" name="abfa71d0ad38a28fa280852e254604a38"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>DirectionMode</b> { <br />
-&#160;&#160;<b>Forward</b>
-, <b>Up</b>
-, <b>Right</b>
-, <b>SenderToReceiver</b>
+<tr class="memitem:abfa71d0ad38a28fa280852e254604a38 inherit pub_types_class_adventure_core_1_1_trigger_damage_sender" id="r_abfa71d0ad38a28fa280852e254604a38"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38">DirectionMode</a> { <br />
+&#160;&#160;<a class="el" href="class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38a67d2f6740a8eaebf4d5c6f79be8da481">Forward</a>
+, <a class="el" href="class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38a258f49887ef8d14ac268c92b02503aaa">Up</a>
+, <a class="el" href="class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38a92b09c7c48c520c3c55e497875da437c">Right</a>
+, <a class="el" href="class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38ac68536415b4a59930316984c3b0b0154">SenderToReceiver</a>
 , <br />
-&#160;&#160;<b>SenderToReceiverXZ</b>
-, <b>None</b>
+&#160;&#160;<a class="el" href="class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38a3feeffdf16d4256ec4bf9b7361adbee8">SenderToReceiverXZ</a>
+, <a class="el" href="class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38a4bfa8a2bf6eb83386e0d3d28b87f6342">SenderTransformToReceiver</a>
+, <a class="el" href="class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38a48f0d7940885f67916187b8593be12d3">SenderTransformToReceiverXZ</a>
+, <a class="el" href="class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38a6adf97f83acf6453d4a6a4b1070f3754">None</a>
 <br />
  }</td></tr>
 <tr class="separator:abfa71d0ad38a28fa280852e254604a38 inherit pub_types_class_adventure_core_1_1_trigger_damage_sender"><td class="memSeparator" colspan="2">&#160;</td></tr>
