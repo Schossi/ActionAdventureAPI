@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.0</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.1</span>
    </div>
   </td>
  </tr>
@@ -111,7 +111,16 @@ $(function(){initNavTree('class_adventure_core_1_1_inventory_item.html',''); ini
 <div class="textblock"><p>serializable utility class used in inventories to keep track of item quantity and the slot it is equipped to<br  />
  manages some of the plumbing between item and slot<br  />
  should only be created by an inventory, if you need to show items quantities in the inspector use <a class="el" href="class_adventure_core_1_1_item_quantity.html" title="serializable utility class that combines an item with a quantity, useful for configuring items in the...">ItemQuantity</a> </p>
-</div><table class="memberdecls">
+</div><div class="dynheader">
+Inheritance diagram for AdventureCore.InventoryItem:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_adventure_core_1_1_inventory_item.png" usemap="#AdventureCore.InventoryItem_map" alt=""/>
+  <map id="AdventureCore.InventoryItem_map" name="AdventureCore.InventoryItem_map">
+<area href="class_adventure_core_1_1_tiled_inventory_item.html" alt="AdventureCore.TiledInventoryItem" shape="rect" coords="0,56,205,80"/>
+  </map>
+</div></div>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_adventure_core_1_1_inventory_item_1_1_inventory_item_data.html">InventoryItemData</a></td></tr>
@@ -128,6 +137,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af0a45700aec52660cc204895166b79ca" id="r_af0a45700aec52660cc204895166b79ca"><td class="memItemLeft" align="right" valign="top"><a id="af0a45700aec52660cc204895166b79ca" name="af0a45700aec52660cc204895166b79ca"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>InventoryItem</b> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item, int quantity)</td></tr>
 <tr class="separator:af0a45700aec52660cc204895166b79ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37d6c3364ed203ac8d0fd14109afad88" id="r_a37d6c3364ed203ac8d0fd14109afad88"><td class="memItemLeft" align="right" valign="top"><a id="a37d6c3364ed203ac8d0fd14109afad88" name="a37d6c3364ed203ac8d0fd14109afad88"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>InventoryItem</b> (<a class="el" href="class_adventure_core_1_1_item_base.html">ItemBase</a> item, int quantity, <a class="el" href="struct_adventure_core_1_1_item_value.html">ItemValue</a>[] values)</td></tr>
+<tr class="separator:a37d6c3364ed203ac8d0fd14109afad88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84518968eab588ed853b7c6b8e1bae1d" id="r_a84518968eab588ed853b7c6b8e1bae1d"><td class="memItemLeft" align="right" valign="top"><a id="a84518968eab588ed853b7c6b8e1bae1d" name="a84518968eab588ed853b7c6b8e1bae1d"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>GetStringValue</b> (string key, string defaultValue)</td></tr>
+<tr class="separator:a84518968eab588ed853b7c6b8e1bae1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66039d692562ad7ad41aef1888dfa1d1" id="r_a66039d692562ad7ad41aef1888dfa1d1"><td class="memItemLeft" align="right" valign="top"><a id="a66039d692562ad7ad41aef1888dfa1d1" name="a66039d692562ad7ad41aef1888dfa1d1"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetIntValue</b> (string key, int defaultValue)</td></tr>
+<tr class="separator:a66039d692562ad7ad41aef1888dfa1d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaa61d124637a8ce6b0157049262c7e9" id="r_aeaa61d124637a8ce6b0157049262c7e9"><td class="memItemLeft" align="right" valign="top"><a id="aeaa61d124637a8ce6b0157049262c7e9" name="aeaa61d124637a8ce6b0157049262c7e9"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>GetFloatValue</b> (string key, float defaultValue)</td></tr>
+<tr class="separator:aeaa61d124637a8ce6b0157049262c7e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab485c550d9e284bc6bd23e656d7cae9f" id="r_ab485c550d9e284bc6bd23e656d7cae9f"><td class="memItemLeft" align="right" valign="top"><a id="ab485c550d9e284bc6bd23e656d7cae9f" name="ab485c550d9e284bc6bd23e656d7cae9f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetBoolValue</b> (string key, bool defaultValue)</td></tr>
+<tr class="separator:ab485c550d9e284bc6bd23e656d7cae9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac91008aa4a2c32ef0c02c252a61add85" id="r_ac91008aa4a2c32ef0c02c252a61add85"><td class="memItemLeft" align="right" valign="top"><a id="ac91008aa4a2c32ef0c02c252a61add85" name="ac91008aa4a2c32ef0c02c252a61add85"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CheckValue</b> (string key)</td></tr>
+<tr class="separator:ac91008aa4a2c32ef0c02c252a61add85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa367a2112f0ccab327789ad47ef3cfcc" id="r_aa367a2112f0ccab327789ad47ef3cfcc"><td class="memItemLeft" align="right" valign="top"><a id="aa367a2112f0ccab327789ad47ef3cfcc" name="aa367a2112f0ccab327789ad47ef3cfcc"></a>
+virtual T&#160;</td><td class="memItemRight" valign="bottom"><b>GetValue&lt; T &gt;</b> (string key, T defaultValue)</td></tr>
+<tr class="separator:aa367a2112f0ccab327789ad47ef3cfcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab476bee807a37628cbf5fd7761b1c4a3" id="r_ab476bee807a37628cbf5fd7761b1c4a3"><td class="memItemLeft" align="right" valign="top"><a id="ab476bee807a37628cbf5fd7761b1c4a3" name="ab476bee807a37628cbf5fd7761b1c4a3"></a>
 <a class="el" href="class_adventure_core_1_1_item_quantity.html">ItemQuantity</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetItemQuantity</b> ()</td></tr>
 <tr class="separator:ab476bee807a37628cbf5fd7761b1c4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,6 +182,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Quantity</b></td></tr>
 <tr class="memitem:afaec9792912cdf34fbaf4fd98629a899" id="r_afaec9792912cdf34fbaf4fd98629a899"><td class="memItemLeft" align="right" valign="top"><a id="afaec9792912cdf34fbaf4fd98629a899" name="afaec9792912cdf34fbaf4fd98629a899"></a>
 <a class="el" href="class_adventure_core_1_1_item_slot_base.html">ItemSlotBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>EquippedSlot</b></td></tr>
 <tr class="separator:afaec9792912cdf34fbaf4fd98629a899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acae604e19832b95012a3f2528f71ab80" id="r_acae604e19832b95012a3f2528f71ab80"><td class="memItemLeft" align="right" valign="top"><a id="acae604e19832b95012a3f2528f71ab80" name="acae604e19832b95012a3f2528f71ab80"></a>
+<a class="el" href="struct_adventure_core_1_1_item_value.html">ItemValue</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>Values</b></td></tr>
+<tr class="separator:acae604e19832b95012a3f2528f71ab80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 Events</h2></td></tr>
@@ -161,6 +194,9 @@ Action&lt; <a class="el" href="class_adventure_core_1_1_item_slot_base.html">Ite
 <tr class="memitem:a8654fa4d0747404a9333c071a9b72850" id="r_a8654fa4d0747404a9333c071a9b72850"><td class="memItemLeft" align="right" valign="top"><a id="a8654fa4d0747404a9333c071a9b72850" name="a8654fa4d0747404a9333c071a9b72850"></a>
 Action&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>QuantityChanged</b></td></tr>
 <tr class="separator:a8654fa4d0747404a9333c071a9b72850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab525f3edaf04a83cabb11631b3d94742" id="r_ab525f3edaf04a83cabb11631b3d94742"><td class="memItemLeft" align="right" valign="top"><a id="ab525f3edaf04a83cabb11631b3d94742" name="ab525f3edaf04a83cabb11631b3d94742"></a>
+Action&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ValueChanged</b></td></tr>
+<tr class="separator:ab525f3edaf04a83cabb11631b3d94742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

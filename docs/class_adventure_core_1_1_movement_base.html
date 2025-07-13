@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.0</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.1</span>
    </div>
   </td>
  </tr>
@@ -125,7 +125,8 @@ Inheritance diagram for AdventureCore.MovementBase:</div>
 <area href="class_adventure_core_1_1_movement_base_persisted.html" title="extended version of MovementBase that adds persistence logic  allows persisting position,..." alt="AdventureCore.MovementBasePersisted" shape="rect" coords="284,112,558,136"/>
 <area href="class_adventure_core_1_1_character_controller_movement.html" title="a movement implementation that is built on top of the unity CharacterController  meant for player mov..." alt="AdventureCore.CharacterControllerMovement" shape="rect" coords="142,168,416,192"/>
 <area href="class_adventure_core_1_1_nav_mesh_agent_movement.html" title="a movement implementation that is built on top of the unity NavMeshAgent  meant for enemy movement,..." alt="AdventureCore.NavMeshAgentMovement" shape="rect" coords="426,168,700,192"/>
-<area href="class_adventure_core_1_1_nav_mesh_tank_movement.html" title="variation on nav mesh movement that uses root motion and manual rotation instead of letting the agent..." alt="AdventureCore.NavMeshTankMovement" shape="rect" coords="426,224,700,248"/>
+<area href="class_adventure_core_1_1_nav_mesh_steer_movement.html" title="variation on nav mesh movement that uses manual rotation instead of letting the agent steer  it is a ..." alt="AdventureCore.NavMeshSteerMovement" shape="rect" coords="284,224,558,248"/>
+<area href="class_adventure_core_1_1_nav_mesh_tank_movement.html" title="variation on nav mesh movement that manually moves(usually by root motion) and rotates the agent  whe..." alt="AdventureCore.NavMeshTankMovement" shape="rect" coords="568,224,842,248"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -353,13 +354,26 @@ virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>Up</b><cod
 <tr class="separator:aa48b3e0dc9f39bc551b9e1451054fbc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3ed11ae25dbcf3b7c453df8c7768ae7" id="r_ac3ed11ae25dbcf3b7c453df8c7768ae7"><td class="memItemLeft" align="right" valign="top"><a id="ac3ed11ae25dbcf3b7c453df8c7768ae7" name="ac3ed11ae25dbcf3b7c453df8c7768ae7"></a>
 virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>Direction</b><code> [get]</code></td></tr>
+<tr class="memdesc:ac3ed11ae25dbcf3b7c453df8c7768ae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">current movement direction<br  />
+ (used for example by hero climb to check if character is moveing towards wall) <br /></td></tr>
 <tr class="separator:ac3ed11ae25dbcf3b7c453df8c7768ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad95af34523d6780ae0266727722a98a7" id="r_ad95af34523d6780ae0266727722a98a7"><td class="memItemLeft" align="right" valign="top"><a id="ad95af34523d6780ae0266727722a98a7" name="ad95af34523d6780ae0266727722a98a7"></a>
 virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>Velocity</b><code> [get]</code></td></tr>
+<tr class="memdesc:ad95af34523d6780ae0266727722a98a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">current movement velocity <br /></td></tr>
 <tr class="separator:ad95af34523d6780ae0266727722a98a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa321269ba1015ea547abadd1f552cace" id="r_aa321269ba1015ea547abadd1f552cace"><td class="memItemLeft" align="right" valign="top"><a id="aa321269ba1015ea547abadd1f552cace" name="aa321269ba1015ea547abadd1f552cace"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsMoving</b><code> [get]</code></td></tr>
+<tr class="memdesc:aa321269ba1015ea547abadd1f552cace"><td class="mdescLeft">&#160;</td><td class="mdescRight">movement is currently changing position <br /></td></tr>
 <tr class="separator:aa321269ba1015ea547abadd1f552cace"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b8d70952374df20b60c560b0e638bb5" id="r_a2b8d70952374df20b60c560b0e638bb5"><td class="memItemLeft" align="right" valign="top"><a id="a2b8d70952374df20b60c560b0e638bb5" name="a2b8d70952374df20b60c560b0e638bb5"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsRotating</b><code> [get]</code></td></tr>
+<tr class="memdesc:a2b8d70952374df20b60c560b0e638bb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">rotation of the movement is currently changing <br /></td></tr>
+<tr class="separator:a2b8d70952374df20b60c560b0e638bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af72946b58fd91f70e590a368dbf8e83b" id="r_af72946b58fd91f70e590a368dbf8e83b"><td class="memItemLeft" align="right" valign="top"><a id="af72946b58fd91f70e590a368dbf8e83b" name="af72946b58fd91f70e590a368dbf8e83b"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsRotated</b><code> [get]</code></td></tr>
+<tr class="memdesc:af72946b58fd91f70e590a368dbf8e83b"><td class="mdescLeft">&#160;</td><td class="mdescRight">rotation is set by lock-on or rotation input(twin stick)<br  />
+ instead of being determined by movement direction <br /></td></tr>
+<tr class="separator:af72946b58fd91f70e590a368dbf8e83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08b9c0305e8b9f11beccef7ee187b816" id="r_a08b9c0305e8b9f11beccef7ee187b816"><td class="memItemLeft" align="right" valign="top"><a id="a08b9c0305e8b9f11beccef7ee187b816" name="a08b9c0305e8b9f11beccef7ee187b816"></a>
 virtual Transform&#160;</td><td class="memItemRight" valign="bottom"><b>RotationPivot</b><code> [get]</code></td></tr>
 <tr class="separator:a08b9c0305e8b9f11beccef7ee187b816"><td class="memSeparator" colspan="2">&#160;</td></tr>

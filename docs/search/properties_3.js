@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fallback_0',['Fallback',['../class_adventure_core_1_1_character_action_bindings.html#afb84247e8eaaca2ecf0151958ffdfe72',1,'AdventureCore::CharacterActionBindings']]]
+  ['endstates_0',['EndStates',['../class_adventure_core_1_1_playable_animation.html#a5bcfc9414b69522edfbc8d8fbc918a58',1,'AdventureCore::PlayableAnimation']]]
 ];

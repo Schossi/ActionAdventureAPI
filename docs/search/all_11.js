@@ -13,7 +13,7 @@ var searchData=
   ['removeeffectunit_10',['RemoveEffectUnit',['../class_adventure_core_1_1_visual_scripting_1_1_remove_effect_unit.html',1,'AdventureCore::VisualScripting']]],
   ['removeinstructiondescriptor_11',['RemoveInstructionDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_remove_instruction_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
   ['removeinstructionunit_12',['RemoveInstructionUnit',['../class_adventure_core_1_1_visual_scripting_1_1_remove_instruction_unit.html',1,'AdventureCore::VisualScripting']]],
-  ['removeitems_13',['RemoveItems',['../class_adventure_core_1_1_inventory_base.html#ab0f29ff2cb01e123870246b604170f56',1,'AdventureCore.InventoryBase.RemoveItems(ItemQuantity itemQuantity)'],['../class_adventure_core_1_1_inventory_base.html#adde970f6bf1cfbdf31e2c5a317b4dff0',1,'AdventureCore.InventoryBase.RemoveItems(InventoryItem inventoryItem, int quantity=1)']]],
+  ['removeitems_13',['RemoveItems',['../class_adventure_core_1_1_inventory_base.html#a4cd76c4d38abaaf03e0146e90de9397d',1,'AdventureCore.InventoryBase.RemoveItems(ItemQuantity itemQuantity)'],['../class_adventure_core_1_1_inventory_base.html#ae630760a2870ea94b6853eb96c266460',1,'AdventureCore.InventoryBase.RemoveItems(InventoryItem inventoryItem, int quantity=1)']]],
   ['removeitemsdescriptor_14',['RemoveItemsDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_remove_items_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
   ['removeitemsunit_15',['RemoveItemsUnit',['../class_adventure_core_1_1_visual_scripting_1_1_remove_items_unit.html',1,'AdventureCore::VisualScripting']]],
   ['removemodifier_16',['RemoveModifier',['../class_adventure_core_1_1_attribute_pool.html#ad0508d3e192efbd734876ad23502b2f9',1,'AdventureCore.AttributePool.RemoveModifier(IAttributeModifier attributeModifier)'],['../class_adventure_core_1_1_attribute_pool.html#a7e86ef51f9496dfae462e3190eeb8f6f',1,'AdventureCore.AttributePool.RemoveModifier(IStatModifier statModifier)']]],
@@ -58,9 +58,10 @@ var searchData=
   ['resourcevaluesunit_55',['ResourceValuesUnit',['../class_adventure_core_1_1_visual_scripting_1_1_resource_values_unit.html',1,'AdventureCore::VisualScripting']]],
   ['resourcevalueunit_56',['ResourceValueUnit',['../class_adventure_core_1_1_visual_scripting_1_1_resource_value_unit.html',1,'AdventureCore::VisualScripting']]],
   ['result_57',['Result',['../class_adventure_souls_1_1_souls_item_selector_1_1_result.html',1,'AdventureSouls::SoulsItemSelector']]],
-  ['right_58',['Right',['../class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38a92b09c7c48c520c3c55e497875da437c',1,'AdventureCore::TriggerDamageSender']]],
-  ['runactiondescriptor_59',['RunActionDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_run_action_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
-  ['runactionnamedescriptor_60',['RunActionNameDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_run_action_name_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
-  ['runactionnameunit_61',['RunActionNameUnit',['../class_adventure_core_1_1_visual_scripting_1_1_run_action_name_unit.html',1,'AdventureCore::VisualScripting']]],
-  ['runactionunit_62',['RunActionUnit',['../class_adventure_core_1_1_visual_scripting_1_1_run_action_unit.html',1,'AdventureCore::VisualScripting']]]
+  ['retrieve_58',['Retrieve',['../class_adventure_core_1_1_inventory_base.html#a2307a796aea8289a406e3a366ae8327a',1,'AdventureCore::InventoryBase']]],
+  ['right_59',['Right',['../class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38a92b09c7c48c520c3c55e497875da437c',1,'AdventureCore::TriggerDamageSender']]],
+  ['runactiondescriptor_60',['RunActionDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_run_action_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
+  ['runactionnamedescriptor_61',['RunActionNameDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_run_action_name_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
+  ['runactionnameunit_62',['RunActionNameUnit',['../class_adventure_core_1_1_visual_scripting_1_1_run_action_name_unit.html',1,'AdventureCore::VisualScripting']]],
+  ['runactionunit_63',['RunActionUnit',['../class_adventure_core_1_1_visual_scripting_1_1_run_action_unit.html',1,'AdventureCore::VisualScripting']]]
 ];

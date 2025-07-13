@@ -66,5 +66,7 @@ var searchData=
   ['dialogwaitingrefdescriptor_63',['DialogWaitingRefDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_dialog_waiting_ref_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
   ['dialogwaitingrefunit_64',['DialogWaitingRefUnit',['../class_adventure_core_1_1_visual_scripting_1_1_dialog_waiting_ref_unit.html',1,'AdventureCore::VisualScripting']]],
   ['dialogwaitingunit_65',['DialogWaitingUnit',['../class_adventure_core_1_1_visual_scripting_1_1_dialog_waiting_unit.html',1,'AdventureCore::VisualScripting']]],
-  ['directionmode_66',['DirectionMode',['../class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38',1,'AdventureCore::TriggerDamageSender']]]
+  ['direction_66',['Direction',['../class_adventure_core_1_1_movement_base.html#ac3ed11ae25dbcf3b7c453df8c7768ae7',1,'AdventureCore::MovementBase']]],
+  ['directionmode_67',['DirectionMode',['../class_adventure_core_1_1_trigger_damage_sender.html#abfa71d0ad38a28fa280852e254604a38',1,'AdventureCore::TriggerDamageSender']]],
+  ['durableequipmentitem_68',['DurableEquipmentItem',['../class_adventure_core_1_1_durable_equipment_item.html',1,'AdventureCore']]]
 ];

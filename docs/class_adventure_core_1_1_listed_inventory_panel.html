@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.0</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.1</span>
    </div>
   </td>
  </tr>
@@ -99,6 +99,7 @@ $(function(){initNavTree('class_adventure_core_1_1_listed_inventory_panel.html',
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
@@ -120,6 +121,11 @@ Inheritance diagram for AdventureCore.ListedInventoryPanel:</div>
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_listed_inventory_panel_1_1_item_prefab.html">ItemPrefab</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a8595d751cb787add76b821945384d4f7" id="r_a8595d751cb787add76b821945384d4f7"><td class="memItemLeft" align="right" valign="top"><a id="a8595d751cb787add76b821945384d4f7" name="a8595d751cb787add76b821945384d4f7"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>SortingMode</b> { <b>None</b>
@@ -147,6 +153,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Unequip</b> ()</td></
 <tr class="memitem:aa3721a357bfbc6eea07e2396ed298b3a inherit pub_methods_class_adventure_core_1_1_items_control_base" id="r_aa3721a357bfbc6eea07e2396ed298b3a"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (ObservableCollection&lt; T &gt; source)</td></tr>
 <tr class="separator:aa3721a357bfbc6eea07e2396ed298b3a inherit pub_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f70117971f42c5c89b898d7f7bb6543 inherit pub_methods_class_adventure_core_1_1_items_control_base" id="r_a1f70117971f42c5c89b898d7f7bb6543"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnPointerClick</b> (PointerEventData eventData)</td></tr>
+<tr class="separator:a1f70117971f42c5c89b898d7f7bb6543 inherit pub_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f428b48505648bbe40ececfbc469450 inherit pub_methods_class_adventure_core_1_1_items_control_base" id="r_a3f428b48505648bbe40ececfbc469450"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>DeselectEntry</b> ()</td></tr>
 <tr class="separator:a3f428b48505648bbe40ececfbc469450 inherit pub_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,9 +165,30 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SelectEntry</
 <tr class="memitem:a3a560f3036dd629a91b4d2c5392e493c inherit pub_methods_class_adventure_core_1_1_items_control_base" id="r_a3a560f3036dd629a91b4d2c5392e493c"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EntrySubmitted</b> (<a class="el" href="class_adventure_core_1_1_items_control_entry_base.html">ItemsControlEntryBase</a>&lt; T &gt; entry)</td></tr>
 <tr class="separator:a3a560f3036dd629a91b4d2c5392e493c inherit pub_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a16eb85ccff07073525cc9a45c760d0 inherit pub_methods_class_adventure_core_1_1_items_control_base" id="r_a0a16eb85ccff07073525cc9a45c760d0"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EntryCancelled</b> (<a class="el" href="class_adventure_core_1_1_items_control_entry_base.html">ItemsControlEntryBase</a>&lt; T &gt; entry)</td></tr>
+<tr class="separator:a0a16eb85ccff07073525cc9a45c760d0 inherit pub_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a030ef77c45ca9b4a840ab58f1eebd784 inherit pub_methods_class_adventure_core_1_1_items_control_base" id="r_a030ef77c45ca9b4a840ab58f1eebd784"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EntryBeginDrag</b> (<a class="el" href="class_adventure_core_1_1_items_control_entry_base.html">ItemsControlEntryBase</a>&lt; T &gt; entry, PointerEventData eventData)</td></tr>
+<tr class="separator:a030ef77c45ca9b4a840ab58f1eebd784 inherit pub_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad05c3eab8e99643f83cbd974f9305c03 inherit pub_methods_class_adventure_core_1_1_items_control_base" id="r_ad05c3eab8e99643f83cbd974f9305c03"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EntryDrag</b> (<a class="el" href="class_adventure_core_1_1_items_control_entry_base.html">ItemsControlEntryBase</a>&lt; T &gt; entry, PointerEventData eventData)</td></tr>
+<tr class="separator:ad05c3eab8e99643f83cbd974f9305c03 inherit pub_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60148044e30a577f661f0b8640a10c25 inherit pub_methods_class_adventure_core_1_1_items_control_base" id="r_a60148044e30a577f661f0b8640a10c25"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EntryEndDrag</b> (<a class="el" href="class_adventure_core_1_1_items_control_entry_base.html">ItemsControlEntryBase</a>&lt; T &gt; entry, PointerEventData eventData)</td></tr>
+<tr class="separator:a60148044e30a577f661f0b8640a10c25 inherit pub_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3119c4312406cab71a3ef359f6942062 inherit pub_methods_class_adventure_core_1_1_items_control_base" id="r_a3119c4312406cab71a3ef359f6942062"><td class="memItemLeft" align="right" valign="top">
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>EntryMove</b> (<a class="el" href="class_adventure_core_1_1_items_control_entry_base.html">ItemsControlEntryBase</a>&lt; T &gt; entry, AxisEventData axisEventData)</td></tr>
+<tr class="separator:a3119c4312406cab71a3ef359f6942062 inherit pub_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b31be7040089be3dad5739837133309 inherit pub_methods_class_adventure_core_1_1_items_control_base" id="r_a1b31be7040089be3dad5739837133309"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EntryClicked</b> (<a class="el" href="class_adventure_core_1_1_items_control_entry_base.html">ItemsControlEntryBase</a>&lt; T &gt; entry, PointerEventData eventData)</td></tr>
+<tr class="separator:a1b31be7040089be3dad5739837133309 inherit pub_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:adfacf38ef7204106eb48fd16024d611c" id="r_adfacf38ef7204106eb48fd16024d611c"><td class="memItemLeft" align="right" valign="top"><a id="adfacf38ef7204106eb48fd16024d611c" name="adfacf38ef7204106eb48fd16024d611c"></a>
+<a class="el" href="class_adventure_core_1_1_listed_inventory_panel_1_1_item_prefab.html">ItemPrefab</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>ItemPrefabs</b></td></tr>
+<tr class="separator:adfacf38ef7204106eb48fd16024d611c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27d49cc364198c95c42bb45bb5561187" id="r_a27d49cc364198c95c42bb45bb5561187"><td class="memItemLeft" align="right" valign="top"><a id="a27d49cc364198c95c42bb45bb5561187" name="a27d49cc364198c95c42bb45bb5561187"></a>
 <a class="el" href="class_adventure_core_1_1_listed_inventory.html">ListedInventory</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Inventory</b></td></tr>
 <tr class="separator:a27d49cc364198c95c42bb45bb5561187"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,6 +261,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onInventoryCh
 <tr class="memitem:a0b5d352222e34e4175d2f7007ea42779" id="r_a0b5d352222e34e4175d2f7007ea42779"><td class="memItemLeft" align="right" valign="top"><a id="a0b5d352222e34e4175d2f7007ea42779" name="a0b5d352222e34e4175d2f7007ea42779"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onInventoryEquipmentChanged</b> (<a class="el" href="class_adventure_core_1_1_item_slot_base.html">ItemSlotBase</a> slot)</td></tr>
 <tr class="separator:a0b5d352222e34e4175d2f7007ea42779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a294643c6447cda3ecd413fdd1443bc1f" id="r_a294643c6447cda3ecd413fdd1443bc1f"><td class="memItemLeft" align="right" valign="top"><a id="a294643c6447cda3ecd413fdd1443bc1f" name="a294643c6447cda3ecd413fdd1443bc1f"></a>
+override <a class="el" href="class_adventure_core_1_1_items_control_entry_base.html">ItemsControlEntryBase</a>&lt; <a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getPrefab</b> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> item)</td></tr>
+<tr class="separator:a294643c6447cda3ecd413fdd1443bc1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a239afd4b7240ccf6bc28eed13c93fe" id="r_a4a239afd4b7240ccf6bc28eed13c93fe"><td class="memItemLeft" align="right" valign="top"><a id="a4a239afd4b7240ccf6bc28eed13c93fe" name="a4a239afd4b7240ccf6bc28eed13c93fe"></a>
 override bool&#160;</td><td class="memItemRight" valign="bottom"><b>filter</b> (<a class="el" href="class_adventure_core_1_1_inventory_item.html">InventoryItem</a> inventoryItem)</td></tr>
 <tr class="separator:a4a239afd4b7240ccf6bc28eed13c93fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -249,6 +282,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> (T
 <tr class="memitem:a81c85bc9938b9c6cabd94874a00c0597 inherit pro_methods_class_adventure_core_1_1_items_control_base" id="r_a81c85bc9938b9c6cabd94874a00c0597"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>sort</b> ()</td></tr>
 <tr class="separator:a81c85bc9938b9c6cabd94874a00c0597 inherit pro_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0f0ff060a8493019b7064d837d80b50 inherit pro_methods_class_adventure_core_1_1_items_control_base" id="r_ae0f0ff060a8493019b7064d837d80b50"><td class="memItemLeft" align="right" valign="top">
+virtual <a class="el" href="class_adventure_core_1_1_items_control_entry_base.html">ItemsControlEntryBase</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getPrefab</b> (T item)</td></tr>
+<tr class="separator:ae0f0ff060a8493019b7064d837d80b50 inherit pro_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4f61a8a2dde5d889d43180c76eae8b1 inherit pro_methods_class_adventure_core_1_1_items_control_base" id="r_ab4f61a8a2dde5d889d43180c76eae8b1"><td class="memItemLeft" align="right" valign="top">
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>filter</b> (T item)</td></tr>
 <tr class="separator:ab4f61a8a2dde5d889d43180c76eae8b1 inherit pro_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,6 +294,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onItemSelecte
 <tr class="memitem:afda712701a7214d4c249dcbce7d371b1 inherit pro_methods_class_adventure_core_1_1_items_control_base" id="r_afda712701a7214d4c249dcbce7d371b1"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onItemSubmitted</b> (T item)</td></tr>
 <tr class="separator:afda712701a7214d4c249dcbce7d371b1 inherit pro_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51b606ea4cc851e26f663ceb490c3e74 inherit pro_methods_class_adventure_core_1_1_items_control_base" id="r_a51b606ea4cc851e26f663ceb490c3e74"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onItemCancelled</b> (T item)</td></tr>
+<tr class="separator:a51b606ea4cc851e26f663ceb490c3e74 inherit pro_methods_class_adventure_core_1_1_items_control_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>

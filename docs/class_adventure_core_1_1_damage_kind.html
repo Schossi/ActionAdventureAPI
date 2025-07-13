@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.0</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.1</span>
    </div>
   </td>
  </tr>
@@ -99,8 +99,10 @@ $(function(){initNavTree('class_adventure_core_1_1_damage_kind.html',''); initRe
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="class_adventure_core_1_1_damage_kind-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">AdventureCore.DamageKind Class Reference</div></div>
 </div><!--header-->
@@ -120,17 +122,43 @@ Inheritance diagram for AdventureCore.DamageKind:</div>
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_adventure_core_1_1_damage_kind_1_1_fake_sender.html">FakeSender</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a70abb76ed168e92f5414dd6ea1abc377" id="r_a70abb76ed168e92f5414dd6ea1abc377"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70abb76ed168e92f5414dd6ea1abc377">OnDamage</a> (<a class="el" href="class_adventure_core_1_1_damage_event.html">DamageEvent</a> e)</td></tr>
 <tr class="memdesc:a70abb76ed168e92f5414dd6ea1abc377"><td class="mdescLeft">&#160;</td><td class="mdescRight">called during damage handling after the sender and receiver had a chance to react in their PreDamage and OnDamage methods(<a class="el" href="class_adventure_core_1_1_damage_event.html" title="event args like class that gets passed through all the participants when damage occurs  -PreDamage is...">DamageEvent</a>)  <br /></td></tr>
 <tr class="separator:a70abb76ed168e92f5414dd6ea1abc377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0232249262490f4b0f94b6090b61a637" id="r_a0232249262490f4b0f94b6090b61a637"><td class="memItemLeft" align="right" valign="top"><a id="a0232249262490f4b0f94b6090b61a637" name="a0232249262490f4b0f94b6090b61a637"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SendHalf</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="separator:a0232249262490f4b0f94b6090b61a637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6dcb11009e26e420ecfc40671b64a0b" id="r_ae6dcb11009e26e420ecfc40671b64a0b"><td class="memItemLeft" align="right" valign="top"><a id="ae6dcb11009e26e420ecfc40671b64a0b" name="ae6dcb11009e26e420ecfc40671b64a0b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SendOne</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="separator:ae6dcb11009e26e420ecfc40671b64a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bdfa9e6b6492d5f2ab0c4e5ad92be72" id="r_a1bdfa9e6b6492d5f2ab0c4e5ad92be72"><td class="memItemLeft" align="right" valign="top"><a id="a1bdfa9e6b6492d5f2ab0c4e5ad92be72" name="a1bdfa9e6b6492d5f2ab0c4e5ad92be72"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SendTwo</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="separator:a1bdfa9e6b6492d5f2ab0c4e5ad92be72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a186168fc512f0172adc41ccb9eb573a3" id="r_a186168fc512f0172adc41ccb9eb573a3"><td class="memItemLeft" align="right" valign="top"><a id="a186168fc512f0172adc41ccb9eb573a3" name="a186168fc512f0172adc41ccb9eb573a3"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SendFive</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="separator:a186168fc512f0172adc41ccb9eb573a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06138c48ef504145f5bca0ded34b1faa" id="r_a06138c48ef504145f5bca0ded34b1faa"><td class="memItemLeft" align="right" valign="top"><a id="a06138c48ef504145f5bca0ded34b1faa" name="a06138c48ef504145f5bca0ded34b1faa"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SendTen</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character)</td></tr>
+<tr class="separator:a06138c48ef504145f5bca0ded34b1faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa3a1e11bbf50597884b17fa6cb7ba49f" id="r_aa3a1e11bbf50597884b17fa6cb7ba49f"><td class="memItemLeft" align="right" valign="top"><a id="aa3a1e11bbf50597884b17fa6cb7ba49f" name="aa3a1e11bbf50597884b17fa6cb7ba49f"></a>
 Color&#160;</td><td class="memItemRight" valign="bottom"><b>Color</b> = Color.red</td></tr>
 <tr class="separator:aa3a1e11bbf50597884b17fa6cb7ba49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:abe37ba7ba5a8a55ff7aded6ab06cd674" id="r_abe37ba7ba5a8a55ff7aded6ab06cd674"><td class="memItemLeft" align="right" valign="top"><a id="abe37ba7ba5a8a55ff7aded6ab06cd674" name="abe37ba7ba5a8a55ff7aded6ab06cd674"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>send</b> (<a class="el" href="class_adventure_core_1_1_character_base.html">CharacterBase</a> character, float value)</td></tr>
+<tr class="separator:abe37ba7ba5a8a55ff7aded6ab06cd674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a70abb76ed168e92f5414dd6ea1abc377" name="a70abb76ed168e92f5414dd6ea1abc377"></a>

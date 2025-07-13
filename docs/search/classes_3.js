@@ -64,5 +64,6 @@ var searchData=
   ['dialogwaitingdescriptor_61',['DialogWaitingDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_dialog_waiting_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
   ['dialogwaitingrefdescriptor_62',['DialogWaitingRefDescriptor',['../class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_dialog_waiting_ref_descriptor.html',1,'AdventureCore::Editor::VisualScripting']]],
   ['dialogwaitingrefunit_63',['DialogWaitingRefUnit',['../class_adventure_core_1_1_visual_scripting_1_1_dialog_waiting_ref_unit.html',1,'AdventureCore::VisualScripting']]],
-  ['dialogwaitingunit_64',['DialogWaitingUnit',['../class_adventure_core_1_1_visual_scripting_1_1_dialog_waiting_unit.html',1,'AdventureCore::VisualScripting']]]
+  ['dialogwaitingunit_64',['DialogWaitingUnit',['../class_adventure_core_1_1_visual_scripting_1_1_dialog_waiting_unit.html',1,'AdventureCore::VisualScripting']]],
+  ['durableequipmentitem_65',['DurableEquipmentItem',['../class_adventure_core_1_1_durable_equipment_item.html',1,'AdventureCore']]]
 ];

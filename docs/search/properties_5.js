@@ -1,8 +1,25 @@
 var searchData=
 [
-  ['maskmixer_0',['MaskMixer',['../class_adventure_core_1_1_playable_animation.html#add6effe8ae24e6b3f61defce92b3d18c',1,'AdventureCore::PlayableAnimation']]],
-  ['modifierattributes_1',['ModifierAttributes',['../interface_adventure_core_1_1_i_attribute_modifier.html#a9c28d6440acd642e1655fe4302c092eb',1,'AdventureCore.IAttributeModifier.ModifierAttributes'],['../class_adventure_core_1_1_attribute_multiplier_instruction.html#ae8c12b0bc5cb2d13fef05d555898a9a2',1,'AdventureCore.AttributeMultiplierInstruction.ModifierAttributes'],['../class_adventure_core_1_1_attribute_effect.html#aa304aa6b28eb7779320dc1b354d35e5a',1,'AdventureCore.AttributeEffect.ModifierAttributes']]],
-  ['modifierpriority_2',['ModifierPriority',['../interface_adventure_core_1_1_i_attribute_modifier.html#a965f0ecf721acf667de3fe1f582487bd',1,'AdventureCore.IAttributeModifier.ModifierPriority'],['../interface_adventure_core_1_1_i_stat_modifier.html#abd1dd8ab767176c7ce8644ff49c389bd',1,'AdventureCore.IStatModifier.ModifierPriority'],['../class_adventure_core_1_1_attribute_multiplier_instruction.html#a788402fde847f76878a1478e7ff2f50c',1,'AdventureCore.AttributeMultiplierInstruction.ModifierPriority'],['../class_adventure_core_1_1_stat_multiplier_instruction.html#a24a2bc5e8eec5cc8f70700e85a4cde7d',1,'AdventureCore.StatMultiplierInstruction.ModifierPriority'],['../class_adventure_core_1_1_attribute_effect.html#a452c76bb1c08f3707e0bce105f9baee7',1,'AdventureCore.AttributeEffect.ModifierPriority'],['../class_adventure_core_1_1_stat_effect.html#a5ad615ee34c7a37b24371f5db0fcbc2a',1,'AdventureCore.StatEffect.ModifierPriority'],['../class_adventure_souls_1_1_souls_armor_item.html#a541e85daf1e1f1d2d3406672f899922f',1,'AdventureSouls.SoulsArmorItem.ModifierPriority']]],
-  ['modifierstats_3',['ModifierStats',['../interface_adventure_core_1_1_i_stat_modifier.html#a8c47892be886bd78f631c64ca0b197d5',1,'AdventureCore.IStatModifier.ModifierStats'],['../class_adventure_core_1_1_stat_multiplier_instruction.html#a6e9a4f26f79bed1d338ace317b215479',1,'AdventureCore.StatMultiplierInstruction.ModifierStats'],['../class_adventure_core_1_1_stat_effect.html#a11fb1c996c5fb3fd506695a660be36a2',1,'AdventureCore.StatEffect.ModifierStats'],['../class_adventure_souls_1_1_souls_armor_item.html#abf0df028545433287cba49aa47315502',1,'AdventureSouls.SoulsArmorItem.ModifierStats']]],
-  ['motionmultiplier_4',['MotionMultiplier',['../class_adventure_core_1_1_movement_base.html#a6284441de461e8de38c295f8a0b60c09',1,'AdventureCore::MovementBase']]]
+  ['input_0',['input',['../class_adventure_core_1_1_visual_scripting_1_1_set_variable_unit_base.html#a5743a062d601b4ad663b6608fe4af8e6',1,'AdventureCore::VisualScripting::SetVariableUnitBase']]],
+  ['isavailable_1',['IsAvailable',['../class_adventure_core_1_1_character_action_base.html#a9c4156fa002baa072c82c3652f5d734a',1,'AdventureCore::CharacterActionBase']]],
+  ['iscollisionsuspended_2',['IsCollisionSuspended',['../class_adventure_core_1_1_movement_base.html#a1febdb70c4c1ae09b23a6a6df8b1ea7c',1,'AdventureCore::MovementBase']]],
+  ['iscontrolsuspended_3',['IsControlSuspended',['../class_adventure_core_1_1_movement_base.html#a5484d4fb3923629b891866012ee5c3b0',1,'AdventureCore::MovementBase']]],
+  ['iscontrolsuspendedkeepmoving_4',['IsControlSuspendedKeepMoving',['../class_adventure_core_1_1_movement_base.html#adc335e383dbf8835bf4be3e83d3aec9a',1,'AdventureCore::MovementBase']]],
+  ['isequippable_5',['IsEquippable',['../class_adventure_core_1_1_item_base.html#a17d9fc91a3fe3f191500d5b119dcfaa3',1,'AdventureCore::ItemBase']]],
+  ['isfinished_6',['IsFinished',['../class_adventure_core_1_1_playable_animation.html#ad992cd0e0ac4c8b31cd1cb6204862b92',1,'AdventureCore::PlayableAnimation']]],
+  ['isgrounded_7',['IsGrounded',['../class_adventure_core_1_1_movement_base.html#a03c801e2a8ee84b391fb43079f780f28',1,'AdventureCore::MovementBase']]],
+  ['ishappening_8',['IsHappening',['../class_adventure_core_1_1_character_action_base.html#a08078882a412c00e88c210ae0821233e',1,'AdventureCore::CharacterActionBase']]],
+  ['ismarching_9',['IsMarching',['../class_adventure_core_1_1_movement_base.html#af11857ad0d5d12863e82271f8625f4e9',1,'AdventureCore::MovementBase']]],
+  ['ismoved_10',['IsMoved',['../class_adventure_core_1_1_movement_base.html#a25e4ffdf4fb53e82182e14c83518b536',1,'AdventureCore::MovementBase']]],
+  ['ismoving_11',['IsMoving',['../class_adventure_core_1_1_movement_base.html#aa321269ba1015ea547abadd1f552cace',1,'AdventureCore::MovementBase']]],
+  ['ispersistencesuspended_12',['IsPersistenceSuspended',['../class_adventure_core_1_1_movement_base.html#ab2c33b98804a62219839bd2168bb909a',1,'AdventureCore::MovementBase']]],
+  ['isplaying_13',['IsPlaying',['../class_adventure_core_1_1_playable_animation.html#ad98528239c54b5a85af43c33f80579b7',1,'AdventureCore::PlayableAnimation']]],
+  ['isrotated_14',['IsRotated',['../class_adventure_core_1_1_movement_base.html#af72946b58fd91f70e590a368dbf8e83b',1,'AdventureCore::MovementBase']]],
+  ['isrotating_15',['IsRotating',['../class_adventure_core_1_1_movement_base.html#a2b8d70952374df20b60c560b0e638bb5',1,'AdventureCore::MovementBase']]],
+  ['isrotationsuspended_16',['IsRotationSuspended',['../class_adventure_core_1_1_movement_base.html#a64365023f30b41a66bd1fe428c3a8d0b',1,'AdventureCore::MovementBase']]],
+  ['issprinting_17',['IsSprinting',['../class_adventure_core_1_1_movement_base.html#a36c7759eff1a664ea5d880bee940bc73',1,'AdventureCore::MovementBase']]],
+  ['isstackable_18',['IsStackable',['../class_adventure_core_1_1_item_base.html#a8b1a85e32779e868c53985b59a0c85cf',1,'AdventureCore::ItemBase']]],
+  ['istranslationsuspended_19',['IsTranslationSuspended',['../class_adventure_core_1_1_movement_base.html#a091db654f40c756de4545bcebbd7cec0',1,'AdventureCore::MovementBase']]],
+  ['istranslationsuspendedapplyphysics_20',['IsTranslationSuspendedApplyPhysics',['../class_adventure_core_1_1_movement_base.html#a023bc70148439d1c3ab3693fc10de0b0',1,'AdventureCore::MovementBase']]],
+  ['isusable_21',['IsUsable',['../class_adventure_core_1_1_item_base.html#a8716d8223fb78ccfed8be1ce62657e9b',1,'AdventureCore::ItemBase']]]
 ];

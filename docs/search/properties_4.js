@@ -1,22 +1,4 @@
 var searchData=
 [
-  ['input_0',['input',['../class_adventure_core_1_1_visual_scripting_1_1_set_variable_unit_base.html#a5743a062d601b4ad663b6608fe4af8e6',1,'AdventureCore::VisualScripting::SetVariableUnitBase']]],
-  ['isavailable_1',['IsAvailable',['../class_adventure_core_1_1_character_action_base.html#a9c4156fa002baa072c82c3652f5d734a',1,'AdventureCore::CharacterActionBase']]],
-  ['iscollisionsuspended_2',['IsCollisionSuspended',['../class_adventure_core_1_1_movement_base.html#a1febdb70c4c1ae09b23a6a6df8b1ea7c',1,'AdventureCore::MovementBase']]],
-  ['iscontrolsuspended_3',['IsControlSuspended',['../class_adventure_core_1_1_movement_base.html#a5484d4fb3923629b891866012ee5c3b0',1,'AdventureCore::MovementBase']]],
-  ['iscontrolsuspendedkeepmoving_4',['IsControlSuspendedKeepMoving',['../class_adventure_core_1_1_movement_base.html#adc335e383dbf8835bf4be3e83d3aec9a',1,'AdventureCore::MovementBase']]],
-  ['isequippable_5',['IsEquippable',['../class_adventure_core_1_1_item_base.html#a17d9fc91a3fe3f191500d5b119dcfaa3',1,'AdventureCore::ItemBase']]],
-  ['isfinished_6',['IsFinished',['../class_adventure_core_1_1_playable_animation.html#ad992cd0e0ac4c8b31cd1cb6204862b92',1,'AdventureCore::PlayableAnimation']]],
-  ['isgrounded_7',['IsGrounded',['../class_adventure_core_1_1_movement_base.html#a03c801e2a8ee84b391fb43079f780f28',1,'AdventureCore::MovementBase']]],
-  ['ishappening_8',['IsHappening',['../class_adventure_core_1_1_character_action_base.html#a08078882a412c00e88c210ae0821233e',1,'AdventureCore::CharacterActionBase']]],
-  ['ismarching_9',['IsMarching',['../class_adventure_core_1_1_movement_base.html#af11857ad0d5d12863e82271f8625f4e9',1,'AdventureCore::MovementBase']]],
-  ['ismoved_10',['IsMoved',['../class_adventure_core_1_1_movement_base.html#a25e4ffdf4fb53e82182e14c83518b536',1,'AdventureCore::MovementBase']]],
-  ['ispersistencesuspended_11',['IsPersistenceSuspended',['../class_adventure_core_1_1_movement_base.html#ab2c33b98804a62219839bd2168bb909a',1,'AdventureCore::MovementBase']]],
-  ['isplaying_12',['IsPlaying',['../class_adventure_core_1_1_playable_animation.html#ad98528239c54b5a85af43c33f80579b7',1,'AdventureCore::PlayableAnimation']]],
-  ['isrotationsuspended_13',['IsRotationSuspended',['../class_adventure_core_1_1_movement_base.html#a64365023f30b41a66bd1fe428c3a8d0b',1,'AdventureCore::MovementBase']]],
-  ['issprinting_14',['IsSprinting',['../class_adventure_core_1_1_movement_base.html#a36c7759eff1a664ea5d880bee940bc73',1,'AdventureCore::MovementBase']]],
-  ['isstackable_15',['IsStackable',['../class_adventure_core_1_1_item_base.html#a8b1a85e32779e868c53985b59a0c85cf',1,'AdventureCore::ItemBase']]],
-  ['istranslationsuspended_16',['IsTranslationSuspended',['../class_adventure_core_1_1_movement_base.html#a091db654f40c756de4545bcebbd7cec0',1,'AdventureCore::MovementBase']]],
-  ['istranslationsuspendedapplyphysics_17',['IsTranslationSuspendedApplyPhysics',['../class_adventure_core_1_1_movement_base.html#a023bc70148439d1c3ab3693fc10de0b0',1,'AdventureCore::MovementBase']]],
-  ['isusable_18',['IsUsable',['../class_adventure_core_1_1_item_base.html#a8716d8223fb78ccfed8be1ce62657e9b',1,'AdventureCore::ItemBase']]]
+  ['fallback_0',['Fallback',['../class_adventure_core_1_1_character_action_bindings.html#afb84247e8eaaca2ecf0151958ffdfe72',1,'AdventureCore::CharacterActionBindings']]]
 ];

@@ -12,13 +12,17 @@ var class_adventure_core_1_1_movement_base =
     [ "ResetMomentum", "class_adventure_core_1_1_movement_base.html#a3133f4aa9eb6be6b4d4f7ce6839fc22b", null ],
     [ "TeleportCharacter", "class_adventure_core_1_1_movement_base.html#a561b2457072676d896b7edaf1f04b9bd", null ],
     [ "TeleportCharacter", "class_adventure_core_1_1_movement_base.html#ab61d1348c7a5ca2a91cda0d841aea74f", null ],
+    [ "Direction", "class_adventure_core_1_1_movement_base.html#ac3ed11ae25dbcf3b7c453df8c7768ae7", null ],
     [ "IsCollisionSuspended", "class_adventure_core_1_1_movement_base.html#a1febdb70c4c1ae09b23a6a6df8b1ea7c", null ],
     [ "IsControlSuspended", "class_adventure_core_1_1_movement_base.html#a5484d4fb3923629b891866012ee5c3b0", null ],
     [ "IsControlSuspendedKeepMoving", "class_adventure_core_1_1_movement_base.html#adc335e383dbf8835bf4be3e83d3aec9a", null ],
     [ "IsGrounded", "class_adventure_core_1_1_movement_base.html#a03c801e2a8ee84b391fb43079f780f28", null ],
     [ "IsMarching", "class_adventure_core_1_1_movement_base.html#af11857ad0d5d12863e82271f8625f4e9", null ],
     [ "IsMoved", "class_adventure_core_1_1_movement_base.html#a25e4ffdf4fb53e82182e14c83518b536", null ],
+    [ "IsMoving", "class_adventure_core_1_1_movement_base.html#aa321269ba1015ea547abadd1f552cace", null ],
     [ "IsPersistenceSuspended", "class_adventure_core_1_1_movement_base.html#ab2c33b98804a62219839bd2168bb909a", null ],
+    [ "IsRotated", "class_adventure_core_1_1_movement_base.html#af72946b58fd91f70e590a368dbf8e83b", null ],
+    [ "IsRotating", "class_adventure_core_1_1_movement_base.html#a2b8d70952374df20b60c560b0e638bb5", null ],
     [ "IsRotationSuspended", "class_adventure_core_1_1_movement_base.html#a64365023f30b41a66bd1fe428c3a8d0b", null ],
     [ "IsSprinting", "class_adventure_core_1_1_movement_base.html#a36c7759eff1a664ea5d880bee940bc73", null ],
     [ "IsTranslationSuspended", "class_adventure_core_1_1_movement_base.html#a091db654f40c756de4545bcebbd7cec0", null ],
@@ -28,5 +32,6 @@ var class_adventure_core_1_1_movement_base =
     [ "SpeedFactorSideways", "class_adventure_core_1_1_movement_base.html#adbf898b333ba69dc0857c1522f83b0c6", null ],
     [ "SpeedMaximum", "class_adventure_core_1_1_movement_base.html#ab76c47ce6e6c234bc3c637762c5a90b3", null ],
     [ "SpeedMinimum", "class_adventure_core_1_1_movement_base.html#ae73e09b8d263d8806e8a8bceb2a65322", null ],
-    [ "SpeedMultiplier", "class_adventure_core_1_1_movement_base.html#a20738363723ec1c893146660c7ad8f81", null ]
+    [ "SpeedMultiplier", "class_adventure_core_1_1_movement_base.html#a20738363723ec1c893146660c7ad8f81", null ],
+    [ "Velocity", "class_adventure_core_1_1_movement_base.html#ad95af34523d6780ae0266727722a98a7", null ]
 ];

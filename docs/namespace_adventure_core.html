@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.0</span>
+   <div id="projectname"><a href="https://adventure.softleitner.com/manual">ActionAdventureKit</a><span id="projectnumber">&#160;1.9.1</span>
    </div>
   </td>
  </tr>
@@ -367,6 +367,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_dialog_u_i.html">DialogUI</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">dialog implementation to be used with Unity UI and legacy Text components  <a href="class_adventure_core_1_1_dialog_u_i.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_durable_equipment_item.html">DurableEquipmentItem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">special equipment item that has a "Durability" float value<br  />
+ if that value falls to 0 the item is unequipped and cant be equipped again  <a href="class_adventure_core_1_1_durable_equipment_item.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_effect_bar_base.html">EffectBarBase</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for ui behaviours that visualize the active effects of a pool<br  />
  takes care of subscribing to the pools events  <a href="class_adventure_core_1_1_effect_bar_base.html#details">More...</a><br /></td></tr>
@@ -622,6 +626,18 @@ Classes</h2></td></tr>
  the actual slot currently being used can be rotated through using NextSlot and PreviousSlot<br  />
   <a href="class_adventure_core_1_1_item_slot_proxy.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_adventure_core_1_1_item_value.html">ItemValue</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">allows storing generic data alongside the item, for example ammo count, durability or upgrades  <a href="struct_adventure_core_1_1_item_value.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_value_bool_panel.html">ItemValueBoolPanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">observes a bool item value and sets a gameobject active or inactive accordingly  <a href="class_adventure_core_1_1_item_value_bool_panel.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_value_float_panel.html">ItemValueFloatPanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">observes a float item value and visualizes the value in a text element or slider  <a href="class_adventure_core_1_1_item_value_float_panel.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_item_value_int_panel.html">ItemValueIntPanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">observes a integer item value and visualizes the value in a text element or slider  <a href="class_adventure_core_1_1_item_value_int_panel.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_listed_inventory.html">ListedInventory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple implementation of an unlimited inventory that simply stores everything in a list  <a href="class_adventure_core_1_1_listed_inventory.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -738,12 +754,19 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_nav_mesh_agent_movement.html">NavMeshAgentMovement</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a movement implementation that is built on top of the unity NavMeshAgent<br  />
  meant for enemy movement, use StartApproach(Action, float) to walk to the MovementBase.Target<br  />
-  <a href="class_adventure_core_1_1_nav_mesh_agent_movement.html#details">More...</a><br /></td></tr>
+ this script lets the agent itself move and rotate, if you want roation to be handled differently try <a class="el" href="class_adventure_core_1_1_nav_mesh_steer_movement.html" title="variation on nav mesh movement that uses manual rotation instead of letting the agent steer  it is a ...">NavMeshSteerMovement</a><br  />
+ if you want both rotation and movement to be handled by script have a look at <a class="el" href="class_adventure_core_1_1_nav_mesh_tank_movement.html" title="variation on nav mesh movement that manually moves(usually by root motion) and rotates the agent  whe...">NavMeshTankMovement</a>  <a href="class_adventure_core_1_1_nav_mesh_agent_movement.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_nav_mesh_steer_movement.html">NavMeshSteerMovement</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">variation on nav mesh movement that uses manual rotation instead of letting the agent steer<br  />
+ it is a compromise between <a class="el" href="class_adventure_core_1_1_nav_mesh_agent_movement.html" title="a movement implementation that is built on top of the unity NavMeshAgent  meant for enemy movement,...">NavMeshAgentMovement</a> where the agent controls both position and rotation<br  />
+ and <a class="el" href="class_adventure_core_1_1_nav_mesh_tank_movement.html" title="variation on nav mesh movement that manually moves(usually by root motion) and rotates the agent  whe...">NavMeshTankMovement</a> which controls rotation itself and does position using root motion  <a href="class_adventure_core_1_1_nav_mesh_steer_movement.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_nav_mesh_tank_movement.html">NavMeshTankMovement</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">variation on nav mesh movement that uses root motion and manual rotation instead of letting the agent steer<br  />
- the movement rotates itself until it points towards the target<br  />
- to move forward the SpeedFactor value is set and root motion from the animator is applied  <a href="class_adventure_core_1_1_nav_mesh_tank_movement.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">variation on nav mesh movement that manually moves(usually by root motion) and rotates the agent<br  />
+ when unaligned the movement first rotates itself until it points towards the target<br  />
+ to move forward the SpeedFactor value is set and root motion from the animator is applied<br  />
+ if root motion is disabled(NavMeshAgentMovement.EnableRootMotion) the agent is moved manually(set agent or action speed)  <a href="class_adventure_core_1_1_nav_mesh_tank_movement.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_nav_patrol_action.html">NavPatrolAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves a <a class="el" href="class_adventure_core_1_1_nav_mesh_agent_movement.html" title="a movement implementation that is built on top of the unity NavMeshAgent  meant for enemy movement,...">NavMeshAgentMovement</a> cyclically between the specified points<br  />
@@ -968,6 +991,18 @@ Classes</h2></td></tr>
  how much it increases at a particular value is defined in tiers<br  />
  this can be used to implement diminishing or increasing returns<br  />
  for example vitality could increase health by 10 for the first 5 points and then by some other value  <a href="class_adventure_core_1_1_tiered_stat.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_tiled_inventory.html">TiledInventory</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_tiled_inventory_entry_panel.html">TiledInventoryEntryPanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation of ItemsControlEntryBase&lt;T&gt; for <a class="el" href="class_adventure_core_1_1_tiled_inventory_item.html">TiledInventoryItem</a><br  />
+ instantiated for every inventory item that is shown in the inventor panel<br  />
+ moves and sizes itself to the inventory item is visualizes  <a href="class_adventure_core_1_1_tiled_inventory_entry_panel.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_tiled_inventory_item.html">TiledInventoryItem</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_tiled_inventory_panel.html">TiledInventoryPanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes contents of a <a class="el" href="class_adventure_core_1_1_tiled_inventory_panel.html" title="visualizes contents of a TiledInventoryPanel and allows using, equipping and moving them around">TiledInventoryPanel</a> and allows using, equipping and moving them around  <a href="class_adventure_core_1_1_tiled_inventory_panel.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adventure_core_1_1_timed_action.html">TimedAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">action that does nothing on its own and ends after a defined duration  <a href="class_adventure_core_1_1_timed_action.html#details">More...</a><br /></td></tr>

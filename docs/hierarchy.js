@@ -2,6 +2,42 @@ var hierarchy =
 [
     [ "AdventureSouls.SoulsInput.ActActions", "struct_adventure_souls_1_1_souls_input_1_1_act_actions.html", null ],
     [ "AdventureSouls.SoulsInput.ActionActions", "struct_adventure_souls_1_1_souls_input_1_1_action_actions.html", null ],
+    [ "AdventureCore.Editor.VisualScripting.AddInventoryItemValueDescriptorBase< AddInventoryItemFloatUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_add_inventory_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.AddInventoryItemFloatDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_add_inventory_item_float_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.AddInventoryItemValueDescriptorBase< AddInventoryItemIntUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_add_inventory_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.AddInventoryItemIntDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_add_inventory_item_int_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.AddInventoryItemValueDescriptorBase< AddInventoryItemStringUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_add_inventory_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.AddInventoryItemStringDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_add_inventory_item_string_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.AddInventoryItemValueUnit< float >", "class_adventure_core_1_1_visual_scripting_1_1_add_inventory_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.AddInventoryItemFloatUnit", "class_adventure_core_1_1_visual_scripting_1_1_add_inventory_item_float_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.AddInventoryItemValueUnit< int >", "class_adventure_core_1_1_visual_scripting_1_1_add_inventory_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.AddInventoryItemIntUnit", "class_adventure_core_1_1_visual_scripting_1_1_add_inventory_item_int_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.AddInventoryItemValueUnit< string >", "class_adventure_core_1_1_visual_scripting_1_1_add_inventory_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.AddInventoryItemStringUnit", "class_adventure_core_1_1_visual_scripting_1_1_add_inventory_item_string_unit.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.AddItemValueDescriptorBase< AddItemFloatUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_add_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.AddItemFloatDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_add_item_float_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.AddItemValueDescriptorBase< AddItemIntUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_add_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.AddItemIntDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_add_item_int_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.AddItemValueDescriptorBase< AddItemStringUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_add_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.AddItemStringDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_add_item_string_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.AddItemValueUnit< float >", "class_adventure_core_1_1_visual_scripting_1_1_add_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.AddItemFloatUnit", "class_adventure_core_1_1_visual_scripting_1_1_add_item_float_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.AddItemValueUnit< int >", "class_adventure_core_1_1_visual_scripting_1_1_add_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.AddItemIntUnit", "class_adventure_core_1_1_visual_scripting_1_1_add_item_int_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.AddItemValueUnit< string >", "class_adventure_core_1_1_visual_scripting_1_1_add_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.AddItemStringUnit", "class_adventure_core_1_1_visual_scripting_1_1_add_item_string_unit.html", null ]
+    ] ],
     [ "AdventureCore.Editor.VisualScripting.AdventureDescriptorBase< ActionAreaChangedUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_adventure_descriptor_base.html", [
       [ "AdventureCore.Editor.VisualScripting.ActionAreaChangedDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_action_area_changed_descriptor.html", null ]
     ] ],
@@ -137,11 +173,17 @@ var hierarchy =
     [ "AdventureCore.Editor.VisualScripting.AdventureDescriptorBase< CheckEquipmentUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_adventure_descriptor_base.html", [
       [ "AdventureCore.Editor.VisualScripting.CheckEquipmentDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_check_equipment_descriptor.html", null ]
     ] ],
+    [ "AdventureCore.Editor.VisualScripting.AdventureDescriptorBase< CheckInventoryItemValueUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_adventure_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.CheckInventoryItemValueDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_check_inventory_item_value_descriptor.html", null ]
+    ] ],
     [ "AdventureCore.Editor.VisualScripting.AdventureDescriptorBase< CheckItemCategoryQuantityUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_adventure_descriptor_base.html", [
       [ "AdventureCore.Editor.VisualScripting.CheckItemCategoryQuantityDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_check_item_category_quantity_descriptor.html", null ]
     ] ],
     [ "AdventureCore.Editor.VisualScripting.AdventureDescriptorBase< CheckItemQuantityUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_adventure_descriptor_base.html", [
       [ "AdventureCore.Editor.VisualScripting.CheckItemQuantityDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_check_item_quantity_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.AdventureDescriptorBase< CheckItemValueUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_adventure_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.CheckItemValueDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_check_item_value_descriptor.html", null ]
     ] ],
     [ "AdventureCore.Editor.VisualScripting.AdventureDescriptorBase< CheckMovementTargetDistanceUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_adventure_descriptor_base.html", [
       [ "AdventureCore.Editor.VisualScripting.CheckMovementTargetDistanceDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_check_movement_target_distance_descriptor.html", null ]
@@ -262,6 +304,9 @@ var hierarchy =
     ] ],
     [ "AdventureCore.Editor.VisualScripting.AdventureDescriptorBase< GetCharacterUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_adventure_descriptor_base.html", [
       [ "AdventureCore.Editor.VisualScripting.GetCharacterDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_character_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.AdventureDescriptorBase< GetEquipmentUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_adventure_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.GetEquipmentDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_equipment_descriptor.html", null ]
     ] ],
     [ "AdventureCore.Editor.VisualScripting.AdventureDescriptorBase< GetOffsetRotationUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_adventure_descriptor_base.html", [
       [ "AdventureCore.Editor.VisualScripting.GetOffsetRotationDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_offset_rotation_descriptor.html", null ]
@@ -688,6 +733,54 @@ var hierarchy =
       [ "AdventureCore.VisualScripting.UnityEventUnitOtherArgs< TOwner, TArgsEventA, TArgsEventB, TArgs >", "class_adventure_core_1_1_visual_scripting_1_1_unity_event_unit_other_args.html", null ],
       [ "AdventureCore.VisualScripting.UnityEventUnitOtherArgs< TOwner, TArgsEventA, TArgsEventB, TArgs >", "class_adventure_core_1_1_visual_scripting_1_1_unity_event_unit_other_args.html", null ]
     ] ],
+    [ "AdventureCore.Editor.VisualScripting.GetInventoryItemValueDescriptorBase< GetInventoryItemBoolUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_inventory_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.GetInventoryItemBoolDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_inventory_item_bool_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.GetInventoryItemValueDescriptorBase< GetInventoryItemFloatUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_inventory_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.GetInventoryItemFloatDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_inventory_item_float_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.GetInventoryItemValueDescriptorBase< GetInventoryItemIntUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_inventory_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.GetInventoryItemIntDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_inventory_item_int_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.GetInventoryItemValueDescriptorBase< GetInventoryItemStringUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_inventory_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.GetInventoryItemStringDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_inventory_item_string_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.GetInventoryItemValueUnit< bool >", "class_adventure_core_1_1_visual_scripting_1_1_get_inventory_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.GetInventoryItemBoolUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_inventory_item_bool_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.GetInventoryItemValueUnit< float >", "class_adventure_core_1_1_visual_scripting_1_1_get_inventory_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.GetInventoryItemFloatUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_inventory_item_float_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.GetInventoryItemValueUnit< int >", "class_adventure_core_1_1_visual_scripting_1_1_get_inventory_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.GetInventoryItemIntUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_inventory_item_int_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.GetInventoryItemValueUnit< string >", "class_adventure_core_1_1_visual_scripting_1_1_get_inventory_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.GetInventoryItemStringUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_inventory_item_string_unit.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.GetItemValueDescriptorBase< GetItemBoolUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.GetItemBoolDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_item_bool_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.GetItemValueDescriptorBase< GetItemFloatUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.GetItemFloatDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_item_float_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.GetItemValueDescriptorBase< GetItemIntUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.GetItemIntDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_item_int_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.GetItemValueDescriptorBase< GetItemStringUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.GetItemStringDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_item_string_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.GetItemValueUnit< bool >", "class_adventure_core_1_1_visual_scripting_1_1_get_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.GetItemBoolUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_item_bool_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.GetItemValueUnit< float >", "class_adventure_core_1_1_visual_scripting_1_1_get_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.GetItemFloatUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_item_float_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.GetItemValueUnit< int >", "class_adventure_core_1_1_visual_scripting_1_1_get_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.GetItemIntUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_item_int_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.GetItemValueUnit< string >", "class_adventure_core_1_1_visual_scripting_1_1_get_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.GetItemStringUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_item_string_unit.html", null ]
+    ] ],
     [ "AdventureCore.Editor.VisualScripting.GetPersistenceDescriptorBase< GetPersistenceBoolUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_persistence_descriptor_base.html", [
       [ "AdventureCore.Editor.VisualScripting.GetPersistenceBoolDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_persistence_bool_descriptor.html", null ]
     ] ],
@@ -746,11 +839,17 @@ var hierarchy =
     [ "AdventureCore.IAttributeModifier", "interface_adventure_core_1_1_i_attribute_modifier.html", [
       [ "AdventureCore.AttributeEffect", "class_adventure_core_1_1_attribute_effect.html", null ],
       [ "AdventureCore.AttributeMultiplierInstruction", "class_adventure_core_1_1_attribute_multiplier_instruction.html", null ],
-      [ "AdventureCore.EquipmentItem", "class_adventure_core_1_1_equipment_item.html", null ]
+      [ "AdventureCore.EquipmentItem", "class_adventure_core_1_1_equipment_item.html", [
+        [ "AdventureCore.DurableEquipmentItem", "class_adventure_core_1_1_durable_equipment_item.html", null ]
+      ] ]
+    ] ],
+    [ "IBeginDragHandler", null, [
+      [ "AdventureCore.ItemsControlEntryBase< T >", "class_adventure_core_1_1_items_control_entry_base.html", null ]
     ] ],
     [ "ICancelHandler", null, [
       [ "AdventureCore.DialogTMP", "class_adventure_core_1_1_dialog_t_m_p.html", null ],
-      [ "AdventureCore.DialogUI", "class_adventure_core_1_1_dialog_u_i.html", null ]
+      [ "AdventureCore.DialogUI", "class_adventure_core_1_1_dialog_u_i.html", null ],
+      [ "AdventureCore.ItemsControlEntryBase< T >", "class_adventure_core_1_1_items_control_entry_base.html", null ]
     ] ],
     [ "AdventureCore.ICharacterAssociator", "interface_adventure_core_1_1_i_character_associator.html", [
       [ "AdventureCore.CharacterActionArea", "class_adventure_core_1_1_character_action_area.html", null ],
@@ -837,6 +936,7 @@ var hierarchy =
       ] ],
       [ "AdventureCore.IDamageSender", "interface_adventure_core_1_1_i_damage_sender.html", [
         [ "AdventureCore.DamageEffect", "class_adventure_core_1_1_damage_effect.html", null ],
+        [ "AdventureCore.DamageKind.FakeSender", "struct_adventure_core_1_1_damage_kind_1_1_fake_sender.html", null ],
         [ "AdventureCore.SphereDamageSender", "class_adventure_core_1_1_sphere_damage_sender.html", null ],
         [ "AdventureCore.TriggerDamageSender", "class_adventure_core_1_1_trigger_damage_sender.html", [
           [ "AdventureCore.MovingDamageSender", "class_adventure_core_1_1_moving_damage_sender.html", null ],
@@ -858,6 +958,12 @@ var hierarchy =
     [ "IDisposable", null, [
       [ "AdventureCore.Tests.TestInput", "class_adventure_core_1_1_tests_1_1_test_input.html", null ],
       [ "AdventureSouls.SoulsInput", "class_adventure_souls_1_1_souls_input.html", null ]
+    ] ],
+    [ "IDragHandler", null, [
+      [ "AdventureCore.ItemsControlEntryBase< T >", "class_adventure_core_1_1_items_control_entry_base.html", null ]
+    ] ],
+    [ "IEndDragHandler", null, [
+      [ "AdventureCore.ItemsControlEntryBase< T >", "class_adventure_core_1_1_items_control_entry_base.html", null ]
     ] ],
     [ "IEquatable", null, [
       [ "AdventureCore.MovementBasePersisted.MovementData", "struct_adventure_core_1_1_movement_base_persisted_1_1_movement_data.html", null ]
@@ -980,8 +1086,11 @@ var hierarchy =
     [ "AdventureCore.VisualScripting.InstructionUnitBase< SuspendSendDamageInstruction >", "class_adventure_core_1_1_visual_scripting_1_1_instruction_unit_base.html", [
       [ "AdventureCore.VisualScripting.SuspendSendDamageInstructionUnit", "class_adventure_core_1_1_visual_scripting_1_1_suspend_send_damage_instruction_unit.html", null ]
     ] ],
-    [ "AdventureCore.InventoryItem", "class_adventure_core_1_1_inventory_item.html", null ],
+    [ "AdventureCore.InventoryItem", "class_adventure_core_1_1_inventory_item.html", [
+      [ "AdventureCore.TiledInventoryItem", "class_adventure_core_1_1_tiled_inventory_item.html", null ]
+    ] ],
     [ "AdventureCore.InventoryItem.InventoryItemData", "struct_adventure_core_1_1_inventory_item_1_1_inventory_item_data.html", null ],
+    [ "AdventureCore.Tests.InventoryTesting", "class_adventure_core_1_1_tests_1_1_inventory_testing.html", null ],
     [ "AdventureCore.IPersister", "interface_adventure_core_1_1_i_persister.html", [
       [ "AdventureCore.PersisterBase", "class_adventure_core_1_1_persister_base.html", [
         [ "AdventureCore.ManualPersister", "class_adventure_core_1_1_manual_persister.html", [
@@ -1004,6 +1113,7 @@ var hierarchy =
     [ "IPointerClickHandler", null, [
       [ "AdventureCore.DialogTMP", "class_adventure_core_1_1_dialog_t_m_p.html", null ],
       [ "AdventureCore.DialogUI", "class_adventure_core_1_1_dialog_u_i.html", null ],
+      [ "AdventureCore.ItemsControlBase< T >", "class_adventure_core_1_1_items_control_base.html", null ],
       [ "AdventureCore.ItemsControlEntryBase< T >", "class_adventure_core_1_1_items_control_entry_base.html", null ]
     ] ],
     [ "IPointerMoveHandler", null, [
@@ -1026,12 +1136,22 @@ var hierarchy =
     ] ],
     [ "AdventureSouls.SoulsInput.ISystemActions", "interface_adventure_souls_1_1_souls_input_1_1_i_system_actions.html", null ],
     [ "AdventureCore.ItemChance", "class_adventure_core_1_1_item_chance.html", null ],
+    [ "AdventureCore.ListedInventoryPanel.ItemPrefab", "class_adventure_core_1_1_listed_inventory_panel_1_1_item_prefab.html", null ],
+    [ "AdventureCore.TiledInventoryPanel.ItemPrefab", "class_adventure_core_1_1_tiled_inventory_panel_1_1_item_prefab.html", null ],
     [ "AdventureCore.ItemQuantity", "class_adventure_core_1_1_item_quantity.html", null ],
     [ "AdventureCore.ItemsControlBase< InventoryItem >", "class_adventure_core_1_1_items_control_base.html", [
       [ "AdventureCore.ListedInventoryPanel", "class_adventure_core_1_1_listed_inventory_panel.html", null ]
     ] ],
+    [ "AdventureCore.ItemsControlBase< TiledInventoryItem >", "class_adventure_core_1_1_items_control_base.html", [
+      [ "AdventureCore.TiledInventoryPanel", "class_adventure_core_1_1_tiled_inventory_panel.html", null ]
+    ] ],
+    [ "AdventureCore.ItemsControlEntryBase< AdventureCore.InventoryItem >", "class_adventure_core_1_1_items_control_entry_base.html", null ],
+    [ "AdventureCore.ItemsControlEntryBase< AdventureCore.TiledInventoryItem >", "class_adventure_core_1_1_items_control_entry_base.html", null ],
     [ "AdventureCore.ItemsControlEntryBase< InventoryItem >", "class_adventure_core_1_1_items_control_entry_base.html", [
       [ "AdventureCore.ListedInventoryEntryPanel", "class_adventure_core_1_1_listed_inventory_entry_panel.html", null ]
+    ] ],
+    [ "AdventureCore.ItemsControlEntryBase< TiledInventoryItem >", "class_adventure_core_1_1_items_control_entry_base.html", [
+      [ "AdventureCore.TiledInventoryEntryPanel", "class_adventure_core_1_1_tiled_inventory_entry_panel.html", null ]
     ] ],
     [ "AdventureCore.ItemSlot< HeroEquipmentItem >", "class_adventure_core_1_1_item_slot.html", [
       [ "AdventureHero.HeroEquipmentSlot", "class_adventure_hero_1_1_hero_equipment_slot.html", null ]
@@ -1057,6 +1177,7 @@ var hierarchy =
     [ "AdventureCore.ItemSlot< SoulsWeaponItem >", "class_adventure_core_1_1_item_slot.html", [
       [ "AdventureSouls.SoulsWeaponSlot", "class_adventure_souls_1_1_souls_weapon_slot.html", null ]
     ] ],
+    [ "AdventureCore.ItemValue", "struct_adventure_core_1_1_item_value.html", null ],
     [ "AdventureCore.Tests.TestInput.ITestActions", "interface_adventure_core_1_1_tests_1_1_test_input_1_1_i_test_actions.html", null ],
     [ "ITimelineClipAsset", null, [
       [ "AdventureCore.Timeline.DialogClip", "class_adventure_core_1_1_timeline_1_1_dialog_clip.html", null ],
@@ -1085,6 +1206,8 @@ var hierarchy =
       [ "AdventureCore.VisualScripting.AddAttributeUnit", "class_adventure_core_1_1_visual_scripting_1_1_add_attribute_unit.html", null ],
       [ "AdventureCore.VisualScripting.AddEffectUnit", "class_adventure_core_1_1_visual_scripting_1_1_add_effect_unit.html", null ],
       [ "AdventureCore.VisualScripting.AddInstructionUnit", "class_adventure_core_1_1_visual_scripting_1_1_add_instruction_unit.html", null ],
+      [ "AdventureCore.VisualScripting.AddInventoryItemValueUnit< T >", "class_adventure_core_1_1_visual_scripting_1_1_add_inventory_item_value_unit.html", null ],
+      [ "AdventureCore.VisualScripting.AddItemValueUnit< T >", "class_adventure_core_1_1_visual_scripting_1_1_add_item_value_unit.html", null ],
       [ "AdventureCore.VisualScripting.AddItemsUnit", "class_adventure_core_1_1_visual_scripting_1_1_add_items_unit.html", null ],
       [ "AdventureCore.VisualScripting.AddResourceUnit", "class_adventure_core_1_1_visual_scripting_1_1_add_resource_unit.html", null ],
       [ "AdventureCore.VisualScripting.AlignToPositionUnit", "class_adventure_core_1_1_visual_scripting_1_1_align_to_position_unit.html", null ],
@@ -1107,6 +1230,8 @@ var hierarchy =
       [ "AdventureCore.VisualScripting.SetCharacterIntUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_character_int_unit.html", null ],
       [ "AdventureCore.VisualScripting.SetCharacterStateUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_character_state_unit.html", null ],
       [ "AdventureCore.VisualScripting.SetCharacterTriggerUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_character_trigger_unit.html", null ],
+      [ "AdventureCore.VisualScripting.SetInventoryItemValueUnit< T >", "class_adventure_core_1_1_visual_scripting_1_1_set_inventory_item_value_unit.html", null ],
+      [ "AdventureCore.VisualScripting.SetItemValueUnit< T >", "class_adventure_core_1_1_visual_scripting_1_1_set_item_value_unit.html", null ],
       [ "AdventureCore.VisualScripting.SetMovementTargetUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_movement_target_unit.html", null ],
       [ "AdventureCore.VisualScripting.StartActionNameUnit", "class_adventure_core_1_1_visual_scripting_1_1_start_action_name_unit.html", null ],
       [ "AdventureCore.VisualScripting.StartActionUnit", "class_adventure_core_1_1_visual_scripting_1_1_start_action_unit.html", null ],
@@ -1186,6 +1311,7 @@ var hierarchy =
       [ "AdventureCore.VisualScripting.CheckEquipmentUnit", "class_adventure_core_1_1_visual_scripting_1_1_check_equipment_unit.html", null ],
       [ "AdventureCore.VisualScripting.CheckItemCategoryQuantityUnit", "class_adventure_core_1_1_visual_scripting_1_1_check_item_category_quantity_unit.html", null ],
       [ "AdventureCore.VisualScripting.CheckItemQuantityUnit", "class_adventure_core_1_1_visual_scripting_1_1_check_item_quantity_unit.html", null ],
+      [ "AdventureCore.VisualScripting.CheckItemValueUnit", "class_adventure_core_1_1_visual_scripting_1_1_check_item_value_unit.html", null ],
       [ "AdventureCore.VisualScripting.CheckMovementTargetDistanceUnit", "class_adventure_core_1_1_visual_scripting_1_1_check_movement_target_distance_unit.html", null ],
       [ "AdventureCore.VisualScripting.CheckResourceValueUnit", "class_adventure_core_1_1_visual_scripting_1_1_check_resource_value_unit.html", null ],
       [ "AdventureCore.VisualScripting.CreatePlayableAnimationClipUnit", "class_adventure_core_1_1_visual_scripting_1_1_create_playable_animation_clip_unit.html", null ],
@@ -1196,6 +1322,8 @@ var hierarchy =
       [ "AdventureCore.VisualScripting.GetCharacterBoolUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_character_bool_unit.html", null ],
       [ "AdventureCore.VisualScripting.GetCharacterFloatUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_character_float_unit.html", null ],
       [ "AdventureCore.VisualScripting.GetCharacterIntUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_character_int_unit.html", null ],
+      [ "AdventureCore.VisualScripting.GetEquipmentUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_equipment_unit.html", null ],
+      [ "AdventureCore.VisualScripting.GetItemValueUnit< T >", "class_adventure_core_1_1_visual_scripting_1_1_get_item_value_unit.html", null ],
       [ "AdventureCore.VisualScripting.GetOffsetRotationUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_offset_rotation_unit.html", null ],
       [ "AdventureCore.VisualScripting.HasEffectUnit", "class_adventure_core_1_1_visual_scripting_1_1_has_effect_unit.html", null ],
       [ "AdventureCore.VisualScripting.HasItemUnit", "class_adventure_core_1_1_visual_scripting_1_1_has_item_unit.html", null ],
@@ -1299,7 +1427,8 @@ var hierarchy =
       [ "AdventureCore.InstantiatingItemSlotClone", "class_adventure_core_1_1_instantiating_item_slot_clone.html", null ],
       [ "AdventureCore.IntervalSpawner", "class_adventure_core_1_1_interval_spawner.html", null ],
       [ "AdventureCore.InventoryBase", "class_adventure_core_1_1_inventory_base.html", [
-        [ "AdventureCore.ListedInventory", "class_adventure_core_1_1_listed_inventory.html", null ]
+        [ "AdventureCore.ListedInventory", "class_adventure_core_1_1_listed_inventory.html", null ],
+        [ "AdventureCore.TiledInventory", "class_adventure_core_1_1_tiled_inventory.html", null ]
       ] ],
       [ "AdventureCore.InventoryItemElement", "class_adventure_core_1_1_inventory_item_element.html", null ],
       [ "AdventureCore.InventoryItemPanel", "class_adventure_core_1_1_inventory_item_panel.html", null ],
@@ -1318,6 +1447,9 @@ var hierarchy =
       ] ],
       [ "AdventureCore.ItemSlotElement", "class_adventure_core_1_1_item_slot_element.html", null ],
       [ "AdventureCore.ItemSlotPanel", "class_adventure_core_1_1_item_slot_panel.html", null ],
+      [ "AdventureCore.ItemValueBoolPanel", "class_adventure_core_1_1_item_value_bool_panel.html", null ],
+      [ "AdventureCore.ItemValueFloatPanel", "class_adventure_core_1_1_item_value_float_panel.html", null ],
+      [ "AdventureCore.ItemValueIntPanel", "class_adventure_core_1_1_item_value_int_panel.html", null ],
       [ "AdventureCore.ItemsControlBase< T >", "class_adventure_core_1_1_items_control_base.html", null ],
       [ "AdventureCore.ListedInventoryElement", "class_adventure_core_1_1_listed_inventory_element.html", null ],
       [ "AdventureCore.LockableCameraBase", "class_adventure_core_1_1_lockable_camera_base.html", [
@@ -1329,6 +1461,7 @@ var hierarchy =
         [ "AdventureCore.MovementBasePersisted", "class_adventure_core_1_1_movement_base_persisted.html", [
           [ "AdventureCore.CharacterControllerMovement", "class_adventure_core_1_1_character_controller_movement.html", null ],
           [ "AdventureCore.NavMeshAgentMovement", "class_adventure_core_1_1_nav_mesh_agent_movement.html", [
+            [ "AdventureCore.NavMeshSteerMovement", "class_adventure_core_1_1_nav_mesh_steer_movement.html", null ],
             [ "AdventureCore.NavMeshTankMovement", "class_adventure_core_1_1_nav_mesh_tank_movement.html", null ]
           ] ]
         ] ]
@@ -1490,6 +1623,54 @@ var hierarchy =
     [ "Selectable", null, [
       [ "AdventureCore.ItemsControlEntryBase< T >", "class_adventure_core_1_1_items_control_entry_base.html", null ]
     ] ],
+    [ "AdventureCore.Editor.VisualScripting.SetInventoryItemValueDescriptorBase< SetInventoryItemBoolUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_inventory_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.SetInventoryItemBoolDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_inventory_item_bool_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.SetInventoryItemValueDescriptorBase< SetInventoryItemFloatUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_inventory_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.SetInventoryItemFloatDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_inventory_item_float_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.SetInventoryItemValueDescriptorBase< SetInventoryItemIntUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_inventory_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.SetInventoryItemIntDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_inventory_item_int_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.SetInventoryItemValueDescriptorBase< SetInventoryItemStringUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_inventory_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.SetInventoryItemStringDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_inventory_item_string_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.SetInventoryItemValueUnit< bool >", "class_adventure_core_1_1_visual_scripting_1_1_set_inventory_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.SetInventoryItemBoolUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_inventory_item_bool_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.SetInventoryItemValueUnit< float >", "class_adventure_core_1_1_visual_scripting_1_1_set_inventory_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.SetInventoryItemFloatUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_inventory_item_float_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.SetInventoryItemValueUnit< int >", "class_adventure_core_1_1_visual_scripting_1_1_set_inventory_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.SetInventoryItemIntUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_inventory_item_int_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.SetInventoryItemValueUnit< string >", "class_adventure_core_1_1_visual_scripting_1_1_set_inventory_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.SetInventoryItemStringUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_inventory_item_string_unit.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.SetItemValueDescriptorBase< SetItemBoolUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.SetItemBoolDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_item_bool_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.SetItemValueDescriptorBase< SetItemFloatUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.SetItemFloatDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_item_float_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.SetItemValueDescriptorBase< SetItemIntUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.SetItemIntDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_item_int_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.Editor.VisualScripting.SetItemValueDescriptorBase< SetItemStringUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_item_value_descriptor_base.html", [
+      [ "AdventureCore.Editor.VisualScripting.SetItemStringDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_item_string_descriptor.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.SetItemValueUnit< bool >", "class_adventure_core_1_1_visual_scripting_1_1_set_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.SetItemBoolUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_item_bool_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.SetItemValueUnit< float >", "class_adventure_core_1_1_visual_scripting_1_1_set_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.SetItemFloatUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_item_float_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.SetItemValueUnit< int >", "class_adventure_core_1_1_visual_scripting_1_1_set_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.SetItemIntUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_item_int_unit.html", null ]
+    ] ],
+    [ "AdventureCore.VisualScripting.SetItemValueUnit< string >", "class_adventure_core_1_1_visual_scripting_1_1_set_item_value_unit.html", [
+      [ "AdventureCore.VisualScripting.SetItemStringUnit", "class_adventure_core_1_1_visual_scripting_1_1_set_item_string_unit.html", null ]
+    ] ],
     [ "AdventureCore.Editor.VisualScripting.SetPersistenceDescriptorBase< SetPersistenceBoolUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_persistence_descriptor_base.html", [
       [ "AdventureCore.Editor.VisualScripting.SetPersistenceBoolDescriptor", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_persistence_bool_descriptor.html", null ]
     ] ],
@@ -1600,6 +1781,9 @@ var hierarchy =
     [ "AdventureCore.Tests.TestInput.TestActions", "struct_adventure_core_1_1_tests_1_1_test_input_1_1_test_actions.html", null ],
     [ "AdventureCore.PersistedStringText.TextReplacement", "class_adventure_core_1_1_persisted_string_text_1_1_text_replacement.html", null ],
     [ "AdventureCore.TieredStat.Tier", "class_adventure_core_1_1_tiered_stat_1_1_tier.html", null ],
+    [ "AdventureCore.TiledInventory.TiledInventoryData", "struct_adventure_core_1_1_tiled_inventory_1_1_tiled_inventory_data.html", null ],
+    [ "AdventureCore.TiledInventoryItem.TiledInventoryItemData", "struct_adventure_core_1_1_tiled_inventory_item_1_1_tiled_inventory_item_data.html", null ],
+    [ "AdventureCore.TiledInventory.TiledInventorySize", "class_adventure_core_1_1_tiled_inventory_1_1_tiled_inventory_size.html", null ],
     [ "TrackAsset", null, [
       [ "AdventureCore.Timeline.DialogTrack", "class_adventure_core_1_1_timeline_1_1_dialog_track.html", null ],
       [ "AdventureCore.Timeline.InstructionTrack", "class_adventure_core_1_1_timeline_1_1_instruction_track.html", null ],
@@ -1632,10 +1816,12 @@ var hierarchy =
     [ "AdventureCore.Tests.TestInput.UIActions", "struct_adventure_core_1_1_tests_1_1_test_input_1_1_u_i_actions.html", null ],
     [ "AdventureSouls.SoulsInput.UIActions", "struct_adventure_souls_1_1_souls_input_1_1_u_i_actions.html", null ],
     [ "Unit", null, [
+      [ "AdventureCore.VisualScripting.CheckInventoryItemValueUnit", "class_adventure_core_1_1_visual_scripting_1_1_check_inventory_item_value_unit.html", null ],
       [ "AdventureCore.VisualScripting.DamageSenderUnit", "class_adventure_core_1_1_visual_scripting_1_1_damage_sender_unit.html", null ],
       [ "AdventureCore.VisualScripting.DialogsInfoUnit", "class_adventure_core_1_1_visual_scripting_1_1_dialogs_info_unit.html", null ],
       [ "AdventureCore.VisualScripting.FindRecursiveUnit", "class_adventure_core_1_1_visual_scripting_1_1_find_recursive_unit.html", null ],
       [ "AdventureCore.VisualScripting.GetCharacterUnit", "class_adventure_core_1_1_visual_scripting_1_1_get_character_unit.html", null ],
+      [ "AdventureCore.VisualScripting.GetInventoryItemValueUnit< T >", "class_adventure_core_1_1_visual_scripting_1_1_get_inventory_item_value_unit.html", null ],
       [ "AdventureCore.VisualScripting.InOutUnit", "class_adventure_core_1_1_visual_scripting_1_1_in_out_unit.html", [
         [ "AdventureCore.VisualScripting.CancelPlayableAnimationUnit", "class_adventure_core_1_1_visual_scripting_1_1_cancel_playable_animation_unit.html", null ],
         [ "AdventureCore.VisualScripting.DestroyPlayableAnimationUnit", "class_adventure_core_1_1_visual_scripting_1_1_destroy_playable_animation_unit.html", null ],
@@ -1672,9 +1858,15 @@ var hierarchy =
     ] ],
     [ "UnitDescriptor", null, [
       [ "AdventureCore.Editor.VisualScripting.AdventureDescriptorBase< TUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_adventure_descriptor_base.html", [
+        [ "AdventureCore.Editor.VisualScripting.AddInventoryItemValueDescriptorBase< TUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_add_inventory_item_value_descriptor_base.html", null ],
+        [ "AdventureCore.Editor.VisualScripting.AddItemValueDescriptorBase< TUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_add_item_value_descriptor_base.html", null ],
+        [ "AdventureCore.Editor.VisualScripting.GetInventoryItemValueDescriptorBase< TUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_inventory_item_value_descriptor_base.html", null ],
+        [ "AdventureCore.Editor.VisualScripting.GetItemValueDescriptorBase< TUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_item_value_descriptor_base.html", null ],
         [ "AdventureCore.Editor.VisualScripting.GetPersistenceDescriptorBase< TUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_persistence_descriptor_base.html", null ],
         [ "AdventureCore.Editor.VisualScripting.GetPersisterDescriptorBase< TUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_get_persister_descriptor_base.html", null ],
         [ "AdventureCore.Editor.VisualScripting.InstructionDescriptorBase< TUnit, TInstruction >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_instruction_descriptor_base.html", null ],
+        [ "AdventureCore.Editor.VisualScripting.SetInventoryItemValueDescriptorBase< TUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_inventory_item_value_descriptor_base.html", null ],
+        [ "AdventureCore.Editor.VisualScripting.SetItemValueDescriptorBase< TUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_item_value_descriptor_base.html", null ],
         [ "AdventureCore.Editor.VisualScripting.SetPersistenceDescriptorBase< TUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_persistence_descriptor_base.html", null ],
         [ "AdventureCore.Editor.VisualScripting.SetPersisterDescriptorBase< TUnit >", "class_adventure_core_1_1_editor_1_1_visual_scripting_1_1_set_persister_descriptor_base.html", null ]
       ] ]
